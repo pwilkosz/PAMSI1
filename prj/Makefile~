@@ -1,0 +1,6 @@
+a.out: main.o algorytm.o
+	g++ main.o algorytm.o
+main.o: main.cpp algorytm.hh
+	g++ -c -Wall -pedantic main.cpp
+algorytm.o: algorytm.cpp algorytm.hh
+	g++ -c -Wall -pedantic algorytm.cpp

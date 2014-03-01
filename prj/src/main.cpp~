@@ -1,0 +1,24 @@
+#include<iostream>
+#include"algorytm.hh"
+
+using namespace std;
+
+int main(){
+
+  cout<<"siema"<<endl;
+  mnozenie alg("plik1.txt","plik2.txt");
+  alg.wykonaj();
+  cout<<alg.ile_danych()<<endl;
+  for(unsigned int i = 0; i<(alg.czas).size();i++)
+	cout<<alg.czas[i]<<endl;
+  /*char wybor;
+  cout<<"podaj opcje:"<<flush;
+  cin>>wybor;
+  if(cin.fail()) {cout<<"Niepoprawne dane, wprowadz jeszcze raz"<<endl;}
+  switch (wybor){
+  case '1': cout<<"wybrano mnozenie przez 2"<<endl; break;
+  case '2': cout<<"wybrano sortowanie babelkowe"<<endl; break;
+  default: cout<<"Jeszcze nie posiadamy takiej opcji"<<endl; break;
+  }*/
+return 0;
+}

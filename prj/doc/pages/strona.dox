@@ -1,0 +1,9 @@
+/*! 
+    \mainpage Wykonywanie i pomiar jakosci algorytmow
+    
+    \author Piotr Wilkosz
+
+    Program ma na celu testowanie algorytmow sortowania. Zostal utworzony w sposob ulatwiajacy jego dalsza rozbudowe, gdzie wystarczy stworzyc nowa    klase oraz definiujac metode \p wykonaj() \p , która to ma za zadanie przeprowadzenie testu.
+    
+    \Section Uwagi Uwagi
+    Plik wejsciowy winien nazywac sie \p plik1.txt \p, zaz plik wzorcowy - \p plik2.txt \p. Przetworzone dane zapisywane sa w pliku \p przetworzone.txt \p

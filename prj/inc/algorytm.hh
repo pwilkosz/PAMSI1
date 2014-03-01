@@ -1,0 +1,89 @@
+#ifndef ALGORYTM_HH
+#define ALGORYTM_HH
+#include<iostream>
+#include<fstream>
+#include<vector>
+#include<ctime>
+#include<sys/time.h>
+#include<sys/types.h>
+
+
+using namespace std;
+
+/*!
+ * \file
+ * \brief Definicja klas wykonujacych operacje na zestawie danych wejsciowych
+ *  
+ * 
+ * 
+ *
+ *
+ *
+ *
+ *
+ *
+ *
+ */
+
+/*!
+ * \brief Definicja klasy algorytm
+ * Jest to klasa bazowa, ktora ma za zadanie wczytac, 
+ * przetworzyc i porownac plik z plikiem wzorcowym. */
+class algorytm{
+protected:
+  /*!
+   * \brief zawiera informacje o ilosci liczb w pliku
+   */
+  int n;
+  /*!
+   *  \brief zawiera nazwe pliku wejsciowego
+   */
+  const char* plikWe;
+  /*!
+   * \brief zawiera nazwe pliku wzorcowego
+   */
+  const char* plikWz;
+public:
+  /*!
+   * \brief zawiera wyniki dzialania algorytmu
+   */
+  vector<float> czas;
+  /*!
+   * \brief konstruktor kopiujacy - przekazuje informacje o nazwach plikow, ktore zapisywane sa do pol klasy
+   * \param plik1 - plik wejsciowy
+   * \param plik2 - plik wzorcowy
+   */
+  algorytm(const char* plik1, const char* plik2): plikWe(plik1), plikWz(plik2) {}
+  /*!
+   * \brief funkcja dokonuje operacji na pliku wejsciowym
+   */
+  virtual void wykonaj();
+  /*!
+   * \brief porownuje przetworzony plik z plikiem wzorcowym
+   * \return true - gdy pliki zgodne
+   *         false - w przeciwnym przypadku
+   */
+  bool porownaj();
+  /*!
+   * \return ilosc liczb wejsciowych
+   */
+  int ile_danych();
+  vector<float> jaki_czas();
+};
+/*!
+ * \brief modeluje algorytm dokonujacy mnozenia kazdego elementu pliku wejsciowego przez 2
+ */
+class mnozenie: public algorytm{
+public:
+  /*!
+   * /brief konstruktor przekazuje do pol klasy informacje o nazwach pliku wejsciowego i wzorcowego
+   * \param plik1 - plik wejsciowy
+   * \param plik2 - plik wzorcowy
+   */
+  mnozenie(const char* plik1, const char* plik2) :algorytm(plik1,plik2){}
+  /*!
+   * \brief wykonuje zalozony algorytm oraz mierzy czas jego wykonania
+   */
+  void wykonaj();
+  };
+#endif

@@ -1,0 +1,224 @@
+\hypertarget{classalgorytm}{\section{\-Dokumentacja klasy algorytm}
+\label{classalgorytm}\index{algorytm@{algorytm}}
+}
+
+
+\-Definicja klasy algorytm \-Jest to klasa bazowa, ktora ma za zadanie wczytac, przetworzyc i porownac plik z plikiem wzorcowym.  
+
+
+
+
+{\ttfamily \#include $<$algorytm.\-hh$>$}
+
+
+
+\-Diagram dziedziczenia dla algorytm
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=138pt]{classalgorytm__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classalgorytm_a138ed27849535b192fec3d2e9f6a644f}{algorytm} (const char $\ast$plik1, const char $\ast$plik2)
+\begin{DoxyCompactList}\small\item\em konstruktor kopiujacy -\/ przekazuje informacje o nazwach plikow, ktore zapisywane sa do pol klasy \end{DoxyCompactList}\item 
+virtual void \hyperlink{classalgorytm_a85ba543fad39e8987bbda4ee698b5fec}{wykonaj} ()
+\begin{DoxyCompactList}\small\item\em funkcja dokonuje operacji na pliku wejsciowym \end{DoxyCompactList}\item 
+bool \hyperlink{classalgorytm_a167adca6239e12cb5d362fd7c905dde0}{porownaj} ()
+\begin{DoxyCompactList}\small\item\em porownuje przetworzony plik z plikiem wzorcowym \end{DoxyCompactList}\item 
+int \hyperlink{classalgorytm_acbd9260a0b2055acee485f737b960992}{ile\-\_\-danych} ()
+\item 
+vector$<$ float $>$ \hyperlink{classalgorytm_a244d9cbf20639faf0b60ae6cdae3c657}{jaki\-\_\-czas} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ float $>$ \hyperlink{classalgorytm_aac9e2179e0e956dbe0dc1239ebadb2e4}{czas}
+\begin{DoxyCompactList}\small\item\em zawiera wyniki dzialania algorytmu \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty chronione}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classalgorytm_a2778c37f0ec06a30b7d494501c40e91a}{n}
+\begin{DoxyCompactList}\small\item\em zawiera informacje o ilosci liczb w pliku \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classalgorytm_ab911ca0437df967d0240651855e5a2a3}{plik\-We}
+\begin{DoxyCompactList}\small\item\em zawiera nazwe pliku wejsciowego \end{DoxyCompactList}\item 
+const char $\ast$ \hyperlink{classalgorytm_a19c2be15efb3e5e34bf177d50b746d93}{plik\-Wz}
+\begin{DoxyCompactList}\small\item\em zawiera nazwe pliku wzorcowego \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\-Definicja klasy algorytm \-Jest to klasa bazowa, ktora ma za zadanie wczytac, przetworzyc i porownac plik z plikiem wzorcowym. 
+
+\-Definicja w linii 32 pliku algorytm.\-hh.
+
+
+
+\subsection{\-Dokumentacja konstruktora i destruktora}
+\hypertarget{classalgorytm_a138ed27849535b192fec3d2e9f6a644f}{\index{algorytm@{algorytm}!algorytm@{algorytm}}
+\index{algorytm@{algorytm}!algorytm@{algorytm}}
+\subsubsection[{algorytm}]{\setlength{\rightskip}{0pt plus 5cm}{\bf algorytm\-::algorytm} (
+\begin{DoxyParamCaption}
+\item[{const char $\ast$}]{plik1, }
+\item[{const char $\ast$}]{plik2}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classalgorytm_a138ed27849535b192fec3d2e9f6a644f}
+
+
+konstruktor kopiujacy -\/ przekazuje informacje o nazwach plikow, ktore zapisywane sa do pol klasy 
+
+
+\begin{DoxyParams}{\-Parametry}
+{\em plik1} & -\/ plik wejsciowy \\
+\hline
+{\em plik2} & -\/ plik wzorcowy \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 56 pliku algorytm.\-hh.
+
+
+
+\subsection{\-Dokumentacja funkcji składowych}
+\hypertarget{classalgorytm_acbd9260a0b2055acee485f737b960992}{\index{algorytm@{algorytm}!ile\-\_\-danych@{ile\-\_\-danych}}
+\index{ile\-\_\-danych@{ile\-\_\-danych}!algorytm@{algorytm}}
+\subsubsection[{ile\-\_\-danych}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf algorytm\-::ile\-\_\-danych} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_acbd9260a0b2055acee485f737b960992}
+\begin{DoxyReturn}{\-Zwraca}
+ilosc liczb wejsciowych 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 16 pliku algorytm.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=262pt]{classalgorytm_acbd9260a0b2055acee485f737b960992_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classalgorytm_a244d9cbf20639faf0b60ae6cdae3c657}{\index{algorytm@{algorytm}!jaki\-\_\-czas@{jaki\-\_\-czas}}
+\index{jaki\-\_\-czas@{jaki\-\_\-czas}!algorytm@{algorytm}}
+\subsubsection[{jaki\-\_\-czas}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ float $>$ {\bf algorytm\-::jaki\-\_\-czas} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a244d9cbf20639faf0b60ae6cdae3c657}
+
+
+\-Definicja w linii 19 pliku algorytm.\-cpp.
+
+\hypertarget{classalgorytm_a167adca6239e12cb5d362fd7c905dde0}{\index{algorytm@{algorytm}!porownaj@{porownaj}}
+\index{porownaj@{porownaj}!algorytm@{algorytm}}
+\subsubsection[{porownaj}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf algorytm\-::porownaj} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classalgorytm_a167adca6239e12cb5d362fd7c905dde0}
+
+
+porownuje przetworzony plik z plikiem wzorcowym 
+
+\begin{DoxyReturn}{\-Zwraca}
+true -\/ gdy pliki zgodne false -\/ w przeciwnym przypadku 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 23 pliku algorytm.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classalgorytm_a85ba543fad39e8987bbda4ee698b5fec}{\index{algorytm@{algorytm}!wykonaj@{wykonaj}}
+\index{wykonaj@{wykonaj}!algorytm@{algorytm}}
+\subsubsection[{wykonaj}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf algorytm\-::wykonaj} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classalgorytm_a85ba543fad39e8987bbda4ee698b5fec}
+
+
+funkcja dokonuje operacji na pliku wejsciowym 
+
+
+
+\-Reimplementowana w \hyperlink{classmnozenie_a2c5dc64610bb16af0ef18d142d6af2c0}{mnozenie}.
+
+
+
+\-Definicja w linii 7 pliku algorytm.\-cpp.
+
+
+
+\subsection{\-Dokumentacja atrybutów składowych}
+\hypertarget{classalgorytm_aac9e2179e0e956dbe0dc1239ebadb2e4}{\index{algorytm@{algorytm}!czas@{czas}}
+\index{czas@{czas}!algorytm@{algorytm}}
+\subsubsection[{czas}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$float$>$ {\bf algorytm\-::czas}}}\label{classalgorytm_aac9e2179e0e956dbe0dc1239ebadb2e4}
+
+
+zawiera wyniki dzialania algorytmu 
+
+
+
+\-Definicja w linii 50 pliku algorytm.\-hh.
+
+\hypertarget{classalgorytm_a2778c37f0ec06a30b7d494501c40e91a}{\index{algorytm@{algorytm}!n@{n}}
+\index{n@{n}!algorytm@{algorytm}}
+\subsubsection[{n}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf algorytm\-::n}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_a2778c37f0ec06a30b7d494501c40e91a}
+
+
+zawiera informacje o ilosci liczb w pliku 
+
+
+
+\-Definicja w linii 37 pliku algorytm.\-hh.
+
+\hypertarget{classalgorytm_ab911ca0437df967d0240651855e5a2a3}{\index{algorytm@{algorytm}!plik\-We@{plik\-We}}
+\index{plik\-We@{plik\-We}!algorytm@{algorytm}}
+\subsubsection[{plik\-We}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf algorytm\-::plik\-We}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_ab911ca0437df967d0240651855e5a2a3}
+
+
+zawiera nazwe pliku wejsciowego 
+
+
+
+\-Definicja w linii 41 pliku algorytm.\-hh.
+
+\hypertarget{classalgorytm_a19c2be15efb3e5e34bf177d50b746d93}{\index{algorytm@{algorytm}!plik\-Wz@{plik\-Wz}}
+\index{plik\-Wz@{plik\-Wz}!algorytm@{algorytm}}
+\subsubsection[{plik\-Wz}]{\setlength{\rightskip}{0pt plus 5cm}const char$\ast$ {\bf algorytm\-::plik\-Wz}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_a19c2be15efb3e5e34bf177d50b746d93}
+
+
+zawiera nazwe pliku wzorcowego 
+
+
+
+\-Definicja w linii 45 pliku algorytm.\-hh.
+
+
+
+\-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{algorytm_8hh}{algorytm.\-hh}\item 
+\hyperlink{algorytm_8cpp}{algorytm.\-cpp}\end{DoxyCompactItemize}
