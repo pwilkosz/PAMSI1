@@ -1,0 +1,117 @@
+\hypertarget{statystyki_8hh}{\section{\-Dokumentacja pliku statystyki.\-hh}
+\label{statystyki_8hh}\index{statystyki.\-hh@{statystyki.\-hh}}
+}
+
+
+plik zawiera dekalracje funkcji odpowiedzialnych za przeprowadznaie statystyk  
+
+
+{\ttfamily \#include $<$vector$>$}\*
+{\ttfamily \#include $<$cmath$>$}\*
+{\ttfamily \#include $<$iostream$>$}\*
+\-Wykres zależności załączania dla statystyki.\-hh\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{statystyki_8hh__incl}
+\end{center}
+\end{figure}
+\-Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{statystyki_8hh__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{statystyki_8hh_a4130fa31b70cf29f2601c5855efdaa31}{srednia} (vector$<$ float $>$ \&tab)
+\begin{DoxyCompactList}\small\item\em funckja oblicza wartosc srednia \end{DoxyCompactList}\item 
+float \hyperlink{statystyki_8hh_a9048594c872963153095e08ae4e15a89}{odchylenie\-\_\-standardowe} (float \hyperlink{statystyki_8cpp_a4130fa31b70cf29f2601c5855efdaa31}{srednia}, vector$<$ float $>$ \&tab)
+\begin{DoxyCompactList}\small\item\em funckja oblicza odchylenie standardowe \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+plik zawiera dekalracje funkcji odpowiedzialnych za przeprowadznaie statystyk 
+
+\-Definicja w pliku \hyperlink{statystyki_8hh_source}{statystyki.\-hh}.
+
+
+
+\subsection{\-Dokumentacja funkcji}
+\hypertarget{statystyki_8hh_a9048594c872963153095e08ae4e15a89}{\index{statystyki.\-hh@{statystyki.\-hh}!odchylenie\-\_\-standardowe@{odchylenie\-\_\-standardowe}}
+\index{odchylenie\-\_\-standardowe@{odchylenie\-\_\-standardowe}!statystyki.hh@{statystyki.\-hh}}
+\subsubsection[{odchylenie\-\_\-standardowe}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf odchylenie\-\_\-standardowe} (
+\begin{DoxyParamCaption}
+\item[{float}]{srednia, }
+\item[{vector$<$ float $>$ \&}]{tab}
+\end{DoxyParamCaption}
+)}}\label{statystyki_8hh_a9048594c872963153095e08ae4e15a89}
+
+
+funckja oblicza odchylenie standardowe 
+
+
+\begin{DoxyParams}{\-Parametry}
+{\em tab} & -\/ kontener zawierajacy czasy wykonania algorytmu \\
+\hline
+{\em srednia} & -\/ wartosc srednia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Zwraca}
+odchylenie standardowe 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 16 pliku statystyki.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{statystyki_8hh_a9048594c872963153095e08ae4e15a89_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{statystyki_8hh_a4130fa31b70cf29f2601c5855efdaa31}{\index{statystyki.\-hh@{statystyki.\-hh}!srednia@{srednia}}
+\index{srednia@{srednia}!statystyki.hh@{statystyki.\-hh}}
+\subsubsection[{srednia}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf srednia} (
+\begin{DoxyParamCaption}
+\item[{vector$<$ float $>$ \&}]{tab}
+\end{DoxyParamCaption}
+)}}\label{statystyki_8hh_a4130fa31b70cf29f2601c5855efdaa31}
+
+
+funckja oblicza wartosc srednia 
+
+
+\begin{DoxyParams}{\-Parametry}
+{\em tab} & -\/ kontener zawierajacy czasy wykonania algorytmu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Zwraca}
+wartosc srednia 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 3 pliku statystyki.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=202pt]{statystyki_8hh_a4130fa31b70cf29f2601c5855efdaa31_icgraph}
+\end{center}
+\end{figure}
+
+

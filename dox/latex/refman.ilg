@@ -159,9 +159,13 @@ Scanning input file refman.tex...
 !! Input index error (file = refman.tex, line = 80):
    -- Unknown index keyword \input.
 !! Input index error (file = refman.tex, line = 81):
-   -- Missing arguments -- need two (premature LFD).
+   -- Unknown index keyword \input.
 !! Input index error (file = refman.tex, line = 82):
+   -- Unknown index keyword \input.
+!! Input index error (file = refman.tex, line = 83):
+   -- Missing arguments -- need two (premature LFD).
+!! Input index error (file = refman.tex, line = 84):
    -- Unknown index keyword \end.
-done (0 entries accepted, 81 rejected).
+done (0 entries accepted, 83 rejected).
 Nothing written in refman.ind.
 Transcript written in refman.ilg.

@@ -73,6 +73,7 @@ void mnozenie::wykonaj(){
     gettimeofday(&tp, NULL);
     end = static_cast<double>(tp.tv_usec)/1E6;
     cout<<(end - start)<<endl;
+    czas.push_back(end - start);
     
     --ilosc_powtorzen;
    

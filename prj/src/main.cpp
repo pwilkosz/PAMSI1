@@ -1,5 +1,6 @@
 #include<iostream>
 #include"algorytm.hh"
+#include"statystyki.hh"
 /*!
  * \file
  * \brief plik glowny
@@ -7,21 +8,17 @@
 using namespace std;
 
 int main(){
-
-  cout<<"siema"<<endl;
+  float sr;
+  float odch_std;
+  
   mnozenie alg("plik1.txt","plik2.txt");
   alg.wykonaj();
-  cout<<alg.ile_danych()<<endl;
-  for(unsigned int i = 0; i<(alg.czas).size();i++)
-	cout<<alg.czas[i]<<endl;
-  /*char wybor;
-  cout<<"podaj opcje:"<<flush;
-  cin>>wybor;
-  if(cin.fail()) {cout<<"Niepoprawne dane, wprowadz jeszcze raz"<<endl;}
-  switch (wybor){
-  case '1': cout<<"wybrano mnozenie przez 2"<<endl; break;
-  case '2': cout<<"wybrano sortowanie babelkowe"<<endl; break;
-  default: cout<<"Jeszcze nie posiadamy takiej opcji"<<endl; break;
-  }*/
+  // for(unsigned int i = 0; i<(alg.czas).size();i++)
+  //	cout<<alg.czas[i]<<endl;
+  sr = srednia(alg.czas);
+  cout<<"wywolano"<<endl;
+  odch_std = odchylenie_standardowe(sr, alg.czas);
+  cout<<"srednia: "<<sr<<endl;
+  cout<<"odchylenie: "<<odch_std<<endl;
 return 0;
 }

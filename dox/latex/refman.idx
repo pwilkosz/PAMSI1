@@ -9,22 +9,32 @@
 \indexentry{porownaj@{porownaj}!algorytm@{algorytm}|hyperpage}{9}
 \indexentry{algorytm@{algorytm}!wykonaj@{wykonaj}|hyperpage}{9}
 \indexentry{wykonaj@{wykonaj}!algorytm@{algorytm}|hyperpage}{9}
-\indexentry{algorytm@{algorytm}!czas@{czas}|hyperpage}{10}
-\indexentry{czas@{czas}!algorytm@{algorytm}|hyperpage}{10}
-\indexentry{algorytm@{algorytm}!n@{n}|hyperpage}{10}
-\indexentry{n@{n}!algorytm@{algorytm}|hyperpage}{10}
+\indexentry{algorytm@{algorytm}!czas@{czas}|hyperpage}{9}
+\indexentry{czas@{czas}!algorytm@{algorytm}|hyperpage}{9}
+\indexentry{algorytm@{algorytm}!n@{n}|hyperpage}{9}
+\indexentry{n@{n}!algorytm@{algorytm}|hyperpage}{9}
 \indexentry{algorytm@{algorytm}!plik\discretionary {-}{}{}We@{plik\discretionary {-}{}{}We}|hyperpage}{10}
 \indexentry{plik\discretionary {-}{}{}We@{plik\discretionary {-}{}{}We}!algorytm@{algorytm}|hyperpage}{10}
 \indexentry{algorytm@{algorytm}!plik\discretionary {-}{}{}Wz@{plik\discretionary {-}{}{}Wz}|hyperpage}{10}
 \indexentry{plik\discretionary {-}{}{}Wz@{plik\discretionary {-}{}{}Wz}!algorytm@{algorytm}|hyperpage}{10}
 \indexentry{mnozenie@{mnozenie}|hyperpage}{10}
-\indexentry{mnozenie@{mnozenie}!mnozenie@{mnozenie}|hyperpage}{12}
-\indexentry{mnozenie@{mnozenie}!mnozenie@{mnozenie}|hyperpage}{12}
-\indexentry{mnozenie@{mnozenie}!wykonaj@{wykonaj}|hyperpage}{12}
-\indexentry{wykonaj@{wykonaj}!mnozenie@{mnozenie}|hyperpage}{12}
-\indexentry{algorytm.\discretionary {-}{}{}cpp@{algorytm.\discretionary {-}{}{}cpp}|hyperpage}{15}
-\indexentry{algorytm.\discretionary {-}{}{}hh@{algorytm.\discretionary {-}{}{}hh}|hyperpage}{15}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{17}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{17}
-\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{17}
-\indexentry{strona.\discretionary {-}{}{}dox@{strona.\discretionary {-}{}{}dox}|hyperpage}{18}
+\indexentry{mnozenie@{mnozenie}!mnozenie@{mnozenie}|hyperpage}{11}
+\indexentry{mnozenie@{mnozenie}!mnozenie@{mnozenie}|hyperpage}{11}
+\indexentry{mnozenie@{mnozenie}!wykonaj@{wykonaj}|hyperpage}{11}
+\indexentry{wykonaj@{wykonaj}!mnozenie@{mnozenie}|hyperpage}{11}
+\indexentry{algorytm.\discretionary {-}{}{}cpp@{algorytm.\discretionary {-}{}{}cpp}|hyperpage}{13}
+\indexentry{algorytm.\discretionary {-}{}{}hh@{algorytm.\discretionary {-}{}{}hh}|hyperpage}{13}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{15}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{15}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{15}
+\indexentry{statystyki.\discretionary {-}{}{}cpp@{statystyki.\discretionary {-}{}{}cpp}|hyperpage}{16}
+\indexentry{statystyki.\discretionary {-}{}{}cpp@{statystyki.\discretionary {-}{}{}cpp}!odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}|hyperpage}{17}
+\indexentry{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}!statystyki.cpp@{statystyki.\discretionary {-}{}{}cpp}|hyperpage}{17}
+\indexentry{statystyki.\discretionary {-}{}{}cpp@{statystyki.\discretionary {-}{}{}cpp}!srednia@{srednia}|hyperpage}{17}
+\indexentry{srednia@{srednia}!statystyki.cpp@{statystyki.\discretionary {-}{}{}cpp}|hyperpage}{17}
+\indexentry{statystyki.\discretionary {-}{}{}hh@{statystyki.\discretionary {-}{}{}hh}|hyperpage}{18}
+\indexentry{statystyki.\discretionary {-}{}{}hh@{statystyki.\discretionary {-}{}{}hh}!odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}|hyperpage}{19}
+\indexentry{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}!statystyki.hh@{statystyki.\discretionary {-}{}{}hh}|hyperpage}{19}
+\indexentry{statystyki.\discretionary {-}{}{}hh@{statystyki.\discretionary {-}{}{}hh}!srednia@{srednia}|hyperpage}{20}
+\indexentry{srednia@{srednia}!statystyki.hh@{statystyki.\discretionary {-}{}{}hh}|hyperpage}{20}
+\indexentry{strona.\discretionary {-}{}{}dox@{strona.\discretionary {-}{}{}dox}|hyperpage}{20}
