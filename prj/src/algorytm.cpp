@@ -1,85 +1,87 @@
 #include"algorytm.hh"
 
+
+
 /*!
  * \file
  * \brief plik zawiera definicje metod klas zdefiniowanych w pliku algorytm.hh
  */
-void algorytm::wykonaj(){
-  ifstream we;
-  we.open(plikWe);
-  while(!we.eof()){
-    char znak;
-    we>>znak;
-    cout<<znak<<endl;
+void algorytm::przelicz(){for(int i = 0; i<n ; i++){cout<<"KROK: "<<i<<endl; cout<<dane[i]<<endl;}}
+bool algorytm::wczytaj(ifstream& plik){
+ 
+  dane = new float[n];
+  
+  for(int i = 0; i<n; i++){
+    plik>>dane[i];
+    cout<<dane[i]<<endl;
+    if(plik.fail()){cerr<<"Wystapil problem z wczytaniem pliku"; return false;}
   }
+    op = dane;
+    return true;
+}
+bool algorytm::wczytaj_wzor(ifstream& plik){
+ 
+  dane_wz = new float[n];
+  for(int i = 0; i<n; i++){
+    plik>>dane_wz[i];
+    if(plik.fail()){cerr<<"Wystapil problem z wczytaniem pliku wzorcowego"; return false;}
+  }
+    return true;
 }
 int algorytm::ile_danych(){
   return n;
 }
-vector<float> algorytm::jaki_czas(){
+float* algorytm::jaki_czas(){
   return czas;
 }
 
-bool algorytm::porownaj(){
-  ifstream wy, wzor;
-  wy.open("przetworzone.txt");
-  wzor.open(plikWz);
-  int liczba1, liczba2;
-  while((!wy.eof())||(!wzor.eof())){
-    wy>>liczba1;
-    wzor>>liczba2;
-    if(liczba1 != liczba2) return false;
-  }
-  if(wy.eof() == wzor.eof()) return true;
-  else return false;
-}
-
-void mnozenie::wykonaj(){
-  ifstream we;
-  we.open(plikWe);
-  vector<int> dane;
-  vector<int> dane_zmienione;
-  int ilosc_danych;
-  int ilosc_powtorzen;
-  we>>ilosc_danych>>ilosc_powtorzen;
-  this->n = ilosc_danych;
-  int liczba;
-  while(ilosc_danych !=0){
-    we>>liczba;
-    dane.push_back(liczba);
-    --ilosc_danych;
-  }
-  we.close();
-  
-  while(ilosc_powtorzen !=0){
-    ofstream wy;
-    
-   
-    struct timeval tp;
-    double start, end;
+float algorytm::wlacz_zegar(){
+  struct timeval tp;
+    double start;
     gettimeofday(&tp, NULL);
     start = static_cast<double>(tp.tv_usec)/1E6;
-  
-    for(int k = 0; k<10; k++){
-      wy.open("przetworzone.txt");
-    for(unsigned int i = 0; i <dane.size();i++){
-      
-      liczba = 2* dane[i];
-      wy<<liczba<<endl;
-     
-    }
-     wy.close();
+    return start;
 }
+
+float algorytm::wylacz_zegar(){
+  struct timeval tp;
+    double end;
     gettimeofday(&tp, NULL);
     end = static_cast<double>(tp.tv_usec)/1E6;
-    cout<<(end - start)<<endl;
-    czas.push_back(end - start);
-    
-    --ilosc_powtorzen;
-   
-   
-  }
+    return end;
+}
+void algorytm::wykonaj(){
+  czas = new float[m];
+  for(int i = 0; i<m; i++){
+  float start= wlacz_zegar();
+  przelicz();
+  float cz = wylacz_zegar() - start;
+  if(porownaj()) cout<<"PROBA NR "<<i<<":  poprawna"<<endl;
+  else cout<<"PROBA NR "<<i<<":  niepoprawna"<<endl;
+  czas[i] = cz;
+  op = dane;
   
-if(porownaj()) cout<<"Weryfikacja poprawna"<<endl;
- else cout<<"cos nie tak"<<endl;
+}
+zapisz_do_csv();
+}
+
+bool algorytm::porownaj(){
+ 
+    return op == dane_wz;
   }
+
+  void algorytm::zapisz_do_csv(){
+  ofstream tab_czas("wyjscie.csv");
+  tab_czas<<"Proba [m],"<<"Czas"<<endl;
+  for(int i =0; i<m; i++){
+      tab_czas<<(i+1)<<","<<czas[i]<<endl;
+  }
+}
+
+void mnozenie::przelicz(){
+    for(int i =0; i<n; i++){
+      op.tab[i] = 2*dane[i];
+          }
+          
+  }
+

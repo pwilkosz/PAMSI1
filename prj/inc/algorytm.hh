@@ -6,7 +6,7 @@
 #include<ctime>
 #include<sys/time.h>
 #include<sys/types.h>
-
+#include"operacje.hh"
 
 using namespace std;
 
@@ -28,38 +28,72 @@ using namespace std;
 /*!
  * \brief Definicja klasy algorytm
  * Jest to klasa bazowa, ktora ma za zadanie wczytac, 
- * przetworzyc i porownac plik z plikiem wzorcowym. */
+ * przetworzyc i porownac dane z plikiem wzorcowym. */
 class algorytm{
 protected:
+  
+  
+ 
+ /*!
+   * \brief Tablica liczb wczytana z pliku
+    */
+   float* dane;
+
+   /*!
+    * \brief tablica liczb zawartych w pliku wzorcowym
+     */
+   float* dane_wz;
+
+
   /*!
-   * \brief zawiera informacje o ilosci liczb w pliku
-   */
+    * \brief ilosc danych w pliku
+    */
   int n;
+   /*!
+  * \brief ilosc powtorzen
+    */
+  int m;
   /*!
-   *  \brief zawiera nazwe pliku wejsciowego
-   */
-  const char* plikWe;
-  /*!
-   * \brief zawiera nazwe pliku wzorcowego
-   */
-  const char* plikWz;
+  * \brief klasa zawierajaca tablice i metody do operacji na niej
+  */
+    operacje op;
 public:
   /*!
    * \brief zawiera wyniki dzialania algorytmu
    */
-  vector<float> czas;
+  float* czas;
+  
+
   /*!
    * \brief konstruktor kopiujacy - przekazuje informacje o nazwach plikow, ktore zapisywane sa do pol klasy
-   * \param plik1 - plik wejsciowy
-   * \param plik2 - plik wzorcowy
+   * \param [in] plik1 - plik wejsciowy
+   * \param [in] plik2 - plik wzorcowy
+   * \param [in] N - ilosc danych wejsciowych
+   * \param [in] M - ilosc powtorzen
    */
-  algorytm(const char* plik1, const char* plik2): plikWe(plik1), plikWz(plik2) {}
+  algorytm(ifstream &plik1, ifstream &plik2, int N, int M): n(N), m(M), op(N) { wczytaj(plik1);wczytaj_wzor(plik2);}
   /*!
-   * \brief funkcja dokonuje operacji na pliku wejsciowym
+   * \brief funkcja dokonuje operacji na pliku wejsciowym, wywoluje metody odpowiedzialne za pomiar czasu oraz za porownanie 
+    wyniku operacji z plikiem wzorcowym
    */
-  virtual void wykonaj();
+  void wykonaj();
   /*!
-   * \brief porownuje przetworzony plik z plikiem wzorcowym
+   * \brief Metoda wczytuje plik wejsciowy do tablicy \p dane \p oraz do obiektu \p op \p klasy \p operacje \p 
+    * \param [in] plik - strumien pliku wejsciowego
+    */
+  bool wczytaj(ifstream &plik);
+  /*!
+   * \brief Metoda wczytuje plik wzorcowy do tablicy \p dane_wz 
+    * \param [in] plik - strumien pliku wejsciowego
+    */
+  
+  bool wczytaj_wzor(ifstream &plki);
+  /*!
+   * \brief Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem
+    */
+  virtual void przelicz();
+  /*!
+   * \brief porownuje przetworzony dane z danymi wzorcowymi
    * \return true - gdy pliki zgodne
    *         false - w przeciwnym przypadku
    */
@@ -68,7 +102,22 @@ public:
    * \return ilosc liczb wejsciowych
    */
   int ile_danych();
-  vector<float> jaki_czas();
+  /*!
+    * \return tablica \p czas \p z danymi pomiarowymi czasu wykonywania algorytmu*/
+  float* jaki_czas();
+  /*!
+    * \brief Metoda wlacza pomiar czasu poprzez wlaczenie funkcji \p gettimeofday \p i przechowanie czasu w zmiennej \p start \p
+    * \return start - zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
+    */
+  float wlacz_zegar();
+   /*!
+    * \brief Metoda wyacza pomiar czasu poprzez wlaczenie funkcji \p gettimeofday \p i przechowanie czasu w zmiennej \p end \p
+    * \return end - zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
+    */
+  float wylacz_zegar();
+  /*!
+    * \brief Metoda zapisuje tablice \p czas \p do pliku \p wyjscie.csv \p*/
+  void zapisz_do_csv();
 };
 /*!
  * \brief modeluje algorytm dokonujacy mnozenia kazdego elementu pliku wejsciowego przez 2
@@ -79,11 +128,14 @@ public:
    * /brief konstruktor przekazuje do pol klasy informacje o nazwach pliku wejsciowego i wzorcowego
    * \param plik1 - plik wejsciowy
    * \param plik2 - plik wzorcowy
+   * \param N - ilosc danych wejsciowych
+   * \brief M - ilosc powtorzen
    */
-  mnozenie(const char* plik1, const char* plik2) :algorytm(plik1,plik2){}
+  mnozenie(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
+  
   /*!
-   * \brief wykonuje zalozony algorytm oraz mierzy czas jego wykonania
+   * \brief wykonuje zalozony algorytm mnozenia elementow tablicy przez 2
    */
-  void wykonaj();
+  void przelicz();
   };
 #endif

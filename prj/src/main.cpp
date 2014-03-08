@@ -1,6 +1,7 @@
 #include<iostream>
 #include"algorytm.hh"
 #include"statystyki.hh"
+#include"operacje.hh"
 /*!
  * \file
  * \brief plik glowny
@@ -8,17 +9,19 @@
 using namespace std;
 
 int main(){
-  float sr;
-  float odch_std;
+int N;
+int M = 10;
+ifstream plik1("plik1.txt");
+ifstream plik2("plik2.txt");
+plik1>>N;
+
+mnozenie alg(plik1, plik2, N, M);
+
+alg.wykonaj();
+
+float* times = alg.jaki_czas();
+cout<<times[4]<<endl;
+
   
-  mnozenie alg("plik1.txt","plik2.txt");
-  alg.wykonaj();
-  // for(unsigned int i = 0; i<(alg.czas).size();i++)
-  //	cout<<alg.czas[i]<<endl;
-  sr = srednia(alg.czas);
-  cout<<"wywolano"<<endl;
-  odch_std = odchylenie_standardowe(sr, alg.czas);
-  cout<<"srednia: "<<sr<<endl;
-  cout<<"odchylenie: "<<odch_std<<endl;
 return 0;
 }
