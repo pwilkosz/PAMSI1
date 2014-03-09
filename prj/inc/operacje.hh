@@ -20,7 +20,7 @@ class operacje{
 	 */
 	operacje();
 	/*!
-	 * \brief konstruktor parametryczny - alokuje pamiec w dynamicznej tablicy \p tab \p 
+	 * \brief konstruktor parametryczny - alokuje pamiec w dynamicznej tablicy \p tab \p  
      * \param [in] N - ilosc elementow w tablicy; parametr przypisywany do pola \p n \p w klasie, oraz alokuje pamiec o takim wlasnie rozmiarze
 	  */
 	operacje(int N){
@@ -30,14 +30,15 @@ class operacje{
 	}
 	/*!
 	 * \brief Metoda zamienia 2 elementy tablicy 
-	 * \param [in] - i - element tablicy
-	 * \param [in] - j - element tablicy
+	 * \param [in] i - element tablicy
+	 * \param [in] j - element tablicy
 	 * \return true - gdy elementy nie wykraczaja poza zakres tablicy
 	 		   false - w przeciwnym przypadku
 	 		   	*/
   bool zamien_elementy(int i, int j);
   	/*!
-  	 * \brief metoda odwraca wszystkie elementy tablicy*/
+  	 * \brief metoda odwraca wszystkie elementy tablicy
+  	  * */
   void odwroc_tablice();
   /*!
    * \brief metoda dodaje element do tablicy, alokujac dodatkowa pamiec

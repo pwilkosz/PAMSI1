@@ -78,7 +78,7 @@ public:
    */
   void wykonaj();
   /*!
-   * \brief Metoda wczytuje plik wejsciowy do tablicy \p dane \p oraz do obiektu \p op \p klasy \p operacje \p 
+   * \brief Metoda wczytuje plik wejsciowy do tablicy \p dane oraz do obiektu \p op klasy \p operacje   
     * \param [in] plik - strumien pliku wejsciowego
     */
   bool wczytaj(ifstream &plik);
@@ -87,7 +87,7 @@ public:
     * \param [in] plik - strumien pliku wejsciowego
     */
   
-  bool wczytaj_wzor(ifstream &plki);
+  bool wczytaj_wzor(ifstream &plik);
   /*!
    * \brief Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem
     */
@@ -103,20 +103,20 @@ public:
    */
   int ile_danych();
   /*!
-    * \return tablica \p czas \p z danymi pomiarowymi czasu wykonywania algorytmu*/
+    * \return tablica \p czas z danymi pomiarowymi czasu wykonywania algorytmu*/
   float* jaki_czas();
   /*!
-    * \brief Metoda wlacza pomiar czasu poprzez wlaczenie funkcji \p gettimeofday \p i przechowanie czasu w zmiennej \p start \p
+    * \brief Metoda wlacza pomiar czasu poprzez wlaczenie funkcji \p gettimeofday i przechowanie czasu w zmiennej \p start 
     * \return start - zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
     */
   float wlacz_zegar();
    /*!
-    * \brief Metoda wyacza pomiar czasu poprzez wlaczenie funkcji \p gettimeofday \p i przechowanie czasu w zmiennej \p end \p
+    * \brief Metoda wyacza pomiar czasu poprzez wlaczenie funkcji \p gettimeofday i przechowanie czasu w zmiennej \p end 
     * \return end - zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
     */
   float wylacz_zegar();
   /*!
-    * \brief Metoda zapisuje tablice \p czas \p do pliku \p wyjscie.csv \p*/
+    * \brief Metoda zapisuje tablice \p czas do pliku \p wyjscie.csv  */
   void zapisz_do_csv();
 };
 /*!
@@ -126,10 +126,10 @@ class mnozenie: public algorytm{
 public:
   /*!
    * /brief konstruktor przekazuje do pol klasy informacje o nazwach pliku wejsciowego i wzorcowego
-   * \param plik1 - plik wejsciowy
-   * \param plik2 - plik wzorcowy
-   * \param N - ilosc danych wejsciowych
-   * \brief M - ilosc powtorzen
+   * \param [in] plik1 - plik wejsciowy
+   * \param [in] plik2 - plik wzorcowy
+   * \param [in] N - ilosc danych wejsciowych
+   * \param [in] M - ilosc powtorzen
    */
   mnozenie(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
   

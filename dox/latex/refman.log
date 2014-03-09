@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.26)  2 MAR 2014 16:20
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.26)  9 MAR 2014 20:38
 entering extended mode
  %&-line parsing enabled.
 **refman
@@ -1036,7 +1036,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1.
  [1
 
-])
+]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.22644pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 6.29996pt on input line 58.
+[2])
 \tf@toc=\write5
 \openout5 = `refman.toc'.
 
@@ -1047,11 +1058,9 @@ Package Fancyhdr Warning: \headheight is too small (12.0pt):
  We now make it that large for the rest of the document.
  This may cause the page layout to be inconsistent, however.
 
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 64.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 6.29996pt on input line 64.
-[2]
+[3] [4
+
+]
 Package hyperref Info: Option `pageanchor' set `true' on input line 66.
 
 Rozdzia\PlPrIeC {\l } 1.
@@ -1063,28 +1072,89 @@ LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 18.66588pt on input line 67.
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
 (Font)              scaled to size 18.66588pt on input line 67.
-(./hierarchy.tex
+(./dirs.tex
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 1.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
 (Font)              scaled to size 12.9599pt on input line 1.
-) [1
 
+Underfull \hbox (badness 2253) in paragraph at lines 2--2
+\T1/phv/m/n/10 -Ta struk-tu-ra ka-ta-lo-gów jest po-sor-to-wa-na jest z grub-sz
+a, cho¢ nie caª-ko-wi-cie,
+ []
+
+) [1
 
 ] [2
 
 ]
 Rozdzia\PlPrIeC {\l } 2.
-(./annotated.tex) [3] [4
+(./hierarchy.tex) [3] [4
 
 ]
 Rozdzia\PlPrIeC {\l } 3.
-(./files.tex) [5] [6
+(./annotated.tex) [5] [6
 
 ]
 Rozdzia\PlPrIeC {\l } 4.
+(./files.tex) [7] [8
+
+]
+Rozdzia\PlPrIeC {\l } 5.
+(./dir_c20e5da57ddf016417026fe54ca60b20.tex
+
+pdfTeX warning: pdflatex (file ./dir_c20e5da57ddf016417026fe54ca60b20_dep.pdf):
+ PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<dir_c20e5da57ddf016417026fe54ca60b20_dep.pdf, id=492, 166.6225pt x 169.63374pt
+>
+File: dir_c20e5da57ddf016417026fe54ca60b20_dep.pdf Graphic file (type pdf)
+ <use dir_c20e5da57ddf016417026fe54ca60b20_dep.pdf>
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 11.
+LaTeX Font Info:    Font shape `T1/phv/b/n' will be
+(Font)              scaled to size 10.79993pt on input line 11.
+LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
+(Font)              scaled to size 10.79993pt on input line 11.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 14.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ts1phv.fd
+File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
+)
+LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
+(Font)              scaled to size 8.99994pt on input line 14.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 15.
+LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
+(Font)              scaled to size 8.09995pt on input line 15.
+)
+(./dir_290162856a453f1bb77275150ef3dd18.tex
+
+pdfTeX warning: pdflatex (file ./dir_290162856a453f1bb77275150ef3dd18_dep.pdf):
+ PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<dir_290162856a453f1bb77275150ef3dd18_dep.pdf, id=497, 238.8925pt x 220.825pt>
+File: dir_290162856a453f1bb77275150ef3dd18_dep.pdf Graphic file (type pdf)
+
+<use dir_290162856a453f1bb77275150ef3dd18_dep.pdf> [9 <./dir_c20e5da57ddf016417
+026fe54ca60b20_dep.pdf>]) (./dir_d6fa5e206d9d4500e700eacdb543ed10.tex
+
+pdfTeX warning: pdflatex (file ./dir_d6fa5e206d9d4500e700eacdb543ed10_dep.pdf):
+ PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+
+<dir_d6fa5e206d9d4500e700eacdb543ed10_dep.pdf, id=516, 166.6225pt x 225.84375pt
+>
+File: dir_d6fa5e206d9d4500e700eacdb543ed10_dep.pdf Graphic file (type pdf)
+ <use dir_d6fa5e206d9d4500e700eacdb543ed10_dep.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10 <./dir_290162856a453f1bb77275150ef3dd18_dep.pdf>]) [11 <./dir_d6fa5e206d9d
+4500e700eacdb543ed10_dep.pdf>] [12
+
+]
+Rozdzia\PlPrIeC {\l } 6.
 (./classalgorytm.tex
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 11.
  (/usr/share/texmf-texlive/tex/latex/psnfss/t1pcr.fd
@@ -1093,129 +1163,253 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 
 pdfTeX warning: pdflatex (file ./classalgorytm__inherit__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classalgorytm__inherit__graph.pdf, id=299, 138.5175pt x 160.6pt>
+<classalgorytm__inherit__graph.pdf, id=552, 138.5175pt x 160.6pt>
 File: classalgorytm__inherit__graph.pdf Graphic file (type pdf)
 
 <use classalgorytm__inherit__graph.pdf>
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 23.
-LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 23.
-LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
-(Font)              scaled to size 10.79993pt on input line 23.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 26.
 
-(/usr/share/texmf-texlive/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
-)
-LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 26.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
-LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 27.
- [7 <./classalgorytm__inherit__graph.pdf>]
+pdfTeX warning: pdflatex (file ./classalgorytm__coll__graph.pdf): PDF inclusion
+: found PDF version <1.5>, but at most version <1.4> allowed
+<classalgorytm__coll__graph.pdf, id=554, 134.5025pt x 174.6525pt>
+File: classalgorytm__coll__graph.pdf Graphic file (type pdf)
+
+<use classalgorytm__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13 <./classalgorytm__inherit__graph.pdf>]
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 39.
+
+Underfull \hbox (badness 2142) in paragraph at lines 39--39
+[]\T1/phv/m/sl/9 -Metoda wczy-tu-je plik wej-scio-wy do ta-bli-cy \T1/pcr/m/sl/
+9 dane \T1/phv/m/sl/9 oraz do obiek-tu \T1/pcr/m/sl/9 op \T1/phv/m/sl/9 kla-sy
+ []
+
+[14 <./classalgorytm__coll__graph.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 67.
+(Font)              scaled to size 8.99994pt on input line 93.
 LaTeX Font Info:    Font shape `OT1/phv/bc/it' in size <10> not available
-(Font)              Font shape `OT1/phv/bc/sl' tried instead on input line 67.
+(Font)              Font shape `OT1/phv/bc/sl' tried instead on input line 93.
 LaTeX Font Info:    Font shape `OT1/phv/bc/sl' will be
-(Font)              scaled to size 8.99994pt on input line 67.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 67.
- (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
+(Font)              scaled to size 8.99994pt on input line 93.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 93.
+
+(/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 
 LaTeX Font Warning: Font shape `OT1/pcr/bc/n' undefined
-(Font)              using `OT1/pcr/m/n' instead on input line 67.
+(Font)              using `OT1/pcr/m/n' instead on input line 93.
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 74.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 100.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 74.
+(Font)              scaled to size 8.99994pt on input line 100.
 
-Underfull \vbox (badness 10000) detected at line 78
+Underfull \vbox (badness 10000) detected at line 108
  []
 
-[8]
+[15]
+
+pdfTeX warning: pdflatex (file ./classalgorytm_adcd99d6f8b10e222f47fd61328b84c6
+7_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classalgorytm_adcd99d6f8b10e222f47fd61328b84c67_icgraph.pdf, id=627, 256.96pt 
+x 102.3825pt>
+File: classalgorytm_adcd99d6f8b10e222f47fd61328b84c67_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classalgorytm_adcd99d6f8b10e222f47fd61328b84c67_icgraph.pdf>
 
 pdfTeX warning: pdflatex (file ./classalgorytm_a167adca6239e12cb5d362fd7c905dde
 0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf, id=343, 393.47pt 
-x 102.3825pt>
+<classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf, id=629, 387.4475p
+t x 102.3825pt>
 File: classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf Graphic file 
 (type pdf)
 
 <use classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 135--137
+Overfull \hbox (5.0pt too wide) in paragraph at lines 178--180
  [] 
  []
 
-[9 <./classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf>])
-(./classmnozenie.tex
+[16 <./classalgorytm_adcd99d6f8b10e222f47fd61328b84c67_icgraph.pdf> <./classalg
+orytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classalgorytm_aeefdd677ca8b9475a15547dcf8dd461
+f_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classalgorytm_aeefdd677ca8b9475a15547dcf8dd461f_icgraph.pdf, id=650, 381.425pt
+ x 102.3825pt>
+File: classalgorytm_aeefdd677ca8b9475a15547dcf8dd461f_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classalgorytm_aeefdd677ca8b9475a15547dcf8dd461f_icgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 208--210
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 229
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 249
+ []
+
+[17 <./classalgorytm_aeefdd677ca8b9475a15547dcf8dd461f_icgraph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classalgorytm_a24d2f97e025292bb4ac297f73fb957d
+3_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classalgorytm_a24d2f97e025292bb4ac297f73fb957d3_icgraph.pdf, id=666, 403.5075p
+t x 102.3825pt>
+File: classalgorytm_a24d2f97e025292bb4ac297f73fb957d3_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classalgorytm_a24d2f97e025292bb4ac297f73fb957d3_icgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 277--279
+ [] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./classalgorytm_a85ba543fad39e8987bbda4ee698b5fe
+c_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
+> allowed
+
+<classalgorytm_a85ba543fad39e8987bbda4ee698b5fec_cgraph.pdf, id=668, 339.2675pt
+ x 262.9825pt>
+File: classalgorytm_a85ba543fad39e8987bbda4ee698b5fec_cgraph.pdf Graphic file (
+type pdf)
+
+<use classalgorytm_a85ba543fad39e8987bbda4ee698b5fec_cgraph.pdf>
+
+pdfTeX warning: pdflatex (file ./classalgorytm_a85ba543fad39e8987bbda4ee698b5fe
+c_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classalgorytm_a85ba543fad39e8987bbda4ee698b5fec_icgraph.pdf, id=670, 250.9375p
+t x 102.3825pt>
+File: classalgorytm_a85ba543fad39e8987bbda4ee698b5fec_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classalgorytm_a85ba543fad39e8987bbda4ee698b5fec_icgraph.pdf> [18 <./classa
+lgorytm_a24d2f97e025292bb4ac297f73fb957d3_icgraph.pdf> <./classalgorytm_a85ba54
+3fad39e8987bbda4ee698b5fec_cgraph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d0
+0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph.pdf, id=690, 407.5225p
+t x 102.3825pt>
+File: classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 344--346
+ [] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./classalgorytm_aa590cd612d8b1f9e836c0c1c369d04c
+e_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classalgorytm_aa590cd612d8b1f9e836c0c1c369d04ce_icgraph.pdf, id=692, 413.545pt
+ x 102.3825pt>
+File: classalgorytm_aa590cd612d8b1f9e836c0c1c369d04ce_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classalgorytm_aa590cd612d8b1f9e836c0c1c369d04ce_icgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 370--372
+ [] 
+ []
+
+
+Underfull \vbox (badness 4403) has occurred while \output is active []
+
+ [19 <./classalgorytm_a85ba543fad39e8987bbda4ee698b5fec_icgraph.pdf> <./classal
+gorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph.pdf>] [20 <./classalgorytm_aa5
+90cd612d8b1f9e836c0c1c369d04ce_icgraph.pdf>]) (./classmnozenie.tex
 
 pdfTeX warning: pdflatex (file ./classmnozenie__inherit__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classmnozenie__inherit__graph.pdf, id=361, 138.5175pt x 160.6pt>
+<classmnozenie__inherit__graph.pdf, id=726, 138.5175pt x 160.6pt>
 File: classmnozenie__inherit__graph.pdf Graphic file (type pdf)
 
 <use classmnozenie__inherit__graph.pdf>
 
 pdfTeX warning: pdflatex (file ./classmnozenie__coll__graph.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<classmnozenie__coll__graph.pdf, id=363, 138.5175pt x 160.6pt>
+<classmnozenie__coll__graph.pdf, id=728, 138.5175pt x 234.8775pt>
 File: classmnozenie__coll__graph.pdf Graphic file (type pdf)
 
-<use classmnozenie__coll__graph.pdf> [10 <./classmnozenie__inherit__graph.pdf>]
+<use classmnozenie__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-Underfull \vbox (badness 10000) detected at line 64
+ [21 <./classmnozenie__inherit__graph.pdf>]
+Underfull \vbox (badness 10000) detected at line 68
  []
 
-[11 <./classmnozenie__coll__graph.pdf>]
+[22 <./classmnozenie__coll__graph.pdf>]) (./classoperacje.tex [23]
+Underfull \vbox (badness 10000) detected at line 75
+ []
 
-pdfTeX warning: pdflatex (file ./classmnozenie_a2c5dc64610bb16af0ef18d142d6af2c
-0_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
-> allowed
 
-<classmnozenie_a2c5dc64610bb16af0ef18d142d6af2c0_cgraph.pdf, id=393, 319.1925pt
- x 102.3825pt>
-File: classmnozenie_a2c5dc64610bb16af0ef18d142d6af2c0_cgraph.pdf Graphic file (
-type pdf)
+Underfull \vbox (badness 10000) detected at line 98
+ []
 
-<use classmnozenie_a2c5dc64610bb16af0ef18d142d6af2c0_cgraph.pdf>
 
-pdfTeX warning: pdflatex (file ./classmnozenie_a2c5dc64610bb16af0ef18d142d6af2c
-0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
-4> allowed
+Underfull \vbox (badness 4886) has occurred while \output is active []
 
-<classmnozenie_a2c5dc64610bb16af0ef18d142d6af2c0_icgraph.pdf, id=395, 256.96pt 
-x 102.3825pt>
-File: classmnozenie_a2c5dc64610bb16af0ef18d142d6af2c0_icgraph.pdf Graphic file 
-(type pdf)
+ [24]
+Underfull \vbox (badness 10000) detected at line 121
+ []
 
-<use classmnozenie_a2c5dc64610bb16af0ef18d142d6af2c0_icgraph.pdf>) [12 <./class
-mnozenie_a2c5dc64610bb16af0ef18d142d6af2c0_cgraph.pdf> <./classmnozenie_a2c5dc6
-4610bb16af0ef18d142d6af2c0_icgraph.pdf>]
-Rozdzia\PlPrIeC {\l } 5.
+
+Underfull \vbox (badness 10000) detected at line 156
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 176
+ []
+
+[25]
+Underfull \vbox (badness 10000) detected at line 202
+ []
+
+) [26]
+Rozdzia\PlPrIeC {\l } 7.
 (./algorytm_8cpp.tex
 
 pdfTeX warning: pdflatex (file ./algorytm_8cpp__incl.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<algorytm_8cpp__incl.pdf, id=418, 489.83pt x 218.8175pt>
+<algorytm_8cpp__incl.pdf, id=808, 517.935pt x 277.035pt>
 File: algorytm_8cpp__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8cpp__incl.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 14--16
+Overfull \hbox (5.0pt too wide) in paragraph at lines 13--15
  [] 
  []
 
 ) (./algorytm_8hh.tex
+Underfull \vbox (badness 1472) has occurred while \output is active []
+
+ [27
+
+ <./algorytm_8cpp__incl.pdf>]
 
 pdfTeX warning: pdflatex (file ./algorytm_8hh__incl.pdf): PDF inclusion: found 
 PDF version <1.5>, but at most version <1.4> allowed
-<algorytm_8hh__incl.pdf, id=422, 489.83pt x 160.6pt>
+<algorytm_8hh__incl.pdf, id=824, 517.935pt x 218.8175pt>
 File: algorytm_8hh__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8hh__incl.pdf>
@@ -1231,24 +1425,21 @@ Overfull \hbox (15.66544pt too wide) in paragraph at lines 9--22
 /10 #include $\OML/ztmcm/m/it/10 <$\T1/pcr/m/n/10 sys/types.-
  []
 
-[13
 
- <./algorytm_8cpp__incl.pdf>]
 
 pdfTeX warning: pdflatex (file ./algorytm_8hh__dep__incl.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<algorytm_8hh__dep__incl.pdf, id=436, 226.8475pt x 160.6pt>
+<algorytm_8hh__dep__incl.pdf, id=826, 226.8475pt x 160.6pt>
 File: algorytm_8hh__dep__incl.pdf Graphic file (type pdf)
 
-<use algorytm_8hh__dep__incl.pdf>) (./main_8cpp.tex [14 <./algorytm_8hh__incl.p
-df> <./algorytm_8hh__dep__incl.pdf>]
+<use algorytm_8hh__dep__incl.pdf> [28 <./algorytm_8hh__incl.pdf> <./algorytm_8h
+h__dep__incl.pdf>]) (./main_8cpp.tex
 
 pdfTeX warning: pdflatex (file ./main_8cpp__incl.pdf): PDF inclusion: found PDF
  version <1.5>, but at most version <1.4> allowed
-<main_8cpp__incl.pdf, id=461, 552.0625pt x 218.8175pt>
+<main_8cpp__incl.pdf, id=850, 626.34pt x 277.035pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
-
-<use main_8cpp__incl.pdf>
+ <use main_8cpp__incl.pdf>
 Overfull \hbox (5.0pt too wide) in paragraph at lines 16--18
  [] 
  []
@@ -1266,8 +1457,8 @@ pdfTeX warning: pdflatex (file ./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=465, 415.5525pt x 1
-82.6825pt>
+<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=854, 419.5675pt x 2
+62.9825pt>
 File: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf Graphic file (type
  pdf)
  <use main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>
@@ -1275,60 +1466,53 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 52--54
  [] 
  []
 
+[29 <./main_8cpp__incl.pdf>]) (./operacje_8cpp.tex
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+pdfTeX warning: pdflatex (file ./operacje_8cpp__incl.pdf): PDF inclusion: found
+ PDF version <1.5>, but at most version <1.4> allowed
+<operacje_8cpp__incl.pdf, id=871, 196.735pt x 218.8175pt>
+File: operacje_8cpp__incl.pdf Graphic file (type pdf)
 
- [15 <./main_8cpp__incl.pdf>]) (./statystyki_8cpp.tex
+<use operacje_8cpp__incl.pdf>) (./operacje_8hh.tex
+
+pdfTeX warning: pdflatex (file ./operacje_8hh__incl.pdf): PDF inclusion: found 
+PDF version <1.5>, but at most version <1.4> allowed
+<operacje_8hh__incl.pdf, id=873, 196.735pt x 160.6pt>
+File: operacje_8hh__incl.pdf Graphic file (type pdf)
+
+<use operacje_8hh__incl.pdf> [30 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4
+_cgraph.pdf> <./operacje_8cpp__incl.pdf>]
+
+pdfTeX warning: pdflatex (file ./operacje_8hh__dep__incl.pdf): PDF inclusion: f
+ound PDF version <1.5>, but at most version <1.4> allowed
+<operacje_8hh__dep__incl.pdf, id=893, 299.1175pt x 218.8175pt>
+File: operacje_8hh__dep__incl.pdf Graphic file (type pdf)
+
+<use operacje_8hh__dep__incl.pdf> [31 <./operacje_8hh__incl.pdf> <./operacje_8h
+h__dep__incl.pdf>]) (./statystyki_8cpp.tex
 
 pdfTeX warning: pdflatex (file ./statystyki_8cpp__incl.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<statystyki_8cpp__incl.pdf, id=482, 258.9675pt x 218.8175pt>
+<statystyki_8cpp__incl.pdf, id=917, 258.9675pt x 218.8175pt>
 File: statystyki_8cpp__incl.pdf Graphic file (type pdf)
 
-<use statystyki_8cpp__incl.pdf> [16 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e
-3d4_cgraph.pdf> <./statystyki_8cpp__incl.pdf>]
-Underfull \vbox (badness 10000) detected at line 41
+<use statystyki_8cpp__incl.pdf> [32 <./statystyki_8cpp__incl.pdf>]
+Underfull \vbox (badness 10000) detected at line 40
  []
 
 
-
-pdfTeX warning: pdflatex (file ./statystyki_8cpp_a9048594c872963153095e08ae4e15
-a89_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <
-1.4> allowed
-
-<statystyki_8cpp_a9048594c872963153095e08ae4e15a89_icgraph.pdf, id=508, 279.042
-5pt x 102.3825pt>
-File: statystyki_8cpp_a9048594c872963153095e08ae4e15a89_icgraph.pdf Graphic fil
-e (type pdf)
-
-<use statystyki_8cpp_a9048594c872963153095e08ae4e15a89_icgraph.pdf>
-Underfull \vbox (badness 10000) detected at line 76
+Underfull \vbox (badness 10000) detected at line 63
  []
 
-
-
-pdfTeX warning: pdflatex (file ./statystyki_8cpp_a4130fa31b70cf29f2601c5855efda
-a31_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <
-1.4> allowed
-
-<statystyki_8cpp_a4130fa31b70cf29f2601c5855efdaa31_icgraph.pdf, id=510, 202.757
-5pt x 102.3825pt>
-File: statystyki_8cpp_a4130fa31b70cf29f2601c5855efdaa31_icgraph.pdf Graphic fil
-e (type pdf)
-
-<use statystyki_8cpp_a4130fa31b70cf29f2601c5855efdaa31_icgraph.pdf>
-Underfull \vbox (badness 1783) has occurred while \output is active []
-
- [17 <./statystyki_8cpp_a9048594c872963153095e08ae4e15a89_icgraph.pdf>])
-(./statystyki_8hh.tex
+) (./statystyki_8hh.tex
 
 pdfTeX warning: pdflatex (file ./statystyki_8hh__incl.pdf): PDF inclusion: foun
 d PDF version <1.5>, but at most version <1.4> allowed
-<statystyki_8hh__incl.pdf, id=525, 258.9675pt x 160.6pt>
+<statystyki_8hh__incl.pdf, id=938, 258.9675pt x 160.6pt>
 File: statystyki_8hh__incl.pdf Graphic file (type pdf)
 
 <use statystyki_8hh__incl.pdf>
-Underfull \hbox (badness 1990) in paragraph at lines 9--19
+Underfull \hbox (badness 1990) in paragraph at lines 9--18
 []\T1/pcr/m/n/10 #include $\OML/ztmcm/m/it/10 <$\T1/pcr/m/n/10 vector$\OML/ztmc
 m/m/it/10 >$\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include $\OML/ztmcm/m/it/10 <
 $\T1/pcr/m/n/10 cmath$\OML/ztmcm/m/it/10 >$\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10
@@ -1337,63 +1521,37 @@ MS/ztmcm/m/n/10 ^^B
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33]
 
 pdfTeX warning: pdflatex (file ./statystyki_8hh__dep__incl.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<statystyki_8hh__dep__incl.pdf, id=527, 232.87pt x 160.6pt>
+<statystyki_8hh__dep__incl.pdf, id=946, 232.87pt x 160.6pt>
 File: statystyki_8hh__dep__incl.pdf Graphic file (type pdf)
 
-<use statystyki_8hh__dep__incl.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18 <./statystyki_8cpp_a4130fa31b70cf29f2601c5855efdaa31_icgraph.pdf> <./staty
-styki_8hh__incl.pdf>]
-Underfull \vbox (badness 10000) detected at line 63
+<use statystyki_8hh__dep__incl.pdf> [34 <./statystyki_8hh__incl.pdf> <./statyst
+yki_8hh__dep__incl.pdf>]
+Underfull \vbox (badness 10000) detected at line 61
  []
 
 
-
-pdfTeX warning: pdflatex (file ./statystyki_8hh_a9048594c872963153095e08ae4e15a
-89_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1
-.4> allowed
-
-<statystyki_8hh_a9048594c872963153095e08ae4e15a89_icgraph.pdf, id=551, 279.0425
-pt x 102.3825pt>
-File: statystyki_8hh_a9048594c872963153095e08ae4e15a89_icgraph.pdf Graphic file
- (type pdf)
-
-<use statystyki_8hh_a9048594c872963153095e08ae4e15a89_icgraph.pdf> [19 <./staty
-styki_8hh__dep__incl.pdf>]
-Underfull \vbox (badness 10000) detected at line 98
+Underfull \vbox (badness 10000) detected at line 84
  []
 
-
-
-pdfTeX warning: pdflatex (file ./statystyki_8hh_a4130fa31b70cf29f2601c5855efdaa
-31_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1
-.4> allowed
-
-<statystyki_8hh_a4130fa31b70cf29f2601c5855efdaa31_icgraph.pdf, id=569, 202.7575
-pt x 102.3825pt>
-File: statystyki_8hh_a4130fa31b70cf29f2601c5855efdaa31_icgraph.pdf Graphic file
- (type pdf)
-
-<use statystyki_8hh_a4130fa31b70cf29f2601c5855efdaa31_icgraph.pdf>)
-(./strona_8dox.tex) (./refman.ind) [20 <./statystyki_8hh_a9048594c872963153095e
-08ae4e15a89_icgraph.pdf> <./statystyki_8hh_a4130fa31b70cf29f2601c5855efdaa31_ic
-graph.pdf>] (./refman.aux)
+) (./strona_8dox.tex) (./refman.ind) [35] (./refman.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10214 strings out of 493848
- 142241 string characters out of 1152823
- 239580 words of memory out of 3000000
- 13107 multiletter control sequences out of 15000+50000
- 60243 words of font info for 77 fonts, out of 3000000 for 9000
+ 10430 strings out of 493848
+ 147993 string characters out of 1152823
+ 242572 words of memory out of 3000000
+ 13207 multiletter control sequences out of 15000+50000
+ 60980 words of font info for 79 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,13n,58p,306b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,58p,376b,503s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{statystyki_8hh_source} has been referenced but do
 es not exist, replaced by a fixed one
 
@@ -1409,14 +1567,14 @@ not exist, replaced by a fixed one
 {/usr/share/texmf-texlive/fonts/enc/dvips/base/8r.enc}</usr/share/texmf-texlive
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type
 1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-texlive/fonts/type1/urw/couri
-er/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></u
-sr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texmf-t
-exlive/fonts/type1/urw/helvetic/uhvbo8ac.pfb></usr/share/texmf-texlive/fonts/ty
-pe1/urw/helvetic/uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/
-uhvro8a.pfb>
-Output written on refman.pdf (24 pages, 789904 bytes).
+er/ucrr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/courier/ucrro8a.pfb></u
+sr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texmf-te
+xlive/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texmf-texlive/fonts/type
+1/urw/helvetic/uhvbo8ac.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/
+uhvr8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on refman.pdf (41 pages, 1148170 bytes).
 PDF statistics:
- 644 PDF objects out of 1000 (max. 8388607)
- 110 named destinations out of 1000 (max. 500000)
- 459 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1055 PDF objects out of 1200 (max. 8388607)
+ 198 named destinations out of 1000 (max. 500000)
+ 763 words of extra memory for PDF output out of 10000 (max. 10000000)
 

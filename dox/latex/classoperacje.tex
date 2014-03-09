@@ -1,0 +1,240 @@
+\hypertarget{classoperacje}{\section{\-Dokumentacja klasy operacje}
+\label{classoperacje}\index{operacje@{operacje}}
+}
+
+
+\-Klasa modeluje tablice z danymi i metody sluzace do operacji na niej.  
+
+
+
+
+{\ttfamily \#include $<$operacje.\-hh$>$}
+
+\subsection*{\-Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classoperacje_a4538e0bfde26291449dc057134b23ad8}{operacje} ()
+\begin{DoxyCompactList}\small\item\em konstruktor bezparametryczny \end{DoxyCompactList}\item 
+\hyperlink{classoperacje_af109f7f9a4b10334d5e8c215c7f220de}{operacje} (int \-N)
+\begin{DoxyCompactList}\small\item\em konstruktor parametryczny -\/ alokuje pamiec w dynamicznej tablicy {\ttfamily tab} {\ttfamily } \end{DoxyCompactList}\item 
+bool \hyperlink{classoperacje_a7393a8b3b394921a084e0c1f4ad517b7}{zamien\-\_\-elementy} (int i, int j)
+\begin{DoxyCompactList}\small\item\em \-Metoda zamienia 2 elementy tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_aedc47c87f4f44f8af0cba64a940a5333}{odwroc\-\_\-tablice} ()
+\begin{DoxyCompactList}\small\item\em metoda odwraca wszystkie elementy tablicy \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_ad8397efded792c1381bfd0292b3e91b6}{dodaj\-\_\-element} (float e)
+\begin{DoxyCompactList}\small\item\em metoda dodaje element do tablicy, alokujac dodatkowa pamiec \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_a933533caa39434db543aca704804625c}{dodaj\-\_\-elementy} (float $\ast$tab2, int rozm)
+\begin{DoxyCompactList}\small\item\em metoda dodaje elementy do tablicy \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_a33127b613894949faba7a04f23075bf8}{operator=} (float $\ast$tab1)
+\begin{DoxyCompactList}\small\item\em \-Przeciazenie operatora przypisania; przypisuje elementy tablicy {\ttfamily tab1} {\ttfamily do} tablicy bedacej polem klasy. \end{DoxyCompactList}\item 
+bool \hyperlink{classoperacje_af69f25c4d1da5a7e46ff21a56143fc62}{operator==} (float $\ast$tab1)
+\begin{DoxyCompactList}\small\item\em \-Przeciazenie operatora porownania; metoda porownuje zawartosci dwoch tablic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classoperacje_aec7cc301d8822128d918aa1f9c7e1db2}{n}
+\begin{DoxyCompactList}\small\item\em ilosc elementow w tablicy \end{DoxyCompactList}\item 
+float $\ast$ \hyperlink{classoperacje_ad23bc418eebc9b493a5494ffd9358dd0}{tab}
+\begin{DoxyCompactList}\small\item\em tablica z liczbami \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\-Klasa modeluje tablice z danymi i metody sluzace do operacji na niej. 
+
+\-Definicja w linii 9 pliku operacje.\-hh.
+
+
+
+\subsection{\-Dokumentacja konstruktora i destruktora}
+\hypertarget{classoperacje_a4538e0bfde26291449dc057134b23ad8}{\index{operacje@{operacje}!operacje@{operacje}}
+\index{operacje@{operacje}!operacje@{operacje}}
+\subsubsection[{operacje}]{\setlength{\rightskip}{0pt plus 5cm}{\bf operacje\-::operacje} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_a4538e0bfde26291449dc057134b23ad8}
+
+
+konstruktor bezparametryczny 
+
+\hypertarget{classoperacje_af109f7f9a4b10334d5e8c215c7f220de}{\index{operacje@{operacje}!operacje@{operacje}}
+\index{operacje@{operacje}!operacje@{operacje}}
+\subsubsection[{operacje}]{\setlength{\rightskip}{0pt plus 5cm}{\bf operacje\-::operacje} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-N}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classoperacje_af109f7f9a4b10334d5e8c215c7f220de}
+
+
+konstruktor parametryczny -\/ alokuje pamiec w dynamicznej tablicy {\ttfamily tab} {\ttfamily } 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em \-N} & -\/ ilosc elementow w tablicy; parametr przypisywany do pola {\ttfamily n} {\ttfamily w} klasie, oraz alokuje pamiec o takim wlasnie rozmiarze \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 26 pliku operacje.\-hh.
+
+
+
+\subsection{\-Dokumentacja funkcji składowych}
+\hypertarget{classoperacje_ad8397efded792c1381bfd0292b3e91b6}{\index{operacje@{operacje}!dodaj\-\_\-element@{dodaj\-\_\-element}}
+\index{dodaj\-\_\-element@{dodaj\-\_\-element}!operacje@{operacje}}
+\subsubsection[{dodaj\-\_\-element}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::dodaj\-\_\-element} (
+\begin{DoxyParamCaption}
+\item[{float}]{e}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_ad8397efded792c1381bfd0292b3e91b6}
+
+
+metoda dodaje element do tablicy, alokujac dodatkowa pamiec 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em e} & -\/ element, ktory nalezy dolaczyc do tablicy \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 27 pliku operacje.\-cpp.
+
+\hypertarget{classoperacje_a933533caa39434db543aca704804625c}{\index{operacje@{operacje}!dodaj\-\_\-elementy@{dodaj\-\_\-elementy}}
+\index{dodaj\-\_\-elementy@{dodaj\-\_\-elementy}!operacje@{operacje}}
+\subsubsection[{dodaj\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::dodaj\-\_\-elementy} (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{tab2, }
+\item[{int}]{rozm}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_a933533caa39434db543aca704804625c}
+
+
+metoda dodaje elementy do tablicy 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em tab2} & -\/ tablica, ktora nalezy dolaczyc \\
+\hline
+\mbox{\tt in}  & {\em rozm} & -\/ rozmiar tablicy tab2 \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 46 pliku operacje.\-cpp.
+
+\hypertarget{classoperacje_aedc47c87f4f44f8af0cba64a940a5333}{\index{operacje@{operacje}!odwroc\-\_\-tablice@{odwroc\-\_\-tablice}}
+\index{odwroc\-\_\-tablice@{odwroc\-\_\-tablice}!operacje@{operacje}}
+\subsubsection[{odwroc\-\_\-tablice}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::odwroc\-\_\-tablice} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_aedc47c87f4f44f8af0cba64a940a5333}
+
+
+metoda odwraca wszystkie elementy tablicy 
+
+
+
+\-Definicja w linii 12 pliku operacje.\-cpp.
+
+\hypertarget{classoperacje_a33127b613894949faba7a04f23075bf8}{\index{operacje@{operacje}!operator=@{operator=}}
+\index{operator=@{operator=}!operacje@{operacje}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}void operacje\-::operator= (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{tab1}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_a33127b613894949faba7a04f23075bf8}
+
+
+\-Przeciazenie operatora przypisania; przypisuje elementy tablicy {\ttfamily tab1} {\ttfamily do} tablicy bedacej polem klasy. 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em tab1} & -\/ tablica, ktorej zawartosc przypisujemy \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 63 pliku operacje.\-cpp.
+
+\hypertarget{classoperacje_af69f25c4d1da5a7e46ff21a56143fc62}{\index{operacje@{operacje}!operator==@{operator==}}
+\index{operator==@{operator==}!operacje@{operacje}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool operacje\-::operator== (
+\begin{DoxyParamCaption}
+\item[{float $\ast$}]{tab1}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_af69f25c4d1da5a7e46ff21a56143fc62}
+
+
+\-Przeciazenie operatora porownania; metoda porownuje zawartosci dwoch tablic. 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em tab1} & -\/ tablica, ktorej wartosci porownujemy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Zwraca}
+true -\/ gdy zawartsoc tablic jest identyczna false -\/ w przeciwnym przypadku 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 69 pliku operacje.\-cpp.
+
+\hypertarget{classoperacje_a7393a8b3b394921a084e0c1f4ad517b7}{\index{operacje@{operacje}!zamien\-\_\-elementy@{zamien\-\_\-elementy}}
+\index{zamien\-\_\-elementy@{zamien\-\_\-elementy}!operacje@{operacje}}
+\subsubsection[{zamien\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf operacje\-::zamien\-\_\-elementy} (
+\begin{DoxyParamCaption}
+\item[{int}]{i, }
+\item[{int}]{j}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_a7393a8b3b394921a084e0c1f4ad517b7}
+
+
+\-Metoda zamienia 2 elementy tablicy. 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em i} & -\/ element tablicy \\
+\hline
+\mbox{\tt in}  & {\em j} & -\/ element tablicy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Zwraca}
+true -\/ gdy elementy nie wykraczaja poza zakres tablicy false -\/ w przeciwnym przypadku 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 3 pliku operacje.\-cpp.
+
+
+
+\subsection{\-Dokumentacja atrybutów składowych}
+\hypertarget{classoperacje_aec7cc301d8822128d918aa1f9c7e1db2}{\index{operacje@{operacje}!n@{n}}
+\index{n@{n}!operacje@{operacje}}
+\subsubsection[{n}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf operacje\-::n}}}\label{classoperacje_aec7cc301d8822128d918aa1f9c7e1db2}
+
+
+ilosc elementow w tablicy 
+
+
+
+\-Definicja w linii 14 pliku operacje.\-hh.
+
+\hypertarget{classoperacje_ad23bc418eebc9b493a5494ffd9358dd0}{\index{operacje@{operacje}!tab@{tab}}
+\index{tab@{tab}!operacje@{operacje}}
+\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ {\bf operacje\-::tab}}}\label{classoperacje_ad23bc418eebc9b493a5494ffd9358dd0}
+
+
+tablica z liczbami 
+
+
+
+\-Definicja w linii 17 pliku operacje.\-hh.
+
+
+
+\-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{operacje_8hh}{operacje.\-hh}\item 
+\hyperlink{operacje_8cpp}{operacje.\-cpp}\end{DoxyCompactItemize}
