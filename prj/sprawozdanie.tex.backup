@@ -1,0 +1,22 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[latin2]{inputenc}
+% \usepackage[T1]{fontenc}
+\usepackage[OT4,plmath]{polski}
+\usepackage{indentfirst}
+\usepackage{graphicx}
+
+%opening
+\title{Testowanie struktur danych typu stos i kolejka}
+\author{Piotr Wilkosz}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+
+\end{abstract}
+
+\section{WSTEP}
+
+\end{document}

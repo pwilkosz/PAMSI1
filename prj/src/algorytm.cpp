@@ -13,7 +13,6 @@ bool algorytm::wczytaj(ifstream& plik){
   
   for(int i = 0; i<n; i++){
     plik>>dane[i];
-    cout<<dane[i]<<endl;
     if(plik.fail()){cerr<<"Wystapil problem z wczytaniem pliku"; return false;}
   }
     op = dane;
@@ -50,6 +49,19 @@ float algorytm::wylacz_zegar(){
     end = static_cast<float>(tp.tv_usec)/1E3;
     return end;
 }
+
+void algorytm::zapisz_do_csv(){
+  ofstream tab_czas("wyjscie.csv");
+  tab_czas<<"Proba [m],"<<"Czas"<<endl;
+  for(int i =0; i<m; i++){
+      tab_czas<<(i+1)<<","<<czas[i]<<endl;
+  }
+  float sr = srednia(czas,m);
+  tab_czas<<"Srednia,"<<sr<<endl;
+  tab_czas<<"Odchylenie,"<<odchylenie_standardowe(sr,czas,m)<<endl;
+}
+
+
 void algorytm::wykonaj(){
   czas = new float[m];
   for(int i = 0; i<m; i++){
@@ -57,6 +69,7 @@ void algorytm::wykonaj(){
   przelicz();
   float end = wylacz_zegar();
   float cz = end - start;
+  if(cz<0) cz += 1000;
   cout<<"START: "<<start<<"   END: "<<end<<endl;
   if(porownaj()) cout<<"PROBA NR "<<i<<":  poprawna"<<endl;
   else cout<<"PROBA NR "<<i<<":  niepoprawna"<<endl;
@@ -72,15 +85,11 @@ bool algorytm::porownaj(){
     return op == dane_wz;
   }
 
-  void algorytm::zapisz_do_csv(){
-  ofstream tab_czas("wyjscie.csv");
-  tab_czas<<"Proba [m],"<<"Czas"<<endl;
-  for(int i =0; i<m; i++){
-      tab_czas<<(i+1)<<","<<czas[i]<<endl;
-  }
+  
+
+void algorytm::zapisz_do_gnuplot(ofstream& out){
   float sr = srednia(czas,m);
-  tab_czas<<"Srednia,"<<sr<<endl;
-  tab_czas<<"Odchylenie,"<<odchylenie_standardowe(sr,czas,m)<<endl;
+  out<<n<<" "<<sr<<" "<<"0 "<<odchylenie_standardowe(sr,czas,m)<<endl;
 }
 
 void mnozenie::przelicz(){
@@ -101,4 +110,21 @@ void stos_lista::przelicz(){
     stos.push(op.tab[i]);
   }
   stos.clear();
+}
+
+void kolejka_tablica::przelicz(){
+  cout<<"breakpoint 2"<<endl;
+  for(int i = 0; i<n; i++){
+    cout<<"breakpoint "<<i+3<<endl;
+    qu.enqueue(op.tab[i]);
+  }
+  qu.clear();
+}
+
+void kolejka_lista::przelicz(){
+
+  for(int i = 0; i<n; i++){
+    qu.enqueue(op.tab[i]);
+  }
+  qu.clear();
 }

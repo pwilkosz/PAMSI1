@@ -8,7 +8,7 @@
 #include<sys/types.h>
 #include"operacje.hh"
 #include"stos.hh"
-
+#include"kolejka.hh"
 using namespace std;
 
 /*!
@@ -84,6 +84,10 @@ public:
     */
   bool wczytaj(ifstream &plik);
   /*!
+   * \brief metoda ustawia wartosc n
+  */
+   void set_N(int wart){n = wart;}
+  /*!
    * \brief Metoda wczytuje plik wzorcowy do tablicy \p dane_wz 
     * \param [in] plik - strumien pliku wejsciowego
     */
@@ -119,6 +123,10 @@ public:
   /*!
     * \brief Metoda zapisuje tablice \p czas do pliku \p wyjscie.csv  */
   void zapisz_do_csv();
+  /*!
+   * \brief metoda zapisuje do pliku .csv parametry takie jak: srednia, ilosc liczb, odchylenie standardowe
+  */
+   void zapisz_do_gnuplot(ofstream& out);
 };
 /*!
  * \brief modeluje algorytm dokonujacy mnozenia kazdego elementu pliku wejsciowego przez 2
@@ -143,7 +151,7 @@ public:
 class stos_tablica: public algorytm{
   stack_array<float> stos;
 public:
-  stos_tablica(ifstream& plik1, ifstream& plik2, int N, int M,flag F):algorytm(plik1,plik2,N,M){stos.f = F;cout<<"SIEMA"<<endl;}
+  stos_tablica(ifstream& plik1, ifstream& plik2, int N, int M,flag F):algorytm(plik1,plik2,N,M){stos.f = F;}
   void przelicz();
 };
 
@@ -151,6 +159,20 @@ class stos_lista: public algorytm{
   stack_list<float> stos;
 public:
   stos_lista(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
+  void przelicz();
+};
+
+class kolejka_tablica: public algorytm{
+  queue_array<float> qu;
+public:
+  kolejka_tablica(ifstream& plik1, ifstream& plik2, int N, int M,flag F):algorytm(plik1,plik2,N,M){qu.f = F;}
+  void przelicz();
+};
+
+class kolejka_lista: public algorytm{
+  queue_list<float> qu;
+public:
+  kolejka_lista(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
   void przelicz();
 };
 #endif
