@@ -7,6 +7,7 @@
 #include<sys/time.h>
 #include<sys/types.h>
 #include"operacje.hh"
+#include"stos.hh"
 
 using namespace std;
 
@@ -138,4 +139,18 @@ public:
    */
   void przelicz();
   };
+
+class stos_tablica: public algorytm{
+  stack_array<float> stos;
+public:
+  stos_tablica(ifstream& plik1, ifstream& plik2, int N, int M,flag F):algorytm(plik1,plik2,N,M){stos.f = F;cout<<"SIEMA"<<endl;}
+  void przelicz();
+};
+
+class stos_lista: public algorytm{
+  stack_list<float> stos;
+public:
+  stos_lista(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
+  void przelicz();
+};
 #endif

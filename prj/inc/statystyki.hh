@@ -15,13 +15,13 @@ using namespace std;
  * \param tab - kontener zawierajacy czasy wykonania algorytmu
  * \return wartosc srednia
  */
-float srednia (vector<float>& tab);
+float srednia (float* tab, int rozmiar);
 /*!
  * \brief funckja oblicza odchylenie standardowe
  * \param tab - kontener zawierajacy czasy wykonania algorytmu
  * \param srednia - wartosc srednia
  * \return odchylenie standardowe
  */
-float odchylenie_standardowe(float srednia, vector<float>& tab);
+float odchylenie_standardowe(float srednia, float* tab, int rozmiar);
 
 #endif

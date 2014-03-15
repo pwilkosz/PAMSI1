@@ -1,11 +1,11 @@
 #include "statystyki.hh"
 
-float srednia (vector<float>& tab){
+float srednia (float* tab, int rozmiar){
   float suma;
-  unsigned int licznik = 0;
+  int licznik = 0;
   
   
-  while(licznik != tab.size()){
+  while(licznik != rozmiar){
     suma +=tab[licznik];
     
     licznik++;}
@@ -13,10 +13,10 @@ float srednia (vector<float>& tab){
   
 }
 
-float odchylenie_standardowe(float srednia, vector<float>& tab){
-  float suma;
-  unsigned int licznik;
-  for(licznik = 0; licznik<tab.size(); licznik++)
+float odchylenie_standardowe(float srednia, float* tab, int rozmiar){
+  float suma = 0;
+  int licznik;
+  for(licznik = 0; licznik<rozmiar; licznik++)
     suma += powf(tab[licznik] - srednia, 2);
   return static_cast<float> (sqrt(suma/licznik));
 }

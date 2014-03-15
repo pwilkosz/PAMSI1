@@ -1,5 +1,5 @@
 #include"algorytm.hh"
-
+#include"statystyki.hh"
 
 
 /*!
@@ -39,7 +39,7 @@ float algorytm::wlacz_zegar(){
   struct timeval tp;
     double start;
     gettimeofday(&tp, NULL);
-    start = static_cast<double>(tp.tv_usec)/1E6;
+    start = static_cast<float>(tp.tv_usec)/1E3;
     return start;
 }
 
@@ -47,7 +47,7 @@ float algorytm::wylacz_zegar(){
   struct timeval tp;
     double end;
     gettimeofday(&tp, NULL);
-    end = static_cast<double>(tp.tv_usec)/1E6;
+    end = static_cast<float>(tp.tv_usec)/1E3;
     return end;
 }
 void algorytm::wykonaj(){
@@ -55,7 +55,9 @@ void algorytm::wykonaj(){
   for(int i = 0; i<m; i++){
   float start= wlacz_zegar();
   przelicz();
-  float cz = wylacz_zegar() - start;
+  float end = wylacz_zegar();
+  float cz = end - start;
+  cout<<"START: "<<start<<"   END: "<<end<<endl;
   if(porownaj()) cout<<"PROBA NR "<<i<<":  poprawna"<<endl;
   else cout<<"PROBA NR "<<i<<":  niepoprawna"<<endl;
   czas[i] = cz;
@@ -76,6 +78,9 @@ bool algorytm::porownaj(){
   for(int i =0; i<m; i++){
       tab_czas<<(i+1)<<","<<czas[i]<<endl;
   }
+  float sr = srednia(czas,m);
+  tab_czas<<"Srednia,"<<sr<<endl;
+  tab_czas<<"Odchylenie,"<<odchylenie_standardowe(sr,czas,m)<<endl;
 }
 
 void mnozenie::przelicz(){
@@ -84,4 +89,16 @@ void mnozenie::przelicz(){
           }
           
   }
+void stos_tablica::przelicz(){
+  for(int i = 0; i<n; i++){
+    stos.push(op.tab[i]);
+  }
+  stos.clear();
+}
 
+void stos_lista::przelicz(){
+  for(int i = 0; i<n; i++){
+    stos.push(op.tab[i]);
+  }
+  stos.clear();
+}
