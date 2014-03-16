@@ -1,0 +1,69 @@
+\hypertarget{stos_8hh}{\section{\-Dokumentacja pliku stos.\-hh}
+\label{stos_8hh}\index{stos.\-hh@{stos.\-hh}}
+}
+
+
+\-Plik zawiera definicje klasy {\ttfamily \-Stos} \-Zaimplementowana na 2 sposoby 1. \-Za pomocą listy. 2. \-Za pomocą tablicy a. kazdorazowo powiekszajacej swoj rozmiar b. powiekszajacej swoj rozmiar dwukrotnie, gdy stos sie przepelni.  
+
+
+{\ttfamily \#include $<$list$>$}\*
+\-Wykres zależności załączania dla stos.\-hh\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=128pt]{stos_8hh__incl}
+\end{center}
+\end{figure}
+\-Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=226pt]{stos_8hh__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{\-Komponenty}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classstack__list}{stack\-\_\-list$<$ T\-Y\-P $>$}
+\begin{DoxyCompactList}\small\item\em \-Modeluje stos oparty na liscie \-S\-T\-L. \end{DoxyCompactList}\item 
+class \hyperlink{classstack__array}{stack\-\_\-array$<$ T\-Y\-P $>$}
+\begin{DoxyCompactList}\small\item\em \-Modeluje stos w oparciu o tablice. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Wyliczenia}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{stos_8hh_a7847560c748814fd3070e9149a9578bd}{flag} \{ \hyperlink{stos_8hh_a7847560c748814fd3070e9149a9578bda4d2a3aa75111d5d02328fb5d495729c2}{plus1}, 
+\hyperlink{stos_8hh_a7847560c748814fd3070e9149a9578bdac9b6e8d1af7ce8ae332595ccf954567c}{x2}
+ \}
+\begin{DoxyCompactList}\small\item\em typ wyliczeniowy sluzacy do ustawienia sposobu zwiekszania pamieci \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\-Plik zawiera definicje klasy {\ttfamily \-Stos} \-Zaimplementowana na 2 sposoby 1. \-Za pomocą listy. 2. \-Za pomocą tablicy a. kazdorazowo powiekszajacej swoj rozmiar b. powiekszajacej swoj rozmiar dwukrotnie, gdy stos sie przepelni. 
+
+\-Definicja w pliku \hyperlink{stos_8hh_source}{stos.\-hh}.
+
+
+
+\subsection{\-Dokumentacja typów wyliczanych}
+\hypertarget{stos_8hh_a7847560c748814fd3070e9149a9578bd}{\index{stos.\-hh@{stos.\-hh}!flag@{flag}}
+\index{flag@{flag}!stos.hh@{stos.\-hh}}
+\subsubsection[{flag}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf flag}}}\label{stos_8hh_a7847560c748814fd3070e9149a9578bd}
+
+
+typ wyliczeniowy sluzacy do ustawienia sposobu zwiekszania pamieci 
+
+\begin{Desc}
+\item[\-Wartości wyliczeń\-: ]\par
+\begin{description}
+\index{plus1@{plus1}!stos.\-hh@{stos.\-hh}}\index{stos.\-hh@{stos.\-hh}!plus1@{plus1}}\item[{\em 
+\hypertarget{stos_8hh_a7847560c748814fd3070e9149a9578bda4d2a3aa75111d5d02328fb5d495729c2}{plus1}\label{stos_8hh_a7847560c748814fd3070e9149a9578bda4d2a3aa75111d5d02328fb5d495729c2}
+}]\index{x2@{x2}!stos.\-hh@{stos.\-hh}}\index{stos.\-hh@{stos.\-hh}!x2@{x2}}\item[{\em 
+\hypertarget{stos_8hh_a7847560c748814fd3070e9149a9578bdac9b6e8d1af7ce8ae332595ccf954567c}{x2}\label{stos_8hh_a7847560c748814fd3070e9149a9578bdac9b6e8d1af7ce8ae332595ccf954567c}
+}]\end{description}
+\end{Desc}
+
+
+
+\-Definicja w linii 17 pliku stos.\-hh.
+

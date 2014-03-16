@@ -1,42 +1,93 @@
 #ifndef STOS_HH
 #define STOS_HH
 #include<list>
-
+/*!
+  * \file
+  * \brief Plik zawiera definicje klasy \p Stos Zaimplementowana na 2 sposoby 
+  *	1. Za pomocą listy. 
+  *	2. Za pomocą tablicy 
+  *	a. kazdorazowo powiekszajacej swoj rozmiar 
+  *	b. powiekszajacej swoj rozmiar dwukrotnie, gdy stos sie przepelni
+*/
 
 using namespace std;
-
+/*! 
+	* \brief typ wyliczeniowy sluzacy do ustawienia sposobu zwiekszania pamieci
+	*/
 enum flag{plus1, x2};
-
+/*!
+ *	\brief Modeluje stos oparty na liscie STL
+*/
 template <typename TYP>
 class stack_list{
 	list<TYP> st;
 public:
+	/*!
+		\brief 
+		\return false - gdy stos nie jest pusty, true , gdy pusty
+	*/
 	bool is_empty(){return st.empty();}
+	/*! 
+	 * \brief
+	 * \return rozmiar ztosu
+	*/
 	int size(){return st.size();}
+	/*! 
+	 *	\brief Dodaje element na wierzch stosu
+	*/
 	void push(TYP& element){st.push_back(element);}
+	/*!
+	  * \brief zdejmuje element z wierzchu stosu
+	*/
 	TYP pop(){
 		TYP temp = st.back();
 		st.pop_back();
 		return temp; 
 	}
+	/*!
+		\brief czysci stos
+	*/
 	void clear(){
 		while(!is_empty())
 			pop();
 	}
 };
+/*! 
+	\brief Modeluje stos w oparciu o tablice
+*/
 template <typename TYP>
 class stack_array{
 	TYP* st;
 	int s, sp; 
 public:
+	/*!
+		\brief flaga trybu zwiekszania pamieci , przyjmuje wartosc : \n
+		plus1 - dla trybu kazdorazowego powiekszania pamieci \n
+		x2 - dla trybu podwajania rozmiaru struktury
+	*/
 	flag f;
+	/*!
+ 		\brief konstruktor bezparametryczny
+	*/
 	stack_array(){st = new TYP[0]; s = 0; sp = 0;} 
+	/*! \brief konstruktor parametryczny - ustawia flage na zadana pozycje*/
 	stack_array(flag F):f(F){st = new TYP[0]; s = 0; sp = 0;}
+	/*!
+		\brief 
+		\return false - gdy stos nie jest pusty, true , gdy pusty
+	*/
 	bool is_empty(){
 		if(s == 0) return true;
 		return false;
 	}
+	/*! 
+	\brief
+	\return rozmiar ztosu
+	*/
 	int size(){return s;}
+	/*! 
+		\brief Dodaje element na wierzch stosu w zaleznosci od wybranego trybu powiekszania tablicy
+	*/
 	void push(TYP& element){
 			if(f == plus1){
 				int new_size = s + 1;
@@ -52,7 +103,7 @@ public:
 			}
 			else{
 				if (s == 0){
-					cout<<"mamy 0"<<endl;
+					
 					if(sp == 0){
 						s++;
 						cout<<"s powiekszone"<<endl;
@@ -63,7 +114,7 @@ public:
 					else {st[0] = element; s++;}
 				}
 				else{
-					if(sp>s){st[s] = element; s++;}
+					if(sp>s){st[s] = element; s++; }
 					else{
 						int new_size = 2*s; 
 						sp *= 2;
@@ -80,7 +131,7 @@ public:
 				}
 			}
 		}
-	
+	/*! \brief zdejmuje element ze stosu*/
 	TYP pop(){
 		TYP tmp;
 		if(is_empty()){ cerr<<"stos pusty"<<endl; return 0;}
@@ -123,6 +174,7 @@ public:
 		 	}
 		
 	}
+	/*! \brief czysci stos*/
 	void clear(){
 		while(!is_empty())
 			pop();

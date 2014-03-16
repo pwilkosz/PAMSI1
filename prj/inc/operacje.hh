@@ -20,8 +20,8 @@ class operacje{
 	 */
 	operacje();
 	/*!
-	 * \brief konstruktor parametryczny - alokuje pamiec w dynamicznej tablicy \p tab \p  
-     * \param [in] N - ilosc elementow w tablicy; parametr przypisywany do pola \p n \p w klasie, oraz alokuje pamiec o takim wlasnie rozmiarze
+	 * \brief konstruktor parametryczny - alokuje pamiec w dynamicznej tablicy \p tab   
+     * \param [in] N - ilosc elementow w tablicy; parametr przypisywany do pola \p n  w klasie, oraz alokuje pamiec o takim wlasnie rozmiarze
 	  */
 	operacje(int N){
 		n = N;

@@ -6,7 +6,7 @@
  * \file
  * \brief plik zawiera definicje metod klas zdefiniowanych w pliku algorytm.hh
  */
-void algorytm::przelicz(){for(int i = 0; i<n ; i++){cout<<"KROK: "<<i<<endl; cout<<dane[i]<<endl;}}
+float algorytm::przelicz(){for(int i = 0; i<n ; i++){cout<<"KROK: "<<i<<endl; cout<<dane[i]<<endl;}return 0;}
 bool algorytm::wczytaj(ifstream& plik){
  
   dane = new float[n];
@@ -50,7 +50,7 @@ float algorytm::wylacz_zegar(){
     return end;
 }
 
-void algorytm::zapisz_do_csv(){
+void algorytm::zapisz_do_csv(ofstream& out){
   ofstream tab_czas("wyjscie.csv");
   tab_czas<<"Proba [m],"<<"Czas"<<endl;
   for(int i =0; i<m; i++){
@@ -59,25 +59,24 @@ void algorytm::zapisz_do_csv(){
   float sr = srednia(czas,m);
   tab_czas<<"Srednia,"<<sr<<endl;
   tab_czas<<"Odchylenie,"<<odchylenie_standardowe(sr,czas,m)<<endl;
+  zapisz_do_gnuplot(out,sr,odchylenie_standardowe(sr,czas,m));
 }
 
 
-void algorytm::wykonaj(){
+void algorytm::wykonaj(ofstream& out){
   czas = new float[m];
   for(int i = 0; i<m; i++){
-  float start= wlacz_zegar();
-  przelicz();
-  float end = wylacz_zegar();
-  float cz = end - start;
-  if(cz<0) cz += 1000;
-  cout<<"START: "<<start<<"   END: "<<end<<endl;
+  
+  float cz = przelicz();
+  
+  
   if(porownaj()) cout<<"PROBA NR "<<i<<":  poprawna"<<endl;
   else cout<<"PROBA NR "<<i<<":  niepoprawna"<<endl;
   czas[i] = cz;
   op = dane;
   
 }
-zapisz_do_csv();
+zapisz_do_csv(out);
 }
 
 bool algorytm::porownaj(){
@@ -87,44 +86,68 @@ bool algorytm::porownaj(){
 
   
 
-void algorytm::zapisz_do_gnuplot(ofstream& out){
-  float sr = srednia(czas,m);
-  out<<n<<" "<<sr<<" "<<"0 "<<odchylenie_standardowe(sr,czas,m)<<endl;
+void algorytm::zapisz_do_gnuplot(ofstream& out, float sr, float od){
+  
+  
+  out<<n<<" "<<sr<<" "<<"0 "<<od<<endl;
 }
 
-void mnozenie::przelicz(){
+float mnozenie::przelicz(){
+    float start = wlacz_zegar();
     for(int i =0; i<n; i++){
       op.tab[i] = 2*dane[i];
-          }
+      }float end = wylacz_zegar();
+    float cz = end - start;
+    if(cz<0) cz += 1000;
+    return cz;
+    }
           
-  }
-void stos_tablica::przelicz(){
+  
+float stos_tablica::przelicz(){
+  float start = wlacz_zegar();
   for(int i = 0; i<n; i++){
     stos.push(op.tab[i]);
   }
+  float end = wylacz_zegar();
+  float cz = end - start;
+  if(cz<0) cz += 1000;
   stos.clear();
+  return cz;
 }
 
-void stos_lista::przelicz(){
+float stos_lista::przelicz(){
+  float start = wlacz_zegar();
   for(int i = 0; i<n; i++){
     stos.push(op.tab[i]);
   }
+  float end = wylacz_zegar();
+  float cz = end - start;
+  if(cz<0) cz += 1000;
   stos.clear();
+  return cz;
 }
 
-void kolejka_tablica::przelicz(){
-  cout<<"breakpoint 2"<<endl;
+float kolejka_tablica::przelicz(){
+  float start = wlacz_zegar();
   for(int i = 0; i<n; i++){
-    cout<<"breakpoint "<<i+3<<endl;
+    
     qu.enqueue(op.tab[i]);
   }
+  float end = wylacz_zegar();
+  float cz = end - start;
+  if(cz<0) cz += 1000;
   qu.clear();
+  return cz;
 }
 
-void kolejka_lista::przelicz(){
-
+float kolejka_lista::przelicz(){
+  float start = wlacz_zegar();
   for(int i = 0; i<n; i++){
     qu.enqueue(op.tab[i]);
   }
+  float end = wylacz_zegar();
+  float cz = end - start;
+  if(cz<0) cz += 1000;
   qu.clear();
+  return cz;
 }

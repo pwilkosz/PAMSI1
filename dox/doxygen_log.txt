@@ -3,11 +3,11 @@
 # Project related configuration options
 #---------------------------------------------------------------------------
 DOXYFILE_ENCODING      = UTF-8
-PROJECT_NAME           = "PAMSI - P.Wilkosz"
+PROJECT_NAME           = "PAMSI - pwilkosz"
 PROJECT_NUMBER         = 1.0
 PROJECT_BRIEF          = 
 PROJECT_LOGO           = 
-OUTPUT_DIRECTORY       = .
+OUTPUT_DIRECTORY       = /home/pwilkosz/pamsi/lab1/dox/
 CREATE_SUBDIRS         = NO
 OUTPUT_LANGUAGE        = Polish
 BRIEF_MEMBER_DESC      = YES
@@ -84,9 +84,9 @@ GENERATE_TESTLIST      = YES
 GENERATE_BUGLIST       = YES
 GENERATE_DEPRECATEDLIST= YES
 ENABLED_SECTIONS       = 
-MAX_INITIALIZER_LINES  = 28
+MAX_INITIALIZER_LINES  = 30
 SHOW_USED_FILES        = YES
-SHOW_DIRECTORIES       = YES
+SHOW_DIRECTORIES       = NO
 SHOW_FILES             = YES
 SHOW_NAMESPACES        = YES
 FILE_VERSION_FILTER    = 
@@ -107,7 +107,7 @@ WARN_LOGFILE           =
 #---------------------------------------------------------------------------
 # configuration options related to the input files
 #---------------------------------------------------------------------------
-INPUT                  = ../prj
+INPUT                  = /home/pwilkosz/pamsi/lab1/prj
 INPUT_ENCODING         = UTF-8
 FILE_PATTERNS          = *.c \
                          *.cc \

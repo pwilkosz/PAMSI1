@@ -1,0 +1,232 @@
+\hypertarget{classqueue__array}{\section{\-Dokumentacja szablonu klasy queue\-\_\-array$<$ \-T\-Y\-P $>$}
+\label{classqueue__array}\index{queue\-\_\-array$<$ T\-Y\-P $>$@{queue\-\_\-array$<$ T\-Y\-P $>$}}
+}
+
+
+\-Modeluje kolejke w oparciu o tablice.  
+
+
+
+
+{\ttfamily \#include $<$kolejka.\-hh$>$}
+
+
+
+\-Diagram współpracy dla queue\-\_\-array$<$ \-T\-Y\-P $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=186pt]{classqueue__array__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classqueue__array_af651ba1c08e777af1ef23d1301819c58}{queue\-\_\-array} ()
+\begin{DoxyCompactList}\small\item\em konstruktor bezparametryczny \end{DoxyCompactList}\item 
+\hyperlink{classqueue__array_ad2c9f7906fad18d3daad605455210cb8}{queue\-\_\-array} (\hyperlink{stos_8hh_a7847560c748814fd3070e9149a9578bd}{flag} \-F)
+\begin{DoxyCompactList}\small\item\em konstruktor parametryczny -\/ ustawia flage na zadana pozycje \end{DoxyCompactList}\item 
+int \hyperlink{classqueue__array_a423093872e5cf4eb99f17ca1179ffa70}{size} ()
+\item 
+bool \hyperlink{classqueue__array_aa6ddf8e684f31a34f721e89ea83a7469}{is\-\_\-empty} ()
+\item 
+void \hyperlink{classqueue__array_afaaab546cbad8250a5f9bdb481a1fb9d}{enqueue} (\-T\-Y\-P \&element)
+\begin{DoxyCompactList}\small\item\em \-Dodaje element na poczatek kolejki w zaleznosci od wybranego trybu powiekszania tablicy. \end{DoxyCompactList}\item 
+\-T\-Y\-P \hyperlink{classqueue__array_a67a036da416c976652c9039e5e101538}{dequeue} ()
+\begin{DoxyCompactList}\small\item\em usuwa element z konca kolejki \end{DoxyCompactList}\item 
+void \hyperlink{classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9}{clear} ()
+\begin{DoxyCompactList}\small\item\em czysci kolejke \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stos_8hh_a7847560c748814fd3070e9149a9578bd}{flag} \hyperlink{classqueue__array_a01c734086cf5e56c719b4d327cc36664}{f}
+\begin{DoxyCompactList}\small\item\em flaga trybu zwiekszania pamieci , przyjmuje wartosc \-: plus1 -\/ dla trybu kazdorazowego powiekszania pamieci x2 -\/ dla trybu podwajania rozmiaru struktury \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\-T\-Y\-P $\ast$ \hyperlink{classqueue__array_a073323517389c0d97534b90682317ce3}{q}
+\item 
+int \hyperlink{classqueue__array_a87d275726c2f69acb8ea9f0b3ab899f6}{s}
+\item 
+int \hyperlink{classqueue__array_a94cdc73c1df75d4fe0c75a852528cde9}{sp}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\subsubsection*{template$<$typename \-T\-Y\-P$>$class queue\-\_\-array$<$ T\-Y\-P $>$}
+
+\-Modeluje kolejke w oparciu o tablice. 
+
+\-Definicja w linii 50 pliku kolejka.\-hh.
+
+
+
+\subsection{\-Dokumentacja konstruktora i destruktora}
+\hypertarget{classqueue__array_af651ba1c08e777af1ef23d1301819c58}{\index{queue\-\_\-array@{queue\-\_\-array}!queue\-\_\-array@{queue\-\_\-array}}
+\index{queue\-\_\-array@{queue\-\_\-array}!queue_array@{queue\-\_\-array}}
+\subsubsection[{queue\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf queue\-\_\-array} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classqueue__array_af651ba1c08e777af1ef23d1301819c58}
+
+
+konstruktor bezparametryczny 
+
+
+
+\-Definicja w linii 63 pliku kolejka.\-hh.
+
+\hypertarget{classqueue__array_ad2c9f7906fad18d3daad605455210cb8}{\index{queue\-\_\-array@{queue\-\_\-array}!queue\-\_\-array@{queue\-\_\-array}}
+\index{queue\-\_\-array@{queue\-\_\-array}!queue_array@{queue\-\_\-array}}
+\subsubsection[{queue\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf queue\-\_\-array} (
+\begin{DoxyParamCaption}
+\item[{{\bf flag}}]{\-F}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classqueue__array_ad2c9f7906fad18d3daad605455210cb8}
+
+
+konstruktor parametryczny -\/ ustawia flage na zadana pozycje 
+
+
+
+\-Definicja w linii 65 pliku kolejka.\-hh.
+
+
+
+\subsection{\-Dokumentacja funkcji składowych}
+\hypertarget{classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9}{\index{queue\-\_\-array@{queue\-\_\-array}!clear@{clear}}
+\index{clear@{clear}!queue_array@{queue\-\_\-array}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf clear} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9}
+
+
+czysci kolejke 
+
+
+
+\-Definicja w linii 170 pliku kolejka.\-hh.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classqueue__array_a67a036da416c976652c9039e5e101538}{\index{queue\-\_\-array@{queue\-\_\-array}!dequeue@{dequeue}}
+\index{dequeue@{dequeue}!queue_array@{queue\-\_\-array}}
+\subsubsection[{dequeue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ \-T\-Y\-P {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf dequeue} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classqueue__array_a67a036da416c976652c9039e5e101538}
+
+
+usuwa element z konca kolejki 
+
+
+
+\-Definicja w linii 128 pliku kolejka.\-hh.
+
+\hypertarget{classqueue__array_afaaab546cbad8250a5f9bdb481a1fb9d}{\index{queue\-\_\-array@{queue\-\_\-array}!enqueue@{enqueue}}
+\index{enqueue@{enqueue}!queue_array@{queue\-\_\-array}}
+\subsubsection[{enqueue}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf enqueue} (
+\begin{DoxyParamCaption}
+\item[{\-T\-Y\-P \&}]{element}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classqueue__array_afaaab546cbad8250a5f9bdb481a1fb9d}
+
+
+\-Dodaje element na poczatek kolejki w zaleznosci od wybranego trybu powiekszania tablicy. 
+
+
+
+\-Definicja w linii 82 pliku kolejka.\-hh.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classqueue__array_afaaab546cbad8250a5f9bdb481a1fb9d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classqueue__array_aa6ddf8e684f31a34f721e89ea83a7469}{\index{queue\-\_\-array@{queue\-\_\-array}!is\-\_\-empty@{is\-\_\-empty}}
+\index{is\-\_\-empty@{is\-\_\-empty}!queue_array@{queue\-\_\-array}}
+\subsubsection[{is\-\_\-empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ bool {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf is\-\_\-empty} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classqueue__array_aa6ddf8e684f31a34f721e89ea83a7469}
+\begin{DoxyReturn}{\-Zwraca}
+false -\/ gdy kolejka nie jest pusta, true , gdy pusta 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 75 pliku kolejka.\-hh.
+
+\hypertarget{classqueue__array_a423093872e5cf4eb99f17ca1179ffa70}{\index{queue\-\_\-array@{queue\-\_\-array}!size@{size}}
+\index{size@{size}!queue_array@{queue\-\_\-array}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf size} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classqueue__array_a423093872e5cf4eb99f17ca1179ffa70}
+\begin{DoxyReturn}{\-Zwraca}
+rozmiar kolejki 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 70 pliku kolejka.\-hh.
+
+
+
+\subsection{\-Dokumentacja atrybutów składowych}
+\hypertarget{classqueue__array_a01c734086cf5e56c719b4d327cc36664}{\index{queue\-\_\-array@{queue\-\_\-array}!f@{f}}
+\index{f@{f}!queue_array@{queue\-\_\-array}}
+\subsubsection[{f}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf flag} {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf f}}}\label{classqueue__array_a01c734086cf5e56c719b4d327cc36664}
+
+
+flaga trybu zwiekszania pamieci , przyjmuje wartosc \-: plus1 -\/ dla trybu kazdorazowego powiekszania pamieci x2 -\/ dla trybu podwajania rozmiaru struktury 
+
+
+
+\-Definicja w linii 59 pliku kolejka.\-hh.
+
+\hypertarget{classqueue__array_a073323517389c0d97534b90682317ce3}{\index{queue\-\_\-array@{queue\-\_\-array}!q@{q}}
+\index{q@{q}!queue_array@{queue\-\_\-array}}
+\subsubsection[{q}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ \-T\-Y\-P$\ast$ {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf q}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classqueue__array_a073323517389c0d97534b90682317ce3}
+
+
+\-Definicja w linii 51 pliku kolejka.\-hh.
+
+\hypertarget{classqueue__array_a87d275726c2f69acb8ea9f0b3ab899f6}{\index{queue\-\_\-array@{queue\-\_\-array}!s@{s}}
+\index{s@{s}!queue_array@{queue\-\_\-array}}
+\subsubsection[{s}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf s}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classqueue__array_a87d275726c2f69acb8ea9f0b3ab899f6}
+
+
+\-Definicja w linii 52 pliku kolejka.\-hh.
+
+\hypertarget{classqueue__array_a94cdc73c1df75d4fe0c75a852528cde9}{\index{queue\-\_\-array@{queue\-\_\-array}!sp@{sp}}
+\index{sp@{sp}!queue_array@{queue\-\_\-array}}
+\subsubsection[{sp}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf queue\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf sp}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classqueue__array_a94cdc73c1df75d4fe0c75a852528cde9}
+
+
+\-Definicja w linii 52 pliku kolejka.\-hh.
+
+
+
+\-Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{kolejka_8hh}{kolejka.\-hh}\end{DoxyCompactItemize}

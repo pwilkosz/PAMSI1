@@ -1,79 +1,165 @@
-\contentsline {chapter}{\numberline {1}\discretionary {-}{}{}Struktura katalog\IeC {\'o}w}{1}{chapter.1}
-\contentsline {section}{\numberline {1.1}\discretionary {-}{}{}Katalogi}{1}{section.1.1}
+\contentsline {chapter}{\numberline {1}\discretionary {-}{}{}Indeks klas}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}\discretionary {-}{}{}Hierarchia klas}{1}{section.1.1}
 \contentsline {chapter}{\numberline {2}\discretionary {-}{}{}Indeks klas}{3}{chapter.2}
-\contentsline {section}{\numberline {2.1}\discretionary {-}{}{}Hierarchia klas}{3}{section.2.1}
-\contentsline {chapter}{\numberline {3}\discretionary {-}{}{}Indeks klas}{5}{chapter.3}
-\contentsline {section}{\numberline {3.1}\discretionary {-}{}{}Lista klas}{5}{section.3.1}
-\contentsline {chapter}{\numberline {4}\discretionary {-}{}{}Indeks plik\IeC {\'o}w}{7}{chapter.4}
-\contentsline {section}{\numberline {4.1}\discretionary {-}{}{}Lista plik\IeC {\'o}w}{7}{section.4.1}
-\contentsline {chapter}{\numberline {5}\discretionary {-}{}{}Dokumentacja katalog\IeC {\'o}w}{9}{chapter.5}
-\contentsline {section}{\numberline {5.1}\discretionary {-}{}{}Dokumentacja katalogu /home/pwilkosz/pamsi/lab1/prj/inc/}{9}{section.5.1}
-\contentsline {section}{\numberline {5.2}\discretionary {-}{}{}Dokumentacja katalogu /home/pwilkosz/pamsi/lab1/prj/}{10}{section.5.2}
-\contentsline {section}{\numberline {5.3}\discretionary {-}{}{}Dokumentacja katalogu /home/pwilkosz/pamsi/lab1/prj/src/}{11}{section.5.3}
-\contentsline {chapter}{\numberline {6}\discretionary {-}{}{}Dokumentacja klas}{13}{chapter.6}
-\contentsline {section}{\numberline {6.1}\discretionary {-}{}{}Dokumentacja klasy algorytm}{13}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{15}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{15}{subsection.6.1.2}
-\contentsline {subsubsection}{\numberline {6.1.2.1}algorytm}{15}{subsubsection.6.1.2.1}
-\contentsline {subsection}{\numberline {6.1.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{15}{subsection.6.1.3}
-\contentsline {subsubsection}{\numberline {6.1.3.1}ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych}{15}{subsubsection.6.1.3.1}
-\contentsline {subsubsection}{\numberline {6.1.3.2}jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas}{16}{subsubsection.6.1.3.2}
-\contentsline {subsubsection}{\numberline {6.1.3.3}porownaj}{16}{subsubsection.6.1.3.3}
-\contentsline {subsubsection}{\numberline {6.1.3.4}przelicz}{17}{subsubsection.6.1.3.4}
-\contentsline {subsubsection}{\numberline {6.1.3.5}wczytaj}{17}{subsubsection.6.1.3.5}
-\contentsline {subsubsection}{\numberline {6.1.3.6}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor}{17}{subsubsection.6.1.3.6}
-\contentsline {subsubsection}{\numberline {6.1.3.7}wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}{17}{subsubsection.6.1.3.7}
-\contentsline {subsubsection}{\numberline {6.1.3.8}wykonaj}{18}{subsubsection.6.1.3.8}
-\contentsline {subsubsection}{\numberline {6.1.3.9}wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}{19}{subsubsection.6.1.3.9}
-\contentsline {subsubsection}{\numberline {6.1.3.10}zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}{19}{subsubsection.6.1.3.10}
-\contentsline {subsection}{\numberline {6.1.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{20}{subsection.6.1.4}
-\contentsline {subsubsection}{\numberline {6.1.4.1}czas}{20}{subsubsection.6.1.4.1}
-\contentsline {subsubsection}{\numberline {6.1.4.2}dane}{20}{subsubsection.6.1.4.2}
-\contentsline {subsubsection}{\numberline {6.1.4.3}dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz}{20}{subsubsection.6.1.4.3}
-\contentsline {subsubsection}{\numberline {6.1.4.4}m}{20}{subsubsection.6.1.4.4}
-\contentsline {subsubsection}{\numberline {6.1.4.5}n}{20}{subsubsection.6.1.4.5}
-\contentsline {subsubsection}{\numberline {6.1.4.6}op}{20}{subsubsection.6.1.4.6}
-\contentsline {section}{\numberline {6.2}\discretionary {-}{}{}Dokumentacja klasy mnozenie}{21}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{22}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{22}{subsection.6.2.2}
-\contentsline {subsubsection}{\numberline {6.2.2.1}mnozenie}{22}{subsubsection.6.2.2.1}
-\contentsline {subsection}{\numberline {6.2.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{23}{subsection.6.2.3}
-\contentsline {subsubsection}{\numberline {6.2.3.1}przelicz}{23}{subsubsection.6.2.3.1}
-\contentsline {section}{\numberline {6.3}\discretionary {-}{}{}Dokumentacja klasy operacje}{23}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{24}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{24}{subsection.6.3.2}
-\contentsline {subsubsection}{\numberline {6.3.2.1}operacje}{24}{subsubsection.6.3.2.1}
-\contentsline {subsubsection}{\numberline {6.3.2.2}operacje}{24}{subsubsection.6.3.2.2}
-\contentsline {subsection}{\numberline {6.3.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{24}{subsection.6.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.1}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}{24}{subsubsection.6.3.3.1}
-\contentsline {subsubsection}{\numberline {6.3.3.2}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{25}{subsubsection.6.3.3.2}
-\contentsline {subsubsection}{\numberline {6.3.3.3}odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}{25}{subsubsection.6.3.3.3}
-\contentsline {subsubsection}{\numberline {6.3.3.4}operator=}{25}{subsubsection.6.3.3.4}
-\contentsline {subsubsection}{\numberline {6.3.3.5}operator==}{25}{subsubsection.6.3.3.5}
-\contentsline {subsubsection}{\numberline {6.3.3.6}zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{25}{subsubsection.6.3.3.6}
-\contentsline {subsection}{\numberline {6.3.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{26}{subsection.6.3.4}
-\contentsline {subsubsection}{\numberline {6.3.4.1}n}{26}{subsubsection.6.3.4.1}
-\contentsline {subsubsection}{\numberline {6.3.4.2}tab}{26}{subsubsection.6.3.4.2}
-\contentsline {chapter}{\numberline {7}\discretionary {-}{}{}Dokumentacja plik\IeC {\'o}w}{27}{chapter.7}
-\contentsline {section}{\numberline {7.1}\discretionary {-}{}{}Dokumentacja pliku algorytm.\discretionary {-}{}{}cpp}{27}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{27}{subsection.7.1.1}
-\contentsline {section}{\numberline {7.2}\discretionary {-}{}{}Dokumentacja pliku algorytm.\discretionary {-}{}{}hh}{28}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{29}{subsection.7.2.1}
-\contentsline {section}{\numberline {7.3}\discretionary {-}{}{}Dokumentacja pliku main.\discretionary {-}{}{}cpp}{29}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{29}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}\discretionary {-}{}{}Dokumentacja funkcji}{29}{subsection.7.3.2}
-\contentsline {subsubsection}{\numberline {7.3.2.1}main}{29}{subsubsection.7.3.2.1}
-\contentsline {section}{\numberline {7.4}\discretionary {-}{}{}Dokumentacja pliku operacje.\discretionary {-}{}{}cpp}{30}{section.7.4}
-\contentsline {section}{\numberline {7.5}\discretionary {-}{}{}Dokumentacja pliku operacje.\discretionary {-}{}{}hh}{31}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}\discretionary {-}{}{}Dokumentacja definicji}{32}{subsection.7.5.1}
-\contentsline {subsubsection}{\numberline {7.5.1.1}\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R}{32}{subsubsection.7.5.1.1}
-\contentsline {section}{\numberline {7.6}\discretionary {-}{}{}Dokumentacja pliku statystyki.\discretionary {-}{}{}cpp}{32}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}\discretionary {-}{}{}Dokumentacja funkcji}{32}{subsection.7.6.1}
-\contentsline {subsubsection}{\numberline {7.6.1.1}odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}{33}{subsubsection.7.6.1.1}
-\contentsline {subsubsection}{\numberline {7.6.1.2}srednia}{33}{subsubsection.7.6.1.2}
-\contentsline {section}{\numberline {7.7}\discretionary {-}{}{}Dokumentacja pliku statystyki.\discretionary {-}{}{}hh}{33}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{34}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}\discretionary {-}{}{}Dokumentacja funkcji}{35}{subsection.7.7.2}
-\contentsline {subsubsection}{\numberline {7.7.2.1}odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}{35}{subsubsection.7.7.2.1}
-\contentsline {subsubsection}{\numberline {7.7.2.2}srednia}{35}{subsubsection.7.7.2.2}
-\contentsline {section}{\numberline {7.8}\discretionary {-}{}{}Dokumentacja pliku strona.\discretionary {-}{}{}dox}{35}{section.7.8}
+\contentsline {section}{\numberline {2.1}\discretionary {-}{}{}Lista klas}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}\discretionary {-}{}{}Indeks plik\IeC {\'o}w}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}\discretionary {-}{}{}Lista plik\IeC {\'o}w}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}\discretionary {-}{}{}Dokumentacja klas}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}\discretionary {-}{}{}Dokumentacja klasy algorytm}{7}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{9}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{9}{subsection.4.1.2}
+\contentsline {subsubsection}{\numberline {4.1.2.1}algorytm}{9}{subsubsection.4.1.2.1}
+\contentsline {subsection}{\numberline {4.1.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{10}{subsection.4.1.3}
+\contentsline {subsubsection}{\numberline {4.1.3.1}ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych}{10}{subsubsection.4.1.3.1}
+\contentsline {subsubsection}{\numberline {4.1.3.2}jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas}{10}{subsubsection.4.1.3.2}
+\contentsline {subsubsection}{\numberline {4.1.3.3}porownaj}{10}{subsubsection.4.1.3.3}
+\contentsline {subsubsection}{\numberline {4.1.3.4}przelicz}{10}{subsubsection.4.1.3.4}
+\contentsline {subsubsection}{\numberline {4.1.3.5}set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N}{11}{subsubsection.4.1.3.5}
+\contentsline {subsubsection}{\numberline {4.1.3.6}wczytaj}{11}{subsubsection.4.1.3.6}
+\contentsline {subsubsection}{\numberline {4.1.3.7}wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor}{11}{subsubsection.4.1.3.7}
+\contentsline {subsubsection}{\numberline {4.1.3.8}wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}{12}{subsubsection.4.1.3.8}
+\contentsline {subsubsection}{\numberline {4.1.3.9}wykonaj}{12}{subsubsection.4.1.3.9}
+\contentsline {subsubsection}{\numberline {4.1.3.10}wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}{13}{subsubsection.4.1.3.10}
+\contentsline {subsubsection}{\numberline {4.1.3.11}zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}{14}{subsubsection.4.1.3.11}
+\contentsline {subsubsection}{\numberline {4.1.3.12}zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot}{15}{subsubsection.4.1.3.12}
+\contentsline {subsection}{\numberline {4.1.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{15}{subsection.4.1.4}
+\contentsline {subsubsection}{\numberline {4.1.4.1}czas}{16}{subsubsection.4.1.4.1}
+\contentsline {subsubsection}{\numberline {4.1.4.2}dane}{16}{subsubsection.4.1.4.2}
+\contentsline {subsubsection}{\numberline {4.1.4.3}dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz}{16}{subsubsection.4.1.4.3}
+\contentsline {subsubsection}{\numberline {4.1.4.4}m}{16}{subsubsection.4.1.4.4}
+\contentsline {subsubsection}{\numberline {4.1.4.5}n}{16}{subsubsection.4.1.4.5}
+\contentsline {subsubsection}{\numberline {4.1.4.6}op}{16}{subsubsection.4.1.4.6}
+\contentsline {section}{\numberline {4.2}\discretionary {-}{}{}Dokumentacja klasy kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}{16}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{18}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{18}{subsection.4.2.2}
+\contentsline {subsubsection}{\numberline {4.2.2.1}kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}{18}{subsubsection.4.2.2.1}
+\contentsline {subsection}{\numberline {4.2.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{18}{subsection.4.2.3}
+\contentsline {subsubsection}{\numberline {4.2.3.1}przelicz}{18}{subsubsection.4.2.3.1}
+\contentsline {subsection}{\numberline {4.2.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{19}{subsection.4.2.4}
+\contentsline {subsubsection}{\numberline {4.2.4.1}qu}{19}{subsubsection.4.2.4.1}
+\contentsline {section}{\numberline {4.3}\discretionary {-}{}{}Dokumentacja klasy kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{19}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{21}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{21}{subsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.2.1}kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{21}{subsubsection.4.3.2.1}
+\contentsline {subsection}{\numberline {4.3.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{21}{subsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.3.1}przelicz}{21}{subsubsection.4.3.3.1}
+\contentsline {subsection}{\numberline {4.3.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{22}{subsection.4.3.4}
+\contentsline {subsubsection}{\numberline {4.3.4.1}qu}{22}{subsubsection.4.3.4.1}
+\contentsline {section}{\numberline {4.4}\discretionary {-}{}{}Dokumentacja klasy mnozenie}{22}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{24}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{24}{subsection.4.4.2}
+\contentsline {subsubsection}{\numberline {4.4.2.1}mnozenie}{24}{subsubsection.4.4.2.1}
+\contentsline {subsection}{\numberline {4.4.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{24}{subsection.4.4.3}
+\contentsline {subsubsection}{\numberline {4.4.3.1}przelicz}{24}{subsubsection.4.4.3.1}
+\contentsline {section}{\numberline {4.5}\discretionary {-}{}{}Dokumentacja klasy operacje}{25}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{25}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{26}{subsection.4.5.2}
+\contentsline {subsubsection}{\numberline {4.5.2.1}operacje}{26}{subsubsection.4.5.2.1}
+\contentsline {subsubsection}{\numberline {4.5.2.2}operacje}{26}{subsubsection.4.5.2.2}
+\contentsline {subsection}{\numberline {4.5.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{26}{subsection.4.5.3}
+\contentsline {subsubsection}{\numberline {4.5.3.1}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}{26}{subsubsection.4.5.3.1}
+\contentsline {subsubsection}{\numberline {4.5.3.2}dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{26}{subsubsection.4.5.3.2}
+\contentsline {subsubsection}{\numberline {4.5.3.3}odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}{26}{subsubsection.4.5.3.3}
+\contentsline {subsubsection}{\numberline {4.5.3.4}operator=}{27}{subsubsection.4.5.3.4}
+\contentsline {subsubsection}{\numberline {4.5.3.5}operator==}{27}{subsubsection.4.5.3.5}
+\contentsline {subsubsection}{\numberline {4.5.3.6}zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}{27}{subsubsection.4.5.3.6}
+\contentsline {subsection}{\numberline {4.5.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{27}{subsection.4.5.4}
+\contentsline {subsubsection}{\numberline {4.5.4.1}n}{27}{subsubsection.4.5.4.1}
+\contentsline {subsubsection}{\numberline {4.5.4.2}tab}{28}{subsubsection.4.5.4.2}
+\contentsline {section}{\numberline {4.6}\discretionary {-}{}{}Dokumentacja szablonu klasy queue\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ \discretionary {-}{}{}T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}{28}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{29}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{29}{subsection.4.6.2}
+\contentsline {subsubsection}{\numberline {4.6.2.1}queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}{29}{subsubsection.4.6.2.1}
+\contentsline {subsubsection}{\numberline {4.6.2.2}queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}{29}{subsubsection.4.6.2.2}
+\contentsline {subsection}{\numberline {4.6.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{29}{subsection.4.6.3}
+\contentsline {subsubsection}{\numberline {4.6.3.1}clear}{29}{subsubsection.4.6.3.1}
+\contentsline {subsubsection}{\numberline {4.6.3.2}dequeue}{30}{subsubsection.4.6.3.2}
+\contentsline {subsubsection}{\numberline {4.6.3.3}enqueue}{30}{subsubsection.4.6.3.3}
+\contentsline {subsubsection}{\numberline {4.6.3.4}is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}{30}{subsubsection.4.6.3.4}
+\contentsline {subsubsection}{\numberline {4.6.3.5}size}{31}{subsubsection.4.6.3.5}
+\contentsline {subsection}{\numberline {4.6.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{31}{subsection.4.6.4}
+\contentsline {subsubsection}{\numberline {4.6.4.1}f}{31}{subsubsection.4.6.4.1}
+\contentsline {subsubsection}{\numberline {4.6.4.2}q}{31}{subsubsection.4.6.4.2}
+\contentsline {subsubsection}{\numberline {4.6.4.3}s}{31}{subsubsection.4.6.4.3}
+\contentsline {subsubsection}{\numberline {4.6.4.4}sp}{31}{subsubsection.4.6.4.4}
+\contentsline {section}{\numberline {4.7}\discretionary {-}{}{}Dokumentacja szablonu klasy queue\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ \discretionary {-}{}{}T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}{31}{section.4.7}
+\contentsline {subsection}{\numberline {4.7.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{32}{subsection.4.7.1}
+\contentsline {subsection}{\numberline {4.7.2}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{32}{subsection.4.7.2}
+\contentsline {subsubsection}{\numberline {4.7.2.1}clear}{32}{subsubsection.4.7.2.1}
+\contentsline {subsubsection}{\numberline {4.7.2.2}dequeue}{33}{subsubsection.4.7.2.2}
+\contentsline {subsubsection}{\numberline {4.7.2.3}enqueue}{33}{subsubsection.4.7.2.3}
+\contentsline {subsubsection}{\numberline {4.7.2.4}is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}{33}{subsubsection.4.7.2.4}
+\contentsline {subsubsection}{\numberline {4.7.2.5}size}{33}{subsubsection.4.7.2.5}
+\contentsline {subsection}{\numberline {4.7.3}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{33}{subsection.4.7.3}
+\contentsline {subsubsection}{\numberline {4.7.3.1}q}{33}{subsubsection.4.7.3.1}
+\contentsline {section}{\numberline {4.8}\discretionary {-}{}{}Dokumentacja szablonu klasy stack\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ \discretionary {-}{}{}T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}{34}{section.4.8}
+\contentsline {subsection}{\numberline {4.8.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{35}{subsection.4.8.1}
+\contentsline {subsection}{\numberline {4.8.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{35}{subsection.4.8.2}
+\contentsline {subsubsection}{\numberline {4.8.2.1}stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}{35}{subsubsection.4.8.2.1}
+\contentsline {subsubsection}{\numberline {4.8.2.2}stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}{35}{subsubsection.4.8.2.2}
+\contentsline {subsection}{\numberline {4.8.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{35}{subsection.4.8.3}
+\contentsline {subsubsection}{\numberline {4.8.3.1}clear}{35}{subsubsection.4.8.3.1}
+\contentsline {subsubsection}{\numberline {4.8.3.2}is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}{36}{subsubsection.4.8.3.2}
+\contentsline {subsubsection}{\numberline {4.8.3.3}pop}{36}{subsubsection.4.8.3.3}
+\contentsline {subsubsection}{\numberline {4.8.3.4}push}{36}{subsubsection.4.8.3.4}
+\contentsline {subsubsection}{\numberline {4.8.3.5}size}{37}{subsubsection.4.8.3.5}
+\contentsline {subsection}{\numberline {4.8.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{37}{subsection.4.8.4}
+\contentsline {subsubsection}{\numberline {4.8.4.1}f}{37}{subsubsection.4.8.4.1}
+\contentsline {subsubsection}{\numberline {4.8.4.2}s}{37}{subsubsection.4.8.4.2}
+\contentsline {subsubsection}{\numberline {4.8.4.3}sp}{37}{subsubsection.4.8.4.3}
+\contentsline {subsubsection}{\numberline {4.8.4.4}st}{37}{subsubsection.4.8.4.4}
+\contentsline {section}{\numberline {4.9}\discretionary {-}{}{}Dokumentacja szablonu klasy stack\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ \discretionary {-}{}{}T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}{37}{section.4.9}
+\contentsline {subsection}{\numberline {4.9.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{38}{subsection.4.9.1}
+\contentsline {subsection}{\numberline {4.9.2}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{38}{subsection.4.9.2}
+\contentsline {subsubsection}{\numberline {4.9.2.1}clear}{38}{subsubsection.4.9.2.1}
+\contentsline {subsubsection}{\numberline {4.9.2.2}is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}{38}{subsubsection.4.9.2.2}
+\contentsline {subsubsection}{\numberline {4.9.2.3}pop}{39}{subsubsection.4.9.2.3}
+\contentsline {subsubsection}{\numberline {4.9.2.4}push}{39}{subsubsection.4.9.2.4}
+\contentsline {subsubsection}{\numberline {4.9.2.5}size}{39}{subsubsection.4.9.2.5}
+\contentsline {subsection}{\numberline {4.9.3}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{39}{subsection.4.9.3}
+\contentsline {subsubsection}{\numberline {4.9.3.1}st}{39}{subsubsection.4.9.3.1}
+\contentsline {section}{\numberline {4.10}\discretionary {-}{}{}Dokumentacja klasy stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}{39}{section.4.10}
+\contentsline {subsection}{\numberline {4.10.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{41}{subsection.4.10.1}
+\contentsline {subsection}{\numberline {4.10.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{41}{subsection.4.10.2}
+\contentsline {subsubsection}{\numberline {4.10.2.1}stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}{41}{subsubsection.4.10.2.1}
+\contentsline {subsection}{\numberline {4.10.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{41}{subsection.4.10.3}
+\contentsline {subsubsection}{\numberline {4.10.3.1}przelicz}{41}{subsubsection.4.10.3.1}
+\contentsline {subsection}{\numberline {4.10.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{42}{subsection.4.10.4}
+\contentsline {subsubsection}{\numberline {4.10.4.1}stos}{42}{subsubsection.4.10.4.1}
+\contentsline {section}{\numberline {4.11}\discretionary {-}{}{}Dokumentacja klasy stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{42}{section.4.11}
+\contentsline {subsection}{\numberline {4.11.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{44}{subsection.4.11.1}
+\contentsline {subsection}{\numberline {4.11.2}\discretionary {-}{}{}Dokumentacja konstruktora i destruktora}{44}{subsection.4.11.2}
+\contentsline {subsubsection}{\numberline {4.11.2.1}stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}{44}{subsubsection.4.11.2.1}
+\contentsline {subsection}{\numberline {4.11.3}\discretionary {-}{}{}Dokumentacja funkcji sk\IeC {\l }adowych}{44}{subsection.4.11.3}
+\contentsline {subsubsection}{\numberline {4.11.3.1}przelicz}{44}{subsubsection.4.11.3.1}
+\contentsline {subsection}{\numberline {4.11.4}\discretionary {-}{}{}Dokumentacja atrybut\IeC {\'o}w sk\IeC {\l }adowych}{45}{subsection.4.11.4}
+\contentsline {subsubsection}{\numberline {4.11.4.1}stos}{45}{subsubsection.4.11.4.1}
+\contentsline {chapter}{\numberline {5}\discretionary {-}{}{}Dokumentacja plik\IeC {\'o}w}{47}{chapter.5}
+\contentsline {section}{\numberline {5.1}\discretionary {-}{}{}Dokumentacja pliku algorytm.\discretionary {-}{}{}cpp}{47}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{47}{subsection.5.1.1}
+\contentsline {section}{\numberline {5.2}\discretionary {-}{}{}Dokumentacja pliku algorytm.\discretionary {-}{}{}hh}{47}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{49}{subsection.5.2.1}
+\contentsline {section}{\numberline {5.3}\discretionary {-}{}{}Dokumentacja pliku kolejka.\discretionary {-}{}{}hh}{49}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{50}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}\discretionary {-}{}{}Dokumentacja pliku main.\discretionary {-}{}{}cpp}{50}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{51}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}\discretionary {-}{}{}Dokumentacja funkcji}{51}{subsection.5.4.2}
+\contentsline {subsubsection}{\numberline {5.4.2.1}main}{51}{subsubsection.5.4.2.1}
+\contentsline {section}{\numberline {5.5}\discretionary {-}{}{}Dokumentacja pliku operacje.\discretionary {-}{}{}cpp}{52}{section.5.5}
+\contentsline {section}{\numberline {5.6}\discretionary {-}{}{}Dokumentacja pliku operacje.\discretionary {-}{}{}hh}{52}{section.5.6}
+\contentsline {subsection}{\numberline {5.6.1}\discretionary {-}{}{}Dokumentacja definicji}{53}{subsection.5.6.1}
+\contentsline {subsubsection}{\numberline {5.6.1.1}\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R}{53}{subsubsection.5.6.1.1}
+\contentsline {section}{\numberline {5.7}\discretionary {-}{}{}Dokumentacja pliku statystyki.\discretionary {-}{}{}cpp}{54}{section.5.7}
+\contentsline {subsection}{\numberline {5.7.1}\discretionary {-}{}{}Dokumentacja funkcji}{54}{subsection.5.7.1}
+\contentsline {subsubsection}{\numberline {5.7.1.1}odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}{54}{subsubsection.5.7.1.1}
+\contentsline {subsubsection}{\numberline {5.7.1.2}srednia}{55}{subsubsection.5.7.1.2}
+\contentsline {section}{\numberline {5.8}\discretionary {-}{}{}Dokumentacja pliku statystyki.\discretionary {-}{}{}hh}{55}{section.5.8}
+\contentsline {subsection}{\numberline {5.8.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{56}{subsection.5.8.1}
+\contentsline {subsection}{\numberline {5.8.2}\discretionary {-}{}{}Dokumentacja funkcji}{57}{subsection.5.8.2}
+\contentsline {subsubsection}{\numberline {5.8.2.1}odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}{57}{subsubsection.5.8.2.1}
+\contentsline {subsubsection}{\numberline {5.8.2.2}srednia}{57}{subsubsection.5.8.2.2}
+\contentsline {section}{\numberline {5.9}\discretionary {-}{}{}Dokumentacja pliku stos.\discretionary {-}{}{}hh}{58}{section.5.9}
+\contentsline {subsection}{\numberline {5.9.1}\discretionary {-}{}{}Opis szczeg\IeC {\'o}\IeC {\l }owy}{59}{subsection.5.9.1}
+\contentsline {subsection}{\numberline {5.9.2}\discretionary {-}{}{}Dokumentacja typ\IeC {\'o}w wyliczanych}{60}{subsection.5.9.2}
+\contentsline {subsubsection}{\numberline {5.9.2.1}flag}{60}{subsubsection.5.9.2.1}
+\contentsline {section}{\numberline {5.10}\discretionary {-}{}{}Dokumentacja pliku strona.\discretionary {-}{}{}dox}{60}{section.5.10}

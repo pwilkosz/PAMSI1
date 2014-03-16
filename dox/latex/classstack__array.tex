@@ -1,0 +1,236 @@
+\hypertarget{classstack__array}{\section{\-Dokumentacja szablonu klasy stack\-\_\-array$<$ \-T\-Y\-P $>$}
+\label{classstack__array}\index{stack\-\_\-array$<$ T\-Y\-P $>$@{stack\-\_\-array$<$ T\-Y\-P $>$}}
+}
+
+
+\-Modeluje stos w oparciu o tablice.  
+
+
+
+
+{\ttfamily \#include $<$stos.\-hh$>$}
+
+
+
+\-Diagram współpracy dla stack\-\_\-array$<$ \-T\-Y\-P $>$\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=184pt]{classstack__array__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classstack__array_a430ec07ba59152bdb618039ae5f74482}{stack\-\_\-array} ()
+\begin{DoxyCompactList}\small\item\em konstruktor bezparametryczny \end{DoxyCompactList}\item 
+\hyperlink{classstack__array_ad6ac30696a594fc1f4b58cc94facad9f}{stack\-\_\-array} (\hyperlink{stos_8hh_a7847560c748814fd3070e9149a9578bd}{flag} \-F)
+\begin{DoxyCompactList}\small\item\em konstruktor parametryczny -\/ ustawia flage na zadana pozycje \end{DoxyCompactList}\item 
+bool \hyperlink{classstack__array_a653b67eb0566e9481e3525dd2f2bc519}{is\-\_\-empty} ()
+\item 
+int \hyperlink{classstack__array_a26ee4c653f299d3fe03b443f6180d745}{size} ()
+\item 
+void \hyperlink{classstack__array_a2f48529c5e88d82f5da2b27c945e1b0e}{push} (\-T\-Y\-P \&element)
+\begin{DoxyCompactList}\small\item\em \-Dodaje element na wierzch stosu w zaleznosci od wybranego trybu powiekszania tablicy. \end{DoxyCompactList}\item 
+\-T\-Y\-P \hyperlink{classstack__array_ad2ce52b1a99f72d383b429dff262b9eb}{pop} ()
+\begin{DoxyCompactList}\small\item\em zdejmuje element ze stosu \end{DoxyCompactList}\item 
+void \hyperlink{classstack__array_ac55f6fe35d44781d918884e4c466d3ee}{clear} ()
+\begin{DoxyCompactList}\small\item\em czysci stos \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stos_8hh_a7847560c748814fd3070e9149a9578bd}{flag} \hyperlink{classstack__array_a06357855e64616369e11f330191413ee}{f}
+\begin{DoxyCompactList}\small\item\em flaga trybu zwiekszania pamieci , przyjmuje wartosc \-: \par
+ plus1 -\/ dla trybu kazdorazowego powiekszania pamieci \par
+ x2 -\/ dla trybu podwajania rozmiaru struktury \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\-T\-Y\-P $\ast$ \hyperlink{classstack__array_aa97b399041c2d08b3955bb6436cbcf2f}{st}
+\item 
+int \hyperlink{classstack__array_aa5730e580f60bd7b7ba77d762703fbc6}{s}
+\item 
+int \hyperlink{classstack__array_a598f4974aca293a20a809788ffe80b15}{sp}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\subsubsection*{template$<$typename \-T\-Y\-P$>$class stack\-\_\-array$<$ T\-Y\-P $>$}
+
+\-Modeluje stos w oparciu o tablice. 
+
+\-Definicja w linii 59 pliku stos.\-hh.
+
+
+
+\subsection{\-Dokumentacja konstruktora i destruktora}
+\hypertarget{classstack__array_a430ec07ba59152bdb618039ae5f74482}{\index{stack\-\_\-array@{stack\-\_\-array}!stack\-\_\-array@{stack\-\_\-array}}
+\index{stack\-\_\-array@{stack\-\_\-array}!stack_array@{stack\-\_\-array}}
+\subsubsection[{stack\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf stack\-\_\-array} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classstack__array_a430ec07ba59152bdb618039ae5f74482}
+
+
+konstruktor bezparametryczny 
+
+
+
+\-Definicja w linii 72 pliku stos.\-hh.
+
+\hypertarget{classstack__array_ad6ac30696a594fc1f4b58cc94facad9f}{\index{stack\-\_\-array@{stack\-\_\-array}!stack\-\_\-array@{stack\-\_\-array}}
+\index{stack\-\_\-array@{stack\-\_\-array}!stack_array@{stack\-\_\-array}}
+\subsubsection[{stack\-\_\-array}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf stack\-\_\-array} (
+\begin{DoxyParamCaption}
+\item[{{\bf flag}}]{\-F}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classstack__array_ad6ac30696a594fc1f4b58cc94facad9f}
+
+
+konstruktor parametryczny -\/ ustawia flage na zadana pozycje 
+
+
+
+\-Definicja w linii 74 pliku stos.\-hh.
+
+
+
+\subsection{\-Dokumentacja funkcji składowych}
+\hypertarget{classstack__array_ac55f6fe35d44781d918884e4c466d3ee}{\index{stack\-\_\-array@{stack\-\_\-array}!clear@{clear}}
+\index{clear@{clear}!stack_array@{stack\-\_\-array}}
+\subsubsection[{clear}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf clear} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classstack__array_ac55f6fe35d44781d918884e4c466d3ee}
+
+
+czysci stos 
+
+
+
+\-Definicja w linii 178 pliku stos.\-hh.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classstack__array_a653b67eb0566e9481e3525dd2f2bc519}{\index{stack\-\_\-array@{stack\-\_\-array}!is\-\_\-empty@{is\-\_\-empty}}
+\index{is\-\_\-empty@{is\-\_\-empty}!stack_array@{stack\-\_\-array}}
+\subsubsection[{is\-\_\-empty}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ bool {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf is\-\_\-empty} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classstack__array_a653b67eb0566e9481e3525dd2f2bc519}
+\begin{DoxyReturn}{\-Zwraca}
+false -\/ gdy stos nie jest pusty, true , gdy pusty 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 79 pliku stos.\-hh.
+
+\hypertarget{classstack__array_ad2ce52b1a99f72d383b429dff262b9eb}{\index{stack\-\_\-array@{stack\-\_\-array}!pop@{pop}}
+\index{pop@{pop}!stack_array@{stack\-\_\-array}}
+\subsubsection[{pop}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ \-T\-Y\-P {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf pop} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classstack__array_ad2ce52b1a99f72d383b429dff262b9eb}
+
+
+zdejmuje element ze stosu 
+
+
+
+\-Definicja w linii 135 pliku stos.\-hh.
+
+\hypertarget{classstack__array_a2f48529c5e88d82f5da2b27c945e1b0e}{\index{stack\-\_\-array@{stack\-\_\-array}!push@{push}}
+\index{push@{push}!stack_array@{stack\-\_\-array}}
+\subsubsection[{push}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf push} (
+\begin{DoxyParamCaption}
+\item[{\-T\-Y\-P \&}]{element}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classstack__array_a2f48529c5e88d82f5da2b27c945e1b0e}
+
+
+\-Dodaje element na wierzch stosu w zaleznosci od wybranego trybu powiekszania tablicy. 
+
+
+
+\-Definicja w linii 91 pliku stos.\-hh.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{classstack__array_a2f48529c5e88d82f5da2b27c945e1b0e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classstack__array_a26ee4c653f299d3fe03b443f6180d745}{\index{stack\-\_\-array@{stack\-\_\-array}!size@{size}}
+\index{size@{size}!stack_array@{stack\-\_\-array}}
+\subsubsection[{size}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf size} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classstack__array_a26ee4c653f299d3fe03b443f6180d745}
+\begin{DoxyReturn}{\-Zwraca}
+rozmiar ztosu 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 87 pliku stos.\-hh.
+
+
+
+\subsection{\-Dokumentacja atrybutów składowych}
+\hypertarget{classstack__array_a06357855e64616369e11f330191413ee}{\index{stack\-\_\-array@{stack\-\_\-array}!f@{f}}
+\index{f@{f}!stack_array@{stack\-\_\-array}}
+\subsubsection[{f}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf flag} {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf f}}}\label{classstack__array_a06357855e64616369e11f330191413ee}
+
+
+flaga trybu zwiekszania pamieci , przyjmuje wartosc \-: \par
+ plus1 -\/ dla trybu kazdorazowego powiekszania pamieci \par
+ x2 -\/ dla trybu podwajania rozmiaru struktury 
+
+
+
+\-Definicja w linii 68 pliku stos.\-hh.
+
+\hypertarget{classstack__array_aa5730e580f60bd7b7ba77d762703fbc6}{\index{stack\-\_\-array@{stack\-\_\-array}!s@{s}}
+\index{s@{s}!stack_array@{stack\-\_\-array}}
+\subsubsection[{s}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf s}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classstack__array_aa5730e580f60bd7b7ba77d762703fbc6}
+
+
+\-Definicja w linii 61 pliku stos.\-hh.
+
+\hypertarget{classstack__array_a598f4974aca293a20a809788ffe80b15}{\index{stack\-\_\-array@{stack\-\_\-array}!sp@{sp}}
+\index{sp@{sp}!stack_array@{stack\-\_\-array}}
+\subsubsection[{sp}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf sp}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classstack__array_a598f4974aca293a20a809788ffe80b15}
+
+
+\-Definicja w linii 61 pliku stos.\-hh.
+
+\hypertarget{classstack__array_aa97b399041c2d08b3955bb6436cbcf2f}{\index{stack\-\_\-array@{stack\-\_\-array}!st@{st}}
+\index{st@{st}!stack_array@{stack\-\_\-array}}
+\subsubsection[{st}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ \-T\-Y\-P$\ast$ {\bf stack\-\_\-array}$<$ \-T\-Y\-P $>$\-::{\bf st}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classstack__array_aa97b399041c2d08b3955bb6436cbcf2f}
+
+
+\-Definicja w linii 60 pliku stos.\-hh.
+
+
+
+\-Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{stos_8hh}{stos.\-hh}\end{DoxyCompactItemize}

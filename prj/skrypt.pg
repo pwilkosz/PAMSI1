@@ -1,18 +1,18 @@
 set title "Pomiar czasu wykonywania algorytmu"
 set xlabel "N"
-set ylabel "Czas średni [ms]"
+set ylabel "Czas sredni [ms]"
 set xtics ("10" 10, "100" 100, "1000" 1000, "10000" 10000)
 set grid
 
 set logscale xy
 set xrange [10:20000]
 set terminal postscript eps color
-set output "wykres1.eps"
-plot 'out1.csv' with xyerrorbars pointtype 12 pointsize 30
-set output "wykres1.eps" 
+set output "wykres6.eps"
 plot 'out1.csv' with xyerrorbars pointtype 5 pointsize 1
-f(x) = a*x
-a = 2.0
-FIT_LIMIT = 1e-4
-fit f(x) 'out1.csv' using 1:2 via a
+set output "wykres6.eps" 
+plot 'out1.csv' with xyerrorbars pointtype 5 pointsize 1
+#f(x) = a*x
+#a = 2.0
+#FIT_LIMIT = 1e-4
+#fit f(x) 'out1.csv' using 1:2 via a
 

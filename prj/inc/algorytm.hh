@@ -77,7 +77,7 @@ public:
    * \brief funkcja dokonuje operacji na pliku wejsciowym, wywoluje metody odpowiedzialne za pomiar czasu oraz za porownanie 
     wyniku operacji z plikiem wzorcowym
    */
-  void wykonaj();
+  void wykonaj(ofstream& out);
   /*!
    * \brief Metoda wczytuje plik wejsciowy do tablicy \p dane oraz do obiektu \p op klasy \p operacje   
     * \param [in] plik - strumien pliku wejsciowego
@@ -96,7 +96,7 @@ public:
   /*!
    * \brief Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem
     */
-  virtual void przelicz();
+  virtual float przelicz();
   /*!
    * \brief porownuje przetworzony dane z danymi wzorcowymi
    * \return true - gdy pliki zgodne
@@ -122,11 +122,11 @@ public:
   float wylacz_zegar();
   /*!
     * \brief Metoda zapisuje tablice \p czas do pliku \p wyjscie.csv  */
-  void zapisz_do_csv();
+  void zapisz_do_csv(ofstream& out);
   /*!
    * \brief metoda zapisuje do pliku .csv parametry takie jak: srednia, ilosc liczb, odchylenie standardowe
   */
-   void zapisz_do_gnuplot(ofstream& out);
+   void zapisz_do_gnuplot(ofstream& out,float sr, float od);
 };
 /*!
  * \brief modeluje algorytm dokonujacy mnozenia kazdego elementu pliku wejsciowego przez 2
@@ -145,34 +145,48 @@ public:
   /*!
    * \brief wykonuje zalozony algorytm mnozenia elementow tablicy przez 2
    */
-  void przelicz();
+  float przelicz();
   };
-
+/*!
+  \brief klasa utworzona na potrzeby pomiaru czasu wypełnienia struktury
+*/
 class stos_tablica: public algorytm{
   stack_array<float> stos;
 public:
+  /*!
+    \brief konstruktor - ustawia flage w zadany stan
+    */
   stos_tablica(ifstream& plik1, ifstream& plik2, int N, int M,flag F):algorytm(plik1,plik2,N,M){stos.f = F;}
-  void przelicz();
+  float przelicz();
 };
-
+/*!
+  \brief klasa utworzona na potrzeby pomiaru czasu wypełnienia struktury
+*/
 class stos_lista: public algorytm{
   stack_list<float> stos;
 public:
   stos_lista(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
-  void przelicz();
+  float przelicz();
 };
-
+/*!
+  \brief klasa utworzona na potrzeby pomiaru czasu wypełnienia struktury
+*/
 class kolejka_tablica: public algorytm{
   queue_array<float> qu;
 public:
+   /*!
+    \brief konstruktor - ustawia flage w zadany stan
+    */
   kolejka_tablica(ifstream& plik1, ifstream& plik2, int N, int M,flag F):algorytm(plik1,plik2,N,M){qu.f = F;}
-  void przelicz();
+  float przelicz();
 };
-
+/*!
+  \brief klasa utworzona na potrzeby pomiaru czasu wypełnienia struktury
+*/
 class kolejka_lista: public algorytm{
   queue_list<float> qu;
 public:
   kolejka_lista(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
-  void przelicz();
+  float przelicz();
 };
 #endif
