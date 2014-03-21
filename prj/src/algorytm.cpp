@@ -24,7 +24,7 @@ bool algorytm::wczytaj_wzor(ifstream& plik){
   for(int i = 0; i<n; i++){
     plik>>dane_wz[i];
 
-    if(plik.fail()){cerr<<"Wystapil problem z wczytaniem pliku wzorcowego"; return false;}
+    //if(plik.fail()){cerr<<"Wystapil problem z wczytaniem pliku wzorcowego"; return false;}
   }
     return true;
 }
@@ -73,8 +73,8 @@ void algorytm::wykonaj(ofstream& out){
   float cz = przelicz();
   
   
-  if(porownaj()) cout<<"PROBA NR "<<i<<":  poprawna"<<endl;
-  else cout<<"PROBA NR "<<i<<":  niepoprawna"<<endl;
+ // if(porownaj()) cout<<"PROBA NR "<<i<<":  poprawna"<<endl;
+ // else cout<<"PROBA NR "<<i<<":  niepoprawna"<<endl;
   
   czas[i] = cz;
  
@@ -187,7 +187,7 @@ float m_sort::przelicz(){
   float end = wylacz_zegar();
   float cz = end - start;
   if(cz<0) cz += 1000;
-  cout<<"jestem w przelicz"<<endl;
+  
   return cz;
 
 }

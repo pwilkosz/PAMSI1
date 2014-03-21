@@ -17,7 +17,7 @@ int N;
 int M = 5;
 char wybor = 0;
 ifstream plik1("plik1.txt");
-ifstream plik2("plik2.txt");
+ifstream plik2("plik22.txt");
 plik1>>N;
 while(wybor == 0){
   /*------------------------MENU----------------------------------*/
@@ -105,6 +105,7 @@ while(wybor == 0){
       ofstream out("out1.csv");
       for(int i = 0; i<4; i++){
         alg.set_N(tabn[i]); 
+        cout<<"n :"<<tabn[i]<<endl;;
         alg.wykonaj(out);
       }
     } break;

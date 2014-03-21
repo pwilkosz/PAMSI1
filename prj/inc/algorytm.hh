@@ -86,7 +86,7 @@ public:
   /*!
    * \brief metoda ustawia wartosc n
   */
-   void set_N(int wart){n = wart;}
+   void set_N(int wart){n = wart; op.n = wart;}
   /*!
    * \brief Metoda wczytuje plik wzorcowy do tablicy \p dane_wz 
     * \param [in] plik - strumien pliku wejsciowego

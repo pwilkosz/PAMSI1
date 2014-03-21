@@ -119,6 +119,7 @@ void operacje::heap_sort(){
     
     make_node(i-1,1);
   }
+  cout<<"N: "<<n<<endl;
 }
 
 void operacje::merge(int start, int srodek, int koniec){
@@ -167,4 +168,5 @@ merge_sort(start, srodek);
 merge_sort(srodek+1, koniec);
 merge(start, srodek, koniec);
 }
+
 }

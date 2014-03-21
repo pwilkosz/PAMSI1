@@ -7,7 +7,7 @@ set grid
 set logscale xy
 set xrange [10:20000]
 set terminal postscript eps color
-set output "wykresq.eps"
+set output "wykres8.eps"
 plot 'out1.csv' with xyerrorbars pointtype 5 pointsize 4
 
 #f(x) = a*x
