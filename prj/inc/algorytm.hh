@@ -72,7 +72,7 @@ public:
    * \param [in] N - ilosc danych wejsciowych
    * \param [in] M - ilosc powtorzen
    */
-  algorytm(ifstream &plik1, ifstream &plik2, int N, int M): n(N), m(M), op(N) { wczytaj(plik1);wczytaj_wzor(plik2);}
+  algorytm(ifstream &plik1, ifstream &plik2, int N, int M): n(N), m(M), op(N) { wczytaj(plik1);wczytaj_wzor(plik2);czas = new float[m];}
   /*!
    * \brief funkcja dokonuje operacji na pliku wejsciowym, wywoluje metody odpowiedzialne za pomiar czasu oraz za porownanie 
     wyniku operacji z plikiem wzorcowym
@@ -189,4 +189,24 @@ public:
   kolejka_lista(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
   float przelicz();
 };
+
+class q_sort: public algorytm{
+public:
+  q_sort(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
+  float przelicz();
+};
+
+class h_sort: public algorytm{
+public:
+  h_sort(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
+  float przelicz();
+};
+
+
+class m_sort: public algorytm{
+public:
+  m_sort(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
+  float przelicz();
+};
+
 #endif

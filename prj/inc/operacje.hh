@@ -36,6 +36,12 @@ class operacje{
 	 		   false - w przeciwnym przypadku
 	 		   	*/
   bool zamien_elementy(int i, int j);
+  void quick_sort(int l, int p);
+  void make_node(int rozmiar, int i );
+  void make_heap();
+  void heap_sort();
+  void merge(int poczatek, int srodek, int koniec);
+  void merge_sort(int poczatek, int koniec);
   	/*!
   	 * \brief metoda odwraca wszystkie elementy tablicy
   	  * */
@@ -61,6 +67,9 @@ class operacje{
    * \return true - gdy zawartsoc tablic jest identyczna
              false - w przeciwnym przypadku*/
   bool operator == (float* tab1);
+
+  float& operator[] (int ind){return tab[ind];}
+
 
 };
 
