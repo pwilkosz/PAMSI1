@@ -17,7 +17,7 @@ int N;
 int M = 5;
 char wybor = 0;
 ifstream plik1("plik1.txt");
-ifstream plik2("plik22.txt");
+ifstream plik2("plik2.txt");
 plik1>>N;
 while(wybor == 0){
   /*------------------------MENU----------------------------------*/

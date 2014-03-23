@@ -24,7 +24,7 @@ bool algorytm::wczytaj_wzor(ifstream& plik){
   for(int i = 0; i<n; i++){
     plik>>dane_wz[i];
 
-    //if(plik.fail()){cerr<<"Wystapil problem z wczytaniem pliku wzorcowego"; return false;}
+    if(plik.fail()){cerr<<"Wystapil problem z wczytaniem pliku wzorcowego"; return false;}
   }
     return true;
 }
@@ -61,7 +61,6 @@ void algorytm::zapisz_do_csv(ofstream& out){
   float odchylenie = odchylenie_standardowe(sr,czas,m);
   tab_czas<<"Srednia,"<<sr<<endl;
   tab_czas<<"Odchylenie,"<<odchylenie<<endl;
-  cout<<"zapisano do wyjscie.csv"<<endl;
   zapisz_do_gnuplot(out,sr,odchylenie);
   
 }
@@ -73,8 +72,8 @@ void algorytm::wykonaj(ofstream& out){
   float cz = przelicz();
   
   
- // if(porownaj()) cout<<"PROBA NR "<<i<<":  poprawna"<<endl;
- // else cout<<"PROBA NR "<<i<<":  niepoprawna"<<endl;
+ //if(porownaj()) cout<<"PROBA NR "<<i<<":  poprawna"<<endl;
+ //else cout<<"PROBA NR "<<i<<":  niepoprawna"<<endl;
   
   czas[i] = cz;
  

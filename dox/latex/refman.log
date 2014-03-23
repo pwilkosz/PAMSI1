@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.26)  16 MAR 2014 14:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2014.2.26)  23 MAR 2014 14:06
 entering extended mode
  %&-line parsing enabled.
 **refman
@@ -1105,15 +1105,19 @@ LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
 
 ]
 Rozdzia\PlPrIeC {\l } 2.
-(./annotated.tex) [3] [4
+(./annotated.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-]
+ [3])
+[4]
 Rozdzia\PlPrIeC {\l } 3.
 (./files.tex
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 11.
  (/usr/share/texmf-texlive/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)) [5] [6
+)) [5
+
+] [6
 
 ]
 Rozdzia\PlPrIeC {\l } 4.
@@ -1121,11 +1125,11 @@ Rozdzia\PlPrIeC {\l } 4.
 
 pdfTeX warning: pdflatex (file ./classalgorytm__inherit__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classalgorytm__inherit__graph.pdf, id=957, 487.8225pt x 160.6pt>
+<classalgorytm__inherit__graph.pdf, id=1094, 676.5275pt x 160.6pt>
 File: classalgorytm__inherit__graph.pdf Graphic file (type pdf)
 
 <use classalgorytm__inherit__graph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 18--20
+Overfull \hbox (5.0pt too wide) in paragraph at lines 19--21
  [] 
  []
 
@@ -1133,7 +1137,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 18--20
 
 pdfTeX warning: pdflatex (file ./classalgorytm__coll__graph.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<classalgorytm__coll__graph.pdf, id=959, 134.5025pt x 174.6525pt>
+<classalgorytm__coll__graph.pdf, id=1096, 134.5025pt x 174.6525pt>
 File: classalgorytm__coll__graph.pdf Graphic file (type pdf)
 
 <use classalgorytm__coll__graph.pdf>
@@ -1141,52 +1145,52 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7 <./classalgorytm__inherit__graph.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <12> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 31.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 32.
 LaTeX Font Info:    Font shape `T1/phv/b/n' will be
-(Font)              scaled to size 10.79993pt on input line 31.
+(Font)              scaled to size 10.79993pt on input line 32.
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
-(Font)              scaled to size 10.79993pt on input line 31.
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 34.
+(Font)              scaled to size 10.79993pt on input line 32.
+LaTeX Font Info:    Try loading font information for TS1+phv on input line 35.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ts1phv.fd
 File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
 )
 LaTeX Font Info:    Font shape `TS1/phv/m/n' will be
-(Font)              scaled to size 8.99994pt on input line 34.
+(Font)              scaled to size 8.99994pt on input line 35.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <9> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 35.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 36.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.09995pt on input line 35.
+(Font)              scaled to size 8.09995pt on input line 36.
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <9> not available
-(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 39.
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 40.
 
-Underfull \hbox (badness 2142) in paragraph at lines 39--39
+Underfull \hbox (badness 2142) in paragraph at lines 40--40
 []\T1/phv/m/sl/9 -Metoda wczy-tu-je plik wej-scio-wy do ta-bli-cy \T1/pcr/m/sl/
 9 dane \T1/phv/m/sl/9 oraz do obiek-tu \T1/pcr/m/sl/9 op \T1/phv/m/sl/9 kla-sy
  []
 
 [8 <./classalgorytm__coll__graph.pdf>]
 LaTeX Font Info:    Font shape `OT1/phv/bc/n' will be
-(Font)              scaled to size 8.99994pt on input line 97.
+(Font)              scaled to size 8.99994pt on input line 98.
 LaTeX Font Info:    Font shape `OT1/phv/bc/it' in size <10> not available
-(Font)              Font shape `OT1/phv/bc/sl' tried instead on input line 97.
+(Font)              Font shape `OT1/phv/bc/sl' tried instead on input line 98.
 LaTeX Font Info:    Font shape `OT1/phv/bc/sl' will be
-(Font)              scaled to size 8.99994pt on input line 97.
-LaTeX Font Info:    Try loading font information for OT1+pcr on input line 97.
+(Font)              scaled to size 8.99994pt on input line 98.
+LaTeX Font Info:    Try loading font information for OT1+pcr on input line 98.
 
 (/usr/share/texmf-texlive/tex/latex/psnfss/ot1pcr.fd
 File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 
 LaTeX Font Warning: Font shape `OT1/pcr/bc/n' undefined
-(Font)              using `OT1/pcr/m/n' instead on input line 97.
+(Font)              using `OT1/pcr/m/n' instead on input line 98.
 
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 104.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 105.
 LaTeX Font Info:    Font shape `T1/phv/m/sl' will be
-(Font)              scaled to size 8.99994pt on input line 104.
+(Font)              scaled to size 8.99994pt on input line 105.
 
-Underfull \vbox (badness 10000) detected at line 112
+Underfull \vbox (badness 10000) detected at line 113
  []
 
 
@@ -1194,54 +1198,37 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
 
-pdfTeX warning: pdflatex (file ./classalgorytm_a167adca6239e12cb5d362fd7c905dde
-0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
-4> allowed
-
-<classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf, id=1034, 387.4475
-pt x 102.3825pt>
-File: classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf Graphic file 
-(type pdf)
-
-<use classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 171--173
- [] 
- []
-
-
-
 pdfTeX warning: pdflatex (file ./classalgorytm_af3f92bf537b1f2e1f93173983e83844
 9_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph.pdf, id=1041, 381.425p
+<classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph.pdf, id=1179, 381.425p
 t x 102.3825pt>
 File: classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph.pdf Graphic file 
 (type pdf)
 
 <use classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 201--203
+Overfull \hbox (5.0pt too wide) in paragraph at lines 191--193
  [] 
  []
 
-[10 <./classalgorytm_a167adca6239e12cb5d362fd7c905dde0_icgraph.pdf>]
+[10 <./classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classalgorytm_a006ea8d2296b419f128fb936bad49c5
 0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph.pdf, id=1059, 240.9pt 
+<classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph.pdf, id=1200, 240.9pt 
 x 102.3825pt>
 File: classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph.pdf Graphic file 
 (type pdf)
 
 <use classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph.pdf>
-Underfull \vbox (badness 10000) detected at line 248
+Underfull \vbox (badness 10000) detected at line 238
  []
 
-[11 <./classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph.pdf> <./classalg
-orytm_a006ea8d2296b419f128fb936bad49c50_icgraph.pdf>]
-Underfull \vbox (badness 10000) detected at line 268
+
+Underfull \vbox (badness 10000) detected at line 258
  []
 
 
@@ -1250,29 +1237,29 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a24d2f97e025292bb4ac297f73fb957d
 3_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a24d2f97e025292bb4ac297f73fb957d3_icgraph.pdf, id=1081, 355.3275
-pt x 262.9825pt>
+<classalgorytm_a24d2f97e025292bb4ac297f73fb957d3_icgraph.pdf, id=1202, 355.3275
+pt x 383.4325pt>
 File: classalgorytm_a24d2f97e025292bb4ac297f73fb957d3_icgraph.pdf Graphic file 
 (type pdf)
 
 <use classalgorytm_a24d2f97e025292bb4ac297f73fb957d3_icgraph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 296--298
+Overfull \hbox (5.0pt too wide) in paragraph at lines 287--289
  [] 
  []
 
-
+[11 <./classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classalgorytm_a0264787ff113740826ef1368d98dd01
 9_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classalgorytm_a0264787ff113740826ef1368d98dd019_cgraph.pdf, id=1083, 517.935pt
- x 222.8325pt>
+<classalgorytm_a0264787ff113740826ef1368d98dd019_cgraph.pdf, id=1218, 517.935pt
+ x 182.6825pt>
 File: classalgorytm_a0264787ff113740826ef1368d98dd019_cgraph.pdf Graphic file (
 type pdf)
 
 <use classalgorytm_a0264787ff113740826ef1368d98dd019_cgraph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 322--324
+Overfull \hbox (5.0pt too wide) in paragraph at lines 314--316
  [] 
  []
 
@@ -1282,7 +1269,7 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a0264787ff113740826ef1368d98dd01
 9_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a0264787ff113740826ef1368d98dd019_icgraph.pdf, id=1097, 250.9375
+<classalgorytm_a0264787ff113740826ef1368d98dd019_icgraph.pdf, id=1231, 250.9375
 pt x 102.3825pt>
 File: classalgorytm_a0264787ff113740826ef1368d98dd019_icgraph.pdf Graphic file 
 (type pdf)
@@ -1293,18 +1280,18 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d0
 0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph.pdf, id=1099, 359.3425
-pt x 262.9825pt>
+<classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph.pdf, id=1233, 359.3425
+pt x 383.4325pt>
 File: classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph.pdf Graphic file 
 (type pdf)
 
 <use classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 362--364
+Overfull \hbox (5.0pt too wide) in paragraph at lines 355--357
  [] 
  []
 
 
-Underfull \vbox (badness 2134) has occurred while \output is active []
+Underfull \vbox (badness 3312) has occurred while \output is active []
 
  [13 <./classalgorytm_a0264787ff113740826ef1368d98dd019_cgraph.pdf> <./classalg
 orytm_a0264787ff113740826ef1368d98dd019_icgraph.pdf>]
@@ -1313,17 +1300,17 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a8354af1fb9c7452012a6defcf98d39d
 8_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_cgraph.pdf, id=1119, 385.44pt 
+<classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_cgraph.pdf, id=1253, 385.44pt 
 x 182.6825pt>
 File: classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_cgraph.pdf Graphic file (
 type pdf)
  <use classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_cgraph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 388--390
+Overfull \hbox (5.0pt too wide) in paragraph at lines 381--383
  [] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 3439) has occurred while \output is active []
 
  [14 <./classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph.pdf>]
 
@@ -1331,13 +1318,13 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a8354af1fb9c7452012a6defcf98d39d
 8_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph.pdf, id=1132, 413.545p
+<classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph.pdf, id=1266, 413.545p
 t x 102.3825pt>
 File: classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph.pdf Graphic file 
 (type pdf)
 
 <use classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 399--401
+Overfull \hbox (5.0pt too wide) in paragraph at lines 392--394
  [] 
  []
 
@@ -1347,40 +1334,71 @@ pdfTeX warning: pdflatex (file ./classalgorytm_ad2051f4366b78a7c73adc8b3418a495
 c_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_ad2051f4366b78a7c73adc8b3418a495c_icgraph.pdf, id=1134, 592.2125
+<classalgorytm_ad2051f4366b78a7c73adc8b3418a495c_icgraph.pdf, id=1268, 592.2125
 pt x 102.3825pt>
 File: classalgorytm_ad2051f4366b78a7c73adc8b3418a495c_icgraph.pdf Graphic file 
 (type pdf)
 
 <use classalgorytm_ad2051f4366b78a7c73adc8b3418a495c_icgraph.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 427--429
+Overfull \hbox (5.0pt too wide) in paragraph at lines 420--422
  [] 
  []
 
 [15 <./classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_cgraph.pdf> <./classalgo
 rytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph.pdf> <./classalgorytm_ad2051f436
-6b78a7c73adc8b3418a495c_icgraph.pdf>]) (./classkolejka__lista.tex
+6b78a7c73adc8b3418a495c_icgraph.pdf>]) (./classh__sort.tex
+
+pdfTeX warning: pdflatex (file ./classh__sort__inherit__graph.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<classh__sort__inherit__graph.pdf, id=1297, 134.5025pt x 160.6pt>
+File: classh__sort__inherit__graph.pdf Graphic file (type pdf)
+
+<use classh__sort__inherit__graph.pdf> [16]
+
+pdfTeX warning: pdflatex (file ./classh__sort__coll__graph.pdf): PDF inclusion:
+ found PDF version <1.5>, but at most version <1.4> allowed
+<classh__sort__coll__graph.pdf, id=1303, 134.5025pt x 234.8775pt>
+File: classh__sort__coll__graph.pdf Graphic file (type pdf)
+
+<use classh__sort__coll__graph.pdf> [17 <./classh__sort__inherit__graph.pdf> <.
+/classh__sort__coll__graph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classh__sort_a496c249e58b48ca10e06266d1f673bd7
+_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
+ allowed
+
+<classh__sort_a496c249e58b48ca10e06266d1f673bd7_cgraph.pdf, id=1329, 614.295pt 
+x 182.6825pt>
+File: classh__sort_a496c249e58b48ca10e06266d1f673bd7_cgraph.pdf Graphic file (t
+ype pdf)
+ <use classh__sort_a496c249e58b48ca10e06266d1f673bd7_cgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 92--94
+ [] 
+ []
+
+) (./classkolejka__lista.tex
 
 pdfTeX warning: pdflatex (file ./classkolejka__lista__inherit__graph.pdf): PDF 
 inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classkolejka__lista__inherit__graph.pdf, id=1163, 150.5625pt x 160.6pt>
+<classkolejka__lista__inherit__graph.pdf, id=1333, 150.5625pt x 160.6pt>
 File: classkolejka__lista__inherit__graph.pdf Graphic file (type pdf)
 
-<use classkolejka__lista__inherit__graph.pdf> [16]
+<use classkolejka__lista__inherit__graph.pdf> [18 <./classh__sort_a496c249e58b4
+8ca10e06266d1f673bd7_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classkolejka__lista__coll__graph.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classkolejka__lista__coll__graph.pdf, id=1169, 250.9375pt x 246.9225pt>
+<classkolejka__lista__coll__graph.pdf, id=1346, 250.9375pt x 246.9225pt>
 File: classkolejka__lista__coll__graph.pdf Graphic file (type pdf)
 
-<use classkolejka__lista__coll__graph.pdf> [17 <./classkolejka__lista__inherit_
+<use classkolejka__lista__coll__graph.pdf> [19 <./classkolejka__lista__inherit_
 _graph.pdf> <./classkolejka__lista__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classkolejka__lista_a239ae8bcd2dcee9b79945010e
 0e32037_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most versio
 n <1.4> allowed
 
-<classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_cgraph.pdf, id=1197, 347
+<classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_cgraph.pdf, id=1373, 347
 .2975pt x 222.8325pt>
 File: classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_cgraph.pdf Graphic 
 file (type pdf)
@@ -1393,32 +1411,32 @@ Overfull \hbox (1.0pt too wide) in paragraph at lines 94--96
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18])
+ [20])
 (./classkolejka__tablica.tex
 
 pdfTeX warning: pdflatex (file ./classkolejka__tablica__inherit__graph.pdf): PD
 F inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classkolejka__tablica__inherit__graph.pdf, id=1207, 160.6pt x 160.6pt>
+<classkolejka__tablica__inherit__graph.pdf, id=1383, 160.6pt x 160.6pt>
 File: classkolejka__tablica__inherit__graph.pdf Graphic file (type pdf)
 
 <use classkolejka__tablica__inherit__graph.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19 <./classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_cgraph.pdf>]
+ [21 <./classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classkolejka__tablica__coll__graph.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classkolejka__tablica__coll__graph.pdf, id=1220, 258.9675pt x 246.9225pt>
+<classkolejka__tablica__coll__graph.pdf, id=1396, 258.9675pt x 246.9225pt>
 File: classkolejka__tablica__coll__graph.pdf Graphic file (type pdf)
 
-<use classkolejka__tablica__coll__graph.pdf> [20 <./classkolejka__tablica__inhe
+<use classkolejka__tablica__coll__graph.pdf> [22 <./classkolejka__tablica__inhe
 rit__graph.pdf> <./classkolejka__tablica__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classkolejka__tablica_aad6baa28ce61111666e70df
 7d6ac4f86_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most vers
 ion <1.4> allowed
 
-<classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86_cgraph.pdf, id=1249, 3
+<classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86_cgraph.pdf, id=1425, 3
 59.3425pt x 222.8325pt>
 File: classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86_cgraph.pdf Graphi
 c file (type pdf)
@@ -1431,25 +1449,56 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 99--101
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [21])
-(./classmnozenie.tex
+ [23])
+(./classm__sort.tex
+
+pdfTeX warning: pdflatex (file ./classm__sort__inherit__graph.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<classm__sort__inherit__graph.pdf, id=1436, 134.5025pt x 160.6pt>
+File: classm__sort__inherit__graph.pdf Graphic file (type pdf)
+
+<use classm__sort__inherit__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24 <./classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86_cgraph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classm__sort__coll__graph.pdf): PDF inclusion:
+ found PDF version <1.5>, but at most version <1.4> allowed
+<classm__sort__coll__graph.pdf, id=1449, 134.5025pt x 234.8775pt>
+File: classm__sort__coll__graph.pdf Graphic file (type pdf)
+
+<use classm__sort__coll__graph.pdf> [25 <./classm__sort__inherit__graph.pdf> <.
+/classm__sort__coll__graph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classm__sort_acfcfa7bf26982bf718a169ccb771e694
+_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
+ allowed
+
+<classm__sort_acfcfa7bf26982bf718a169ccb771e694_cgraph.pdf, id=1474, 445.665pt 
+x 182.6825pt>
+File: classm__sort_acfcfa7bf26982bf718a169ccb771e694_cgraph.pdf Graphic file (t
+ype pdf)
+ <use classm__sort_acfcfa7bf26982bf718a169ccb771e694_cgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 96--98
+ [] 
+ []
+
+) (./classmnozenie.tex [26 <./classm__sort_acfcfa7bf26982bf718a169ccb771e694_cg
+raph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classmnozenie__inherit__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classmnozenie__inherit__graph.pdf, id=1259, 138.5175pt x 160.6pt>
+<classmnozenie__inherit__graph.pdf, id=1489, 138.5175pt x 160.6pt>
 File: classmnozenie__inherit__graph.pdf Graphic file (type pdf)
 
 <use classmnozenie__inherit__graph.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [22 <./classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classmnozenie__coll__graph.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<classmnozenie__coll__graph.pdf, id=1272, 138.5175pt x 234.8775pt>
+<classmnozenie__coll__graph.pdf, id=1491, 138.5175pt x 234.8775pt>
 File: classmnozenie__coll__graph.pdf Graphic file (type pdf)
 
-<use classmnozenie__coll__graph.pdf> [23 <./classmnozenie__inherit__graph.pdf> 
+<use classmnozenie__coll__graph.pdf> [27 <./classmnozenie__inherit__graph.pdf> 
 <./classmnozenie__coll__graph.pdf>]
 Underfull \vbox (badness 10000) detected at line 68
  []
@@ -1460,38 +1509,248 @@ pdfTeX warning: pdflatex (file ./classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b
 0_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph.pdf, id=1298, 335.2525p
+<classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph.pdf, id=1516, 335.2525p
 t x 142.5325pt>
 File: classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph.pdf Graphic file (
 type pdf)
 
-<use classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph.pdf> [24 <./classmn
+<use classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph.pdf> [28 <./classmn
 ozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph.pdf>]) (./classoperacje.tex
-[25]
-Underfull \vbox (badness 10000) detected at line 75
+[29]
+Underfull \vbox (badness 10000) detected at line 89
  []
 
 
-Underfull \vbox (badness 10000) detected at line 98
+Underfull \vbox (badness 10000) detected at line 112
+ []
+
+[30]
+Underfull \vbox (badness 10000) detected at line 135
  []
 
 
-Underfull \vbox (badness 10000) detected at line 121
+
+pdfTeX warning: pdflatex (file ./classoperacje_aec9d2248eb072f97da794ee4c9b99a5
+d_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
+> allowed
+
+<classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph.pdf, id=1579, 475.7775p
+t x 122.4575pt>
+File: classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph.pdf Graphic file (
+type pdf)
+
+<use classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 161--163
+ [] 
  []
 
-[26]
-Underfull \vbox (badness 10000) detected at line 156
+
+
+pdfTeX warning: pdflatex (file ./classoperacje_aec9d2248eb072f97da794ee4c9b99a5
+d_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_icgraph.pdf, id=1581, 303.1325
+pt x 102.3825pt>
+File: classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_icgraph.pdf>
+
+pdfTeX warning: pdflatex (file ./classoperacje_ae752685beea6c7ee81d2347a98d4014
+6_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
+> allowed
+
+<classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph.pdf, id=1583, 337.26pt 
+x 102.3825pt>
+File: classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph.pdf Graphic file (
+type pdf)
+ <use classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph.pdf>
+Underfull \vbox (badness 4341) has occurred while \output is active []
+
+ [31 <./classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph.pdf> <./classope
+racje_aec9d2248eb072f97da794ee4c9b99a5d_icgraph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classoperacje_ae752685beea6c7ee81d2347a98d4014
+6_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classoperacje_ae752685beea6c7ee81d2347a98d40146_icgraph.pdf, id=1604, 449.68pt
+ x 102.3825pt>
+File: classoperacje_ae752685beea6c7ee81d2347a98d40146_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classoperacje_ae752685beea6c7ee81d2347a98d40146_icgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 212--214
+ [] 
  []
 
 
-Underfull \vbox (badness 10000) detected at line 176
+Underfull \vbox (badness 10000) detected at line 236
  []
 
 
-Underfull \vbox (badness 10000) detected at line 202
+
+pdfTeX warning: pdflatex (file ./classoperacje_a9be241905b909e7aef0151902c6f5b8
+1_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classoperacje_a9be241905b909e7aef0151902c6f5b81_icgraph.pdf, id=1606, 596.2275
+pt x 122.4575pt>
+File: classoperacje_a9be241905b909e7aef0151902c6f5b81_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classoperacje_a9be241905b909e7aef0151902c6f5b81_icgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 247--249
+ [] 
  []
 
-[27]) (./classqueue__array.tex
+[32 <./classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph.pdf> <./classoper
+acje_ae752685beea6c7ee81d2347a98d40146_icgraph.pdf> <./classoperacje_a9be241905
+b909e7aef0151902c6f5b81_icgraph.pdf>]
+Underfull \vbox (badness 10000) detected at line 274
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./classoperacje_ad766f1d18595ff6b779485528c65d3f
+0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph.pdf, id=1634, 433.62pt
+ x 102.3825pt>
+File: classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 285--287
+ [] 
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 305
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aa
+b_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
+> allowed
+
+<classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_cgraph.pdf, id=1636, 311.1625p
+t x 102.3825pt>
+File: classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_cgraph.pdf Graphic file (
+type pdf)
+
+<use classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_cgraph.pdf>
+
+pdfTeX warning: pdflatex (file ./classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aa
+b_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgraph.pdf, id=1638, 311.1625
+pt x 102.3825pt>
+File: classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgraph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33 <./classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph.pdf> <./classop
+eracje_ac65f2613b7d32b4f95e59bf2f8fd1aab_cgraph.pdf>]
+Underfull \vbox (badness 10000) detected at line 364
+ []
+
+
+Underfull \vbox (badness 10000) detected at line 384
+ []
+
+[34 <./classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgraph.pdf>]
+Underfull \vbox (badness 10000) detected at line 421
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./classoperacje_a7aa29c588e5a8f93c437150f03a133f
+1_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
+> allowed
+
+<classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph.pdf, id=1673, 357.335pt
+ x 102.3825pt>
+File: classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph.pdf Graphic file (
+type pdf)
+
+<use classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 432--434
+ [] 
+ []
+
+
+
+pdfTeX warning: pdflatex (file ./classoperacje_a7aa29c588e5a8f93c437150f03a133f
+1_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classoperacje_a7aa29c588e5a8f93c437150f03a133f1_icgraph.pdf, id=1675, 305.14pt
+ x 102.3825pt>
+File: classoperacje_a7aa29c588e5a8f93c437150f03a133f1_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classoperacje_a7aa29c588e5a8f93c437150f03a133f1_icgraph.pdf>
+Underfull \vbox (badness 10000) detected at line 468
+ []
+
+[35 <./classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph.pdf> <./classoper
+acje_a7aa29c588e5a8f93c437150f03a133f1_icgraph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classoperacje_a7393a8b3b394921a084e0c1f4ad517b
+7_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
+4> allowed
+
+<classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph.pdf, id=1698, 477.785p
+t x 102.3825pt>
+File: classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph.pdf Graphic file 
+(type pdf)
+
+<use classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 482--484
+ [] 
+ []
+
+) (./classq__sort.tex
+
+pdfTeX warning: pdflatex (file ./classq__sort__inherit__graph.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<classq__sort__inherit__graph.pdf, id=1702, 134.5025pt x 160.6pt>
+File: classq__sort__inherit__graph.pdf Graphic file (type pdf)
+
+<use classq__sort__inherit__graph.pdf>
+Underfull \vbox (badness 4366) has occurred while \output is active []
+
+ [36 <./classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classq__sort__coll__graph.pdf): PDF inclusion:
+ found PDF version <1.5>, but at most version <1.4> allowed
+<classq__sort__coll__graph.pdf, id=1715, 134.5025pt x 234.8775pt>
+File: classq__sort__coll__graph.pdf Graphic file (type pdf)
+
+<use classq__sort__coll__graph.pdf> [37 <./classq__sort__inherit__graph.pdf> <.
+/classq__sort__coll__graph.pdf>]
+
+pdfTeX warning: pdflatex (file ./classq__sort_a4f44405c764de7952fc0d821ef1206b5
+_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
+ allowed
+
+<classq__sort_a4f44405c764de7952fc0d821ef1206b5_cgraph.pdf, id=1740, 493.845pt 
+x 182.6825pt>
+File: classq__sort_a4f44405c764de7952fc0d821ef1206b5_cgraph.pdf Graphic file (t
+ype pdf)
+ <use classq__sort_a4f44405c764de7952fc0d821ef1206b5_cgraph.pdf>
+Overfull \hbox (5.0pt too wide) in paragraph at lines 96--98
+ [] 
+ []
+
+) (./classqueue__array.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -1519,28 +1778,29 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 pdfTeX warning: pdflatex (file ./classqueue__array__coll__graph.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<classqueue__array__coll__graph.pdf, id=1356, 186.6975pt x 174.6525pt>
+<classqueue__array__coll__graph.pdf, id=1744, 186.6975pt x 174.6525pt>
 File: classqueue__array__coll__graph.pdf Graphic file (type pdf)
 
-<use classqueue__array__coll__graph.pdf> [28 <./classqueue__array__coll__graph.
-pdf>] [29]
+<use classqueue__array__coll__graph.pdf> [38 <./classq__sort_a4f44405c764de7952
+fc0d821ef1206b5_cgraph.pdf>] [39 <./classqueue__array__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classqueue__array_acfe3b3e3ed5cc3b380d3f0d261a
 de3d9_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf, id=1402, 337.
+<classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf, id=1795, 337.
 26pt x 102.3825pt>
 File: classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf Graphic f
 ile (type pdf)
 
-<use classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf>
+<use classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf> [40 <./cl
+assqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classqueue__array_afaaab546cbad8250a5f9bdb481a
 1fb9d_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classqueue__array_afaaab546cbad8250a5f9bdb481a1fb9d_icgraph.pdf, id=1404, 353.
+<classqueue__array_afaaab546cbad8250a5f9bdb481a1fb9d_icgraph.pdf, id=1809, 353.
 32pt x 102.3825pt>
 File: classqueue__array_afaaab546cbad8250a5f9bdb481a1fb9d_icgraph.pdf Graphic f
 ile (type pdf)
@@ -1550,8 +1810,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 159--161
  [] 
  []
 
-[30 <./classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf> <./clas
-squeue__array_afaaab546cbad8250a5f9bdb481a1fb9d_icgraph.pdf>])
+[41 <./classqueue__array_afaaab546cbad8250a5f9bdb481a1fb9d_icgraph.pdf>])
 (./classqueue__list.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1569,31 +1828,32 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-[31]
+[42]
 
 pdfTeX warning: pdflatex (file ./classqueue__list_a4dcb6bb4dfee45fb084dff647ded
 82f0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
 <1.4> allowed
 
-<classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf, id=1435, 315.1
+<classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf, id=1842, 315.1
 775pt x 102.3825pt>
 File: classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf Graphic fi
 le (type pdf)
 
-<use classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf> [32 <./cla
-ssqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf>]
+<use classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf>
 
 pdfTeX warning: pdflatex (file ./classqueue__list_ab2985d4f0192202336311fd89d83
 6573_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
 <1.4> allowed
 
-<classqueue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf, id=1457, 331.2
+<classqueue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf, id=1844, 331.2
 375pt x 102.3825pt>
 File: classqueue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf Graphic fi
 le (type pdf)
 
-<use classqueue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf> [33 <./cla
-ssqueue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf>])
+<use classqueue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf>
+Underfull \vbox (badness 7221) has occurred while \output is active []
+
+ [43 <./classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf>])
 (./classstack__array.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1615,38 +1875,36 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 pdfTeX warning: pdflatex (file ./classstack__array__coll__graph.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstack__array__coll__graph.pdf, id=1471, 184.69pt x 174.6525pt>
+<classstack__array__coll__graph.pdf, id=1859, 184.69pt x 174.6525pt>
 File: classstack__array__coll__graph.pdf Graphic file (type pdf)
 
-<use classstack__array__coll__graph.pdf> [34 <./classstack__array__coll__graph.
-pdf>]
+<use classstack__array__coll__graph.pdf> [44 <./classqueue__list_ab2985d4f01922
+02336311fd89d836573_icgraph.pdf>] [45 <./classstack__array__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstack__array_ac55f6fe35d44781d918884e4c46
 6d3ee_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf, id=1507, 323.
+<classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf, id=1910, 323.
 2075pt x 102.3825pt>
 File: classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf Graphic f
 ile (type pdf)
 
-<use classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf>
-Underfull \vbox (badness 1331) has occurred while \output is active []
-
- [35]
+<use classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf> [46 <./cl
+assstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstack__array_a2f48529c5e88d82f5da2b27c945
 e1b0e_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classstack__array_a2f48529c5e88d82f5da2b27c945e1b0e_icgraph.pdf, id=1519, 323.
+<classstack__array_a2f48529c5e88d82f5da2b27c945e1b0e_icgraph.pdf, id=1924, 323.
 2075pt x 102.3825pt>
 File: classstack__array_a2f48529c5e88d82f5da2b27c945e1b0e_icgraph.pdf Graphic f
 ile (type pdf)
 
-<use classstack__array_a2f48529c5e88d82f5da2b27c945e1b0e_icgraph.pdf> [36 <./cl
-assstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf> <./classstack__a
-rray_a2f48529c5e88d82f5da2b27c945e1b0e_icgraph.pdf>]) (./classstack__list.tex
+<use classstack__array_a2f48529c5e88d82f5da2b27c945e1b0e_icgraph.pdf> [47 <./cl
+assstack__array_a2f48529c5e88d82f5da2b27c945e1b0e_icgraph.pdf>])
+(./classstack__list.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
@@ -1663,86 +1921,86 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-[37]
+[48]
 
 pdfTeX warning: pdflatex (file ./classstack__list_afb284368d44ea1f2ab231c8f662d
 eb5f_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
 <1.4> allowed
 
-<classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf, id=1553, 301.1
+<classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf, id=1957, 301.1
 25pt x 102.3825pt>
 File: classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf Graphic fi
 le (type pdf)
 
-<use classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf> [38 <./cla
-ssstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf>]
+<use classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf>
 
 pdfTeX warning: pdflatex (file ./classstack__list_a7c8c94a164f180c87fa1d7a8be14
 6a4c_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
 <1.4> allowed
 
-<classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf, id=1572, 301.1
+<classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf, id=1959, 301.1
 25pt x 102.3825pt>
 File: classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf Graphic fi
 le (type pdf)
 
-<use classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf>)
+<use classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf> [49 <./cla
+ssstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf>])
 (./classstos__lista.tex
 
 pdfTeX warning: pdflatex (file ./classstos__lista__inherit__graph.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstos__lista__inherit__graph.pdf, id=1575, 138.5175pt x 160.6pt>
+<classstos__lista__inherit__graph.pdf, id=1974, 138.5175pt x 160.6pt>
 File: classstos__lista__inherit__graph.pdf Graphic file (type pdf)
 
-<use classstos__lista__inherit__graph.pdf> [39 <./classstack__list_a7c8c94a164f
-180c87fa1d7a8be146a4c_icgraph.pdf>]
+<use classstos__lista__inherit__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [50 <./classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstos__lista__coll__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstos__lista__coll__graph.pdf, id=1588, 246.9225pt x 246.9225pt>
+<classstos__lista__coll__graph.pdf, id=1987, 246.9225pt x 246.9225pt>
 File: classstos__lista__coll__graph.pdf Graphic file (type pdf)
 
-<use classstos__lista__coll__graph.pdf> [40 <./classstos__lista__inherit__graph
+<use classstos__lista__coll__graph.pdf> [51 <./classstos__lista__inherit__graph
 .pdf> <./classstos__lista__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstos__lista_a3b0ae65f88cd7760ca7e06f49b57
 d301_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <
 1.4> allowed
 
-<classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf, id=1615, 335.25
+<classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf, id=2014, 335.25
 25pt x 222.8325pt>
 File: classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf Graphic fil
 e (type pdf)
 
-<use classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [41])
+<use classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf> [52 <./clas
+sstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf>])
 (./classstos__tablica.tex
 
 pdfTeX warning: pdflatex (file ./classstos__tablica__inherit__graph.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstos__tablica__inherit__graph.pdf, id=1626, 148.555pt x 160.6pt>
+<classstos__tablica__inherit__graph.pdf, id=2031, 148.555pt x 160.6pt>
 File: classstos__tablica__inherit__graph.pdf Graphic file (type pdf)
 
 <use classstos__tablica__inherit__graph.pdf>
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [42 <./classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstos__tablica__coll__graph.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstos__tablica__coll__graph.pdf, id=1639, 256.96pt x 246.9225pt>
+<classstos__tablica__coll__graph.pdf, id=2033, 256.96pt x 246.9225pt>
 File: classstos__tablica__coll__graph.pdf Graphic file (type pdf)
 
-<use classstos__tablica__coll__graph.pdf> [43 <./classstos__tablica__inherit__g
-raph.pdf> <./classstos__tablica__coll__graph.pdf>]
+<use classstos__tablica__coll__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53 <./classstos__tablica__inherit__graph.pdf>] [54 <./classstos__tablica__col
+l__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstos__tablica_a44ec89c9723d4034e46ae3b51b
 01faea_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf, id=1667, 347.
+<classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf, id=2068, 347.
 2975pt x 222.8325pt>
 File: classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf Graphic f
 ile (type pdf)
@@ -1752,24 +2010,18 @@ Overfull \hbox (1.0pt too wide) in paragraph at lines 99--101
  [] 
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44])
-[45 <./classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf>]
-[46
-
-]
+) [55 <./classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf>]
+[56]
 Rozdzia\PlPrIeC {\l } 5.
 (./algorytm_8cpp.tex
 
 pdfTeX warning: pdflatex (file ./algorytm_8cpp__incl.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<algorytm_8cpp__incl.pdf, id=1693, 756.8275pt x 335.2525pt>
+<algorytm_8cpp__incl.pdf, id=2088, 756.8275pt x 335.2525pt>
 File: algorytm_8cpp__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8cpp__incl.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 15--17
+Overfull \hbox (5.0pt too wide) in paragraph at lines 14--16
  [] 
  []
 
@@ -1777,16 +2029,16 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 15--17
 
 pdfTeX warning: pdflatex (file ./algorytm_8hh__incl.pdf): PDF inclusion: found 
 PDF version <1.5>, but at most version <1.4> allowed
-<algorytm_8hh__incl.pdf, id=1697, 635.37375pt x 277.035pt>
+<algorytm_8hh__incl.pdf, id=2092, 635.37375pt x 277.035pt>
 File: algorytm_8hh__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8hh__incl.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 22--24
+Overfull \hbox (5.0pt too wide) in paragraph at lines 21--23
  [] 
  []
 
 
-Overfull \hbox (15.66544pt too wide) in paragraph at lines 9--25
+Overfull \hbox (15.66544pt too wide) in paragraph at lines 9--24
 \T1/pcr/m/n/10 #include $\OML/ztmcm/m/it/10 <$\T1/pcr/m/n/10 ctime$\OML/ztmcm/m
 /it/10 >$\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include $\OML/ztmcm/m/it/10 <$\T
 1/pcr/m/n/10 sys/time.-h$\OML/ztmcm/m/it/10 >$\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n
@@ -1794,71 +2046,71 @@ Overfull \hbox (15.66544pt too wide) in paragraph at lines 9--25
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--25
+Underfull \hbox (badness 10000) in paragraph at lines 9--24
 \T1/pcr/m/n/10 h$\OML/ztmcm/m/it/10 >$\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #inc
 lude "operacje.-hh"\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include "stos.-hh"\OMS
 /ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include
  []
 
-[47 <./algorytm_8cpp__incl.pdf>]
+[57
+
+ <./algorytm_8cpp__incl.pdf>]
 
 pdfTeX warning: pdflatex (file ./algorytm_8hh__dep__incl.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<algorytm_8hh__dep__incl.pdf, id=1712, 226.8475pt x 160.6pt>
+<algorytm_8hh__dep__incl.pdf, id=2106, 226.8475pt x 160.6pt>
 File: algorytm_8hh__dep__incl.pdf Graphic file (type pdf)
 
-<use algorytm_8hh__dep__incl.pdf> [48 <./algorytm_8hh__incl.pdf> <./algorytm_8h
+<use algorytm_8hh__dep__incl.pdf> [58 <./algorytm_8hh__incl.pdf> <./algorytm_8h
 h__dep__incl.pdf>]) (./kolejka_8hh.tex
 
 pdfTeX warning: pdflatex (file ./kolejka_8hh__incl.pdf): PDF inclusion: found P
 DF version <1.5>, but at most version <1.4> allowed
-<kolejka_8hh__incl.pdf, id=1740, 160.6pt x 218.8175pt>
+<kolejka_8hh__incl.pdf, id=2137, 160.6pt x 218.8175pt>
 File: kolejka_8hh__incl.pdf Graphic file (type pdf)
 
 <use kolejka_8hh__incl.pdf>
 
 pdfTeX warning: pdflatex (file ./kolejka_8hh__dep__incl.pdf): PDF inclusion: fo
 und PDF version <1.5>, but at most version <1.4> allowed
-<kolejka_8hh__dep__incl.pdf, id=1742, 226.8475pt x 218.8175pt>
+<kolejka_8hh__dep__incl.pdf, id=2139, 226.8475pt x 218.8175pt>
 File: kolejka_8hh__dep__incl.pdf Graphic file (type pdf)
 
-<use kolejka_8hh__dep__incl.pdf>
-Underfull \vbox (badness 3240) has occurred while \output is active []
-
- [49 <./kolejka_8hh__incl.pdf>]) (./main_8cpp.tex
+<use kolejka_8hh__dep__incl.pdf> [59 <./kolejka_8hh__incl.pdf>])
+(./main_8cpp.tex
 
 pdfTeX warning: pdflatex (file ./main_8cpp__incl.pdf): PDF inclusion: found PDF
  version <1.5>, but at most version <1.4> allowed
-<main_8cpp__incl.pdf, id=1759, 819.06pt x 335.2525pt>
+<main_8cpp__incl.pdf, id=2157, 819.06pt x 335.2525pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 
 <use main_8cpp__incl.pdf>
-Overfull \hbox (5.0pt too wide) in paragraph at lines 19--21
+Overfull \hbox (5.0pt too wide) in paragraph at lines 18--20
  [] 
  []
 
 
-Overfull \hbox (40.35574pt too wide) in paragraph at lines 9--22
+Overfull \hbox (40.35574pt too wide) in paragraph at lines 9--21
 []\T1/pcr/m/n/10 #include $\OML/ztmcm/m/it/10 <$\T1/pcr/m/n/10 iostream$\OML/zt
 mcm/m/it/10 >$\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include "algorytm.-hh"\OMS/
 ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include "statystyki.-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 9--22
+Underfull \hbox (badness 10000) in paragraph at lines 9--21
 \T1/pcr/m/n/10 hh"\OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include "operacje.-hh"\
 OMS/ztmcm/m/n/10 ^^B \T1/pcr/m/n/10 #include "stos.-hh"\OMS/ztmcm/m/n/10 ^^B \T
 1/pcr/m/n/10 #include
  []
 
-[50 <./kolejka_8hh__dep__incl.pdf>]
+[60 <./kolejka_8hh__dep__incl.pdf>]
 
 pdfTeX warning: pdflatex (file ./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=1776, 592.2125pt x 
-222.8325pt>
+<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=2174, 592.2125pt x 
+202.7575pt>
 File: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf Graphic file (type
  pdf)
  <use main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>
@@ -1870,49 +2122,49 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 54--56
 
 pdfTeX warning: pdflatex (file ./operacje_8cpp__incl.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<operacje_8cpp__incl.pdf, id=1778, 196.735pt x 218.8175pt>
+<operacje_8cpp__incl.pdf, id=2176, 196.735pt x 218.8175pt>
 File: operacje_8cpp__incl.pdf Graphic file (type pdf)
 
-<use operacje_8cpp__incl.pdf>) (./operacje_8hh.tex [51 <./main_8cpp__incl.pdf> 
+<use operacje_8cpp__incl.pdf>) (./operacje_8hh.tex [61 <./main_8cpp__incl.pdf> 
 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./operacje_8hh__incl.pdf): PDF inclusion: found 
 PDF version <1.5>, but at most version <1.4> allowed
-<operacje_8hh__incl.pdf, id=1801, 196.735pt x 160.6pt>
+<operacje_8hh__incl.pdf, id=2199, 196.735pt x 160.6pt>
 File: operacje_8hh__incl.pdf Graphic file (type pdf)
 
 <use operacje_8hh__incl.pdf>
 
 pdfTeX warning: pdflatex (file ./operacje_8hh__dep__incl.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<operacje_8hh__dep__incl.pdf, id=1803, 299.1175pt x 218.8175pt>
+<operacje_8hh__dep__incl.pdf, id=2201, 299.1175pt x 218.8175pt>
 File: operacje_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use operacje_8hh__dep__incl.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [52 <./operacje_8cpp__incl.pdf> <./operacje_8hh__incl.pdf>]) (./statystyki_8cp
+ [62 <./operacje_8cpp__incl.pdf> <./operacje_8hh__incl.pdf>]) (./statystyki_8cp
 p.tex
 
 pdfTeX warning: pdflatex (file ./statystyki_8cpp__incl.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<statystyki_8cpp__incl.pdf, id=1825, 258.9675pt x 218.8175pt>
+<statystyki_8cpp__incl.pdf, id=2223, 258.9675pt x 218.8175pt>
 File: statystyki_8cpp__incl.pdf Graphic file (type pdf)
 
 <use statystyki_8cpp__incl.pdf>
 Underfull \vbox (badness 4765) has occurred while \output is active []
 
- [53 <./operacje_8hh__dep__incl.pdf>]
+ [63 <./operacje_8hh__dep__incl.pdf>]
 Underfull \vbox (badness 10000) detected at line 43
  []
 
-[54 <./statystyki_8cpp__incl.pdf>]
+[64 <./statystyki_8cpp__incl.pdf>]
 
 pdfTeX warning: pdflatex (file ./statystyki_8cpp_a6648f32fbaacb03204231efea979c
 bf8_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <
 1.4> allowed
 
-<statystyki_8cpp_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf, id=1860, 574.14
+<statystyki_8cpp_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf, id=2257, 574.14
 5pt x 102.3825pt>
 File: statystyki_8cpp_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf Graphic fil
 e (type pdf)
@@ -1932,7 +2184,7 @@ pdfTeX warning: pdflatex (file ./statystyki_8cpp_a978b972ebd4a834c47800d668ba8e
 cf2_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <
 1.4> allowed
 
-<statystyki_8cpp_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf, id=1862, 497.86
+<statystyki_8cpp_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf, id=2259, 497.86
 pt x 102.3825pt>
 File: statystyki_8cpp_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf Graphic fil
 e (type pdf)
@@ -1946,7 +2198,7 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 93--95
 
 pdfTeX warning: pdflatex (file ./statystyki_8hh__incl.pdf): PDF inclusion: foun
 d PDF version <1.5>, but at most version <1.4> allowed
-<statystyki_8hh__incl.pdf, id=1864, 258.9675pt x 160.6pt>
+<statystyki_8hh__incl.pdf, id=2261, 258.9675pt x 160.6pt>
 File: statystyki_8hh__incl.pdf Graphic file (type pdf)
 
 <use statystyki_8hh__incl.pdf>
@@ -1961,15 +2213,15 @@ MS/ztmcm/m/n/10 ^^B
 
 Underfull \vbox (badness 2626) has occurred while \output is active []
 
- [55 <./statystyki_8cpp_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf> <./staty
+ [65 <./statystyki_8cpp_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf> <./staty
 styki_8cpp_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./statystyki_8hh__dep__incl.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<statystyki_8hh__dep__incl.pdf, id=1885, 323.2075pt x 160.6pt>
+<statystyki_8hh__dep__incl.pdf, id=2283, 323.2075pt x 160.6pt>
 File: statystyki_8hh__dep__incl.pdf Graphic file (type pdf)
 
-<use statystyki_8hh__dep__incl.pdf> [56 <./statystyki_8hh__incl.pdf> <./statyst
+<use statystyki_8hh__dep__incl.pdf> [66 <./statystyki_8hh__incl.pdf> <./statyst
 yki_8hh__dep__incl.pdf>]
 Underfull \vbox (badness 10000) detected at line 64
  []
@@ -1980,7 +2232,7 @@ pdfTeX warning: pdflatex (file ./statystyki_8hh_a6648f32fbaacb03204231efea979cb
 f8_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1
 .4> allowed
 
-<statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf, id=1913, 574.145
+<statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf, id=2311, 574.145
 pt x 102.3825pt>
 File: statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf Graphic file
  (type pdf)
@@ -2000,7 +2252,7 @@ pdfTeX warning: pdflatex (file ./statystyki_8hh_a978b972ebd4a834c47800d668ba8ec
 f2_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1
 .4> allowed
 
-<statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf, id=1915, 497.86p
+<statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf, id=2313, 497.86p
 t x 102.3825pt>
 File: statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf Graphic file
  (type pdf)
@@ -2013,45 +2265,45 @@ Overfull \hbox (5.0pt too wide) in paragraph at lines 114--116
 
 Underfull \vbox (badness 2393) has occurred while \output is active []
 
- [57 <./statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf>]) (./stos
+ [67 <./statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf>]) (./stos
 _8hh.tex
 
 pdfTeX warning: pdflatex (file ./stos_8hh__incl.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<stos_8hh__incl.pdf, id=1930, 128.48pt x 160.6pt>
+<stos_8hh__incl.pdf, id=2328, 128.48pt x 160.6pt>
 File: stos_8hh__incl.pdf Graphic file (type pdf)
  <use stos_8hh__incl.pdf>
 
 pdfTeX warning: pdflatex (file ./stos_8hh__dep__incl.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<stos_8hh__dep__incl.pdf, id=1932, 226.8475pt x 277.035pt>
+<stos_8hh__dep__incl.pdf, id=2330, 226.8475pt x 277.035pt>
 File: stos_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use stos_8hh__dep__incl.pdf>
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [58 <./statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf> <./stos_8
-hh__incl.pdf>] [59 <./stos_8hh__dep__incl.pdf>]
+ [68 <./statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf> <./stos_8
+hh__incl.pdf>] [69 <./stos_8hh__dep__incl.pdf>]
 LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/it' tried instead on input line 61.
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/b/it' in size <10> not available
-(Font)              Font shape `T1/phv/b/sl' tried instead on input line 61.
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 60.
 LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
-(Font)              scaled to size 8.99994pt on input line 61.
+(Font)              scaled to size 8.99994pt on input line 60.
 ) (./strona_8dox.tex) (./refman.ind)
-[60] (./refman.aux)
+[70] (./refman.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 10955 strings out of 493848
- 165866 string characters out of 1152823
+ 11159 strings out of 493848
+ 173542 string characters out of 1152823
  242568 words of memory out of 3000000
- 13496 multiletter control sequences out of 15000+50000
+ 13617 multiletter control sequences out of 15000+50000
  73830 words of font info for 102 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,13n,58p,486b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,58p,705b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
 pdfTeX warning (dest): name{stos_8hh_source} has been referenced but does not
  exist, replaced by a fixed one
 
@@ -2079,9 +2331,9 @@ xlive/fonts/type1/urw/helvetic/uhvb8ac.pfb></usr/share/texmf-texlive/fonts/type
 1/urw/helvetic/uhvbo8a.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/u
 hvbo8ac.pfb></usr/share/texmf-texlive/fonts/type1/urw/helvetic/uhvr8a.pfb></usr
 /share/texmf-texlive/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (68 pages, 2369519 bytes).
+Output written on refman.pdf (78 pages, 3089527 bytes).
 PDF statistics:
- 2098 PDF objects out of 2487 (max. 8388607)
- 391 named destinations out of 1000 (max. 500000)
- 1601 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2508 PDF objects out of 2984 (max. 8388607)
+ 449 named destinations out of 1000 (max. 500000)
+ 1896 words of extra memory for PDF output out of 10000 (max. 10000000)
 

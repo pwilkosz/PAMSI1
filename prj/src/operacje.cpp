@@ -86,6 +86,7 @@ void operacje::quick_sort(int l, int p){
   }
   if(l<j) quick_sort(l,j);
   if(i<p) quick_sort(i,p);
+
 }
 void operacje::make_node(int rozmiar, int i){
   int s1 = 2*i, s2 = (2*i) + 1;
@@ -119,7 +120,7 @@ void operacje::heap_sort(){
     
     make_node(i-1,1);
   }
-  cout<<"N: "<<n<<endl;
+  
 }
 
 void operacje::merge(int start, int srodek, int koniec){

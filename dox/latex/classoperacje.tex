@@ -19,6 +19,18 @@
 \begin{DoxyCompactList}\small\item\em konstruktor parametryczny -\/ alokuje pamiec w dynamicznej tablicy {\ttfamily tab} \end{DoxyCompactList}\item 
 bool \hyperlink{classoperacje_a7393a8b3b394921a084e0c1f4ad517b7}{zamien\-\_\-elementy} (int i, int j)
 \begin{DoxyCompactList}\small\item\em \-Metoda zamienia 2 elementy tablicy. \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_a7aa29c588e5a8f93c437150f03a133f1}{quick\-\_\-sort} (int l, int p)
+\begin{DoxyCompactList}\small\item\em \-Metoda \-Dokonuje sortownaia szybkiego. \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_a9be241905b909e7aef0151902c6f5b81}{make\-\_\-node} (int rozmiar, int i)
+\begin{DoxyCompactList}\small\item\em \-Metoda tworzy wezel drzewa, przypisujac mu 2 synow, ustawiajac ich w odpowiedniej kolejnosci (ojciec ma najwieksza wartosc) \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_ae752685beea6c7ee81d2347a98d40146}{make\-\_\-heap} ()
+\begin{DoxyCompactList}\small\item\em \-Metoda tworzy kopiec binarny. \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_aec9d2248eb072f97da794ee4c9b99a5d}{heap\-\_\-sort} ()
+\begin{DoxyCompactList}\small\item\em \-Metoda dokonuje sortowania po uprzednim utworzeniu kopca. \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_ad766f1d18595ff6b779485528c65d3f0}{merge} (int poczatek, int srodek, int koniec)
+\begin{DoxyCompactList}\small\item\em \-Metoda scala dwie czesci tablicy, jednoczesnie je porzadkujac. \end{DoxyCompactList}\item 
+void \hyperlink{classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab}{merge\-\_\-sort} (int poczatek, int koniec)
+\item 
 void \hyperlink{classoperacje_aedc47c87f4f44f8af0cba64a940a5333}{odwroc\-\_\-tablice} ()
 \begin{DoxyCompactList}\small\item\em metoda odwraca wszystkie elementy tablicy \end{DoxyCompactList}\item 
 void \hyperlink{classoperacje_ad8397efded792c1381bfd0292b3e91b6}{dodaj\-\_\-element} (float e)
@@ -28,7 +40,9 @@ void \hyperlink{classoperacje_a933533caa39434db543aca704804625c}{dodaj\-\_\-elem
 void \hyperlink{classoperacje_a33127b613894949faba7a04f23075bf8}{operator=} (float $\ast$tab1)
 \begin{DoxyCompactList}\small\item\em \-Przeciazenie operatora przypisania; przypisuje elementy tablicy {\ttfamily tab1} {\ttfamily do} tablicy bedacej polem klasy. \end{DoxyCompactList}\item 
 bool \hyperlink{classoperacje_af69f25c4d1da5a7e46ff21a56143fc62}{operator==} (float $\ast$tab1)
-\begin{DoxyCompactList}\small\item\em \-Przeciazenie operatora porownania; metoda porownuje zawartosci dwoch tablic. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em \-Przeciazenie operatora porownania; metoda porownuje zawartosci dwoch tablic. \end{DoxyCompactList}\item 
+float \& \hyperlink{classoperacje_a6aeba674ecf3058e63e12bca9862a7fb}{operator\mbox{[}$\,$\mbox{]}} (int ind)
+\end{DoxyCompactItemize}
 \subsection*{\-Atrybuty publiczne}
 \begin{DoxyCompactItemize}
 \item 
@@ -123,6 +137,200 @@ metoda dodaje elementy do tablicy
 
 \-Definicja w linii 46 pliku operacje.\-cpp.
 
+\hypertarget{classoperacje_aec9d2248eb072f97da794ee4c9b99a5d}{\index{operacje@{operacje}!heap\-\_\-sort@{heap\-\_\-sort}}
+\index{heap\-\_\-sort@{heap\-\_\-sort}!operacje@{operacje}}
+\subsubsection[{heap\-\_\-sort}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::heap\-\_\-sort} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_aec9d2248eb072f97da794ee4c9b99a5d}
+
+
+\-Metoda dokonuje sortowania po uprzednim utworzeniu kopca. 
+
+
+
+\-Definicja w linii 112 pliku operacje.\-cpp.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=302pt]{classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classoperacje_ae752685beea6c7ee81d2347a98d40146}{\index{operacje@{operacje}!make\-\_\-heap@{make\-\_\-heap}}
+\index{make\-\_\-heap@{make\-\_\-heap}!operacje@{operacje}}
+\subsubsection[{make\-\_\-heap}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::make\-\_\-heap} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_ae752685beea6c7ee81d2347a98d40146}
+
+
+\-Metoda tworzy kopiec binarny. 
+
+
+
+\-Definicja w linii 106 pliku operacje.\-cpp.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classoperacje_ae752685beea6c7ee81d2347a98d40146_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classoperacje_a9be241905b909e7aef0151902c6f5b81}{\index{operacje@{operacje}!make\-\_\-node@{make\-\_\-node}}
+\index{make\-\_\-node@{make\-\_\-node}!operacje@{operacje}}
+\subsubsection[{make\-\_\-node}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::make\-\_\-node} (
+\begin{DoxyParamCaption}
+\item[{int}]{rozmiar, }
+\item[{int}]{i}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_a9be241905b909e7aef0151902c6f5b81}
+
+
+\-Metoda tworzy wezel drzewa, przypisujac mu 2 synow, ustawiajac ich w odpowiedniej kolejnosci (ojciec ma najwieksza wartosc) 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em rozmiar} & -\/ rozmiar tablicy \\
+\hline
+\mbox{\tt in}  & {\em i} & -\/ indeks elementu, do ktorego przypisujemy synow \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 91 pliku operacje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classoperacje_a9be241905b909e7aef0151902c6f5b81_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classoperacje_ad766f1d18595ff6b779485528c65d3f0}{\index{operacje@{operacje}!merge@{merge}}
+\index{merge@{merge}!operacje@{operacje}}
+\subsubsection[{merge}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::merge} (
+\begin{DoxyParamCaption}
+\item[{int}]{poczatek, }
+\item[{int}]{srodek, }
+\item[{int}]{koniec}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_ad766f1d18595ff6b779485528c65d3f0}
+
+
+\-Metoda scala dwie czesci tablicy, jednoczesnie je porzadkujac. 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em poczatek} & -\/ pierwszy indeks tablicy \\
+\hline
+\mbox{\tt in}  & {\em srodek} & -\/ srodkowy indeks tablicy \\
+\hline
+ & {\em \mbox{[}ib\mbox{]}} & koniec -\/ ostatni indeks tablicy \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 126 pliku operacje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab}{\index{operacje@{operacje}!merge\-\_\-sort@{merge\-\_\-sort}}
+\index{merge\-\_\-sort@{merge\-\_\-sort}!operacje@{operacje}}
+\subsubsection[{merge\-\_\-sort}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::merge\-\_\-sort} (
+\begin{DoxyParamCaption}
+\item[{int}]{poczatek, }
+\item[{int}]{koniec}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab}
+$\backslash$ brief \-Metoda dokonuje sortowania poprzez rekurencyjne wywolanie dla obu polow tablic, nastepnie metoda dokonuje scalenia danych 
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em -\/} & poczatek -\/ pierwszy indeks tablicy \\
+\hline
+\mbox{\tt in}  & {\em -\/} & koniec -\/ ostatni indeks tablicy \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 162 pliku operacje.\-cpp.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=310pt]{classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{classoperacje_aedc47c87f4f44f8af0cba64a940a5333}{\index{operacje@{operacje}!odwroc\-\_\-tablice@{odwroc\-\_\-tablice}}
 \index{odwroc\-\_\-tablice@{odwroc\-\_\-tablice}!operacje@{operacje}}
 \subsubsection[{odwroc\-\_\-tablice}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::odwroc\-\_\-tablice} (
@@ -181,6 +389,64 @@ true -\/ gdy zawartsoc tablic jest identyczna false -\/ w przeciwnym przypadku
 
 \-Definicja w linii 69 pliku operacje.\-cpp.
 
+\hypertarget{classoperacje_a6aeba674ecf3058e63e12bca9862a7fb}{\index{operacje@{operacje}!operator\mbox{[}$\,$\mbox{]}@{operator[]}}
+\index{operator\mbox{[}$\,$\mbox{]}@{operator[]}!operacje@{operacje}}
+\subsubsection[{operator[]}]{\setlength{\rightskip}{0pt plus 5cm}float\& operacje\-::operator\mbox{[}$\,$\mbox{]} (
+\begin{DoxyParamCaption}
+\item[{int}]{ind}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classoperacje_a6aeba674ecf3058e63e12bca9862a7fb}
+
+
+\-Definicja w linii 86 pliku operacje.\-hh.
+
+\hypertarget{classoperacje_a7aa29c588e5a8f93c437150f03a133f1}{\index{operacje@{operacje}!quick\-\_\-sort@{quick\-\_\-sort}}
+\index{quick\-\_\-sort@{quick\-\_\-sort}!operacje@{operacje}}
+\subsubsection[{quick\-\_\-sort}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf operacje\-::quick\-\_\-sort} (
+\begin{DoxyParamCaption}
+\item[{int}]{l, }
+\item[{int}]{p}
+\end{DoxyParamCaption}
+)}}\label{classoperacje_a7aa29c588e5a8f93c437150f03a133f1}
+
+
+\-Metoda \-Dokonuje sortownaia szybkiego. 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em l} & -\/ pierwszy indeks tablicy \\
+\hline
+\mbox{\tt in}  & {\em p} & -\/ ostatni indeks tablicy \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 77 pliku operacje.\-cpp.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=304pt]{classoperacje_a7aa29c588e5a8f93c437150f03a133f1_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{classoperacje_a7393a8b3b394921a084e0c1f4ad517b7}{\index{operacje@{operacje}!zamien\-\_\-elementy@{zamien\-\_\-elementy}}
 \index{zamien\-\_\-elementy@{zamien\-\_\-elementy}!operacje@{operacje}}
 \subsubsection[{zamien\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf operacje\-::zamien\-\_\-elementy} (
@@ -206,6 +472,18 @@ true -\/ gdy elementy nie wykraczaja poza zakres tablicy false -\/ w przeciwnym 
 
 
 \-Definicja w linii 3 pliku operacje.\-cpp.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph}
+\end{center}
+\end{figure}
+
 
 
 

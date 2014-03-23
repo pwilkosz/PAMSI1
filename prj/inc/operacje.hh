@@ -36,11 +36,26 @@ class operacje{
 	 		   false - w przeciwnym przypadku
 	 		   	*/
   bool zamien_elementy(int i, int j);
+  /*! \brief Metoda Dokonuje sortownaia szybkiego 
+  \param [in] l - pierwszy indeks tablicy
+  \param [in] p - ostatni indeks tablicy*/
   void quick_sort(int l, int p);
+  /*! \brief Metoda tworzy wezel drzewa, przypisujac mu 2 synow, ustawiajac ich w odpowiedniej kolejnosci (ojciec ma najwieksza wartosc)
+  \param [in] rozmiar - rozmiar tablicy
+  \param [in] i - indeks elementu, do ktorego przypisujemy synow*/
   void make_node(int rozmiar, int i );
+  /*! \brief Metoda tworzy kopiec binarny*/
   void make_heap();
+  /*! \brief Metoda dokonuje sortowania po uprzednim utworzeniu kopca*/
   void heap_sort();
+  /*! \brief Metoda scala dwie czesci tablicy, jednoczesnie je porzadkujac
+  \param [in] poczatek - pierwszy indeks tablicy
+  \param [in] srodek - srodkowy indeks tablicy
+  \param [ib] koniec - ostatni indeks tablicy*/
   void merge(int poczatek, int srodek, int koniec);
+  /*! \ brief Metoda dokonuje sortowania poprzez rekurencyjne wywolanie dla obu polow tablic, nastepnie metoda dokonuje scalenia danych
+  \param [in] - poczatek - pierwszy indeks tablicy
+  \param [in] - koniec - ostatni indeks tablicy*/
   void merge_sort(int poczatek, int koniec);
   	/*!
   	 * \brief metoda odwraca wszystkie elementy tablicy

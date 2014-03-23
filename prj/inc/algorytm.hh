@@ -189,23 +189,31 @@ public:
   kolejka_lista(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
   float przelicz();
 };
-
+/*!
+ * \brief klasa reprezentuje dane poddane sortowaniu szybkiemu
+*/
 class q_sort: public algorytm{
 public:
+  /*! \brief konstruktor klasy*/
   q_sort(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
+  /*! \brief metoda dokonujaca sortowania danych*/
   float przelicz();
 };
-
+/*! \brief klasa reprezentuje dane poddane sortowaniu przez kopcowanie */
 class h_sort: public algorytm{
 public:
+  /*! \breif konstruktor klasy*/
   h_sort(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
+  /*! \brief metoda dokonujaca sortowania danych*/
   float przelicz();
 };
 
-
+/*! \brief klasa reprezentuje dane poddane sortowaniu przez scalanie*/
 class m_sort: public algorytm{
 public:
+  /*! \brief konstruktor*/
   m_sort(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
+  /*! \brief metoda dokonujaca sortowania danych*/
   float przelicz();
 };
 
