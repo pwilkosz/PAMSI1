@@ -3,7 +3,7 @@
 #include<iostream>
 #include<fstream>
 #include<vector>
-#include<ctime>
+#include<time.h>
 #include<sys/time.h>
 #include<sys/types.h>
 #include"operacje.hh"
@@ -58,6 +58,7 @@ protected:
   * \brief klasa zawierajaca tablice i metody do operacji na niej
   */
     operacje op;
+    double czas1,czas2;
 public:
   /*!
    * \brief zawiera wyniki dzialania algorytmu
@@ -114,12 +115,12 @@ public:
     * \brief Metoda wlacza pomiar czasu poprzez wlaczenie funkcji \p gettimeofday i przechowanie czasu w zmiennej \p start 
     * \return start - zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
     */
-  float wlacz_zegar();
+  void wlacz_zegar();
    /*!
     * \brief Metoda wyacza pomiar czasu poprzez wlaczenie funkcji \p gettimeofday i przechowanie czasu w zmiennej \p end 
     * \return end - zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
     */
-  float wylacz_zegar();
+  void wylacz_zegar();
   /*!
     * \brief Metoda zapisuje tablice \p czas do pliku \p wyjscie.csv  */
   void zapisz_do_csv(ofstream& out);

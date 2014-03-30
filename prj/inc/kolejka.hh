@@ -119,6 +119,7 @@ public:
 					q[i] = tmp[i];
 				q[s] = element;
 				s++;
+				delete[] tmp;
 			}
 		}
 		
@@ -143,7 +144,7 @@ public:
 				q = new TYP[s];
 				for(int i = 0; i<s; i++)
 					q[i] = tmp[i];
-				
+				delete[] tmp;
 			}
 			/*Dla plus2*/
 			else{
@@ -156,10 +157,12 @@ public:
 					q = new TYP[sp];
 					for(int i = 0; i<(s-1); i++)
 						q[i] = tmp[i];
+					delete[] tmp;
 				}
 				else{				//gdy nie zmniejszamy
 					for(int i = 0; i<(s-1); i++ )
 						q[i] = q[i+1];
+
 				}
 			}
 			s--;

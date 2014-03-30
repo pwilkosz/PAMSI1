@@ -1,6 +1,6 @@
 #include"algorytm.hh"
 #include"statystyki.hh"
-
+#include<time.h>
 
 /*!
  * \file
@@ -35,20 +35,28 @@ float* algorytm::jaki_czas(){
   return czas;
 }
 
-float algorytm::wlacz_zegar(){
-  struct timeval tp;
-    double start;
-    gettimeofday(&tp, NULL);
-    start = static_cast<float>(tp.tv_usec)/1E3;
-    return start;
+void algorytm::wlacz_zegar(){
+  //struct timeval tp;
+    struct timespec tp;
+    clock_gettime(CLOCK_REALTIME, &tp);
+    //gettimeofday(&tp, NULL);
+    czas2 = tp.tv_nsec;
+    czas1 = tp.tv_sec;
+    
+    
 }
 
-float algorytm::wylacz_zegar(){
-  struct timeval tp;
-    double end;
-    gettimeofday(&tp, NULL);
-    end = static_cast<float>(tp.tv_usec)/1E3;
-    return end;
+void algorytm::wylacz_zegar(){
+  //struct timeval tp;
+    //double end;
+    //gettimeofday(&tp, NULL);
+    struct timespec tp;
+    clock_gettime(CLOCK_REALTIME, &tp);
+    czas2 = static_cast<double>(tp.tv_nsec - czas2)/1E9;
+    czas1 = static_cast<double>(tp.tv_sec - czas1);
+    
+   
+    
 }
 
 void algorytm::zapisz_do_csv(ofstream& out){
@@ -62,6 +70,7 @@ void algorytm::zapisz_do_csv(ofstream& out){
   tab_czas<<"Srednia,"<<sr<<endl;
   tab_czas<<"Odchylenie,"<<odchylenie<<endl;
   zapisz_do_gnuplot(out,sr,odchylenie);
+
   
 }
 
@@ -97,95 +106,90 @@ void algorytm::zapisz_do_gnuplot(ofstream& out, float sr, float od){
   
   
   out<<n<<" "<<sr<<" "<<"0 "<<od<<endl;
+  cout<<n<<" "<<sr<<" "<<"0 "<<od<<endl;
  
 }
 
 float mnozenie::przelicz(){
-    float start = wlacz_zegar();
+    wlacz_zegar();
     for(int i =0; i<n; i++){
       op.tab[i] = 2*dane[i];
-      }float end = wylacz_zegar();
-    float cz = end - start;
-    if(cz<0) cz += 1000;
+      }wylacz_zegar();
+    float cz = czas1+czas2;
+    
     return cz;
     }
           
   
 float stos_tablica::przelicz(){
-  float start = wlacz_zegar();
+  wlacz_zegar();
   for(int i = 0; i<n; i++){
     stos.push(op.tab[i]);
   }
-  float end = wylacz_zegar();
-  float cz = end - start;
-  if(cz<0) cz += 1000;
+  wylacz_zegar();
+  float cz = czas1+czas2;
   stos.clear();
   return cz;
 }
 
 float stos_lista::przelicz(){
-  float start = wlacz_zegar();
+  wlacz_zegar();
   for(int i = 0; i<n; i++){
     stos.push(op.tab[i]);
   }
-  float end = wylacz_zegar();
-  float cz = end - start;
-  if(cz<0) cz += 1000;
+  wylacz_zegar();
+  float cz = czas1+czas2;
+  
   stos.clear();
   return cz;
 }
 
 float kolejka_tablica::przelicz(){
-  float start = wlacz_zegar();
+  wlacz_zegar();
   for(int i = 0; i<n; i++){
     
     qu.enqueue(op.tab[i]);
   }
-  float end = wylacz_zegar();
-  float cz = end - start;
-  if(cz<0) cz += 1000;
+  wylacz_zegar();
+  float cz = czas1+czas2;
   qu.clear();
   return cz;
 }
 
 float kolejka_lista::przelicz(){
-  float start = wlacz_zegar();
+  wlacz_zegar();
   for(int i = 0; i<n; i++){
     qu.enqueue(op.tab[i]);
   }
-  float end = wylacz_zegar();
-  float cz = end - start;
-  if(cz<0) cz += 1000;
+  wylacz_zegar();
+  float cz = czas1+czas2;
   qu.clear();
   return cz;
 }
 
 float q_sort::przelicz(){
-  float start = wlacz_zegar();
+  wlacz_zegar();
   op.quick_sort(0,n-1);
-  float end = wylacz_zegar();
-  float cz = end - start;
-  if(cz<0) cz += 1000;
+  wylacz_zegar();
+  float cz = czas1+czas2;
   return cz;
 
 }
 
 float h_sort::przelicz(){
-  float start = wlacz_zegar();
+  wlacz_zegar();
   op.heap_sort();
-  float end = wylacz_zegar();
-  float cz = end - start;
-  if(cz<0) cz += 1000;
+  wylacz_zegar();
+ float cz = czas1+czas2;
   return cz;
 
 }
 
 float m_sort::przelicz(){
-  float start = wlacz_zegar();
+  wlacz_zegar();
   op.merge_sort(0,n-1);
-  float end = wylacz_zegar();
-  float cz = end - start;
-  if(cz<0) cz += 1000;
+  wylacz_zegar();
+  float cz = czas1+czas2;
   
   return cz;
 

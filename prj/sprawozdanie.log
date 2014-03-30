@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.2.26)  16 MAR 2014 13:53
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.2.26)  30 MAR 2014 21:48
 entering extended mode
  %&-line parsing enabled.
 **sprawozdanie.tex
@@ -375,32 +375,36 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 26.
-File: wykres1.eps Graphic file (type eps)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 37.
 
-<wykres1.eps>
-File: wykres2.eps Graphic file (type eps)
- <wykres2.eps> [1
+[1
 
 ]
+File: wykres1.eps Graphic file (type eps)
+ <wykres1.eps> [2]
+File: wykres2.eps Graphic file (type eps)
+ <wykres2.eps> [3]
 File: wykres3.eps Graphic file (type eps)
- <wykres3.eps> [2]
+ <wykres3.eps> [4]
 File: wykres4.eps Graphic file (type eps)
  <wykres4.eps>
+[5]
 File: wykres5.eps Graphic file (type eps)
- <wykres5.eps>
-[3]
+ <wykres5.eps> [6]
 File: wykres6.eps Graphic file (type eps)
- <wykres6.eps>
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 82.
- [4] (./sprawozdanie.aux) ) 
+ <wykres6.eps> [7] (./sprawozdanie.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
  1726 strings out of 493849
  20555 string characters out of 1152846
- 74261 words of memory out of 3000000
+ 75261 words of memory out of 3000000
  4979 multiletter control sequences out of 15000+50000
  9778 words of font info for 31 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,6n,24p,265b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,24p,265b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on sprawozdanie.dvi (4 pages, 3492 bytes).
+Output written on sprawozdanie.dvi (7 pages, 7964 bytes).

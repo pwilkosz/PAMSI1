@@ -100,16 +100,17 @@ public:
   					st[i] = tmp[i];
   					st[s] = element;
   					s++;
+  					delete[] tmp;
 			}
 			else{
 				if (s == 0){
 					
 					if(sp == 0){
 						s++;
-						cout<<"s powiekszone"<<endl;
+						
 						st = new TYP[s];sp = 1;
 						st[s] = element;
-						cout<<"breakpoint"<<endl;
+						
 						}
 					else {st[0] = element; s++;}
 				}
@@ -127,8 +128,10 @@ public:
   						st[i] = tmp[i];
   						st[s] = element;
   						s++;
+  						delete[] tmp;
 					}
 				}
+
 			}
 		}
 	/*! \brief zdejmuje element ze stosu*/

@@ -77,7 +77,11 @@ bool operacje::operator == (float* tab1){
 void operacje::quick_sort(int l, int p){
 
   int i = l,j = p; 
+  
+
   float x = tab[(l+p)/2];
+  //float x = tab[l];
+  
  while(i<=j){
     while (tab[i] < x) ++i;
     while(tab[j]>x) --j;

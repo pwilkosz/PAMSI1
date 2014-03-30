@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.2.26)  23 MAR 2014 14:18
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.2.26)  30 MAR 2014 23:40
 entering extended mode
  %&-line parsing enabled.
 **sprawozdanie2.tex
@@ -346,7 +346,11 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 
 Package epstopdf Warning: Other drivers than `pdftex.def' are not supported.
 
-)) (./sprawozdanie2.aux)
+)) (./sprawozdanie2.aux
+
+LaTeX Warning: Label `Test nr 7' multiply defined.
+
+)
 \openout1 = `sprawozdanie2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -375,26 +379,55 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
-File: ../prj/wykres7.eps Graphic file (type eps)
-
-<../prj/wykres7.eps> [1
-
-]
-File: ../prj/wykres8.eps Graphic file (type eps)
- <../prj/wykres8.eps>
-File: ../prj/wykres9.eps Graphic file (type eps)
- <../prj/wykres9.eps> [2]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 65.
- [3]
-(./sprawozdanie2.aux) ) 
+(Font)              <10.95> on input line 43.
+File: ../prj/wykres7.eps Graphic file (type eps)
+ <../prj/wykres7.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[1
+
+] [2]
+File: ../prj/wykres8.eps Graphic file (type eps)
+ <../prj/wykres8.eps> [3]
+File: ../prj/wykres9.eps Graphic file (type eps)
+ <../prj/wykres9.eps> [4]
+File: ../prj/wykres71.eps Graphic file (type eps)
+
+<../prj/wykres71.eps> [5]
+File: ../prj/wykres81.eps Graphic file (type eps)
+ <../prj/wykres81.eps> [6]
+File: ../prj/wykres91.eps Graphic file (type eps)
+ <../prj/wykres91.eps>
+[7]
+File: ../prj/wykres72.eps Graphic file (type eps)
+ <../prj/wykres72.eps> [8]
+File: ../prj/wykres82.eps Graphic file (type eps)
+ <../prj/wykres82.eps> [9]
+File: ../prj/wykres92.eps Graphic file (type eps)
+ <../prj/wykres92.eps>
+[10]
+File: ../prj/wykres73.eps Graphic file (type eps)
+ <../prj/wykres73.eps> [11]
+Overfull \hbox (35.23009pt too wide) in paragraph at lines 351--356
+\OT4/cmr/m/n/10.95 no±¢ ob-li-cze-niowa al-go-rytmu sor-to-wa-nia szyb-kiego wy
+-nosi $\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 n[]\OT1/cmr
+/m/n/10.95 )$\OT4/cmr/m/n/10.95 .Dotyczy
+ []
+
+[12] (./sprawozdanie2.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1718 strings out of 493849
- 20493 string characters out of 1152846
- 74261 words of memory out of 3000000
- 4973 multiletter control sequences out of 15000+50000
+ 1738 strings out of 493849
+ 20776 string characters out of 1152846
+ 75261 words of memory out of 3000000
+ 4986 multiletter control sequences out of 15000+50000
  9778 words of font info for 31 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,6n,24p,266b,333s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,7n,24p,282b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on sprawozdanie2.dvi (3 pages, 2596 bytes).
+Output written on sprawozdanie2.dvi (12 pages, 12840 bytes).

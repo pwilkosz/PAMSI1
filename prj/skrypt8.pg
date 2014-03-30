@@ -1,0 +1,22 @@
+reset
+
+set title "Pomiar czasu wykonywania algorytmu"
+set xlabel "N"
+set ylabel "Czas sredni [s]"
+#set xtics ("10" 10, "100" 100, "1000" 1000, "10000" 10000)
+set grid
+
+
+#set xrange [10:60000]
+set terminal postscript eps color
+set output "wykres82.eps"
+
+
+f(x) = a*x
+fit f(x) "out1.csv" via a
+g(x) = b*x*log(x)
+fit g(x) "out1.csv" via b
+h(x) = c*x**2
+fit h(x) "out1.csv" via  c
+plot 'out1.csv' title 'algorytm' with xyerrorbars pointtype 1 pointsize 2 smooth bezier, f(x) title 'x' smooth bezier, g(x) title 'xlogx' smooth bezier, h(x) title 'x^2' smooth bezier
+
