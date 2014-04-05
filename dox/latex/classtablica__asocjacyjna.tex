@@ -1,0 +1,315 @@
+\hypertarget{classtablica__asocjacyjna}{\section{\-Dokumentacja szablonu klasy tablica\-\_\-asocjacyjna$<$ \-T\-Y\-P $>$}
+\label{classtablica__asocjacyjna}\index{tablica\-\_\-asocjacyjna$<$ T\-Y\-P $>$@{tablica\-\_\-asocjacyjna$<$ T\-Y\-P $>$}}
+}
+
+
+\-Klasa modeluje tablice asocjacyjna.  
+
+
+
+
+{\ttfamily \#include $<$tablica\-\_\-asocjacyjna.\-hh$>$}
+
+\subsection*{\-Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classtablica__asocjacyjna_a9173f2b75f1933696247580da5e5c103}{tablica\-\_\-asocjacyjna} ()
+\begin{DoxyCompactList}\small\item\em \-Konstruktor klasy; ustawia nastepujace parametry. \end{DoxyCompactList}\item 
+void \hyperlink{classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7}{dodaj} (string k, \-T\-Y\-P v)
+\begin{DoxyCompactList}\small\item\em \-Metoda dodaje element do struktury. \-Gdy (uwzgledniajac porzadek alfabetyczny) element ma stac w skrajnym miejscu tablicy, dodawany jest od razu. \-W przeciwnym razie funkcja {\ttfamily wstaw} {\ttfamily szuka} odpowiedniego miejsca. \-Ponadto metoda tworzy pamiec dla struktury, gdy uprzednio jest ona pusta. \end{DoxyCompactList}\item 
+void \hyperlink{classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220672a246a7d8ad}{usun} (string k)
+\begin{DoxyCompactList}\small\item\em \-Metoda usuwa zadany element, korzystajac z funkcji {\ttfamily znajdz} {\ttfamily }. \end{DoxyCompactList}\item 
+\-T\-Y\-P \hyperlink{classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9}{pobierz} (string k)
+\begin{DoxyCompactList}\small\item\em \-Metoda zwraca uzytkownikowi szukany element, pod warunkiem, ze jest on w zbiorze. \end{DoxyCompactList}\item 
+bool \hyperlink{classtablica__asocjacyjna_a671f1d928a4d91c6e7708a55b1ce85dc}{czy\-\_\-pusta} ()
+\item 
+int \hyperlink{classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c87b249}{zlicz\-\_\-elementy} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Metody prywatne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classtablica__asocjacyjna_a9fc42088f50eca25e7ae4ce8c84ddf4d}{insert} (int ind, string k, \-T\-Y\-P v)
+\begin{DoxyCompactList}\small\item\em \-Metoda ktora umieszcza wartosc oraz jej klucz w zadanym mejscu. \-Gdy wartosc z kluczem jest dodawana w srodek struktury, dane na prawo od niej przesuwane sa o jeden w prawo. \-Gdy istnieje potrzeba powiekszenia tablicy, stosuje sie znany juz radzaj gospodarowania pamiecia, gdzie rozmiar tablicy jest podwajany, co jest korzystne ze wzgledu na zlozonosc obliczeniowa. \end{DoxyCompactList}\item 
+void \hyperlink{classtablica__asocjacyjna_a5da9eecc7f4e0d7bcf31e8c5c7c49d06}{wstaw} (string k, \-T\-Y\-P v, int ind\-\_\-l, int ind\-\_\-r)
+\begin{DoxyCompactList}\small\item\em \-Metoda szuka pozycji, w ktora nalezy dodac element, aby tablica byla posortowana alfabetycznie. \end{DoxyCompactList}\item 
+int \hyperlink{classtablica__asocjacyjna_a70a184c5358e47655211e68925c2e12e}{znajdz} (string k, int ind\-\_\-l, int ind\-\_\-r)
+\begin{DoxyCompactList}\small\item\em \-Metoda szuka w zbiorze zadanego klucza (przeszukiwanie binarne), gdy element zostanie odnaleziony, tzn jest zawarty w strukturze, flaga {\ttfamily found} {\ttfamily ustawiana} jest na wartosc {\ttfamily true} {\ttfamily }. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+string $\ast$ \hyperlink{classtablica__asocjacyjna_aefde9ad3347d42f36cab258144bacc1f}{key}
+\begin{DoxyCompactList}\small\item\em \-Tablica zawierajaca klucze poszukiwan. \end{DoxyCompactList}\item 
+\-T\-Y\-P $\ast$ \hyperlink{classtablica__asocjacyjna_a28719743b86b0a16db652afda20b665c}{value}
+\begin{DoxyCompactList}\small\item\em \-Tablica zawierajaca wartosci. \end{DoxyCompactList}\item 
+int \hyperlink{classtablica__asocjacyjna_a4a9d8aa0a03fd1ccf2fa7980d61bc197}{s}
+\begin{DoxyCompactList}\small\item\em rozmiar tablicy \end{DoxyCompactList}\item 
+int \hyperlink{classtablica__asocjacyjna_a2af0a8be0f335f5ad09f908cb08c0039}{sp}
+\begin{DoxyCompactList}\small\item\em rozmiar danych zapelniajacych tablice \end{DoxyCompactList}\item 
+bool \hyperlink{classtablica__asocjacyjna_aa3423d398d1a6b96e3f42398a2ce5a1e}{found}
+\begin{DoxyCompactList}\small\item\em flaga informujaca o tym, czy dany klucz znaleziono w zbiorze \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\subsubsection*{template$<$typename \-T\-Y\-P$>$class tablica\-\_\-asocjacyjna$<$ T\-Y\-P $>$}
+
+\-Klasa modeluje tablice asocjacyjna. 
+
+\-Definicja w linii 59 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+
+
+\subsection{\-Dokumentacja konstruktora i destruktora}
+\hypertarget{classtablica__asocjacyjna_a9173f2b75f1933696247580da5e5c103}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{tablica\-\_\-asocjacyjna}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf tablica\-\_\-asocjacyjna} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classtablica__asocjacyjna_a9173f2b75f1933696247580da5e5c103}
+
+
+\-Konstruktor klasy; ustawia nastepujace parametry. 
+
+\begin{DoxyVerb}
+		s = 0 newline
+		sp = 0 newline
+		found = false
+		\end{DoxyVerb}
+ 
+
+\-Definicja w linii 151 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+
+
+\subsection{\-Dokumentacja funkcji składowych}
+\hypertarget{classtablica__asocjacyjna_a671f1d928a4d91c6e7708a55b1ce85dc}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!czy\-\_\-pusta@{czy\-\_\-pusta}}
+\index{czy\-\_\-pusta@{czy\-\_\-pusta}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{czy\-\_\-pusta}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ bool {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf czy\-\_\-pusta} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classtablica__asocjacyjna_a671f1d928a4d91c6e7708a55b1ce85dc}
+\begin{DoxyReturn}{\-Zwraca}
+true, gdy stos jest pusty, false w przeciwnym wypadku 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 207 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+\hypertarget{classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!dodaj@{dodaj}}
+\index{dodaj@{dodaj}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{dodaj}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf dodaj} (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{\-T\-Y\-P}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7}
+
+
+\-Metoda dodaje element do struktury. \-Gdy (uwzgledniajac porzadek alfabetyczny) element ma stac w skrajnym miejscu tablicy, dodawany jest od razu. \-W przeciwnym razie funkcja {\ttfamily wstaw} {\ttfamily szuka} odpowiedniego miejsca. \-Ponadto metoda tworzy pamiec dla struktury, gdy uprzednio jest ona pusta. 
+
+
+
+\-Definicja w linii 157 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=286pt]{classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classtablica__asocjacyjna_a9fc42088f50eca25e7ae4ce8c84ddf4d}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!insert@{insert}}
+\index{insert@{insert}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{insert}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf insert} (
+\begin{DoxyParamCaption}
+\item[{int}]{ind, }
+\item[{string}]{k, }
+\item[{\-T\-Y\-P}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, private\mbox{]}}}}\label{classtablica__asocjacyjna_a9fc42088f50eca25e7ae4ce8c84ddf4d}
+
+
+\-Metoda ktora umieszcza wartosc oraz jej klucz w zadanym mejscu. \-Gdy wartosc z kluczem jest dodawana w srodek struktury, dane na prawo od niej przesuwane sa o jeden w prawo. \-Gdy istnieje potrzeba powiekszenia tablicy, stosuje sie znany juz radzaj gospodarowania pamiecia, gdzie rozmiar tablicy jest podwajany, co jest korzystne ze wzgledu na zlozonosc obliczeniowa. 
+
+
+
+\-Definicja w linii 75 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+\hypertarget{classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!pobierz@{pobierz}}
+\index{pobierz@{pobierz}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{pobierz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ \-T\-Y\-P {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf pobierz} (
+\begin{DoxyParamCaption}
+\item[{string}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9}
+
+
+\-Metoda zwraca uzytkownikowi szukany element, pod warunkiem, ze jest on w zbiorze. 
+
+\begin{DoxyReturn}{\-Zwraca}
+szukany element \-Gdy slownik jest pusty lub szukany element nie istnieje, uzytkownik zostaje o tym poinformowany 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 192 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=294pt]{classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220672a246a7d8ad}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!usun@{usun}}
+\index{usun@{usun}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{usun}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf usun} (
+\begin{DoxyParamCaption}
+\item[{string}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220672a246a7d8ad}
+
+
+\-Metoda usuwa zadany element, korzystajac z funkcji {\ttfamily znajdz} {\ttfamily }. 
+
+
+
+\-Definicja w linii 172 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220672a246a7d8ad_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classtablica__asocjacyjna_a5da9eecc7f4e0d7bcf31e8c5c7c49d06}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!wstaw@{wstaw}}
+\index{wstaw@{wstaw}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{wstaw}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf wstaw} (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{\-T\-Y\-P}]{v, }
+\item[{int}]{ind\-\_\-l, }
+\item[{int}]{ind\-\_\-r}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, private\mbox{]}}}}\label{classtablica__asocjacyjna_a5da9eecc7f4e0d7bcf31e8c5c7c49d06}
+
+
+\-Metoda szuka pozycji, w ktora nalezy dodac element, aby tablica byla posortowana alfabetycznie. 
+
+
+
+\-Definicja w linii 118 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+\hypertarget{classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c87b249}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!zlicz\-\_\-elementy@{zlicz\-\_\-elementy}}
+\index{zlicz\-\_\-elementy@{zlicz\-\_\-elementy}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{zlicz\-\_\-elementy}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf zlicz\-\_\-elementy} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c87b249}
+\begin{DoxyReturn}{\-Zwraca}
+ilosc elementow w strukturze 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 212 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+\hypertarget{classtablica__asocjacyjna_a70a184c5358e47655211e68925c2e12e}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!znajdz@{znajdz}}
+\index{znajdz@{znajdz}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{znajdz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf znajdz} (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{int}]{ind\-\_\-l, }
+\item[{int}]{ind\-\_\-r}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline, private\mbox{]}}}}\label{classtablica__asocjacyjna_a70a184c5358e47655211e68925c2e12e}
+
+
+\-Metoda szuka w zbiorze zadanego klucza (przeszukiwanie binarne), gdy element zostanie odnaleziony, tzn jest zawarty w strukturze, flaga {\ttfamily found} {\ttfamily ustawiana} jest na wartosc {\ttfamily true} {\ttfamily }. 
+
+\begin{DoxyReturn}{\-Zwraca}
+indeks szukanego elementu 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 130 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+
+
+\subsection{\-Dokumentacja atrybutów składowych}
+\hypertarget{classtablica__asocjacyjna_aa3423d398d1a6b96e3f42398a2ce5a1e}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!found@{found}}
+\index{found@{found}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{found}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ bool {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf found}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classtablica__asocjacyjna_aa3423d398d1a6b96e3f42398a2ce5a1e}
+
+
+flaga informujaca o tym, czy dany klucz znaleziono w zbiorze 
+
+
+
+\-Definicja w linii 69 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+\hypertarget{classtablica__asocjacyjna_aefde9ad3347d42f36cab258144bacc1f}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!key@{key}}
+\index{key@{key}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{key}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ string$\ast$ {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf key}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classtablica__asocjacyjna_aefde9ad3347d42f36cab258144bacc1f}
+
+
+\-Tablica zawierajaca klucze poszukiwan. 
+
+
+
+\-Definicja w linii 61 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+\hypertarget{classtablica__asocjacyjna_a4a9d8aa0a03fd1ccf2fa7980d61bc197}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!s@{s}}
+\index{s@{s}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{s}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf s}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classtablica__asocjacyjna_a4a9d8aa0a03fd1ccf2fa7980d61bc197}
+
+
+rozmiar tablicy 
+
+
+
+\-Definicja w linii 65 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+\hypertarget{classtablica__asocjacyjna_a2af0a8be0f335f5ad09f908cb08c0039}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!sp@{sp}}
+\index{sp@{sp}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{sp}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf sp}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classtablica__asocjacyjna_a2af0a8be0f335f5ad09f908cb08c0039}
+
+
+rozmiar danych zapelniajacych tablice 
+
+
+
+\-Definicja w linii 67 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+\hypertarget{classtablica__asocjacyjna_a28719743b86b0a16db652afda20b665c}{\index{tablica\-\_\-asocjacyjna@{tablica\-\_\-asocjacyjna}!value@{value}}
+\index{value@{value}!tablica_asocjacyjna@{tablica\-\_\-asocjacyjna}}
+\subsubsection[{value}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ \-T\-Y\-P$\ast$ {\bf tablica\-\_\-asocjacyjna}$<$ \-T\-Y\-P $>$\-::{\bf value}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classtablica__asocjacyjna_a28719743b86b0a16db652afda20b665c}
+
+
+\-Tablica zawierajaca wartosci. 
+
+
+
+\-Definicja w linii 63 pliku tablica\-\_\-asocjacyjna.\-hh.
+
+
+
+\-Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{tablica__asocjacyjna_8hh}{tablica\-\_\-asocjacyjna.\-hh}\end{DoxyCompactItemize}

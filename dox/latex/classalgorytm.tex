@@ -22,7 +22,8 @@
 \end{figure}
 
 
-\-Diagram współpracy dla algorytm\-:\nopagebreak
+\-Diagram współpracy dla algorytm\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -50,9 +51,9 @@ int \hyperlink{classalgorytm_acbd9260a0b2055acee485f737b960992}{ile\-\_\-danych}
 \item 
 float $\ast$ \hyperlink{classalgorytm_adcd99d6f8b10e222f47fd61328b84c67}{jaki\-\_\-czas} ()
 \item 
-float \hyperlink{classalgorytm_a24d2f97e025292bb4ac297f73fb957d3}{wlacz\-\_\-zegar} ()
+void \hyperlink{classalgorytm_a5ace80a05bfc1305938d173753102ea2}{wlacz\-\_\-zegar} ()
 \begin{DoxyCompactList}\small\item\em \-Metoda wlacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily start}. \end{DoxyCompactList}\item 
-float \hyperlink{classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00}{wylacz\-\_\-zegar} ()
+void \hyperlink{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c}{wylacz\-\_\-zegar} ()
 \begin{DoxyCompactList}\small\item\em \-Metoda wyacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily end}. \end{DoxyCompactList}\item 
 void \hyperlink{classalgorytm_a8354af1fb9c7452012a6defcf98d39d8}{zapisz\-\_\-do\-\_\-csv} (ofstream \&out)
 \begin{DoxyCompactList}\small\item\em \-Metoda zapisuje tablice {\ttfamily czas} do pliku {\ttfamily wyjscie.\-csv}. \end{DoxyCompactList}\item 
@@ -75,7 +76,11 @@ int \hyperlink{classalgorytm_a2778c37f0ec06a30b7d494501c40e91a}{n}
 int \hyperlink{classalgorytm_ac9429e88b0630a008df4d011458ee5a2}{m}
 \begin{DoxyCompactList}\small\item\em ilosc powtorzen \end{DoxyCompactList}\item 
 \hyperlink{classoperacje}{operacje} \hyperlink{classalgorytm_aedaee1aa41206b5f050fe660d0846f2d}{op}
-\begin{DoxyCompactList}\small\item\em klasa zawierajaca tablice i metody do operacji na niej \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em klasa zawierajaca tablice i metody do operacji na niej \end{DoxyCompactList}\item 
+double \hyperlink{classalgorytm_a4dae8e390930e55b11f9e0f4efd9edaf}{czas1}
+\item 
+double \hyperlink{classalgorytm_abf8a655cd9b1acea00ba90893d38567b}{czas2}
+\end{DoxyCompactItemize}
 
 
 \subsection{\-Opis szczegółowy}
@@ -113,7 +118,7 @@ konstruktor kopiujacy -\/ przekazuje informacje o nazwach plikow, ktore zapisywa
 \end{DoxyParams}
 
 
-\-Definicja w linii 75 pliku algorytm.\-hh.
+\-Definicja w linii 76 pliku algorytm.\-hh.
 
 
 
@@ -162,7 +167,7 @@ true -\/ gdy pliki zgodne false -\/ w przeciwnym przypadku
 \end{DoxyReturn}
 
 
-\-Definicja w linii 89 pliku algorytm.\-cpp.
+\-Definicja w linii 98 pliku algorytm.\-cpp.
 
 \hypertarget{classalgorytm_af3f92bf537b1f2e1f93173983e838449}{\index{algorytm@{algorytm}!przelicz@{przelicz}}
 \index{przelicz@{przelicz}!algorytm@{algorytm}}
@@ -185,11 +190,12 @@ true -\/ gdy pliki zgodne false -\/ w przeciwnym przypadku
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph}
+\includegraphics[width=306pt]{classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph}
 \end{center}
 \end{figure}
 
@@ -207,18 +213,7 @@ metoda ustawia wartosc n
 
 
 
-\-Definicja w linii 89 pliku algorytm.\-hh.
-
-
-
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=240pt]{classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph}
-\end{center}
-\end{figure}
-
+\-Definicja w linii 90 pliku algorytm.\-hh.
 
 \hypertarget{classalgorytm_aa12f93ae34e49251044a72fd76ce3ebb}{\index{algorytm@{algorytm}!wczytaj@{wczytaj}}
 \index{wczytaj@{wczytaj}!algorytm@{algorytm}}
@@ -260,13 +255,13 @@ metoda ustawia wartosc n
 
 \-Definicja w linii 21 pliku algorytm.\-cpp.
 
-\hypertarget{classalgorytm_a24d2f97e025292bb4ac297f73fb957d3}{\index{algorytm@{algorytm}!wlacz\-\_\-zegar@{wlacz\-\_\-zegar}}
+\hypertarget{classalgorytm_a5ace80a05bfc1305938d173753102ea2}{\index{algorytm@{algorytm}!wlacz\-\_\-zegar@{wlacz\-\_\-zegar}}
 \index{wlacz\-\_\-zegar@{wlacz\-\_\-zegar}!algorytm@{algorytm}}
-\subsubsection[{wlacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf algorytm\-::wlacz\-\_\-zegar} (
+\subsubsection[{wlacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf algorytm\-::wlacz\-\_\-zegar} (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}}\label{classalgorytm_a24d2f97e025292bb4ac297f73fb957d3}
+)}}\label{classalgorytm_a5ace80a05bfc1305938d173753102ea2}
 
 
 \-Metoda wlacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily start}. 
@@ -285,7 +280,7 @@ start -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classalgorytm_a24d2f97e025292bb4ac297f73fb957d3_icgraph}
+\includegraphics[width=350pt]{classalgorytm_a5ace80a05bfc1305938d173753102ea2_icgraph}
 \end{center}
 \end{figure}
 
@@ -303,7 +298,7 @@ funkcja dokonuje operacji na pliku wejsciowym, wywoluje metody odpowiedzialne za
 
 
 
-\-Definicja w linii 69 pliku algorytm.\-cpp.
+\-Definicja w linii 78 pliku algorytm.\-cpp.
 
 
 
@@ -317,24 +312,13 @@ funkcja dokonuje operacji na pliku wejsciowym, wywoluje metody odpowiedzialne za
 \end{figure}
 
 
-
-
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=250pt]{classalgorytm_a0264787ff113740826ef1368d98dd019_icgraph}
-\end{center}
-\end{figure}
-
-
-\hypertarget{classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00}{\index{algorytm@{algorytm}!wylacz\-\_\-zegar@{wylacz\-\_\-zegar}}
+\hypertarget{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c}{\index{algorytm@{algorytm}!wylacz\-\_\-zegar@{wylacz\-\_\-zegar}}
 \index{wylacz\-\_\-zegar@{wylacz\-\_\-zegar}!algorytm@{algorytm}}
-\subsubsection[{wylacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf algorytm\-::wylacz\-\_\-zegar} (
+\subsubsection[{wylacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf algorytm\-::wylacz\-\_\-zegar} (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)}}\label{classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00}
+)}}\label{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c}
 
 
 \-Metoda wyacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily end}. 
@@ -344,7 +328,7 @@ end -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
 \end{DoxyReturn}
 
 
-\-Definicja w linii 46 pliku algorytm.\-cpp.
+\-Definicja w linii 49 pliku algorytm.\-cpp.
 
 
 
@@ -353,7 +337,7 @@ end -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classalgorytm_a2138e99c4a4c10b366b4dcea37aa7d00_icgraph}
+\includegraphics[width=350pt]{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c_icgraph}
 \end{center}
 \end{figure}
 
@@ -371,11 +355,12 @@ end -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
 
 
 
-\-Definicja w linii 54 pliku algorytm.\-cpp.
+\-Definicja w linii 62 pliku algorytm.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\-Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -386,11 +371,12 @@ end -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph}
+\includegraphics[width=338pt]{classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph}
 \end{center}
 \end{figure}
 
@@ -410,11 +396,12 @@ metoda zapisuje do pliku .csv parametry takie jak\-: srednia, ilosc liczb, odchy
 
 
 
-\-Definicja w linii 96 pliku algorytm.\-cpp.
+\-Definicja w linii 105 pliku algorytm.\-cpp.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\-Oto graf wywoływań tej funkcji\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -435,7 +422,21 @@ zawiera wyniki dzialania algorytmu
 
 
 
-\-Definicja w linii 65 pliku algorytm.\-hh.
+\-Definicja w linii 66 pliku algorytm.\-hh.
+
+\hypertarget{classalgorytm_a4dae8e390930e55b11f9e0f4efd9edaf}{\index{algorytm@{algorytm}!czas1@{czas1}}
+\index{czas1@{czas1}!algorytm@{algorytm}}
+\subsubsection[{czas1}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf algorytm\-::czas1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_a4dae8e390930e55b11f9e0f4efd9edaf}
+
+
+\-Definicja w linii 61 pliku algorytm.\-hh.
+
+\hypertarget{classalgorytm_abf8a655cd9b1acea00ba90893d38567b}{\index{algorytm@{algorytm}!czas2@{czas2}}
+\index{czas2@{czas2}!algorytm@{algorytm}}
+\subsubsection[{czas2}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf algorytm\-::czas2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_abf8a655cd9b1acea00ba90893d38567b}
+
+
+\-Definicja w linii 61 pliku algorytm.\-hh.
 
 \hypertarget{classalgorytm_a5dd6d510b611002cfb9737f12eeff63f}{\index{algorytm@{algorytm}!dane@{dane}}
 \index{dane@{dane}!algorytm@{algorytm}}

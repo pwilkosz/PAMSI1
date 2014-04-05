@@ -1,0 +1,64 @@
+template<typename TYP>
+class element_tab{
+
+	string klucz;
+	TYP wartosc;
+public:
+	element_tab(string k, TYP w): klucz(k), wartosc(w){}
+	~element_tab(){}
+	TYP show_v(){return wartosc;}
+	string show_k(){return klucz;}
+};
+template<typename TYP>
+class tablica_asocjacyjna{
+	list<element_tab<TYP> > slownik;
+	typename list<element_tab<TYP> >::iterator it;
+	void wstaw(element_tab<TYP> el, typename list<element_tab<TYP> >::iterator it1, typename list<element_tab<TYP> >::iterator it2){
+		if(it1 == (it2 - 1)) slownik.insert(it2, el);
+		else {
+			typename list<element_tab<TYP> >::iterator it_temp = (it1 + it2)/2;
+			if(el.show_k()<=it_temp.show_k()) wstaw(el,it1,it_temp);
+			else wstaw(el,it_temp, it2);
+		}
+	}
+public:
+	tablica_asocjacyjna(){}
+	void dodaj(string k, TYP v){
+		cout<<"Dodaje "<<k<<" o wartosci "<<v<<endl;
+		element_tab<TYP> elem(k,v);
+		/*--------- wstawianie elementu ---------------*/
+		if(czy_pusta()) slownik.push_back(elem); 
+		/*Gdy mamy zapęłnioną uprzednio tablicę*/
+		else{
+			if(elem.show_k()<=(slownik.front()).show_k()) slownik.push_front(elem); 
+			else if (elem.show_k()>=(slownik.back()).show_k()) slownik.push_back(elem);
+			else wstaw(elem, slownik.begin(), slownik.end() );
+		}
+	}
+	void usun(string k){
+		if(czy_pusta()) cout<<"SLOWNIK PUSTY!"<<endl;
+		else{
+			it = slownik.begin();
+			cout<<"b"<<endl;
+			while(it != slownik.end()){	
+				if(!(it->show_k().compare(k))){
+				slownik.erase(it); cout<<"usunieto"<<endl;
+			}
+			it++;
+	}}}
+	TYP pobierz(string k){
+		
+		it = slownik.begin();
+		while(it != slownik.end()){	
+			if(!(it->show_k().compare(k))){
+			cout<<"znalazlem"<<endl;
+				return it->show_v();}
+				
+					it++;}
+		cout<<" nie znaleziono"<<endl;
+		return 0;
+	}
+	bool czy_pusta(){return slownik.empty();}
+	int zlicz_elementy(){return 0;}
+};
+

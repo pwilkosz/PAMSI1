@@ -3,20 +3,19 @@
 #include"statystyki.hh"
 #include"operacje.hh"
 #include"stos.hh"
+#include"tablica_asocjacyjna.hh"
 #include<cstdlib>
 #include<string>
+
 /*!
  * \file
  * \brief plik glowny
  */
 using namespace std;
 
-int main(){
+int main(){/*
 string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot skrypt3.pg","gnuplot skrypt4.pg","gnuplot skrypt5.pg","gnuplot skrypt6.pg","gnuplot skrypt7.pg","gnuplot skrypt8.pg","gnuplot skrypt9.pg"};
-/*ofstream wy("plik111.txt");
-wy<<1000000<<endl;
-for(int i =0; i<1000000; i++)
-  wy<<rand()%1000000<<endl;*/
+
 ifstream we("wejscie.txt");
 int tabn[] = {10,100,1000,10000, 500000, 1000000};
 int d = 6;
@@ -28,6 +27,7 @@ ifstream plik2("plik2.txt");
 plik1>>N;
 while(we>>wybor){
   /*------------------------MENU----------------------------------*/
+  /*
   cout<<"***************MENU*********************************************************"<<endl;
   cout<<"* 1. Wypelnienie stosu  - lista                                            *"<<endl;
   cout<<"* 2. Wypelnienie stosu  - tablica na biezaco zmieniajaca pamiec            *"<<endl;
@@ -132,6 +132,26 @@ while(we>>wybor){
 
 
 system(tablica_skryptow[wybor-1].c_str());
-  
+  */
+/*x.dodaj("pi", "liczba pi; wartosc 3.14");
+x.dodaj("e", "liczba e; wartosc 2.728.");
+x.dodaj("jeden", "jeden");
+*/
+/*cout<<x.pobierz("pi")<<endl;
+x.usun("pi");
+cout<<x.pobierz("pi")<<endl;
+*/
+
+tablica_asocjacyjna<float> x;
+
+x.dodaj("e", 2.72);
+x.dodaj("jeden", 1);
+x.dodaj("dwa", 2);
+x.dodaj("ec", 5-3.14);
+
+x.usun("ec");
+x.pobierz("e");
+cout<<x.pobierz("jeden")<<endl;
+
 return 0;
 }
