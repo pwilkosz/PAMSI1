@@ -8,7 +8,7 @@ using namespace std;
 enum syn{lewy, zaden, prawy};
 template<typename TYP>
 class wezel{
-	int x;
+	
 	string klucz;
 	TYP wart;
 public:
@@ -17,21 +17,20 @@ public:
 	wezel* lsyn;
 	wezel* psyn;
 	wezel(){}
-	wezel(string k, TYP v):x(0), klucz(k), wart(v){ojciec = lsyn = psyn = NULL;}
+	wezel(string k, TYP v):klucz(k), wart(v){ojciec = lsyn = psyn = NULL;}
 	~wezel(){}
 	string wez_klucz(){return klucz;}
 	TYP wez_wart(){return wart;}
 	void dodaj_syna(wezel* w){
-		cout<<"dodaj syna "<<x<<endl;
-		x++;
+		
 		if(w->wez_klucz()<=klucz) {
-			cout<<"mnijesze"<<endl;
-			if(!lsyn){lsyn = w; w->flag = lewy; w->ojciec = this;}
-			else lsyn->dodaj_syna(w);
+			
+			if(!lsyn){lsyn = w; w->flag = lewy; w->ojciec = this; }
+			else {lsyn->dodaj_syna(w);}
 		}
-		else{cout<<"wieksze"<<endl;
+		else{
 			if(!psyn){psyn = w; w->flag = prawy; w->ojciec = this; }
-			else psyn->dodaj_syna(w);
+			else {psyn->dodaj_syna(w);}
 		}
 	}
 	wezel<TYP>* znajdz_nast(){
@@ -47,11 +46,12 @@ public:
 	drzewo(){korzen = NULL;}
 	drzewo(string k, TYP v){korzen = new wezel<TYP>(k,v);}
 	void dodaj_wezel(wezel<TYP>* W){
-		if(!korzen)korzen = W;
+		if(!korzen) korzen = W;
 		else korzen->dodaj_syna(W);
 	}
 	void dodaj(string k, TYP v){
 		wezel<TYP>* w = new wezel<TYP>(k,v);
+		
 		dodaj_wezel(w);
 	}
 	bool znajdz(string k){
@@ -127,14 +127,14 @@ public:
 		}
 		else cout<<"Nie znaleziono wezla"<<endl;
 	}
-	void czysc(wezel<TYP>* w){cout<<"czysc"<<endl;
+	void czysc(wezel<TYP>* w){
 		if(w->lsyn) czysc(w->lsyn);
-		else if(w->psyn) {czysc(w->psyn);
-		cout<<"przed delete"<<endl;}
-		else delete w;
-		cout<<"po delete"<<endl;
+		else if(w->psyn) czysc(w->psyn);
+		
+		else usun(w->wez_klucz());
+		
 	}
-	void wyczysc(){cout<<"wyczysc"<<endl;
+	void wyczysc(){
 		czysc(korzen);
 	}
 

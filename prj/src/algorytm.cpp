@@ -203,13 +203,35 @@ void bst::wczytaj_klucze(ifstream& plik){
 
 float bst::przelicz(){
   wlacz_zegar();
-for(int i = 0; i<n; i++){
-  
-  d.dodaj(klucze[i], dane[i]);
-}
+  d.znajdz(klucze[rand()%n]);
   wylacz_zegar();
   float cz = czas1+ czas2;
-  d.wyczysc();
+
   
   return cz;
+}
+void h_table::wczytaj_klucze(ifstream& plik){
+  for(int i = 0; i<n; i++)
+    plik>>klucze[i];
+  
+}
+float h_table::przelicz(){
+  hashtab<float> H(n);
+  
+  for (int i = 0; i<n; i++){
+    H.dodaj(klucze[i],1.3);
+    cout<<i<<endl;
+  }
+  
+  
+      wlacz_zegar();
+      //for(int z = 0; z<100;z++);
+        
+        cout<<klucze[rand()%n]<<endl;
+        
+      H.znajdz(klucze[rand()%n]);
+      wylacz_zegar();
+        float cz = czas1 + czas2;
+
+        return cz;
 }

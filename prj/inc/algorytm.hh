@@ -10,7 +10,7 @@
 #include"stos.hh"
 #include"kolejka.hh"
 #include"drzewo.hh"
-
+#include"hashtab.hh"
 using namespace std;
 
 /*!
@@ -225,8 +225,24 @@ class bst: public algorytm{
   string* klucze;
 public:
   void wczytaj_klucze(ifstream& plik);
-  bst(ifstream&  plik1, ifstream& plik2, ifstream& plik3, int N, int M) :algorytm(plik1,plik2,N,M){klucze = new string[N]; wczytaj_klucze(plik3);}
+  bst(ifstream&  plik1, ifstream& plik2, ifstream& plik3, int N, int M) :algorytm(plik1,plik2,N,M){
+    klucze = new string[N]; 
+    wczytaj_klucze(plik3);
+    for(int i = 0; i<n; i++){
+      d.dodaj(klucze[i], dane[i]);
+      cout<<i<<endl;
+    }
+  }
   float przelicz();
+  
 };
-
+class h_table: public algorytm{
+  string* klucze;
+public:
+  void wczytaj_klucze(ifstream& plik);
+  h_table(ifstream&  plik1, ifstream& plik2, ifstream& plik3, int N, int M) :algorytm(plik1,plik2,N,M){
+    klucze = new string[N];
+    wczytaj_klucze(plik3);}
+  float przelicz();
+  };
 #endif

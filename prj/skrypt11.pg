@@ -9,12 +9,12 @@ set grid
 
 #set xrange [10:60000]
 set terminal postscript eps color
-set output "wykres10.eps"
+set output "wykres11.eps"
 
 
 f(x) = a*x
 fit f(x) "out1.csv" via a
-g(x) = b**log(x)
+g(x) = b*x*log(x)
 fit g(x) "out1.csv" via b
 h(x) = c*x**2
 fit h(x) "out1.csv" via  c
