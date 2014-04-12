@@ -9,6 +9,8 @@
 #include"operacje.hh"
 #include"stos.hh"
 #include"kolejka.hh"
+#include"drzewo.hh"
+
 using namespace std;
 
 /*!
@@ -215,6 +217,15 @@ public:
   /*! \brief konstruktor*/
   m_sort(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
   /*! \brief metoda dokonujaca sortowania danych*/
+  float przelicz();
+};
+
+class bst: public algorytm{
+  drzewo<float> d;
+  string* klucze;
+public:
+  void wczytaj_klucze(ifstream& plik);
+  bst(ifstream&  plik1, ifstream& plik2, ifstream& plik3, int N, int M) :algorytm(plik1,plik2,N,M){klucze = new string[N]; wczytaj_klucze(plik3);}
   float przelicz();
 };
 

@@ -4,6 +4,7 @@
 #include"operacje.hh"
 #include"stos.hh"
 #include"tablica_asocjacyjna.hh"
+#include"drzewo.hh"
 #include<cstdlib>
 #include<string>
 
@@ -13,21 +14,26 @@
  */
 using namespace std;
 
-int main(){/*
-string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot skrypt3.pg","gnuplot skrypt4.pg","gnuplot skrypt5.pg","gnuplot skrypt6.pg","gnuplot skrypt7.pg","gnuplot skrypt8.pg","gnuplot skrypt9.pg"};
+int main(){
+  
 
-ifstream we("wejscie.txt");
-int tabn[] = {10,100,1000,10000, 500000, 1000000};
+string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot skrypt3.pg","gnuplot skrypt4.pg","gnuplot skrypt5.pg","gnuplot skrypt6.pg","gnuplot skrypt7.pg","gnuplot skrypt8.pg","gnuplot skrypt9.pg","gnuplot skrypt10.pg"};
+
+//ifstream we("wejscie.txt");
+int tabn[] = {10,100,1000,5000, 10000, 20000};
 int d = 6;
 int N;
-int M = 10;
+int M = 5;
 int wybor = 0;
 ifstream plik1("plik11.txt");
 ifstream plik2("plik2.txt");
+cout<<"b1"<<endl;
+ifstream plik3("klucze.txt");
+cout<<"b2"<<endl;
 plik1>>N;
-while(we>>wybor){
+while(cin>>wybor){
   /*------------------------MENU----------------------------------*/
-  /*
+  
   cout<<"***************MENU*********************************************************"<<endl;
   cout<<"* 1. Wypelnienie stosu  - lista                                            *"<<endl;
   cout<<"* 2. Wypelnienie stosu  - tablica na biezaco zmieniajaca pamiec            *"<<endl;
@@ -38,6 +44,7 @@ while(we>>wybor){
   cout<<"* 7. Sortowanie quicksort                                                  *"<<endl;
   cout<<"* 8. Sorotwanie heapsort                                                   *"<<endl;
   cout<<"* 9. Sortowanie mergesort                                                  *"<<endl;
+  cout<<"* 10.BST                                                                   *"<<endl;
   cout<<"----------------------------------------------------------------------------"<<endl;
   cout<<"Twoj wybor: "<<flush;
   
@@ -127,12 +134,21 @@ while(we>>wybor){
         alg.wykonaj(out);
       }
     } break;
+    case 10: {cout<<"wybrawszy bst"<<endl;
+      bst alg(plik1, plik2, plik3, N, M);
+      
+      ofstream out("out1.csv");
+      for(int i = 0; i<d; i++){
+        alg.set_N(tabn[i]); 
+        alg.wykonaj(out);
+      }
+    } break;
     default: {cout<<"Bledna opcja, sprobuj ponownie"<<wybor<<endl; wybor = 0; } break;
 }}
 
 
 system(tablica_skryptow[wybor-1].c_str());
-  */
+  
 /*x.dodaj("pi", "liczba pi; wartosc 3.14");
 x.dodaj("e", "liczba e; wartosc 2.728.");
 x.dodaj("jeden", "jeden");
@@ -142,16 +158,6 @@ x.usun("pi");
 cout<<x.pobierz("pi")<<endl;
 */
 
-tablica_asocjacyjna<float> x;
-
-x.dodaj("e", 2.72);
-x.dodaj("jeden", 1);
-x.dodaj("dwa", 2);
-x.dodaj("ec", 5-3.14);
-
-x.usun("ec");
-x.pobierz("e");
-cout<<x.pobierz("jeden")<<endl;
 
 return 0;
 }

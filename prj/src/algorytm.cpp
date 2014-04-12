@@ -78,6 +78,7 @@ void algorytm::zapisz_do_csv(ofstream& out){
 void algorytm::wykonaj(ofstream& out){
   
   for(int i = 0; i<m; i++){
+    cout<<"krok "<<i<<endl;
   float cz = przelicz();
   
   
@@ -87,7 +88,7 @@ void algorytm::wykonaj(ofstream& out){
   czas[i] = cz;
  
   op = dane;
-  
+ 
 }
 
 zapisz_do_csv(out);
@@ -193,4 +194,22 @@ float m_sort::przelicz(){
   
   return cz;
 
+}
+
+void bst::wczytaj_klucze(ifstream& plik){
+  for(int i = 0; i<n; i++)
+    plik>>klucze[i];
+}
+
+float bst::przelicz(){
+  wlacz_zegar();
+for(int i = 0; i<n; i++){
+  
+  d.dodaj(klucze[i], dane[i]);
+}
+  wylacz_zegar();
+  float cz = czas1+ czas2;
+  d.wyczysc();
+  
+  return cz;
 }

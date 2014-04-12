@@ -4,6 +4,8 @@
 #include<cstdlib>
 #include<iostream>
 using namespace std;
+
+
 /*!
  * \brief Klasa modeluje tablice z danymi i metody sluzace do operacji na niej*/
 class operacje{
