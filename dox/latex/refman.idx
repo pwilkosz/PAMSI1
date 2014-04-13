@@ -1,266 +1,407 @@
 \indexentry{algorytm@{algorytm}|hyperpage}{7}
-\indexentry{algorytm@{algorytm}!algorytm@{algorytm}|hyperpage}{9}
-\indexentry{algorytm@{algorytm}!algorytm@{algorytm}|hyperpage}{9}
-\indexentry{algorytm@{algorytm}!ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych@{ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych}|hyperpage}{10}
-\indexentry{ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych@{ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych}!algorytm@{algorytm}|hyperpage}{10}
-\indexentry{algorytm@{algorytm}!jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas@{jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas}|hyperpage}{10}
-\indexentry{jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas@{jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas}!algorytm@{algorytm}|hyperpage}{10}
-\indexentry{algorytm@{algorytm}!porownaj@{porownaj}|hyperpage}{10}
-\indexentry{porownaj@{porownaj}!algorytm@{algorytm}|hyperpage}{10}
-\indexentry{algorytm@{algorytm}!przelicz@{przelicz}|hyperpage}{10}
-\indexentry{przelicz@{przelicz}!algorytm@{algorytm}|hyperpage}{10}
-\indexentry{algorytm@{algorytm}!set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N@{set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N}|hyperpage}{11}
-\indexentry{set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N@{set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N}!algorytm@{algorytm}|hyperpage}{11}
-\indexentry{algorytm@{algorytm}!wczytaj@{wczytaj}|hyperpage}{11}
-\indexentry{wczytaj@{wczytaj}!algorytm@{algorytm}|hyperpage}{11}
-\indexentry{algorytm@{algorytm}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor}|hyperpage}{11}
-\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor}!algorytm@{algorytm}|hyperpage}{11}
-\indexentry{algorytm@{algorytm}!wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar@{wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}|hyperpage}{11}
-\indexentry{wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar@{wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}!algorytm@{algorytm}|hyperpage}{11}
-\indexentry{algorytm@{algorytm}!wykonaj@{wykonaj}|hyperpage}{12}
-\indexentry{wykonaj@{wykonaj}!algorytm@{algorytm}|hyperpage}{12}
-\indexentry{algorytm@{algorytm}!wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar@{wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}|hyperpage}{13}
-\indexentry{wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar@{wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}!algorytm@{algorytm}|hyperpage}{13}
-\indexentry{algorytm@{algorytm}!zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}|hyperpage}{14}
-\indexentry{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}!algorytm@{algorytm}|hyperpage}{14}
-\indexentry{algorytm@{algorytm}!zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot}|hyperpage}{15}
-\indexentry{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot}!algorytm@{algorytm}|hyperpage}{15}
-\indexentry{algorytm@{algorytm}!czas@{czas}|hyperpage}{16}
-\indexentry{czas@{czas}!algorytm@{algorytm}|hyperpage}{16}
-\indexentry{algorytm@{algorytm}!czas1@{czas1}|hyperpage}{16}
-\indexentry{czas1@{czas1}!algorytm@{algorytm}|hyperpage}{16}
-\indexentry{algorytm@{algorytm}!czas2@{czas2}|hyperpage}{16}
-\indexentry{czas2@{czas2}!algorytm@{algorytm}|hyperpage}{16}
-\indexentry{algorytm@{algorytm}!dane@{dane}|hyperpage}{16}
-\indexentry{dane@{dane}!algorytm@{algorytm}|hyperpage}{16}
-\indexentry{algorytm@{algorytm}!dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz@{dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz}|hyperpage}{16}
-\indexentry{dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz@{dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz}!algorytm@{algorytm}|hyperpage}{16}
-\indexentry{algorytm@{algorytm}!m@{m}|hyperpage}{16}
-\indexentry{m@{m}!algorytm@{algorytm}|hyperpage}{16}
-\indexentry{algorytm@{algorytm}!n@{n}|hyperpage}{16}
-\indexentry{n@{n}!algorytm@{algorytm}|hyperpage}{16}
-\indexentry{algorytm@{algorytm}!op@{op}|hyperpage}{16}
-\indexentry{op@{op}!algorytm@{algorytm}|hyperpage}{16}
-\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{17}
-\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{18}
-\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!h_sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{18}
-\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!przelicz@{przelicz}|hyperpage}{18}
-\indexentry{przelicz@{przelicz}!h_sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{18}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{19}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{20}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!kolejka_lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{20}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!przelicz@{przelicz}|hyperpage}{20}
-\indexentry{przelicz@{przelicz}!kolejka_lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{20}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!qu@{qu}|hyperpage}{21}
-\indexentry{qu@{qu}!kolejka_lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{21}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{21}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{23}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!kolejka_tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{23}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!przelicz@{przelicz}|hyperpage}{23}
-\indexentry{przelicz@{przelicz}!kolejka_tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{23}
-\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!qu@{qu}|hyperpage}{24}
-\indexentry{qu@{qu}!kolejka_tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{24}
-\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{24}
-\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{26}
-\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!m_sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{26}
-\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!przelicz@{przelicz}|hyperpage}{26}
-\indexentry{przelicz@{przelicz}!m_sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{26}
-\indexentry{mnozenie@{mnozenie}|hyperpage}{26}
-\indexentry{mnozenie@{mnozenie}!mnozenie@{mnozenie}|hyperpage}{28}
-\indexentry{mnozenie@{mnozenie}!mnozenie@{mnozenie}|hyperpage}{28}
-\indexentry{mnozenie@{mnozenie}!przelicz@{przelicz}|hyperpage}{28}
-\indexentry{przelicz@{przelicz}!mnozenie@{mnozenie}|hyperpage}{28}
-\indexentry{operacje@{operacje}|hyperpage}{29}
-\indexentry{operacje@{operacje}!operacje@{operacje}|hyperpage}{30}
-\indexentry{operacje@{operacje}!operacje@{operacje}|hyperpage}{30}
-\indexentry{operacje@{operacje}!operacje@{operacje}|hyperpage}{30}
-\indexentry{operacje@{operacje}!operacje@{operacje}|hyperpage}{30}
-\indexentry{operacje@{operacje}!dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}|hyperpage}{30}
-\indexentry{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}!operacje@{operacje}|hyperpage}{30}
-\indexentry{operacje@{operacje}!dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}|hyperpage}{30}
-\indexentry{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}!operacje@{operacje}|hyperpage}{30}
-\indexentry{operacje@{operacje}!heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{31}
-\indexentry{heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!operacje@{operacje}|hyperpage}{31}
-\indexentry{operacje@{operacje}!make\discretionary {-}{}{}\_\discretionary {-}{}{}heap@{make\discretionary {-}{}{}\_\discretionary {-}{}{}heap}|hyperpage}{31}
-\indexentry{make\discretionary {-}{}{}\_\discretionary {-}{}{}heap@{make\discretionary {-}{}{}\_\discretionary {-}{}{}heap}!operacje@{operacje}|hyperpage}{31}
-\indexentry{operacje@{operacje}!make\discretionary {-}{}{}\_\discretionary {-}{}{}node@{make\discretionary {-}{}{}\_\discretionary {-}{}{}node}|hyperpage}{32}
-\indexentry{make\discretionary {-}{}{}\_\discretionary {-}{}{}node@{make\discretionary {-}{}{}\_\discretionary {-}{}{}node}!operacje@{operacje}|hyperpage}{32}
-\indexentry{operacje@{operacje}!merge@{merge}|hyperpage}{32}
-\indexentry{merge@{merge}!operacje@{operacje}|hyperpage}{32}
-\indexentry{operacje@{operacje}!merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{33}
-\indexentry{merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!operacje@{operacje}|hyperpage}{33}
-\indexentry{operacje@{operacje}!odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice@{odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}|hyperpage}{34}
-\indexentry{odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice@{odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}!operacje@{operacje}|hyperpage}{34}
-\indexentry{operacje@{operacje}!operator=@{operator=}|hyperpage}{34}
-\indexentry{operator=@{operator=}!operacje@{operacje}|hyperpage}{34}
-\indexentry{operacje@{operacje}!operator==@{operator==}|hyperpage}{34}
-\indexentry{operator==@{operator==}!operacje@{operacje}|hyperpage}{34}
-\indexentry{operacje@{operacje}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{34}
-\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!operacje@{operacje}|hyperpage}{34}
-\indexentry{operacje@{operacje}!quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{34}
-\indexentry{quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!operacje@{operacje}|hyperpage}{34}
-\indexentry{operacje@{operacje}!zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}|hyperpage}{35}
-\indexentry{zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}!operacje@{operacje}|hyperpage}{35}
-\indexentry{operacje@{operacje}!n@{n}|hyperpage}{36}
-\indexentry{n@{n}!operacje@{operacje}|hyperpage}{36}
-\indexentry{operacje@{operacje}!tab@{tab}|hyperpage}{36}
-\indexentry{tab@{tab}!operacje@{operacje}|hyperpage}{36}
-\indexentry{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{36}
-\indexentry{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{38}
-\indexentry{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!q_sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{38}
-\indexentry{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!przelicz@{przelicz}|hyperpage}{38}
-\indexentry{przelicz@{przelicz}!q_sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{38}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{38}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{40}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{40}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{40}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{40}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!clear@{clear}|hyperpage}{40}
-\indexentry{clear@{clear}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{40}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!dequeue@{dequeue}|hyperpage}{40}
-\indexentry{dequeue@{dequeue}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{40}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!enqueue@{enqueue}|hyperpage}{41}
-\indexentry{enqueue@{enqueue}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{41}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}|hyperpage}{41}
-\indexentry{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{41}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!size@{size}|hyperpage}{41}
-\indexentry{size@{size}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{41}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!f@{f}|hyperpage}{41}
-\indexentry{f@{f}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{41}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!q@{q}|hyperpage}{42}
-\indexentry{q@{q}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{42}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!s@{s}|hyperpage}{42}
-\indexentry{s@{s}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{42}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!sp@{sp}|hyperpage}{42}
-\indexentry{sp@{sp}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{42}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{42}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!clear@{clear}|hyperpage}{43}
-\indexentry{clear@{clear}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{43}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!dequeue@{dequeue}|hyperpage}{43}
-\indexentry{dequeue@{dequeue}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{43}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!enqueue@{enqueue}|hyperpage}{43}
-\indexentry{enqueue@{enqueue}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{43}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}|hyperpage}{44}
-\indexentry{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{44}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!size@{size}|hyperpage}{44}
-\indexentry{size@{size}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{44}
-\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!q@{q}|hyperpage}{44}
-\indexentry{q@{q}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{44}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{44}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{46}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{46}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{46}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{46}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!clear@{clear}|hyperpage}{46}
-\indexentry{clear@{clear}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{46}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}|hyperpage}{46}
-\indexentry{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{46}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!pop@{pop}|hyperpage}{47}
-\indexentry{pop@{pop}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{47}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!push@{push}|hyperpage}{47}
-\indexentry{push@{push}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{47}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!size@{size}|hyperpage}{47}
-\indexentry{size@{size}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{47}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!f@{f}|hyperpage}{47}
-\indexentry{f@{f}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{47}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!s@{s}|hyperpage}{48}
-\indexentry{s@{s}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{48}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!sp@{sp}|hyperpage}{48}
-\indexentry{sp@{sp}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{48}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!st@{st}|hyperpage}{48}
-\indexentry{st@{st}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{48}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{48}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!clear@{clear}|hyperpage}{49}
-\indexentry{clear@{clear}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{49}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}|hyperpage}{49}
-\indexentry{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{49}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!pop@{pop}|hyperpage}{49}
-\indexentry{pop@{pop}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{49}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!push@{push}|hyperpage}{49}
-\indexentry{push@{push}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{49}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!size@{size}|hyperpage}{50}
-\indexentry{size@{size}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{50}
-\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!st@{st}|hyperpage}{50}
-\indexentry{st@{st}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{50}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{50}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{52}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!stos_lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{52}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!przelicz@{przelicz}|hyperpage}{52}
-\indexentry{przelicz@{przelicz}!stos_lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{52}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!stos@{stos}|hyperpage}{53}
-\indexentry{stos@{stos}!stos_lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{53}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{53}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{54}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!stos_tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{54}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!przelicz@{przelicz}|hyperpage}{55}
-\indexentry{przelicz@{przelicz}!stos_tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{55}
-\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!stos@{stos}|hyperpage}{55}
-\indexentry{stos@{stos}!stos_tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{55}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{56}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{57}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{57}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta@{czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta}|hyperpage}{57}
-\indexentry{czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta@{czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{57}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!dodaj@{dodaj}|hyperpage}{57}
-\indexentry{dodaj@{dodaj}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{57}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!insert@{insert}|hyperpage}{58}
-\indexentry{insert@{insert}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{58}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!pobierz@{pobierz}|hyperpage}{58}
-\indexentry{pobierz@{pobierz}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{58}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!usun@{usun}|hyperpage}{58}
-\indexentry{usun@{usun}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{58}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!wstaw@{wstaw}|hyperpage}{59}
-\indexentry{wstaw@{wstaw}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{59}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}|hyperpage}{59}
-\indexentry{zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{59}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!znajdz@{znajdz}|hyperpage}{59}
-\indexentry{znajdz@{znajdz}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{59}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!found@{found}|hyperpage}{60}
-\indexentry{found@{found}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{60}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!key@{key}|hyperpage}{60}
-\indexentry{key@{key}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{60}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!s@{s}|hyperpage}{60}
-\indexentry{s@{s}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{60}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!sp@{sp}|hyperpage}{60}
-\indexentry{sp@{sp}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{60}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!value@{value}|hyperpage}{60}
-\indexentry{value@{value}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{60}
-\indexentry{algorytm.\discretionary {-}{}{}cpp@{algorytm.\discretionary {-}{}{}cpp}|hyperpage}{61}
-\indexentry{algorytm.\discretionary {-}{}{}hh@{algorytm.\discretionary {-}{}{}hh}|hyperpage}{61}
-\indexentry{kolejka.\discretionary {-}{}{}hh@{kolejka.\discretionary {-}{}{}hh}|hyperpage}{63}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{64}
-\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{65}
-\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{65}
-\indexentry{operacje.\discretionary {-}{}{}cpp@{operacje.\discretionary {-}{}{}cpp}|hyperpage}{66}
-\indexentry{operacje.\discretionary {-}{}{}hh@{operacje.\discretionary {-}{}{}hh}|hyperpage}{66}
-\indexentry{operacje.\discretionary {-}{}{}hh@{operacje.\discretionary {-}{}{}hh}!\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R@{\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R}|hyperpage}{67}
-\indexentry{\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R@{\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R}!operacje.hh@{operacje.\discretionary {-}{}{}hh}|hyperpage}{67}
-\indexentry{statystyki.\discretionary {-}{}{}cpp@{statystyki.\discretionary {-}{}{}cpp}|hyperpage}{68}
-\indexentry{statystyki.\discretionary {-}{}{}cpp@{statystyki.\discretionary {-}{}{}cpp}!odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}|hyperpage}{68}
-\indexentry{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}!statystyki.cpp@{statystyki.\discretionary {-}{}{}cpp}|hyperpage}{68}
-\indexentry{statystyki.\discretionary {-}{}{}cpp@{statystyki.\discretionary {-}{}{}cpp}!srednia@{srednia}|hyperpage}{69}
-\indexentry{srednia@{srednia}!statystyki.cpp@{statystyki.\discretionary {-}{}{}cpp}|hyperpage}{69}
-\indexentry{statystyki.\discretionary {-}{}{}hh@{statystyki.\discretionary {-}{}{}hh}|hyperpage}{69}
-\indexentry{statystyki.\discretionary {-}{}{}hh@{statystyki.\discretionary {-}{}{}hh}!odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}|hyperpage}{71}
-\indexentry{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}!statystyki.hh@{statystyki.\discretionary {-}{}{}hh}|hyperpage}{71}
-\indexentry{statystyki.\discretionary {-}{}{}hh@{statystyki.\discretionary {-}{}{}hh}!srednia@{srednia}|hyperpage}{71}
-\indexentry{srednia@{srednia}!statystyki.hh@{statystyki.\discretionary {-}{}{}hh}|hyperpage}{71}
-\indexentry{stos.\discretionary {-}{}{}hh@{stos.\discretionary {-}{}{}hh}|hyperpage}{72}
-\indexentry{stos.\discretionary {-}{}{}hh@{stos.\discretionary {-}{}{}hh}!flag@{flag}|hyperpage}{74}
-\indexentry{flag@{flag}!stos.hh@{stos.\discretionary {-}{}{}hh}|hyperpage}{74}
-\indexentry{plus1@{plus1}!stos.\-hh@{stos.\-hh}|hyperpage}{74}
-\indexentry{stos.\-hh@{stos.\-hh}!plus1@{plus1}|hyperpage}{74}
-\indexentry{x2@{x2}!stos.\-hh@{stos.\-hh}|hyperpage}{74}
-\indexentry{stos.\-hh@{stos.\-hh}!x2@{x2}|hyperpage}{74}
-\indexentry{strona.\discretionary {-}{}{}dox@{strona.\discretionary {-}{}{}dox}|hyperpage}{74}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}|hyperpage}{74}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}!operator$<$@{operator$<$}|hyperpage}{75}
-\indexentry{operator$<$@{operator$<$}!tablica_asocjacyjna.hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}|hyperpage}{75}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}!operator$<$=@{operator$<$=}|hyperpage}{76}
-\indexentry{operator$<$=@{operator$<$=}!tablica_asocjacyjna.hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}|hyperpage}{76}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}!operator==@{operator==}|hyperpage}{76}
-\indexentry{operator==@{operator==}!tablica_asocjacyjna.hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}|hyperpage}{76}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}!operator$>$@{operator$>$}|hyperpage}{76}
-\indexentry{operator$>$@{operator$>$}!tablica_asocjacyjna.hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}|hyperpage}{76}
-\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}!operator$>$=@{operator$>$=}|hyperpage}{76}
-\indexentry{operator$>$=@{operator$>$=}!tablica_asocjacyjna.hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}|hyperpage}{76}
+\indexentry{algorytm@{algorytm}!algorytm@{algorytm}|hyperpage}{10}
+\indexentry{algorytm@{algorytm}!algorytm@{algorytm}|hyperpage}{10}
+\indexentry{algorytm@{algorytm}!ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych@{ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych}|hyperpage}{11}
+\indexentry{ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych@{ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych}!algorytm@{algorytm}|hyperpage}{11}
+\indexentry{algorytm@{algorytm}!jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas@{jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas}|hyperpage}{11}
+\indexentry{jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas@{jaki\discretionary {-}{}{}\_\discretionary {-}{}{}czas}!algorytm@{algorytm}|hyperpage}{11}
+\indexentry{algorytm@{algorytm}!porownaj@{porownaj}|hyperpage}{11}
+\indexentry{porownaj@{porownaj}!algorytm@{algorytm}|hyperpage}{11}
+\indexentry{algorytm@{algorytm}!przelicz@{przelicz}|hyperpage}{11}
+\indexentry{przelicz@{przelicz}!algorytm@{algorytm}|hyperpage}{11}
+\indexentry{algorytm@{algorytm}!set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N@{set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N}|hyperpage}{12}
+\indexentry{set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N@{set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N}!algorytm@{algorytm}|hyperpage}{12}
+\indexentry{algorytm@{algorytm}!wczytaj@{wczytaj}|hyperpage}{12}
+\indexentry{wczytaj@{wczytaj}!algorytm@{algorytm}|hyperpage}{12}
+\indexentry{algorytm@{algorytm}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor}|hyperpage}{12}
+\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor}!algorytm@{algorytm}|hyperpage}{12}
+\indexentry{algorytm@{algorytm}!wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar@{wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}|hyperpage}{12}
+\indexentry{wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar@{wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}!algorytm@{algorytm}|hyperpage}{12}
+\indexentry{algorytm@{algorytm}!wykonaj@{wykonaj}|hyperpage}{13}
+\indexentry{wykonaj@{wykonaj}!algorytm@{algorytm}|hyperpage}{13}
+\indexentry{algorytm@{algorytm}!wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar@{wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}|hyperpage}{14}
+\indexentry{wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar@{wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}!algorytm@{algorytm}|hyperpage}{14}
+\indexentry{algorytm@{algorytm}!zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}|hyperpage}{15}
+\indexentry{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}!algorytm@{algorytm}|hyperpage}{15}
+\indexentry{algorytm@{algorytm}!zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot}|hyperpage}{16}
+\indexentry{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot@{zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot}!algorytm@{algorytm}|hyperpage}{16}
+\indexentry{algorytm@{algorytm}!czas@{czas}|hyperpage}{17}
+\indexentry{czas@{czas}!algorytm@{algorytm}|hyperpage}{17}
+\indexentry{algorytm@{algorytm}!czas1@{czas1}|hyperpage}{17}
+\indexentry{czas1@{czas1}!algorytm@{algorytm}|hyperpage}{17}
+\indexentry{algorytm@{algorytm}!czas2@{czas2}|hyperpage}{17}
+\indexentry{czas2@{czas2}!algorytm@{algorytm}|hyperpage}{17}
+\indexentry{algorytm@{algorytm}!dane@{dane}|hyperpage}{17}
+\indexentry{dane@{dane}!algorytm@{algorytm}|hyperpage}{17}
+\indexentry{algorytm@{algorytm}!dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz@{dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz}|hyperpage}{17}
+\indexentry{dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz@{dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz}!algorytm@{algorytm}|hyperpage}{17}
+\indexentry{algorytm@{algorytm}!m@{m}|hyperpage}{17}
+\indexentry{m@{m}!algorytm@{algorytm}|hyperpage}{17}
+\indexentry{algorytm@{algorytm}!n@{n}|hyperpage}{17}
+\indexentry{n@{n}!algorytm@{algorytm}|hyperpage}{17}
+\indexentry{algorytm@{algorytm}!op@{op}|hyperpage}{17}
+\indexentry{op@{op}!algorytm@{algorytm}|hyperpage}{17}
+\indexentry{bst@{bst}|hyperpage}{18}
+\indexentry{bst@{bst}!bst@{bst}|hyperpage}{20}
+\indexentry{bst@{bst}!bst@{bst}|hyperpage}{20}
+\indexentry{bst@{bst}!$\sim $bst@{$\sim $bst}|hyperpage}{20}
+\indexentry{$\sim $bst@{$\sim $bst}!bst@{bst}|hyperpage}{20}
+\indexentry{bst@{bst}!przelicz@{przelicz}|hyperpage}{20}
+\indexentry{przelicz@{przelicz}!bst@{bst}|hyperpage}{20}
+\indexentry{bst@{bst}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}|hyperpage}{21}
+\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}!bst@{bst}|hyperpage}{21}
+\indexentry{bst@{bst}!d@{d}|hyperpage}{21}
+\indexentry{d@{d}!bst@{bst}|hyperpage}{21}
+\indexentry{bst@{bst}!klucze@{klucze}|hyperpage}{21}
+\indexentry{klucze@{klucze}!bst@{bst}|hyperpage}{21}
+\indexentry{drzewo$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{drzewo$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{21}
+\indexentry{drzewo@{drzewo}!drzewo@{drzewo}|hyperpage}{22}
+\indexentry{drzewo@{drzewo}!drzewo@{drzewo}|hyperpage}{22}
+\indexentry{drzewo@{drzewo}!drzewo@{drzewo}|hyperpage}{22}
+\indexentry{drzewo@{drzewo}!drzewo@{drzewo}|hyperpage}{22}
+\indexentry{drzewo@{drzewo}!czysc@{czysc}|hyperpage}{23}
+\indexentry{czysc@{czysc}!drzewo@{drzewo}|hyperpage}{23}
+\indexentry{drzewo@{drzewo}!dodaj@{dodaj}|hyperpage}{23}
+\indexentry{dodaj@{dodaj}!drzewo@{drzewo}|hyperpage}{23}
+\indexentry{drzewo@{drzewo}!dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel}|hyperpage}{23}
+\indexentry{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel}!drzewo@{drzewo}|hyperpage}{23}
+\indexentry{drzewo@{drzewo}!szukaj@{szukaj}|hyperpage}{23}
+\indexentry{szukaj@{szukaj}!drzewo@{drzewo}|hyperpage}{23}
+\indexentry{drzewo@{drzewo}!usun@{usun}|hyperpage}{24}
+\indexentry{usun@{usun}!drzewo@{drzewo}|hyperpage}{24}
+\indexentry{drzewo@{drzewo}!wyczysc@{wyczysc}|hyperpage}{24}
+\indexentry{wyczysc@{wyczysc}!drzewo@{drzewo}|hyperpage}{24}
+\indexentry{drzewo@{drzewo}!znajdz@{znajdz}|hyperpage}{24}
+\indexentry{znajdz@{znajdz}!drzewo@{drzewo}|hyperpage}{24}
+\indexentry{drzewo@{drzewo}!korzen@{korzen}|hyperpage}{25}
+\indexentry{korzen@{korzen}!drzewo@{drzewo}|hyperpage}{25}
+\indexentry{drzewo@{drzewo}!znaleziony@{znaleziony}|hyperpage}{25}
+\indexentry{znaleziony@{znaleziony}!drzewo@{drzewo}|hyperpage}{25}
+\indexentry{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{25}
+\indexentry{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!el\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{26}
+\indexentry{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!el_tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{26}
+\indexentry{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!$\sim $el\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{$\sim $el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{26}
+\indexentry{$\sim $el\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{$\sim $el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!el_tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{26}
+\indexentry{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!klucz@{klucz}|hyperpage}{27}
+\indexentry{klucz@{klucz}!el_tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{27}
+\indexentry{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!wart@{wart}|hyperpage}{27}
+\indexentry{wart@{wart}!el_tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{27}
+\indexentry{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}!zajety@{zajety}|hyperpage}{27}
+\indexentry{zajety@{zajety}!el_tab@{el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}|hyperpage}{27}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{27}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{29}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!h_sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{29}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!przelicz@{przelicz}|hyperpage}{29}
+\indexentry{przelicz@{przelicz}!h_sort@{h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{29}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}|hyperpage}{29}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}!h\discretionary {-}{}{}\_\discretionary {-}{}{}table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}|hyperpage}{31}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}!h_table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}|hyperpage}{31}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}!przelicz@{przelicz}|hyperpage}{31}
+\indexentry{przelicz@{przelicz}!h_table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}|hyperpage}{31}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}|hyperpage}{32}
+\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}!h_table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}|hyperpage}{32}
+\indexentry{h\discretionary {-}{}{}\_\discretionary {-}{}{}table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}!klucze@{klucze}|hyperpage}{32}
+\indexentry{klucze@{klucze}!h_table@{h\discretionary {-}{}{}\_\discretionary {-}{}{}table}|hyperpage}{32}
+\indexentry{hashtab$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{hashtab$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{32}
+\indexentry{hashtab@{hashtab}!hashtab@{hashtab}|hyperpage}{33}
+\indexentry{hashtab@{hashtab}!hashtab@{hashtab}|hyperpage}{33}
+\indexentry{hashtab@{hashtab}!hashtab@{hashtab}|hyperpage}{33}
+\indexentry{hashtab@{hashtab}!hashtab@{hashtab}|hyperpage}{33}
+\indexentry{hashtab@{hashtab}!dodaj@{dodaj}|hyperpage}{34}
+\indexentry{dodaj@{dodaj}!hashtab@{hashtab}|hyperpage}{34}
+\indexentry{hashtab@{hashtab}!hash@{hash}|hyperpage}{35}
+\indexentry{hash@{hash}!hashtab@{hashtab}|hyperpage}{35}
+\indexentry{hashtab@{hashtab}!ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}dlugosc@{ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}dlugosc}|hyperpage}{35}
+\indexentry{ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}dlugosc@{ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}dlugosc}!hashtab@{hashtab}|hyperpage}{35}
+\indexentry{hashtab@{hashtab}!usun@{usun}|hyperpage}{36}
+\indexentry{usun@{usun}!hashtab@{hashtab}|hyperpage}{36}
+\indexentry{hashtab@{hashtab}!wypisz@{wypisz}|hyperpage}{36}
+\indexentry{wypisz@{wypisz}!hashtab@{hashtab}|hyperpage}{36}
+\indexentry{hashtab@{hashtab}!znajdz@{znajdz}|hyperpage}{36}
+\indexentry{znajdz@{znajdz}!hashtab@{hashtab}|hyperpage}{36}
+\indexentry{hashtab@{hashtab}!dlugosc@{dlugosc}|hyperpage}{37}
+\indexentry{dlugosc@{dlugosc}!hashtab@{hashtab}|hyperpage}{37}
+\indexentry{hashtab@{hashtab}!tab@{tab}|hyperpage}{37}
+\indexentry{tab@{tab}!hashtab@{hashtab}|hyperpage}{37}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{38}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{39}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!kolejka_lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{39}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!przelicz@{przelicz}|hyperpage}{39}
+\indexentry{przelicz@{przelicz}!kolejka_lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{39}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!qu@{qu}|hyperpage}{40}
+\indexentry{qu@{qu}!kolejka_lista@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{40}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{40}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{42}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!kolejka_tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{42}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!przelicz@{przelicz}|hyperpage}{42}
+\indexentry{przelicz@{przelicz}!kolejka_tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{42}
+\indexentry{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!qu@{qu}|hyperpage}{43}
+\indexentry{qu@{qu}!kolejka_tablica@{kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{43}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{43}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{45}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!m_sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{45}
+\indexentry{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!przelicz@{przelicz}|hyperpage}{45}
+\indexentry{przelicz@{przelicz}!m_sort@{m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{45}
+\indexentry{mnozenie@{mnozenie}|hyperpage}{45}
+\indexentry{mnozenie@{mnozenie}!mnozenie@{mnozenie}|hyperpage}{47}
+\indexentry{mnozenie@{mnozenie}!mnozenie@{mnozenie}|hyperpage}{47}
+\indexentry{mnozenie@{mnozenie}!przelicz@{przelicz}|hyperpage}{47}
+\indexentry{przelicz@{przelicz}!mnozenie@{mnozenie}|hyperpage}{47}
+\indexentry{operacje@{operacje}|hyperpage}{48}
+\indexentry{operacje@{operacje}!operacje@{operacje}|hyperpage}{49}
+\indexentry{operacje@{operacje}!operacje@{operacje}|hyperpage}{49}
+\indexentry{operacje@{operacje}!operacje@{operacje}|hyperpage}{49}
+\indexentry{operacje@{operacje}!operacje@{operacje}|hyperpage}{49}
+\indexentry{operacje@{operacje}!dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}|hyperpage}{49}
+\indexentry{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}!operacje@{operacje}|hyperpage}{49}
+\indexentry{operacje@{operacje}!dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}|hyperpage}{49}
+\indexentry{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}!operacje@{operacje}|hyperpage}{49}
+\indexentry{operacje@{operacje}!heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{50}
+\indexentry{heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!operacje@{operacje}|hyperpage}{50}
+\indexentry{operacje@{operacje}!make\discretionary {-}{}{}\_\discretionary {-}{}{}heap@{make\discretionary {-}{}{}\_\discretionary {-}{}{}heap}|hyperpage}{50}
+\indexentry{make\discretionary {-}{}{}\_\discretionary {-}{}{}heap@{make\discretionary {-}{}{}\_\discretionary {-}{}{}heap}!operacje@{operacje}|hyperpage}{50}
+\indexentry{operacje@{operacje}!make\discretionary {-}{}{}\_\discretionary {-}{}{}node@{make\discretionary {-}{}{}\_\discretionary {-}{}{}node}|hyperpage}{51}
+\indexentry{make\discretionary {-}{}{}\_\discretionary {-}{}{}node@{make\discretionary {-}{}{}\_\discretionary {-}{}{}node}!operacje@{operacje}|hyperpage}{51}
+\indexentry{operacje@{operacje}!merge@{merge}|hyperpage}{51}
+\indexentry{merge@{merge}!operacje@{operacje}|hyperpage}{51}
+\indexentry{operacje@{operacje}!merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{52}
+\indexentry{merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!operacje@{operacje}|hyperpage}{52}
+\indexentry{operacje@{operacje}!odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice@{odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}|hyperpage}{53}
+\indexentry{odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice@{odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}!operacje@{operacje}|hyperpage}{53}
+\indexentry{operacje@{operacje}!operator=@{operator=}|hyperpage}{53}
+\indexentry{operator=@{operator=}!operacje@{operacje}|hyperpage}{53}
+\indexentry{operacje@{operacje}!operator==@{operator==}|hyperpage}{53}
+\indexentry{operator==@{operator==}!operacje@{operacje}|hyperpage}{53}
+\indexentry{operacje@{operacje}!operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}|hyperpage}{53}
+\indexentry{operator\unhbox \voidb@x \hbox {[}$\,$\unhbox \voidb@x \hbox {]}@{operator[]}!operacje@{operacje}|hyperpage}{53}
+\indexentry{operacje@{operacje}!quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{53}
+\indexentry{quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!operacje@{operacje}|hyperpage}{53}
+\indexentry{operacje@{operacje}!zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}|hyperpage}{54}
+\indexentry{zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}!operacje@{operacje}|hyperpage}{54}
+\indexentry{operacje@{operacje}!n@{n}|hyperpage}{55}
+\indexentry{n@{n}!operacje@{operacje}|hyperpage}{55}
+\indexentry{operacje@{operacje}!tab@{tab}|hyperpage}{55}
+\indexentry{tab@{tab}!operacje@{operacje}|hyperpage}{55}
+\indexentry{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{55}
+\indexentry{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{57}
+\indexentry{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!q_sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{57}
+\indexentry{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}!przelicz@{przelicz}|hyperpage}{57}
+\indexentry{przelicz@{przelicz}!q_sort@{q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}|hyperpage}{57}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{57}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{59}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{59}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{59}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{59}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!clear@{clear}|hyperpage}{59}
+\indexentry{clear@{clear}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{59}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!dequeue@{dequeue}|hyperpage}{59}
+\indexentry{dequeue@{dequeue}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{59}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!enqueue@{enqueue}|hyperpage}{60}
+\indexentry{enqueue@{enqueue}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{60}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}|hyperpage}{60}
+\indexentry{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{60}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!size@{size}|hyperpage}{60}
+\indexentry{size@{size}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{60}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!f@{f}|hyperpage}{60}
+\indexentry{f@{f}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{60}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!q@{q}|hyperpage}{61}
+\indexentry{q@{q}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{61}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!s@{s}|hyperpage}{61}
+\indexentry{s@{s}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{61}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}!sp@{sp}|hyperpage}{61}
+\indexentry{sp@{sp}!queue_array@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{61}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{61}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!clear@{clear}|hyperpage}{62}
+\indexentry{clear@{clear}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{62}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!dequeue@{dequeue}|hyperpage}{62}
+\indexentry{dequeue@{dequeue}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{62}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!enqueue@{enqueue}|hyperpage}{62}
+\indexentry{enqueue@{enqueue}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{62}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}|hyperpage}{63}
+\indexentry{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{63}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!size@{size}|hyperpage}{63}
+\indexentry{size@{size}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{63}
+\indexentry{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}!q@{q}|hyperpage}{63}
+\indexentry{q@{q}!queue_list@{queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{63}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{63}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{65}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{65}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{65}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{65}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!clear@{clear}|hyperpage}{65}
+\indexentry{clear@{clear}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{65}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}|hyperpage}{65}
+\indexentry{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{65}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!pop@{pop}|hyperpage}{66}
+\indexentry{pop@{pop}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{66}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!push@{push}|hyperpage}{66}
+\indexentry{push@{push}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{66}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!size@{size}|hyperpage}{66}
+\indexentry{size@{size}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{66}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!f@{f}|hyperpage}{66}
+\indexentry{f@{f}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{66}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!s@{s}|hyperpage}{67}
+\indexentry{s@{s}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{67}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!sp@{sp}|hyperpage}{67}
+\indexentry{sp@{sp}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{67}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}!st@{st}|hyperpage}{67}
+\indexentry{st@{st}!stack_array@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}|hyperpage}{67}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{67}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!clear@{clear}|hyperpage}{68}
+\indexentry{clear@{clear}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{68}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}|hyperpage}{68}
+\indexentry{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty@{is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{68}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!pop@{pop}|hyperpage}{68}
+\indexentry{pop@{pop}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{68}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!push@{push}|hyperpage}{68}
+\indexentry{push@{push}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{68}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!size@{size}|hyperpage}{69}
+\indexentry{size@{size}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{69}
+\indexentry{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}!st@{st}|hyperpage}{69}
+\indexentry{st@{st}!stack_list@{stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}|hyperpage}{69}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{69}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{71}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!stos_lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{71}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!przelicz@{przelicz}|hyperpage}{71}
+\indexentry{przelicz@{przelicz}!stos_lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{71}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}!stos@{stos}|hyperpage}{72}
+\indexentry{stos@{stos}!stos_lista@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}|hyperpage}{72}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{72}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{73}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!stos_tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{73}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!przelicz@{przelicz}|hyperpage}{74}
+\indexentry{przelicz@{przelicz}!stos_tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{74}
+\indexentry{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}!stos@{stos}|hyperpage}{74}
+\indexentry{stos@{stos}!stos_tablica@{stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}|hyperpage}{74}
+\indexentry{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}|hyperpage}{75}
+\indexentry{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}!tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}|hyperpage}{76}
+\indexentry{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}!tab_aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}|hyperpage}{76}
+\indexentry{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}!przelicz@{przelicz}|hyperpage}{76}
+\indexentry{przelicz@{przelicz}!tab_aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}|hyperpage}{76}
+\indexentry{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}!wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}|hyperpage}{77}
+\indexentry{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze@{wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}!tab_aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}|hyperpage}{77}
+\indexentry{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}!d@{d}|hyperpage}{77}
+\indexentry{d@{d}!tab_aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}|hyperpage}{77}
+\indexentry{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}!klucze@{klucze}|hyperpage}{77}
+\indexentry{klucze@{klucze}!tab_aso@{tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}|hyperpage}{77}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{78}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{79}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{79}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta@{czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta}|hyperpage}{79}
+\indexentry{czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta@{czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{79}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!dodaj@{dodaj}|hyperpage}{79}
+\indexentry{dodaj@{dodaj}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{79}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!insert@{insert}|hyperpage}{80}
+\indexentry{insert@{insert}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{80}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!pobierz@{pobierz}|hyperpage}{80}
+\indexentry{pobierz@{pobierz}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{80}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!usun@{usun}|hyperpage}{80}
+\indexentry{usun@{usun}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{80}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!wstaw@{wstaw}|hyperpage}{80}
+\indexentry{wstaw@{wstaw}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{80}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!wypisz@{wypisz}|hyperpage}{80}
+\indexentry{wypisz@{wypisz}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{80}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}|hyperpage}{81}
+\indexentry{zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy@{zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{81}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!znajdz@{znajdz}|hyperpage}{81}
+\indexentry{znajdz@{znajdz}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{81}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!znajdz@{znajdz}|hyperpage}{81}
+\indexentry{znajdz@{znajdz}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{81}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!found@{found}|hyperpage}{81}
+\indexentry{found@{found}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{81}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!key@{key}|hyperpage}{82}
+\indexentry{key@{key}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{82}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!s@{s}|hyperpage}{82}
+\indexentry{s@{s}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{82}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!sp@{sp}|hyperpage}{82}
+\indexentry{sp@{sp}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{82}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}!value@{value}|hyperpage}{82}
+\indexentry{value@{value}!tablica_asocjacyjna@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}|hyperpage}{82}
+\indexentry{wezel$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$@{wezel$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}|hyperpage}{82}
+\indexentry{wezel@{wezel}!wezel@{wezel}|hyperpage}{84}
+\indexentry{wezel@{wezel}!wezel@{wezel}|hyperpage}{84}
+\indexentry{wezel@{wezel}!wezel@{wezel}|hyperpage}{84}
+\indexentry{wezel@{wezel}!wezel@{wezel}|hyperpage}{84}
+\indexentry{wezel@{wezel}!$\sim $wezel@{$\sim $wezel}|hyperpage}{84}
+\indexentry{$\sim $wezel@{$\sim $wezel}!wezel@{wezel}|hyperpage}{84}
+\indexentry{wezel@{wezel}!dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}syna@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}syna}|hyperpage}{84}
+\indexentry{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}syna@{dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}syna}!wezel@{wezel}|hyperpage}{84}
+\indexentry{wezel@{wezel}!wez\discretionary {-}{}{}\_\discretionary {-}{}{}klucz@{wez\discretionary {-}{}{}\_\discretionary {-}{}{}klucz}|hyperpage}{85}
+\indexentry{wez\discretionary {-}{}{}\_\discretionary {-}{}{}klucz@{wez\discretionary {-}{}{}\_\discretionary {-}{}{}klucz}!wezel@{wezel}|hyperpage}{85}
+\indexentry{wezel@{wezel}!wez\discretionary {-}{}{}\_\discretionary {-}{}{}wart@{wez\discretionary {-}{}{}\_\discretionary {-}{}{}wart}|hyperpage}{85}
+\indexentry{wez\discretionary {-}{}{}\_\discretionary {-}{}{}wart@{wez\discretionary {-}{}{}\_\discretionary {-}{}{}wart}!wezel@{wezel}|hyperpage}{85}
+\indexentry{wezel@{wezel}!znajdz\discretionary {-}{}{}\_\discretionary {-}{}{}nast@{znajdz\discretionary {-}{}{}\_\discretionary {-}{}{}nast}|hyperpage}{86}
+\indexentry{znajdz\discretionary {-}{}{}\_\discretionary {-}{}{}nast@{znajdz\discretionary {-}{}{}\_\discretionary {-}{}{}nast}!wezel@{wezel}|hyperpage}{86}
+\indexentry{wezel@{wezel}!flag@{flag}|hyperpage}{86}
+\indexentry{flag@{flag}!wezel@{wezel}|hyperpage}{86}
+\indexentry{wezel@{wezel}!klucz@{klucz}|hyperpage}{86}
+\indexentry{klucz@{klucz}!wezel@{wezel}|hyperpage}{86}
+\indexentry{wezel@{wezel}!lsyn@{lsyn}|hyperpage}{86}
+\indexentry{lsyn@{lsyn}!wezel@{wezel}|hyperpage}{86}
+\indexentry{wezel@{wezel}!ojciec@{ojciec}|hyperpage}{86}
+\indexentry{ojciec@{ojciec}!wezel@{wezel}|hyperpage}{86}
+\indexentry{wezel@{wezel}!psyn@{psyn}|hyperpage}{87}
+\indexentry{psyn@{psyn}!wezel@{wezel}|hyperpage}{87}
+\indexentry{wezel@{wezel}!wart@{wart}|hyperpage}{87}
+\indexentry{wart@{wart}!wezel@{wezel}|hyperpage}{87}
+\indexentry{algorytm.\discretionary {-}{}{}cpp@{algorytm.\discretionary {-}{}{}cpp}|hyperpage}{89}
+\indexentry{algorytm.\discretionary {-}{}{}hh@{algorytm.\discretionary {-}{}{}hh}|hyperpage}{89}
+\indexentry{drzewo.\discretionary {-}{}{}hh@{drzewo.\discretionary {-}{}{}hh}|hyperpage}{91}
+\indexentry{drzewo.\discretionary {-}{}{}hh@{drzewo.\discretionary {-}{}{}hh}!syn@{syn}|hyperpage}{92}
+\indexentry{syn@{syn}!drzewo.hh@{drzewo.\discretionary {-}{}{}hh}|hyperpage}{92}
+\indexentry{lewy@{lewy}!drzewo.\-hh@{drzewo.\-hh}|hyperpage}{93}
+\indexentry{drzewo.\-hh@{drzewo.\-hh}!lewy@{lewy}|hyperpage}{93}
+\indexentry{zaden@{zaden}!drzewo.\-hh@{drzewo.\-hh}|hyperpage}{93}
+\indexentry{drzewo.\-hh@{drzewo.\-hh}!zaden@{zaden}|hyperpage}{93}
+\indexentry{prawy@{prawy}!drzewo.\-hh@{drzewo.\-hh}|hyperpage}{93}
+\indexentry{drzewo.\-hh@{drzewo.\-hh}!prawy@{prawy}|hyperpage}{93}
+\indexentry{hashtab.\discretionary {-}{}{}hh@{hashtab.\discretionary {-}{}{}hh}|hyperpage}{93}
+\indexentry{kolejka.\discretionary {-}{}{}hh@{kolejka.\discretionary {-}{}{}hh}|hyperpage}{94}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{95}
+\indexentry{main.\discretionary {-}{}{}cpp@{main.\discretionary {-}{}{}cpp}!main@{main}|hyperpage}{96}
+\indexentry{main@{main}!main.cpp@{main.\discretionary {-}{}{}cpp}|hyperpage}{96}
+\indexentry{operacje.\discretionary {-}{}{}cpp@{operacje.\discretionary {-}{}{}cpp}|hyperpage}{97}
+\indexentry{operacje.\discretionary {-}{}{}hh@{operacje.\discretionary {-}{}{}hh}|hyperpage}{97}
+\indexentry{operacje.\discretionary {-}{}{}hh@{operacje.\discretionary {-}{}{}hh}!\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R@{\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R}|hyperpage}{98}
+\indexentry{\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R@{\discretionary {-}{}{}R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R}!operacje.hh@{operacje.\discretionary {-}{}{}hh}|hyperpage}{98}
+\indexentry{statystyki.\discretionary {-}{}{}cpp@{statystyki.\discretionary {-}{}{}cpp}|hyperpage}{99}
+\indexentry{statystyki.\discretionary {-}{}{}cpp@{statystyki.\discretionary {-}{}{}cpp}!odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}|hyperpage}{99}
+\indexentry{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}!statystyki.cpp@{statystyki.\discretionary {-}{}{}cpp}|hyperpage}{99}
+\indexentry{statystyki.\discretionary {-}{}{}cpp@{statystyki.\discretionary {-}{}{}cpp}!srednia@{srednia}|hyperpage}{100}
+\indexentry{srednia@{srednia}!statystyki.cpp@{statystyki.\discretionary {-}{}{}cpp}|hyperpage}{100}
+\indexentry{statystyki.\discretionary {-}{}{}hh@{statystyki.\discretionary {-}{}{}hh}|hyperpage}{100}
+\indexentry{statystyki.\discretionary {-}{}{}hh@{statystyki.\discretionary {-}{}{}hh}!odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}|hyperpage}{102}
+\indexentry{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe@{odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}!statystyki.hh@{statystyki.\discretionary {-}{}{}hh}|hyperpage}{102}
+\indexentry{statystyki.\discretionary {-}{}{}hh@{statystyki.\discretionary {-}{}{}hh}!srednia@{srednia}|hyperpage}{102}
+\indexentry{srednia@{srednia}!statystyki.hh@{statystyki.\discretionary {-}{}{}hh}|hyperpage}{102}
+\indexentry{stos.\discretionary {-}{}{}hh@{stos.\discretionary {-}{}{}hh}|hyperpage}{103}
+\indexentry{stos.\discretionary {-}{}{}hh@{stos.\discretionary {-}{}{}hh}!flag@{flag}|hyperpage}{105}
+\indexentry{flag@{flag}!stos.hh@{stos.\discretionary {-}{}{}hh}|hyperpage}{105}
+\indexentry{plus1@{plus1}!stos.\-hh@{stos.\-hh}|hyperpage}{105}
+\indexentry{stos.\-hh@{stos.\-hh}!plus1@{plus1}|hyperpage}{105}
+\indexentry{x2@{x2}!stos.\-hh@{stos.\-hh}|hyperpage}{105}
+\indexentry{stos.\-hh@{stos.\-hh}!x2@{x2}|hyperpage}{105}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}|hyperpage}{105}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}!operator$<$@{operator$<$}|hyperpage}{106}
+\indexentry{operator$<$@{operator$<$}!str_operacje.cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}|hyperpage}{106}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}!operator$<$=@{operator$<$=}|hyperpage}{106}
+\indexentry{operator$<$=@{operator$<$=}!str_operacje.cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}|hyperpage}{106}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}!operator==@{operator==}|hyperpage}{106}
+\indexentry{operator==@{operator==}!str_operacje.cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}|hyperpage}{106}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}!operator$>$@{operator$>$}|hyperpage}{106}
+\indexentry{operator$>$@{operator$>$}!str_operacje.cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}|hyperpage}{106}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}!operator$>$=@{operator$>$=}|hyperpage}{106}
+\indexentry{operator$>$=@{operator$>$=}!str_operacje.cpp@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}|hyperpage}{106}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}|hyperpage}{107}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}!operator$<$@{operator$<$}|hyperpage}{108}
+\indexentry{operator$<$@{operator$<$}!str_operacje.hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}|hyperpage}{108}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}!operator$<$=@{operator$<$=}|hyperpage}{108}
+\indexentry{operator$<$=@{operator$<$=}!str_operacje.hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}|hyperpage}{108}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}!operator==@{operator==}|hyperpage}{108}
+\indexentry{operator==@{operator==}!str_operacje.hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}|hyperpage}{108}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}!operator$>$@{operator$>$}|hyperpage}{108}
+\indexentry{operator$>$@{operator$>$}!str_operacje.hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}|hyperpage}{108}
+\indexentry{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}!operator$>$=@{operator$>$=}|hyperpage}{108}
+\indexentry{operator$>$=@{operator$>$=}!str_operacje.hh@{str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}|hyperpage}{108}
+\indexentry{strona.\discretionary {-}{}{}dox@{strona.\discretionary {-}{}{}dox}|hyperpage}{109}
+\indexentry{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh@{tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}|hyperpage}{109}

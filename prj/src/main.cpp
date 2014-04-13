@@ -33,7 +33,7 @@ string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot 
 int tabn[] = {10,100,1000,10000, 100000, 1000000};
 int d = 6;
 int N;
-int M = 15;
+int M = 10;
 int wybor = 0;
 
 ifstream plik1("plik11.txt");

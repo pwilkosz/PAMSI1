@@ -206,7 +206,7 @@ public:
 /*! \brief klasa reprezentuje dane poddane sortowaniu przez kopcowanie */
 class h_sort: public algorytm{
 public:
-  /*! \breif konstruktor klasy*/
+  /*! \brief konstruktor klasy*/
   h_sort(ifstream& plik1, ifstream& plik2, int N, int M) :algorytm(plik1,plik2,N,M){}
   /*! \brief metoda dokonujaca sortowania danych*/
   float przelicz();
@@ -220,7 +220,9 @@ public:
   /*! \brief metoda dokonujaca sortowania danych*/
   float przelicz();
 };
-
+/*! \brief 
+  Modeluje drzewo binarne przeznaczone do testowania szybkosci wyszukiwnaia
+*/
 class bst: public algorytm{
   drzewo<float> d;
   string* klucze;
@@ -231,33 +233,54 @@ public:
     wczytaj_klucze(plik3);
     for(int i = 0; i<N; i++){
       d.dodaj(klucze[i], dane[i]);
-      cout<<i<<"hehe "<<klucze[i]<<endl;
+     cout<<i<<endl;
     }
   }
   ~bst(){d.wyczysc();}
   float przelicz();
   
 };
+/*! \brief 
+  Modeluje tablice haszujaca przeznaczona do testowania szybkosci wyszukiwnaia
+*/
 class h_table: public algorytm{
+  /*! \brief tablica kluczy*/
   string* klucze;
 public:
+  /*! \brief wczytywanie kluczy
+  \param [in] plik - strumien z kluczmai uzytymi podczas testow
+  */
   void wczytaj_klucze(ifstream& plik);
+  /*! \brief konstruktor*/
   h_table(ifstream&  plik1, ifstream& plik2, ifstream& plik3, int N, int M) :algorytm(plik1,plik2,N,M){
     klucze = new string[N];
     wczytaj_klucze(plik3);}
   float przelicz();
   };
 
-
+/*! \brief 
+  Modeluje tablice asocjacyjna przeznaczona do testowania szybkosci wyszukiwnaia
+*/
   class tab_aso: public algorytm{
-  
+    /*! \brief tablica asocjacyjna*/
+  tablica_asocjacyjna<float> d;//to trzeba gdzie indziej
+  /*! \brief wczytywanie kluczy
+  \param [in] plik - strumien z kluczmai uzytymi podczas testow
+  */
   string* klucze;
 public:
+   /*! \brief wczytywanie kluczy
+  \param [in] plik - strumien z kluczmai uzytymi podczas testow
+  */
   void wczytaj_klucze(ifstream& plik);
+  /*! \brief konstruktor*/
   tab_aso(ifstream&  plik1, ifstream& plik2, ifstream& plik3, int N, int M) :algorytm(plik1,plik2,N,M){
     klucze = new string[N]; 
     wczytaj_klucze(plik3);
-    cout<<"wczytano klucze"<<endl;
+    for(int i = 0; i<200000; i++){
+      d.dodaj(klucze[i], dane[i]);
+      cout<<i<<endl;
+    }
     
   }
   float przelicz();

@@ -248,14 +248,10 @@ void tab_aso::wczytaj_klucze(ifstream& plik){
 }
 
 float tab_aso::przelicz(){
-  tablica_asocjacyjna<float> d;
-  for(int i = 0; i<n; i++){
-      d.dodaj(klucze[i], dane[i]);
-      cout<<i<<endl;
-    }
-   
+  
+  
   wlacz_zegar();
-  if(d.znajdz(klucze[rand()%n]))cout<<"znalazlem"<<endl; else cout<<"nie znalazlem"<<endl;
+  d.znajdz(klucze[rand()%n]);
   wylacz_zegar();
   float cz = czas1+ czas2;
 

@@ -15,16 +15,17 @@
 {\ttfamily \#include \char`\"{}operacje.\-hh\char`\"{}}\*
 {\ttfamily \#include \char`\"{}stos.\-hh\char`\"{}}\*
 {\ttfamily \#include \char`\"{}kolejka.\-hh\char`\"{}}\*
-\-Wykres zależności załączania dla algorytm.\-hh\-:
-\nopagebreak
+{\ttfamily \#include \char`\"{}drzewo.\-hh\char`\"{}}\*
+{\ttfamily \#include \char`\"{}hashtab.\-hh\char`\"{}}\*
+{\ttfamily \#include \char`\"{}tablica\-\_\-asocjacyjna.\-hh\char`\"{}}\*
+\-Wykres zależności załączania dla algorytm.\-hh\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=350pt]{algorytm_8hh__incl}
 \end{center}
 \end{figure}
-\-Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\-:
-\nopagebreak
+\-Ten wykres pokazuje, które pliki bezpośrednio lub pośrednio załączają ten plik\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -51,7 +52,13 @@ class \hyperlink{classq__sort}{q\-\_\-sort}
 class \hyperlink{classh__sort}{h\-\_\-sort}
 \begin{DoxyCompactList}\small\item\em klasa reprezentuje dane poddane sortowaniu przez kopcowanie \end{DoxyCompactList}\item 
 class \hyperlink{classm__sort}{m\-\_\-sort}
-\begin{DoxyCompactList}\small\item\em klasa reprezentuje dane poddane sortowaniu przez scalanie \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em klasa reprezentuje dane poddane sortowaniu przez scalanie \end{DoxyCompactList}\item 
+class \hyperlink{classbst}{bst}
+\begin{DoxyCompactList}\small\item\em \-Modeluje drzewo binarne przeznaczone do testowania szybkosci wyszukiwnaia. \end{DoxyCompactList}\item 
+class \hyperlink{classh__table}{h\-\_\-table}
+\begin{DoxyCompactList}\small\item\em \-Modeluje tablice haszujaca przeznaczona do testowania szybkosci wyszukiwnaia. \end{DoxyCompactList}\item 
+class \hyperlink{classtab__aso}{tab\-\_\-aso}
+\begin{DoxyCompactList}\small\item\em \-Modeluje tablice asocjacyjna przeznaczona do testowania szybkosci wyszukiwnaia. \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
 \subsection{\-Opis szczegółowy}

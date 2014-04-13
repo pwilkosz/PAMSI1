@@ -1,0 +1,146 @@
+\hypertarget{classh__table}{\section{\-Dokumentacja klasy h\-\_\-table}
+\label{classh__table}\index{h\-\_\-table@{h\-\_\-table}}
+}
+
+
+\-Modeluje tablice haszujaca przeznaczona do testowania szybkosci wyszukiwnaia.  
+
+
+
+
+{\ttfamily \#include $<$algorytm.\-hh$>$}
+
+
+
+\-Diagram dziedziczenia dla h\-\_\-table\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{classh__table__inherit__graph}
+\end{center}
+\end{figure}
+
+
+\-Diagram współpracy dla h\-\_\-table\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{classh__table__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classh__table_a938885a9ce57ae0c447dd9a146637ce9}{wczytaj\-\_\-klucze} (ifstream \&plik)
+\begin{DoxyCompactList}\small\item\em wczytywanie kluczy \end{DoxyCompactList}\item 
+\hyperlink{classh__table_add097e1c13f110997c50b57f7d5e4cf5}{h\-\_\-table} (ifstream \&plik1, ifstream \&plik2, ifstream \&plik3, int \-N, int \-M)
+\begin{DoxyCompactList}\small\item\em konstruktor \end{DoxyCompactList}\item 
+float \hyperlink{classh__table_a8726955778aed30773dccf8e0cb81064}{przelicz} ()
+\begin{DoxyCompactList}\small\item\em \-Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+string $\ast$ \hyperlink{classh__table_af7ef9b7c0043f4320e5b8fd9ce3678d5}{klucze}
+\begin{DoxyCompactList}\small\item\em tablica kluczy \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\-Modeluje tablice haszujaca przeznaczona do testowania szybkosci wyszukiwnaia. 
+
+\-Definicja w linii 246 pliku algorytm.\-hh.
+
+
+
+\subsection{\-Dokumentacja konstruktora i destruktora}
+\hypertarget{classh__table_add097e1c13f110997c50b57f7d5e4cf5}{\index{h\-\_\-table@{h\-\_\-table}!h\-\_\-table@{h\-\_\-table}}
+\index{h\-\_\-table@{h\-\_\-table}!h_table@{h\-\_\-table}}
+\subsubsection[{h\-\_\-table}]{\setlength{\rightskip}{0pt plus 5cm}{\bf h\-\_\-table\-::h\-\_\-table} (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{plik1, }
+\item[{ifstream \&}]{plik2, }
+\item[{ifstream \&}]{plik3, }
+\item[{int}]{\-N, }
+\item[{int}]{\-M}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classh__table_add097e1c13f110997c50b57f7d5e4cf5}
+
+
+konstruktor 
+
+
+
+\-Definicja w linii 255 pliku algorytm.\-hh.
+
+
+
+\subsection{\-Dokumentacja funkcji składowych}
+\hypertarget{classh__table_a8726955778aed30773dccf8e0cb81064}{\index{h\-\_\-table@{h\-\_\-table}!przelicz@{przelicz}}
+\index{przelicz@{przelicz}!h_table@{h\-\_\-table}}
+\subsubsection[{przelicz}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf h\-\_\-table\-::przelicz} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classh__table_a8726955778aed30773dccf8e0cb81064}
+
+
+\-Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. 
+
+
+
+\-Reimplementowana z \hyperlink{classalgorytm_af3f92bf537b1f2e1f93173983e838449}{algorytm}.
+
+
+
+\-Definicja w linii 219 pliku algorytm.\-cpp.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classh__table_a8726955778aed30773dccf8e0cb81064_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classh__table_a938885a9ce57ae0c447dd9a146637ce9}{\index{h\-\_\-table@{h\-\_\-table}!wczytaj\-\_\-klucze@{wczytaj\-\_\-klucze}}
+\index{wczytaj\-\_\-klucze@{wczytaj\-\_\-klucze}!h_table@{h\-\_\-table}}
+\subsubsection[{wczytaj\-\_\-klucze}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf h\-\_\-table\-::wczytaj\-\_\-klucze} (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{plik}
+\end{DoxyParamCaption}
+)}}\label{classh__table_a938885a9ce57ae0c447dd9a146637ce9}
+
+
+wczytywanie kluczy 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em plik} & -\/ strumien z kluczmai uzytymi podczas testow \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 213 pliku algorytm.\-cpp.
+
+
+
+\subsection{\-Dokumentacja atrybutów składowych}
+\hypertarget{classh__table_af7ef9b7c0043f4320e5b8fd9ce3678d5}{\index{h\-\_\-table@{h\-\_\-table}!klucze@{klucze}}
+\index{klucze@{klucze}!h_table@{h\-\_\-table}}
+\subsubsection[{klucze}]{\setlength{\rightskip}{0pt plus 5cm}string$\ast$ {\bf h\-\_\-table\-::klucze}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classh__table_af7ef9b7c0043f4320e5b8fd9ce3678d5}
+
+
+tablica kluczy 
+
+
+
+\-Definicja w linii 248 pliku algorytm.\-hh.
+
+
+
+\-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{algorytm_8hh}{algorytm.\-hh}\item 
+\hyperlink{algorytm_8cpp}{algorytm.\-cpp}\end{DoxyCompactItemize}

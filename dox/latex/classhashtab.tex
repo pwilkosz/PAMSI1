@@ -1,0 +1,309 @@
+\hypertarget{classhashtab}{\section{\-Dokumentacja szablonu klasy hashtab$<$ \-T\-Y\-P $>$}
+\label{classhashtab}\index{hashtab$<$ T\-Y\-P $>$@{hashtab$<$ T\-Y\-P $>$}}
+}
+
+
+modeluje tablice haszujca w oparciu o kontener klasy \hyperlink{classel__tab}{el\-\_\-tab}  
+
+
+
+
+{\ttfamily \#include $<$hashtab.\-hh$>$}
+
+\subsection*{\-Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4}{ustaw\-\_\-dlugosc} (int d)
+\begin{DoxyCompactList}\small\item\em ustawia dlugosc tablicy \end{DoxyCompactList}\item 
+\hyperlink{classhashtab_abcac01cb8d855d39b9d766a6f16856ee}{hashtab} ()
+\begin{DoxyCompactList}\small\item\em konstruktor bezparametryczny \end{DoxyCompactList}\item 
+\hyperlink{classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8}{hashtab} (int \-N)
+\begin{DoxyCompactList}\small\item\em konsruktor parametryczny \end{DoxyCompactList}\item 
+unsigned long \hyperlink{classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6}{hash} (string k)
+\begin{DoxyCompactList}\small\item\em funkcja haszujaca \end{DoxyCompactList}\item 
+void \hyperlink{classhashtab_ad25515f0b7a631904c65b57f834c428f}{dodaj} (string k, \-T\-Y\-P v)
+\begin{DoxyCompactList}\small\item\em metoda dodaje element do tablicy hasuzjacej \end{DoxyCompactList}\item 
+\hyperlink{classel__tab}{el\-\_\-tab}$<$ \-T\-Y\-P $>$ $\ast$ \hyperlink{classhashtab_af6452a7dbb4a30870ec16635b859f18c}{znajdz} (string k)
+\begin{DoxyCompactList}\small\item\em metoda szuka zadanego elementu w oparciu o klucz \end{DoxyCompactList}\item 
+void \hyperlink{classhashtab_a2c0b494972d78d893a6db6c08b8af3a2}{usun} (string k)
+\begin{DoxyCompactList}\small\item\em usuwa element jesli znajduje sie w tablicy \end{DoxyCompactList}\item 
+void \hyperlink{classhashtab_a69b5dcc5943caf7afb74a98f461a1c1b}{wypisz} ()
+\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classhashtab_a1c0fe6f05d425274c58352e21cc7f496}{dlugosc}
+\begin{DoxyCompactList}\small\item\em dlugosc tablicy \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{classel__tab}{el\-\_\-tab}$<$ \-T\-Y\-P $>$ $>$ \hyperlink{classhashtab_ab7d4d7c920e89fae8a292772dc9d7611}{tab}
+\begin{DoxyCompactList}\small\item\em tablica haszujaca \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\subsubsection*{template$<$typename \-T\-Y\-P$>$class hashtab$<$ T\-Y\-P $>$}
+
+modeluje tablice haszujca w oparciu o kontener klasy \hyperlink{classel__tab}{el\-\_\-tab} 
+
+\-Definicja w linii 34 pliku hashtab.\-hh.
+
+
+
+\subsection{\-Dokumentacja konstruktora i destruktora}
+\hypertarget{classhashtab_abcac01cb8d855d39b9d766a6f16856ee}{\index{hashtab@{hashtab}!hashtab@{hashtab}}
+\index{hashtab@{hashtab}!hashtab@{hashtab}}
+\subsubsection[{hashtab}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf hashtab} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classhashtab_abcac01cb8d855d39b9d766a6f16856ee}
+
+
+konstruktor bezparametryczny 
+
+
+
+\-Definicja w linii 43 pliku hashtab.\-hh.
+
+\hypertarget{classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8}{\index{hashtab@{hashtab}!hashtab@{hashtab}}
+\index{hashtab@{hashtab}!hashtab@{hashtab}}
+\subsubsection[{hashtab}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf hashtab} (
+\begin{DoxyParamCaption}
+\item[{int}]{\-N}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8}
+
+
+konsruktor parametryczny 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em \-N} & -\/ rozmiar tablicy \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 47 pliku hashtab.\-hh.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Dokumentacja funkcji składowych}
+\hypertarget{classhashtab_ad25515f0b7a631904c65b57f834c428f}{\index{hashtab@{hashtab}!dodaj@{dodaj}}
+\index{dodaj@{dodaj}!hashtab@{hashtab}}
+\subsubsection[{dodaj}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf dodaj} (
+\begin{DoxyParamCaption}
+\item[{string}]{k, }
+\item[{\-T\-Y\-P}]{v}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classhashtab_ad25515f0b7a631904c65b57f834c428f}
+
+
+metoda dodaje element do tablicy hasuzjacej 
+
+
+
+\-Definicja w linii 59 pliku hashtab.\-hh.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{classhashtab_ad25515f0b7a631904c65b57f834c428f_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=284pt]{classhashtab_ad25515f0b7a631904c65b57f834c428f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6}{\index{hashtab@{hashtab}!hash@{hash}}
+\index{hash@{hash}!hashtab@{hashtab}}
+\subsubsection[{hash}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ unsigned long {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf hash} (
+\begin{DoxyParamCaption}
+\item[{string}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6}
+
+
+funkcja haszujaca 
+
+\begin{DoxyReturn}{\-Zwraca}
+h -\/ liczba, ktora po kompresji bedzie indeksem danego elementu 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 51 pliku hashtab.\-hh.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4}{\index{hashtab@{hashtab}!ustaw\-\_\-dlugosc@{ustaw\-\_\-dlugosc}}
+\index{ustaw\-\_\-dlugosc@{ustaw\-\_\-dlugosc}!hashtab@{hashtab}}
+\subsubsection[{ustaw\-\_\-dlugosc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf ustaw\-\_\-dlugosc} (
+\begin{DoxyParamCaption}
+\item[{int}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4}
+
+
+ustawia dlugosc tablicy 
+
+
+
+\-Definicja w linii 41 pliku hashtab.\-hh.
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=330pt]{classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classhashtab_a2c0b494972d78d893a6db6c08b8af3a2}{\index{hashtab@{hashtab}!usun@{usun}}
+\index{usun@{usun}!hashtab@{hashtab}}
+\subsubsection[{usun}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf usun} (
+\begin{DoxyParamCaption}
+\item[{string}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classhashtab_a2c0b494972d78d893a6db6c08b8af3a2}
+
+
+usuwa element jesli znajduje sie w tablicy 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em k} & -\/ klucz \\
+\hline
+\end{DoxyParams}
+
+
+\-Definicja w linii 89 pliku hashtab.\-hh.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classhashtab_a2c0b494972d78d893a6db6c08b8af3a2_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classhashtab_a69b5dcc5943caf7afb74a98f461a1c1b}{\index{hashtab@{hashtab}!wypisz@{wypisz}}
+\index{wypisz@{wypisz}!hashtab@{hashtab}}
+\subsubsection[{wypisz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf wypisz} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classhashtab_a69b5dcc5943caf7afb74a98f461a1c1b}
+
+
+\-Definicja w linii 93 pliku hashtab.\-hh.
+
+\hypertarget{classhashtab_af6452a7dbb4a30870ec16635b859f18c}{\index{hashtab@{hashtab}!znajdz@{znajdz}}
+\index{znajdz@{znajdz}!hashtab@{hashtab}}
+\subsubsection[{znajdz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf el\-\_\-tab}$<$\-T\-Y\-P$>$$\ast$ {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf znajdz} (
+\begin{DoxyParamCaption}
+\item[{string}]{k}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classhashtab_af6452a7dbb4a30870ec16635b859f18c}
+
+
+metoda szuka zadanego elementu w oparciu o klucz 
+
+
+\begin{DoxyParams}[1]{\-Parametry}
+\mbox{\tt in}  & {\em k} & -\/ klucz elementu \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{\-Zwraca}
+znaleziony element 
+\end{DoxyReturn}
+
+
+\-Definicja w linii 74 pliku hashtab.\-hh.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=280pt]{classhashtab_af6452a7dbb4a30870ec16635b859f18c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{classhashtab_af6452a7dbb4a30870ec16635b859f18c_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{\-Dokumentacja atrybutów składowych}
+\hypertarget{classhashtab_a1c0fe6f05d425274c58352e21cc7f496}{\index{hashtab@{hashtab}!dlugosc@{dlugosc}}
+\index{dlugosc@{dlugosc}!hashtab@{hashtab}}
+\subsubsection[{dlugosc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ int {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf dlugosc}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classhashtab_a1c0fe6f05d425274c58352e21cc7f496}
+
+
+dlugosc tablicy 
+
+
+
+\-Definicja w linii 36 pliku hashtab.\-hh.
+
+\hypertarget{classhashtab_ab7d4d7c920e89fae8a292772dc9d7611}{\index{hashtab@{hashtab}!tab@{tab}}
+\index{tab@{tab}!hashtab@{hashtab}}
+\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ vector$<${\bf el\-\_\-tab}$<$\-T\-Y\-P$>$ $>$ {\bf hashtab}$<$ \-T\-Y\-P $>$\-::{\bf tab}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classhashtab_ab7d4d7c920e89fae8a292772dc9d7611}
+
+
+tablica haszujaca 
+
+
+
+\-Definicja w linii 38 pliku hashtab.\-hh.
+
+
+
+\-Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{hashtab_8hh}{hashtab.\-hh}\end{DoxyCompactItemize}

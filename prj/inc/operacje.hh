@@ -53,11 +53,11 @@ class operacje{
   /*! \brief Metoda scala dwie czesci tablicy, jednoczesnie je porzadkujac
   \param [in] poczatek - pierwszy indeks tablicy
   \param [in] srodek - srodkowy indeks tablicy
-  \param [ib] koniec - ostatni indeks tablicy*/
+  \param [in] koniec - ostatni indeks tablicy*/
   void merge(int poczatek, int srodek, int koniec);
   /*! \ brief Metoda dokonuje sortowania poprzez rekurencyjne wywolanie dla obu polow tablic, nastepnie metoda dokonuje scalenia danych
-  \param [in] - poczatek - pierwszy indeks tablicy
-  \param [in] - koniec - ostatni indeks tablicy*/
+  \param [in] poczatek - pierwszy indeks tablicy
+  \param [in] koniec - ostatni indeks tablicy*/
   void merge_sort(int poczatek, int koniec);
   	/*!
   	 * \brief metoda odwraca wszystkie elementy tablicy

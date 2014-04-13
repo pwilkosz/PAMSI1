@@ -1,0 +1,151 @@
+\hypertarget{classbst}{\section{\-Dokumentacja klasy bst}
+\label{classbst}\index{bst@{bst}}
+}
+
+
+\-Modeluje drzewo binarne przeznaczone do testowania szybkosci wyszukiwnaia.  
+
+
+
+
+{\ttfamily \#include $<$algorytm.\-hh$>$}
+
+
+
+\-Diagram dziedziczenia dla bst\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{classbst__inherit__graph}
+\end{center}
+\end{figure}
+
+
+\-Diagram współpracy dla bst\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{classbst__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{\-Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classbst_ac1ed9851250160995112e06c9af324aa}{wczytaj\-\_\-klucze} (ifstream \&plik)
+\item 
+\hyperlink{classbst_a3f7f0a490dae2027ad55151d40db770a}{bst} (ifstream \&plik1, ifstream \&plik2, ifstream \&plik3, int \-N, int \-M)
+\item 
+\hyperlink{classbst_a4755b663e678f2207dc32caccb5bb18d}{$\sim$bst} ()
+\item 
+float \hyperlink{classbst_a7991c5cd90a0d350a3150b31aab9401c}{przelicz} ()
+\begin{DoxyCompactList}\small\item\em \-Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{\-Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classdrzewo}{drzewo}$<$ float $>$ \hyperlink{classbst_a50ee6ca023b4ca0484157ccd8716fd37}{d}
+\item 
+string $\ast$ \hyperlink{classbst_a7e0cb2caf584c2de1d5ba767731c9c3a}{klucze}
+\end{DoxyCompactItemize}
+
+
+\subsection{\-Opis szczegółowy}
+\-Modeluje drzewo binarne przeznaczone do testowania szybkosci wyszukiwnaia. 
+
+\-Definicja w linii 226 pliku algorytm.\-hh.
+
+
+
+\subsection{\-Dokumentacja konstruktora i destruktora}
+\hypertarget{classbst_a3f7f0a490dae2027ad55151d40db770a}{\index{bst@{bst}!bst@{bst}}
+\index{bst@{bst}!bst@{bst}}
+\subsubsection[{bst}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bst\-::bst} (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{plik1, }
+\item[{ifstream \&}]{plik2, }
+\item[{ifstream \&}]{plik3, }
+\item[{int}]{\-N, }
+\item[{int}]{\-M}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classbst_a3f7f0a490dae2027ad55151d40db770a}
+
+
+\-Definicja w linii 231 pliku algorytm.\-hh.
+
+\hypertarget{classbst_a4755b663e678f2207dc32caccb5bb18d}{\index{bst@{bst}!$\sim$bst@{$\sim$bst}}
+\index{$\sim$bst@{$\sim$bst}!bst@{bst}}
+\subsubsection[{$\sim$bst}]{\setlength{\rightskip}{0pt plus 5cm}{\bf bst\-::$\sim$bst} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classbst_a4755b663e678f2207dc32caccb5bb18d}
+
+
+\-Definicja w linii 239 pliku algorytm.\-hh.
+
+
+
+\subsection{\-Dokumentacja funkcji składowych}
+\hypertarget{classbst_a7991c5cd90a0d350a3150b31aab9401c}{\index{bst@{bst}!przelicz@{przelicz}}
+\index{przelicz@{przelicz}!bst@{bst}}
+\subsubsection[{przelicz}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf bst\-::przelicz} (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classbst_a7991c5cd90a0d350a3150b31aab9401c}
+
+
+\-Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. 
+
+
+
+\-Reimplementowana z \hyperlink{classalgorytm_af3f92bf537b1f2e1f93173983e838449}{algorytm}.
+
+
+
+\-Definicja w linii 204 pliku algorytm.\-cpp.
+
+
+
+\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=306pt]{classbst_a7991c5cd90a0d350a3150b31aab9401c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classbst_ac1ed9851250160995112e06c9af324aa}{\index{bst@{bst}!wczytaj\-\_\-klucze@{wczytaj\-\_\-klucze}}
+\index{wczytaj\-\_\-klucze@{wczytaj\-\_\-klucze}!bst@{bst}}
+\subsubsection[{wczytaj\-\_\-klucze}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf bst\-::wczytaj\-\_\-klucze} (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{plik}
+\end{DoxyParamCaption}
+)}}\label{classbst_ac1ed9851250160995112e06c9af324aa}
+
+
+\-Definicja w linii 199 pliku algorytm.\-cpp.
+
+
+
+\subsection{\-Dokumentacja atrybutów składowych}
+\hypertarget{classbst_a50ee6ca023b4ca0484157ccd8716fd37}{\index{bst@{bst}!d@{d}}
+\index{d@{d}!bst@{bst}}
+\subsubsection[{d}]{\setlength{\rightskip}{0pt plus 5cm}{\bf drzewo}$<$float$>$ {\bf bst\-::d}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classbst_a50ee6ca023b4ca0484157ccd8716fd37}
+
+
+\-Definicja w linii 227 pliku algorytm.\-hh.
+
+\hypertarget{classbst_a7e0cb2caf584c2de1d5ba767731c9c3a}{\index{bst@{bst}!klucze@{klucze}}
+\index{klucze@{klucze}!bst@{bst}}
+\subsubsection[{klucze}]{\setlength{\rightskip}{0pt plus 5cm}string$\ast$ {\bf bst\-::klucze}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classbst_a7e0cb2caf584c2de1d5ba767731c9c3a}
+
+
+\-Definicja w linii 228 pliku algorytm.\-hh.
+
+
+
+\-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{algorytm_8hh}{algorytm.\-hh}\item 
+\hyperlink{algorytm_8cpp}{algorytm.\-cpp}\end{DoxyCompactItemize}
