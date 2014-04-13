@@ -11,6 +11,7 @@
 #include"kolejka.hh"
 #include"drzewo.hh"
 #include"hashtab.hh"
+#include"tablica_asocjacyjna.hh"
 using namespace std;
 
 /*!
@@ -228,11 +229,12 @@ public:
   bst(ifstream&  plik1, ifstream& plik2, ifstream& plik3, int N, int M) :algorytm(plik1,plik2,N,M){
     klucze = new string[N]; 
     wczytaj_klucze(plik3);
-    for(int i = 0; i<n; i++){
+    for(int i = 0; i<N; i++){
       d.dodaj(klucze[i], dane[i]);
-      cout<<i<<endl;
+      cout<<i<<"hehe "<<klucze[i]<<endl;
     }
   }
+  ~bst(){d.wyczysc();}
   float przelicz();
   
 };
@@ -245,4 +247,20 @@ public:
     wczytaj_klucze(plik3);}
   float przelicz();
   };
+
+
+  class tab_aso: public algorytm{
+  
+  string* klucze;
+public:
+  void wczytaj_klucze(ifstream& plik);
+  tab_aso(ifstream&  plik1, ifstream& plik2, ifstream& plik3, int N, int M) :algorytm(plik1,plik2,N,M){
+    klucze = new string[N]; 
+    wczytaj_klucze(plik3);
+    cout<<"wczytano klucze"<<endl;
+    
+  }
+  float przelicz();
+  
+};
 #endif

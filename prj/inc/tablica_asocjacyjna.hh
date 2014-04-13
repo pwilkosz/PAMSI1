@@ -44,7 +44,7 @@ class tablica_asocjacyjna{
 			}
 			delete[] key; delete[] value;
 			s = 2*sp;
-			sp++;
+			
 			key = new string[s]; value = new TYP[s];
 			
 			for(int i = 0; i<ind; i++){
@@ -59,11 +59,13 @@ class tablica_asocjacyjna{
 					key[i] = tmp1[i-1];
 					value[i] = tmp2[i-1];
 			}}
+			sp++;
 			
 			delete[] tmp1; delete[] tmp2;
 		}
 		else{//zrob miejsce na zmienna 
-			for(int i = sp-1; i>=ind; i--){
+			for(int i = sp-1; i>ind; i--){
+				
 				key[i+1] = key[i];
 				value[i+1] = value[i];
 			}
@@ -75,11 +77,14 @@ class tablica_asocjacyjna{
 		Metoda szuka pozycji, w ktora nalezy dodac element, aby tablica  byla posortowana alfabetycznie
 	*/
 	void wstaw(string k, TYP v, int ind_l, int ind_r){
-		if(ind_l == (ind_r - 1)) insert(ind_r,k, v);
-		else {
+		if(ind_l == ind_r){
+			insert(ind_l,k,v);
+		}
+		else{
 			int c = (ind_l + ind_r)/2;
-			if(k<=key[c]) wstaw(k,v,ind_l, c);
-			else wstaw(k,v,c, ind_r);
+			if(k == key[c]) {insert(c,k,v);}
+			else if(k<key[c]) {wstaw(k,v,ind_l, c-1);}
+			else {wstaw(k,v,c+1, ind_r);}
 		}
 	}
 	/*! \brief 
@@ -87,7 +92,8 @@ class tablica_asocjacyjna{
 		\return indeks szukanego elementu
 	*/
 	int znajdz(string k, int ind_l, int ind_r){
-			
+			cout<<"szukane: "<<k<<endl;
+			//cout<<k<</*" "<<key[ind_l]<<" "<<key[ind_r]<<*/endl;
 			if(k == key[ind_l]) {found = true;return ind_l;}
 			if(k == key[ind_r]) {found = true; return ind_r;}
 			int c = (ind_l + ind_r)/2;
@@ -121,8 +127,8 @@ public:
 		/*Gdy mamy zapęłnioną uprzednio tablicę*/
 		else{ 
 			if(k<=key[0]) {insert(0,k, v);}
-			else if (k>=key[sp-1]) {insert(s,k, v);}
-			else {wstaw(k, v, 0, s-1);}
+			else if (k>=key[sp-1]) {insert(sp,k, v);}
+			else {wstaw(k, v, 1, sp-1);}
 		}
 	}
 	/*! \brief 
@@ -156,9 +162,11 @@ public:
 			else {cout<<"NIE ZNALEZIONO ELEMENTU"<<endl; return 0;}
 		}
 		found = false;
+	}
 
-
-		
+	bool znajdz(string k){
+		pobierz(k);
+		return found;
 	}
 	/*! \brief
 		\return true, gdy stos jest pusty, false w przeciwnym wypadku
@@ -169,6 +177,11 @@ public:
 	*/
 	
 	int zlicz_elementy(){return sp;}
+
+	void wypisz(){
+		for(int i = 0; i<10; i++)
+			cout<<key[i]<<endl;
+	}
 };
 
 

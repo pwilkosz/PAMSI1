@@ -18,8 +18,8 @@ public:
 	void ustaw_dlugosc(int d){dlugosc = d;}
 	hashtab(){}
 	hashtab(int N):tab(N){ ustaw_dlugosc(N);}
-	int hash(string k){
-		int h = 0;
+	unsigned long hash(string k){
+		long h = 0;
 		for(unsigned int i = 0; i<k.length(); i++){
 			h = abs(h*101 + abs(k[i]));	
 		}
@@ -27,27 +27,28 @@ public:
 	}
 	void dodaj(string k, TYP v){
 		
-		int i =1;
-		int ind = hash(k)%dlugosc;
+		int i =0;
+		unsigned long ind = hash(k)%dlugosc;
 		
 		while(tab[ind].zajety){
 			ind = (ind + i)%dlugosc;
-			i*=113;  
+			i+=1889;
+			
 		}
-		tab[ind].wart = v; tab[ind].klucz = k;
+		tab[ind].wart = v; tab[ind].klucz = k; tab[ind].zajety = true;
 	}
 	el_tab<TYP>* znajdz(string k){
-		cout<<"k "<<k<<endl;
-		int i = 1;
-		int ind = hash(k)%dlugosc;
-		if(!tab[ind].zajety) return NULL;
+		
+		int i = 0;
+		unsigned long ind = hash(k)%dlugosc;
+		if(!tab[ind].zajety) {return NULL;}
 		else{
 			while(tab[ind].klucz!= k){
 				ind = (ind + i)%dlugosc;
-				i*=113;  
+				i+=1889;  }
 			}
 			
-			return &tab[ind];}
+			return &tab[ind];
 	}
 	void usun(string k){
 		if(znajdz(k)) znajdz(k)->zajety = false;

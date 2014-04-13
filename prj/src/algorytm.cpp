@@ -211,6 +211,7 @@ float bst::przelicz(){
   return cz;
 }
 void h_table::wczytaj_klucze(ifstream& plik){
+  cout<<n<<endl;
   for(int i = 0; i<n; i++)
     plik>>klucze[i];
   
@@ -220,18 +221,44 @@ float h_table::przelicz(){
   
   for (int i = 0; i<n; i++){
     H.dodaj(klucze[i],1.3);
-    cout<<i<<endl;
-  }
+    
+      }
   
   
       wlacz_zegar();
       //for(int z = 0; z<100;z++);
         
-        cout<<klucze[rand()%n]<<endl;
+       
         
       H.znajdz(klucze[rand()%n]);
+       
       wylacz_zegar();
         float cz = czas1 + czas2;
 
         return cz;
+}
+
+void tab_aso::wczytaj_klucze(ifstream& plik){
+ 
+  for(int i = 0; i<n; i++){
+    plik>>klucze[i];
+
+  }
+  cout<<"wczytano"<<endl;
+}
+
+float tab_aso::przelicz(){
+  tablica_asocjacyjna<float> d;
+  for(int i = 0; i<n; i++){
+      d.dodaj(klucze[i], dane[i]);
+      cout<<i<<endl;
+    }
+   
+  wlacz_zegar();
+  if(d.znajdz(klucze[rand()%n]))cout<<"znalazlem"<<endl; else cout<<"nie znalazlem"<<endl;
+  wylacz_zegar();
+  float cz = czas1+ czas2;
+
+  
+  return cz;
 }

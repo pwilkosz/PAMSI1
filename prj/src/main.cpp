@@ -16,28 +16,33 @@
 using namespace std;
 
 int main(){
-/*  ofstream wyy("klucze.txt");
-string napis;
-for(int i = 0; i<10000000; i++){
+
+ /*
+ofstream wyy("klucze.txt");
+char napis[6];
+for(int i = 0; i<1000000; i++){
   cout<<i<<endl;
   for(int k = 0; k<6; k++)
-    napis[k] = rand()%255;
-}*/
-
-string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot skrypt3.pg","gnuplot skrypt4.pg","gnuplot skrypt5.pg","gnuplot skrypt6.pg","gnuplot skrypt7.pg","gnuplot skrypt8.pg","gnuplot skrypt9.pg","gnuplot skrypt10.pg","gnuplot skrypt11.pg"};
+    napis[k] = rand()%24 + 65;
+  wyy<<napis<<endl; 
+}
+*/
+string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot skrypt3.pg","gnuplot skrypt4.pg","gnuplot skrypt5.pg","gnuplot skrypt6.pg","gnuplot skrypt7.pg","gnuplot skrypt8.pg","gnuplot skrypt9.pg","gnuplot skrypt10.pg","gnuplot skrypt11.pg", "gnuplot skrypt12.pg"};
 
 //ifstream we("wejscie.txt");
-int tabn[] = {10,100,1000,10000, 100000, 1000000, 2000000, 5000000,10000000};
-int d = 9;
+int tabn[] = {10,100,1000,10000, 100000, 1000000};
+int d = 6;
 int N;
 int M = 15;
 int wybor = 0;
+
 ifstream plik1("plik11.txt");
 ifstream plik2("plik2.txt");
 cout<<"b1"<<endl;
 ifstream plik3("klucze.txt");
 cout<<"b2"<<endl;
 plik1>>N;
+cout<<N<<endl;
 while(!wybor){
   /*------------------------MENU----------------------------------*/
   
@@ -52,7 +57,7 @@ while(!wybor){
   cout<<"* 8. Sorotwanie heapsort                                                   *"<<endl;
   cout<<"* 9. Sortowanie mergesort                                                  *"<<endl;
   cout<<"* 10.BST                                                                   *"<<endl;
-  cout<<"* 11.# table                                                                   *"<<endl;
+  cout<<"* 11.# table                                                               *"<<endl;
   cout<<"----------------------------------------------------------------------------"<<endl;
   cout<<"Twoj wybor: "<<flush;
   cin>>wybor;
@@ -129,7 +134,7 @@ while(!wybor){
       ofstream out("out1.csv");
       for(int i = 0; i<d; i++){
         alg.set_N(tabn[i]); 
-        cout<<"n :"<<tabn[i]<<endl;;
+        
         alg.wykonaj(out);
       }
     } break;
@@ -160,10 +165,19 @@ while(!wybor){
         alg.wykonaj(out);
       }
     } break;
+    case 12: {
+      tab_aso alg(plik1, plik2, plik3, N, M);
+      
+      ofstream out("out3.csv");
+      for(int i = 0; i<d; i++){
+        alg.set_N(tabn[i]); 
+        alg.wykonaj(out);
+      }
+    } break;
     default: {cout<<"Bledna opcja, sprobuj ponownie"<<wybor<<endl; wybor = 0; } break;
-}}
+}
+}
 
-cout<<"jazda"<<endl;
 system(tablica_skryptow[wybor-1].c_str());
   
 /*x.dodaj("pi", "liczba pi; wartosc 3.14");
