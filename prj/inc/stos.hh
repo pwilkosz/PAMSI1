@@ -88,28 +88,30 @@ public:
 	/*! 
 		\brief Dodaje element na wierzch stosu w zaleznosci od wybranego trybu powiekszania tablicy
 	*/
-	void push(TYP& element){
+	void push(TYP element){ 
 			if(f == plus1){
 				int new_size = s + 1;
 				TYP* tmp = new TYP[s];
 				for(int i = 0; i<s; i++)
     			tmp[i] = st[i];
     			delete[] st;
-    			st = new float[new_size];
+    			st = new TYP[new_size];
   				for(int i = 0; i<s; i++)
   					st[i] = tmp[i];
   					st[s] = element;
   					s++;
   					delete[] tmp;
 			}
-			else{
-				if (s == 0){
+			else{ 
+				if (s == 0){ 
 					
-					if(sp == 0){
+					if(sp == 0){ 
 						s++;
 						
 						st = new TYP[s];sp = 1;
-						st[s] = element;
+						
+						st[sp-1] = element;
+						
 						
 						}
 					else {st[0] = element; s++;}
@@ -123,7 +125,7 @@ public:
 						for(int i = 0; i<s; i++)
     					tmp[i] = st[i];
     					delete[] st;
-    					st = new float[new_size];
+    					st = new TYP[new_size];
   						for(int i = 0; i<s; i++)
   						st[i] = tmp[i];
   						st[s] = element;
@@ -156,8 +158,8 @@ public:
 		 			delete[] new_st;
 		 		}}
 		 	else{
-		 		if(s <= 0.25*sp){
-		 			sp = sp/2;
+		 		if(sp <= 0.25*s){
+		 			s = s/2;
 		 			TYP* new_st = new TYP[s];
 		 			for(int i = 0; i<s; i++){
 		 				st[i] = new_st[i];

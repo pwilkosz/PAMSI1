@@ -205,12 +205,14 @@ G.dodaj_wierzcholek(y);
 wierzcholek u(5,6);
 G.dodaj_wierzcholek(u);
 G.dodaj_krawedz(w,e,4);
+G.dodaj_krawedz(w,y,19);
 G.dodaj_krawedz(w,r,8);
 G.dodaj_krawedz(t,y,7);
+G.dodaj_krawedz(u,y,7);
+G.dodaj_krawedz(u,w,7);
+G.dodaj_krawedz(t,r,7);
 G.wypisz_liste();
-G.sasiedztwo(0);
-if(G.czy_sasiad(u,y)) cout<<"tak, to sasiad!"<<endl;
-else cout<<"to nei sasiad"<<endl;
+G.dfs();
 
 
 

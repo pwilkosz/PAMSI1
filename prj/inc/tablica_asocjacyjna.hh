@@ -26,6 +26,7 @@ class tablica_asocjacyjna{
 	int sp;
 	/*! \brief flaga informujaca o tym, czy dany klucz znaleziono w zbiorze*/
 	bool found;
+	bool blok;
 	/*! \brief 
 		Metoda ktora umieszcza wartosc oraz jej klucz w zadanym mejscu. Gdy wartosc z kluczem jest dodawana w srodek struktury, dane na prawo od niej 
 		przesuwane sa o jeden w prawo. Gdy istnieje potrzeba powiekszenia tablicy, stosuje sie znany juz radzaj gospodarowania pamiecia,
@@ -96,7 +97,7 @@ class tablica_asocjacyjna{
 		Metoda szuka w zbiorze zadanego klucza (przeszukiwanie binarne), gdy element zostanie odnaleziony, tzn jest zawarty w strukturze, flaga found ustawiana jest na wartosc true 
 		\return indeks szukanego elementu
 	*/
-	int znajdz(string k, int ind_l, int ind_r){
+	int znajdz(string k, int ind_l, int ind_r){ //cout<<"klucz: "<<k<<" indl: "<<key[ind_l]<<" indr: "<<key[ind_r]<<endl;
 			
 			//cout<<k<</*" "<<key[ind_l]<<" "<<key[ind_r]<<*/endl;
 			if(k == key[ind_l]) {found = true;return ind_l;}
@@ -118,7 +119,7 @@ public:
 		found = false
 		\endverbatim
 	*/
-	tablica_asocjacyjna(): s(0), sp(0), found(0){}
+	tablica_asocjacyjna(): s(0), sp(0), found(0), blok(0){}
 	/*! \brief 
 		Metoda dodaje element do struktury. Gdy (uwzgledniajac porzadek alfabetyczny) element ma stac w skrajnym miejscu tablicy, dodawany jest od razu.
 		W przeciwnym razie funkcja \p wstaw \p szuka odpowiedniego miejsca.
@@ -140,19 +141,24 @@ public:
 		Metoda usuwa zadany element, korzystajac z funkcji znajdz 
 	*/
 	void usun(string k){
+
 		if(czy_pusta()) cout<<"SLOWNIK PUSTY!"<<endl;
 		else{//usuwanie wybranego elementu
 			int ind = znajdz(k, 0, sp-1);
+			
 			if (found){
+				if(sp == 1);
+				else{
 				for(int i = ind; i<sp; i++){
 					key[i] = key[i+1];
 					value[i] = value[i+1];
-				}
+				}}
 				sp--;
 			}
 			else cout<<"NIE ZNALEZIONO ELEMENTU"<<endl;
 		}
 		found = false;
+		cout<<"usunieto"<<endl;
 	}
 	/*! \brief 
 		Metoda zwraca uzytkownikowi szukany element, pod warunkiem, ze jest on w zbiorze
@@ -170,7 +176,7 @@ public:
 	}
 
 	bool znajdz(string k){
-		
+
 		pobierz(k);
 		return found;
 	}
@@ -198,6 +204,22 @@ string wez_id(int ind){
 	else {cout<<"Brak elementu w tablicy"<<endl; return 0;}
 }
 
+
+bool czy_blokada(){
+	return blok;
+}
+
+void zablokuj(){
+	blok = true;
+}
+void odblokuj(){
+	blok = false;
+}
+
+void ustaw(string k, TYP v){
+	
+	value[znajdz(k,0,sp-1)] = v;
+}
 };
 
 
