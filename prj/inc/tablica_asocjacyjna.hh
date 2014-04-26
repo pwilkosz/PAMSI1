@@ -170,6 +170,7 @@ public:
 	}
 
 	bool znajdz(string k){
+		
 		pobierz(k);
 		return found;
 	}
@@ -187,7 +188,18 @@ public:
 		for(int i = 0; i<10; i++)
 			cout<<key[i]<<endl;
 	}
+
+TYP wez(int ind){
+	if(ind<sp) return value[ind];
+	else {cout<<"Brak elementu w tablicy"<<endl; return 0;}
+}
+string wez_id(int ind){
+	if(ind<sp) return key[ind];
+	else {cout<<"Brak elementu w tablicy"<<endl; return 0;}
+}
+
 };
+
 
 
 #endif

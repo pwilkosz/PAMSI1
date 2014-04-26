@@ -6,6 +6,7 @@
 #include"tablica_asocjacyjna.hh"
 #include"drzewo.hh"
 #include"hashtab.hh"
+#include"graf.hh"
 #include<cstdlib>
 #include<string>
 
@@ -27,6 +28,7 @@ for(int i = 0; i<1000000; i++){
   wyy<<napis<<endl; 
 }
 */
+/*
 string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot skrypt3.pg","gnuplot skrypt4.pg","gnuplot skrypt5.pg","gnuplot skrypt6.pg","gnuplot skrypt7.pg","gnuplot skrypt8.pg","gnuplot skrypt9.pg","gnuplot skrypt10.pg","gnuplot skrypt11.pg", "gnuplot skrypt12.pg"};
 
 //ifstream we("wejscie.txt");
@@ -45,7 +47,7 @@ plik1>>N;
 cout<<N<<endl;
 while(!wybor){
   /*------------------------MENU----------------------------------*/
-  
+  /*
   cout<<"***************MENU*********************************************************"<<endl;
   cout<<"* 1. Wypelnienie stosu  - lista                                            *"<<endl;
   cout<<"* 2. Wypelnienie stosu  - tablica na biezaco zmieniajaca pamiec            *"<<endl;
@@ -188,6 +190,28 @@ x.dodaj("jeden", "jeden");
 x.usun("pi");
 cout<<x.pobierz("pi")<<endl;
 */
+
+graf G;
+wierzcholek w(0,1);
+G.dodaj_wierzcholek(w);
+wierzcholek e(1,2);
+G.dodaj_wierzcholek(e);
+wierzcholek r(2,3);
+G.dodaj_wierzcholek(r);
+wierzcholek t(3,4);
+G.dodaj_wierzcholek(t);
+wierzcholek y(4,5);
+G.dodaj_wierzcholek(y);
+wierzcholek u(5,6);
+G.dodaj_wierzcholek(u);
+G.dodaj_krawedz(w,e,4);
+G.dodaj_krawedz(w,r,8);
+G.dodaj_krawedz(t,y,7);
+G.wypisz_liste();
+G.sasiedztwo(0);
+if(G.czy_sasiad(u,y)) cout<<"tak, to sasiad!"<<endl;
+else cout<<"to nei sasiad"<<endl;
+
 
 
 return 0;
