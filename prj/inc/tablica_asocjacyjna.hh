@@ -194,28 +194,42 @@ public:
 		for(int i = 0; i<10; i++)
 			cout<<key[i]<<endl;
 	}
+/*! \brief Metoda wprost odnosi sie do konkretnego elementu tablicy - metoda uzywana przy grafie
+	\param [in] ind - indeks tablicy
+	\return value[ind] - wartosc mieszczaca sie pod zadanym indeksem
 
+	*/
 TYP wez(int ind){
 	if(ind<sp) return value[ind];
 	else {cout<<"Brak elementu w tablicy"<<endl; return 0;}
 }
+/*! \brief metoda wprost odnosi sie do klucza, konkretnego leemnetu tablicy - metoda uzywana przy grafie
+	\param [in] ind - indeks tablicy
+	\return key[ind] - klucz mieszczacy sie pod zadanym indeksem
+*/
 string wez_id(int ind){
 	if(ind<sp) return key[ind];
 	else {cout<<"Brak elementu w tablicy"<<endl; return 0;}
 }
 
-
+/*! \brief metoda sprawdza, czy dostep do tablicy jest mozliwy
+\return true, gdy tablica zablokowana, false, gdy dostep jest mozliwy
+*/
 bool czy_blokada(){
 	return blok;
 }
-
+/*! \brief metoda blokuje dostep do tablicy*/
 void zablokuj(){
 	blok = true;
 }
+/*! \brief metoda zezwala na dostep do tablicy*/
 void odblokuj(){
 	blok = false;
 }
-
+/*! \brief metoda zmienia wartosc w miejscu, ktore wskazuje klucz k
+\param [in] k - klucz
+\param [in] v wartosc, ktora ma zastapic dotychczasowa wartosc w tablicy
+*/
 void ustaw(string k, TYP v){
 	
 	value[znajdz(k,0,sp-1)] = v;

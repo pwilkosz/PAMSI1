@@ -3,7 +3,7 @@
 \usepackage[OT4]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-
+\usepackage{subfig}
 \usepackage{epstopdf}
 
 
@@ -17,7 +17,7 @@
 \author{Piotr Wilkosz}
 
 
-
+\captionsetup{belowskip=12pt,aboveskip=4pt}
 \begin{document}
 
 \maketitle
@@ -38,9 +38,10 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \item Quick-sort - dane malejące:
    
   \begin{table}[th]
-    \caption{Test nr 1}
+  \centering
+    \caption{Pomiar czasu sortowania szybkiego dla danych posortowanych malejąco}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -61,16 +62,17 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{../prj/wykres7.eps}
-\caption{Test nr 1}
-\label{Test nr 1}
+\caption{Wykres do tabeli nr 1}
+\label{Wykres do tabeli nr 1}
 \end{figure} 
 \newpage
  \item Heap-sort - dane malejące:
    
   \begin{table}[th]
-    \caption{Test nr 2}
+  \centering
+    \caption{Pomiar czasu sortowania przez kopcowanie dla danych posortowanych malejąco}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -92,15 +94,16 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{../prj/wykres8.eps}
-\caption{Test nr 2}
-\label{Test nr 2}
+\caption{Wykres do tabeli nr 2}
+\label{Wykres do tabeli nr 2}
 \end{figure} 
 \item Mergesort - dane malejące:
   
   \begin{table}[th]
-    \caption{Test nr 3}
+  \centering
+    \caption{Pomiar czasu wykoniania sortowania przez scalanie dla danych posortowanych malejąco}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -122,16 +125,17 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{../prj/wykres9.eps}
-\caption{Test nr 3}
-\label{Test nr 3}
+\caption{Wykres do tabeli nr 3}
+\label{Wykres do tabeli nr 3}
 \end{figure} 
 
 \item Quick-sort - dane rosnące:
   
   \begin{table}[th]
-    \caption{Test nr 4}
+  \centering
+    \caption{Pomiar czasu sortowania szybkiego dla danych posortowanych rosnąco}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -154,16 +158,17 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{../prj/wykres71.eps}
-\caption{Test nr 4}
-\label{Test nr 4}
+\caption{Wykres do tabeli nr 4}
+\label{Wykres do tabeli nr 4}
 \end{figure} 
-\newpage
+
  \item Heap-sort - dane rosnące:
    
   \begin{table}[th]
-    \caption{Test nr 5}
+  \centering
+    \caption{Pomiar czasu wykonania sortowania przez kopcowanie dla danych posortowanych rosnąco}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -185,15 +190,16 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{../prj/wykres81.eps}
-\caption{Test nr 5}
-\label{Test nr 5}
+\caption{Wykres do tabeli nr 5}
+\label{Wykres do tabeli nr 5}
 \end{figure} 
 \item Mergesort - dane rosnące:
   
   \begin{table}[th]
-    \caption{Test nr 6}
+  \centering
+    \caption{Pomiar czasu sortowania przez scalanie dla danych posortowanych rosnąco}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -215,17 +221,18 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{../prj/wykres91.eps}
-\caption{Test nr 6}
-\label{Test nr 6}
+\caption{Wykres do tabeli nr 6}
+\label{Wykres do tabeli nr 6}
 \end{figure} 
 
 
 \item Quick-sort - dane przypadkowe:
   
   \begin{table}[th]
-    \caption{Test nr 7}
+  \centering
+    \caption{Pomiar czasu sortowania szybkiego danych ułożonych w losowej kolejności}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -247,16 +254,17 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{../prj/wykres72.eps}
-\caption{Test nr 7}
-\label{Test nr 7}
+\caption{Wykres do tabeli nr }7
+\label{Wykres do tabeli nr 7}
 \end{figure} 
-\newpage
+
  \item Heap-sort - dane przypadkowe:
    
   \begin{table}[th]
-    \caption{Test nr 8}
+  \centering
+    \caption{Pomiar czas sortowania szybkiego danych ułożonych przypadkowo}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -278,15 +286,16 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{../prj/wykres82.eps}
-\caption{Test nr 8}
-\label{Test nr 8}
+\caption{Wykres do tabeli nr 8}
+\label{Wykres do tabeli nr 8}
 \end{figure} 
 \item Mergesort - dane przypadkowe:
   
   \begin{table}[th]
-    \caption{Test nr 9}
+  \centering
+    \caption{Pomiar sortowania przez scalanie danych ułożonych przypadkowo}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -309,15 +318,16 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \begin{figure}[!h]
 \centering
 \includegraphics[width=1\textwidth]{../prj/wykres92.eps}
-\caption{Test nr 9}
-\label{Test nr 9}
+\caption{Wykres do tabeli nr 9}
+\label{Wykres do tabeli nr 9}
 \end{figure} 
 \item Quick-sort - dane posortowane z usprawnieniem algorytmu (wybieranie środkowego elementu):
   
   \begin{table}[th]
+  \centering
     \caption{Test nr 7}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -349,7 +359,12 @@ Celem ćwiczenia było przetestowanie złożoności obliczeń algorytmów. Do te
  \item Sortowanie szybkie, spośród powyższych, okazało się najłatwiejsze w implementacji.
  \item Złożoność obliczeniową powyższych algorytmów szacuje się na $ O(n logn) $
  \item Algorytm sortowania szybkiego okazał się najszybszy, co nie oznacza, że jest on niezawodny. Istnieje taka możliwość, gdzie złożoność obliczeniowa 
- algorytmu sortowania szybkiego wynosi $ O(n^{2}) $. Gdy takie sytuacje miałyby miejsce dość często, stosowanie sortowania stogowego lub sortowania przez scalanie byłoby korzystniejsze.
+ algorytmu sortowania szybkiego wynosi $ O(n^{2}) $.Dotyczy ona np. tablicy posortowanej. Gdy takie sytuacje miałyby miejsce dość często, warto wówczas usprawnić algorytm sortowania szybkiego. Jednym z rozwiaząń, użytym w badaniach, był zabieg 
+ polegający na wybieraniu środkowego indeksu tablicy, jako elementu słuzącego do partycjonowania całości. Nie jest to rozwiązanie idealne, aczkolwiek znacząco usprawnia algorytm i chroni przed 
+ danymi posortowanymi. Inną metodą może być też poszukiwanie mediany; znajdowanie mediany całego zbioru cechuje się dużą złożonością, dlatego też 
+ wybiera się losowe elementy tablicy i to z ich mediany ustala się element rozdzielający, co zapobiega trafieniu na największy element.
+ \item Algorytmy sortowania stogowego i sortowania przez scalanie mają gwarantowaną złozoność niezależnie od danych wejściowych, więc
+ są dobrą alternatywą dla algorytmu quicksort.
 \end{itemize}
 
 

@@ -3,7 +3,7 @@
 \usepackage[OT4]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-
+\usepackage{subfig}
 \usepackage{epstopdf}
 
 
@@ -15,7 +15,7 @@
 %opening
 \title{PAMSI -- testowanie algorytmów wyszukiwania}
 \author{Piotr Wilkosz}
-
+\captionsetup{belowskip=12pt,aboveskip=4pt}
 \begin{document}
 
 \maketitle
@@ -30,26 +30,27 @@ Celem ćwiczenia było przetestowanie implementacji takich struktur danych jak:
 Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego elementu wśród powyższych struktur.
 \section{Wyniki pomiarów}
 \begin{enumerate}
- \item TAblica asocjacyjna
+ \item Tablica asocjacyjna
    
   \begin{table}[th]
-    \caption{Test nr 1}
+  \centering
+    \caption{Pomiar czasu wyszukania losowego elementu w tablicy asocjacyjnej}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
-  10 & 2.33365e-05 & 0 & 3.41544e-06
+  10 & 6.7048e-06 &  3.49235e-06\\
   \hline
-100 & 5.06862e-05 & 0 & 7.05086e-06
+100 & 1.20477e-05 &  2.6002e-06\\
 \hline
-1000 & 4.44422e-05 & 0 & 5.12816e-06
+1000 & 1.74256e-05 &  2.58526e-06\\
 \hline
-10000 & 5.34565e-05 & 0 & 8.91332e-06
+10000 & 2.34596e-05 &  3.69745e-06\\
 \hline
-100000 & 6.63957e-05 & 0 & 1.82487e-05
+100000 & 3.92021e-05 &  4.56431e-06\\
 \hline
-1000000 & 6.83327e-05 & 0 & 1.39888e-05
+200000 & 4.11365e-05 &  6.67398e-06\\
 \hline
     \end{tabular}
     \end{table}
@@ -57,29 +58,32 @@ Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego element
  \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres12.eps}
-\caption{Test nr 1}
-\label{Test nr 1}
+\caption{Wykres do tabeli nr 1}
+\label{Wykres do tabeli nr 1}
 \end{figure} 
+Na podstawie wykresu złożoność obliczeniową operacji wyszukiwania w tablicy asocjacyjnej szacuje się na $ O(logn) $
 \item Binarne drzewo przeszukiwań
 
   \begin{table}[th]
-    \caption{Test nr 2}
+  \centering
+  
+    \caption{Pomiar czasu wyszukania losowego elementu w binarnym drzewie przeszukiwań}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
-  10 & 2.33365e-05 & 0 & 3.41544e-06\\
+  10 & 8.5488e-06 &  3.08769e-06\\
   \hline
-100 & 5.06862e-05 & 0 & 7.05086e-06\\
+100 & 1.63919e-05 &  3.06447e-06\\
 \hline
-1000 & 4.44422e-05 & 0 & 5.12816e-06\\
+1000 & 2.26005e-05 &  3.77314e-06\\
 \hline
-10000 & 5.34565e-05 & 0 & 8.91332e-06\\
+10000 & 3.23784e-05 &  6.64965e-06\\
 \hline
-100000 & 6.63957e-05 & 0 & 1.82487e-05\\
+100000 & 4.77856e-05 &  8.44921e-06\\
 \hline
-1000000 & 6.83327e-05 & 0 & 1.39888e-05\\
+1000000 & 6.9513e-05 &  8.87252e-06\\
 \hline
     \end{tabular}
     \end{table}
@@ -87,29 +91,30 @@ Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego element
 \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres10.eps}
-\caption{Test nr 2}
-\label{Test nr 2}
+\caption{Wykres do tabeli nr 2}
+\label{Wykres do tabeli nr 2}
 \end{figure} 
 \item Tablica haszująca
 
 \begin{table}[th]
-    \caption{Test nr 3}
+\centering
+    \caption{Pomiar czasu wyszukania losowego elementu w tablic haszującej}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
-  10 & 2.33365e-05 & 0 & 3.41544e-06\\
+  10 & 2.33365e-05 &  3.41544e-06\\
   \hline
-100 & 5.06862e-05 & 0 & 7.05086e-06\\
+100 & 5.06862e-05 &  7.05086e-06\\
 \hline
-1000 & 4.44422e-05 & 0 & 5.12816e-06\\
+1000 & 4.44422e-05 &  5.12816e-06\\
 \hline
-10000 & 5.34565e-05 & 0 & 8.91332e-06\\
+10000 & 5.34565e-05 &  8.91332e-06\\
 \hline
-100000 & 6.63957e-05 & 0 & 1.82487e-05\\
+100000 & 6.63957e-05 &  1.82487e-05\\
 \hline
-1000000 & 6.83327e-05 & 0 & 1.39888e-05\\
+1000000 & 6.83327e-05 &  1.39888e-05\\
 \hline
     \end{tabular}
     \end{table}
@@ -117,8 +122,8 @@ Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego element
 \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres11.eps}
-\caption{Test nr 3}
-\label{Test nr 3}
+\caption{Wykres do tabeli nr 3}
+\label{Wykres do tabeli nr 3}
 \end{figure} 
 \end{enumerate}
 

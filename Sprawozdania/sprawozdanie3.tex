@@ -3,7 +3,7 @@
 \usepackage[OT4]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-
+\usepackage{subfig}
 \usepackage{epstopdf}
 
 
@@ -15,7 +15,7 @@
 %opening
 \title{PAMSI -- testowanie algorytmów wyszukiwania}
 \author{Piotr Wilkosz}
-
+\captionsetup{belowskip=12pt,aboveskip=4pt}
 \begin{document}
 
 \maketitle
@@ -30,12 +30,13 @@ Celem ćwiczenia było przetestowanie implementacji takich struktur danych jak:
 Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego elementu wśród powyższych struktur.
 \section{Wyniki pomiarów}
 \begin{enumerate}
- \item TAblica asocjacyjna
+ \item Tablica asocjacyjna
    
   \begin{table}[th]
-    \caption{Test nr 1}
+  \centering
+    \caption{Pomiar czasu wyszukania losowego elementu w tablicy asocjacyjnej}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -57,15 +58,18 @@ Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego element
  \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres12.eps}
-\caption{Test nr 1}
-\label{Test nr 1}
+\caption{Wykres do tabeli nr 1}
+\label{Wykres do tabeli nr 1}
 \end{figure} 
+Na podstawie wykresu złożoność obliczeniową operacji wyszukiwania w tablicy asocjacyjnej szacuje się na $ O(logn) $
 \item Binarne drzewo przeszukiwań
 
   \begin{table}[th]
-    \caption{Test nr 2}
+  \centering
+  
+    \caption{Pomiar czasu wyszukania losowego elementu w binarnym drzewie przeszukiwań}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -87,15 +91,17 @@ Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego element
 \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres10.eps}
-\caption{Test nr 2}
-\label{Test nr 2}
+\caption{Wykres do tabeli nr 2}
+\label{Wykres do tabeli nr 2}
 \end{figure} 
+Na podstawie wykresu złożoność obliczeniową operacji wyszukiwania w BST szacuje się na $ O(logn) $
 \item Tablica haszująca
 
 \begin{table}[th]
-    \caption{Test nr 3}
+\centering
+    \caption{Pomiar czasu wyszukania losowego elementu w tablic haszującej}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -117,9 +123,10 @@ Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego element
 \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres11.eps}
-\caption{Test nr 3}
-\label{Test nr 3}
+\caption{Wykres do tabeli nr 3}
+\label{Wykres do tabeli nr 3}
 \end{figure} 
+Jak widać na wykresie, dla rosnącego rozmiaru problemu, złożoność dąży do $ O(1) $
 \end{enumerate}
 
 \section{Wnioski}

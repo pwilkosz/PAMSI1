@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.2.26)  30 MAR 2014 23:40
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.2.26)  27 APR 2014 20:58
 entering extended mode
  %&-line parsing enabled.
 **sprawozdanie2.tex
@@ -301,6 +301,37 @@ File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 \Gin@req@height=\dimen108
 \Gin@req@width=\dimen109
 )
+(/usr/share/texmf-texlive/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
+
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen110
+\captionmargin@=\dimen111
+\captionwidth=\dimen112
+\caption@indent=\dimen113
+\caption@parindent=\dimen114
+\caption@hangindent=\dimen115
+)
+\c@ContinuedFloat=\count88
+)
+\c@KVtest=\count89
+\sf@farskip=\skip43
+\sf@captopadj=\dimen116
+\sf@capskip=\skip44
+\sf@nearskip=\skip45
+\c@subfigure=\count90
+\c@subfigure@save=\count91
+\c@lofdepth=\count92
+\c@subtable=\count93
+\c@subtable@save=\count94
+\c@lotdepth=\count95
+\sf@top=\skip46
+\sf@bottom=\skip47
+)
 (/usr/share/texmf-texlive/tex/latex/oberdiek/epstopdf.sty
 Package: epstopdf 2009/10/17 v2.4 Conversion with epstopdf on the fly (HO)
 
@@ -346,11 +377,7 @@ Package pdftexcmds Info: \pdf@ifprimitive is available.
 
 Package epstopdf Warning: Other drivers than `pdftex.def' are not supported.
 
-)) (./sprawozdanie2.aux
-
-LaTeX Warning: Label `Test nr 7' multiply defined.
-
-)
+)) (./sprawozdanie2.aux)
 \openout1 = `sprawozdanie2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 21.
@@ -367,6 +394,10 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
 LaTeX Font Info:    Checking defaults for OT4/cmr/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
+LaTeX Info: Redefining \subref on input line 21.
+Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 23.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -380,9 +411,10 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 43.
+(Font)              <10.95> on input line 44.
 File: ../prj/wykres7.eps Graphic file (type eps)
- <../prj/wykres7.eps>
+
+<../prj/wykres7.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -392,14 +424,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: ../prj/wykres8.eps Graphic file (type eps)
  <../prj/wykres8.eps> [3]
 File: ../prj/wykres9.eps Graphic file (type eps)
- <../prj/wykres9.eps> [4]
-File: ../prj/wykres71.eps Graphic file (type eps)
+ <../prj/wykres9.eps>
+Overfull \hbox (17.48315pt too wide) in paragraph at lines 134--135
+\OT4/cmr/m/n/10.95 przez sca-la-nie dla da-nych po-sor-to-wa-nych ma-le-j¡co sz
+a-cuje si¦ na $\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 nlo
+gn\OT1/cmr/m/n/10.95 )$\OT4/cmr/m/n/10.95 . 
+ []
 
-<../prj/wykres71.eps> [5]
+[4]
+File: ../prj/wykres71.eps Graphic file (type eps)
+ <../prj/wykres71.eps> [5]
 File: ../prj/wykres81.eps Graphic file (type eps)
  <../prj/wykres81.eps> [6]
 File: ../prj/wykres91.eps Graphic file (type eps)
  <../prj/wykres91.eps>
+Overfull \hbox (11.79523pt too wide) in paragraph at lines 232--233
+\OT4/cmr/m/n/10.95 przez sca-la-nie dla da-nych po-sor-to-wa-nych ro-sn¡co sza-
+cuje si¦ na $\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 nlogn
+\OT1/cmr/m/n/10.95 )$\OT4/cmr/m/n/10.95 . 
+ []
+
 [7]
 File: ../prj/wykres72.eps Graphic file (type eps)
  <../prj/wykres72.eps> [8]
@@ -409,25 +453,14 @@ File: ../prj/wykres92.eps Graphic file (type eps)
  <../prj/wykres92.eps>
 [10]
 File: ../prj/wykres73.eps Graphic file (type eps)
- <../prj/wykres73.eps> [11]
-Overfull \hbox (35.23009pt too wide) in paragraph at lines 351--356
-\OT4/cmr/m/n/10.95 no±¢ ob-li-cze-niowa al-go-rytmu sor-to-wa-nia szyb-kiego wy
--nosi $\OML/cmm/m/it/10.95 O\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 n[]\OT1/cmr
-/m/n/10.95 )$\OT4/cmr/m/n/10.95 .Dotyczy
- []
-
-[12] (./sprawozdanie2.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+ <../prj/wykres73.eps> [11] [12] (./sprawozdanie2.aux) ) 
 Here is how much of TeX's memory you used:
- 1738 strings out of 493849
- 20776 string characters out of 1152846
- 75261 words of memory out of 3000000
- 4986 multiletter control sequences out of 15000+50000
+ 2824 strings out of 493849
+ 39985 string characters out of 1152846
+ 102567 words of memory out of 3000000
+ 6062 multiletter control sequences out of 15000+50000
  9778 words of font info for 31 fonts, out of 3000000 for 9000
  714 hyphenation exceptions out of 8191
- 41i,7n,24p,282b,329s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 44i,7n,42p,293b,344s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on sprawozdanie2.dvi (12 pages, 12840 bytes).
+Output written on sprawozdanie2.dvi (12 pages, 18488 bytes).
