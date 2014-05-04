@@ -4,6 +4,7 @@
 #include<iostream>
 #include"tablica_asocjacyjna.hh"
 #include"stos.hh"
+#include"kolejka.hh"
 using namespace std;
 /*! \file
 	Plik zawiera definicje klasy wierzcholek i klasy graf
@@ -35,15 +36,17 @@ public:
 */
 class graf{
 	/*atrybuty prywatne*/
+	queue_array<string> Q0;
+	stack_array<int> Q;
 	/*! \brief stos sluzacy do przeszukiwania grafu */
-	stack_array<string> S;
+	
 	/*! \brief struktura sluzaca do przechowywania grafu, zawiera informacje, czy wierzcholek byl odwiedzony*/
 	tablica_asocjacyjna<bool> tab;
 	/*! \brief lista incydencji grafu*/
 	vector<tablica_asocjacyjna<int> > lista_incydencji;
 public:
 	/*! \brief Konstruktor nieparametryczny - ustala sposob zarzadzania pamiecia na stosie*/
-	graf():S(x2){}
+	graf():Q(x2){}
 	/*! \brief Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi.
 	Dodany wierzcholek nie posiada krawedzi incydentnych
 	*/
@@ -111,10 +114,15 @@ public:
 	/*! \brief Jeżeli wezel nei byl odwiedzony, odklada na stos wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje
 	\param [in] id - id wezla, ktory ma byc przeszukany
 	*/
-	int przeszukaj_wezel(int id);
+	bool przeszukaj_wezel(int id, int wzor);
 	/*! \brief Metoda przeszukuje wglab caly graf  */
-	void dfs();
-
+	void dfs(int id);
+	bool przeszukaj_wezel_1(int id, int wzor);
+	/*! \brief Metoda przeszukuje wglab caly graf  */
+	void bfs(int id);
+	bool przeszukaj_wezel_2(int id, int wzor);
+	/*! \brief Metoda przeszukuje wglab caly graf  */
+	void best_first(int id);
 };
 
 

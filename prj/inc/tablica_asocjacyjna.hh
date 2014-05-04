@@ -134,7 +134,7 @@ public:
 		else{ 
 			if(k<key[0]) {insert(0,k, v);}
 			else if (k>key[sp-1]) {insert(sp,k, v);}
-			else {;wstaw(k, v, 0, sp-1);}
+			else {wstaw(k, v, 0, sp-1);}
 		}
 	}
 	/*! \brief 
@@ -191,7 +191,7 @@ public:
 	int zlicz_elementy(){return sp;}
 
 	void wypisz(){
-		for(int i = 0; i<10; i++)
+		for(int i = 0; i<zlicz_elementy(); i++)
 			cout<<key[i]<<endl;
 	}
 /*! \brief Metoda wprost odnosi sie do konkretnego elementu tablicy - metoda uzywana przy grafie

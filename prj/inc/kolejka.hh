@@ -67,19 +67,19 @@ public:
 		\return rozmiar kolejki
 				
 		*/
-	int size(){return s;}
+	int size(){return sp;}
 		/*!
 		\brief 
 		\return false - gdy kolejka nie jest pusta, true , gdy pusta
 	*/
-	bool is_empty(){
-		if(s == 0) return true;
+	bool is_empty(){ 
+		if(sp == 0) return true;
 		return false;
 	}
 	/*! 
 		\brief Dodaje element na poczatek kolejki w zaleznosci od wybranego trybu powiekszania tablicy
 	*/
-	void enqueue(TYP& element){
+	void enqueue(TYP element){
 		if(s==0){
 			s++; 
 			q = new TYP[s];
@@ -98,18 +98,18 @@ public:
 				q[i] = tmp[i];
 			delete[] tmp;
 			q[s] = element;
-			s++;
+			s++; sp++;
 		}
 		/*Dla x2*/
 		else{
-			if(sp>s){	//gdy nie trzeba powiekszac tablicy
-				q[s] = element;
-				s++;
+			if(s>sp){	//gdy nie trzeba powiekszac tablicy
+				q[sp] = element;
+				sp++;
 				
 			}
 			else{		//gdy trzeba powiekszac tablice
 				int new_size = 2*s;
-				sp =sp*2;
+				
 				TYP* tmp = new TYP[s];
 				for(int i = 0; i<s; i++)
 					tmp[i] = q[i];
@@ -118,7 +118,7 @@ public:
 				for(int i = 0; i<s; i++)
 					q[i] = tmp[i];
 				q[s] = element;
-				s++;
+				s = new_size; sp++;
 				delete[] tmp;
 			}
 		}
@@ -126,12 +126,12 @@ public:
 	}
 	}
 	/*! \brief usuwa element z konca kolejki*/
-	TYP dequeue(){
+	TYP dequeue(){ 
 		if(is_empty()) {cerr<<"kolejka pusta!"<<endl; return 0;}
 		TYP temp = q[0];
-		if(s == 1){
+		if(sp == 1){
 			delete[] q;
-			s = 0;
+			sp = 0;
 		}
 		else{
 			/*Dla plus1*/
@@ -148,13 +148,13 @@ public:
 			}
 			/*Dla plus2*/
 			else{
-				if(s<0.25*sp){		//gdy trzeba zmniejszac tablcie
-					sp = sp/2;
+				if(sp<0.25*s){		//gdy trzeba zmniejszac tablcie
+					s = s/2;
 					TYP* tmp = new TYP[s];
 					for(int i = 0; i<(s-1); i++)
 						tmp[i] = q[i+1];
 					delete[] q;
-					q = new TYP[sp];
+					q = new TYP[s];
 					for(int i = 0; i<(s-1); i++)
 						q[i] = tmp[i];
 					delete[] tmp;
@@ -165,7 +165,7 @@ public:
 
 				}
 			}
-			s--;
+			sp--;
 		}
 		return temp;
 	}

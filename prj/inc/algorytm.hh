@@ -12,6 +12,7 @@
 #include"drzewo.hh"
 #include"hashtab.hh"
 #include"tablica_asocjacyjna.hh"
+#include"graf.hh"
 using namespace std;
 
 /*!
@@ -286,4 +287,13 @@ public:
   float przelicz();
   
 };
+class graf_test: public algorytm{
+  graf G1,G2,G3,G4,G5,G6;
+public:
+  int typ;
+  void wczytaj_graf();
+  graf_test(ifstream&  plik1, ifstream& plik2,  int N, int M, int t) :algorytm(plik1,plik2,N,M){wczytaj_graf(); typ = t;}
+  float przelicz();
+};
+
 #endif

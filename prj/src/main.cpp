@@ -10,6 +10,7 @@
 #include<cstdlib>
 #include<string>
 
+
 /*!
  * \file
  * \brief plik glowny
@@ -28,26 +29,30 @@ for(int i = 0; i<1000000; i++){
   wyy<<napis<<endl; 
 }
 */
-/*
-string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot skrypt3.pg","gnuplot skrypt4.pg","gnuplot skrypt5.pg","gnuplot skrypt6.pg","gnuplot skrypt7.pg","gnuplot skrypt8.pg","gnuplot skrypt9.pg","gnuplot skrypt10.pg","gnuplot skrypt11.pg", "gnuplot skrypt12.pg"};
+
+string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot skrypt3.pg",
+"gnuplot skrypt4.pg","gnuplot skrypt5.pg","gnuplot skrypt6.pg",
+"gnuplot skrypt7.pg","gnuplot skrypt8.pg","gnuplot skrypt9.pg",
+"gnuplot skrypt10.pg","gnuplot skrypt11.pg", "gnuplot skrypt12.pg",
+"gnuplot skrypt13.pg", "gnuplot skrypt14.pg", "gnuplot skrypt15.pg"};
 
 //ifstream we("wejscie.txt");
-int tabn[] = {10,100,1000,10000, 100000, 1000000};
-int d = 6;
+int tabn[] = {10,100,1000,10000, 30000};
+int d = 5;
 int N;
 int M = 10;
 int wybor = 0;
 
 ifstream plik1("plik11.txt");
 ifstream plik2("plik2.txt");
-cout<<"b1"<<endl;
+
 ifstream plik3("klucze.txt");
-cout<<"b2"<<endl;
+
 plik1>>N;
 cout<<N<<endl;
 while(!wybor){
   /*------------------------MENU----------------------------------*/
-  /*
+  
   cout<<"***************MENU*********************************************************"<<endl;
   cout<<"* 1. Wypelnienie stosu  - lista                                            *"<<endl;
   cout<<"* 2. Wypelnienie stosu  - tablica na biezaco zmieniajaca pamiec            *"<<endl;
@@ -60,6 +65,10 @@ while(!wybor){
   cout<<"* 9. Sortowanie mergesort                                                  *"<<endl;
   cout<<"* 10.BST                                                                   *"<<endl;
   cout<<"* 11.# table                                                               *"<<endl;
+  cout<<"* 12.tablica_asocjacyjna                                                   *"<<endl;
+  cout<<"* 13.Depth first search                                                    *"<<endl;
+  cout<<"* 14.Breadth first search                                                    *"<<endl;
+  cout<<"* 15.Best first search                                                    *"<<endl;
   cout<<"----------------------------------------------------------------------------"<<endl;
   cout<<"Twoj wybor: "<<flush;
   cin>>wybor;
@@ -176,6 +185,33 @@ while(!wybor){
         alg.wykonaj(out);
       }
     } break;
+    case 13: {
+     graf_test alg(plik1, plik2, N, M, 0);
+      
+      ofstream out("out3.csv");
+      for(int i = 0; i<d; i++){
+        alg.set_N(tabn[i]); 
+        alg.wykonaj(out);
+      }
+    } break;
+    case 14: {
+     graf_test alg(plik1, plik2, N, M, 1);
+      
+      ofstream out("out3.csv");
+      for(int i = 0; i<d; i++){
+        alg.set_N(tabn[i]); 
+        alg.wykonaj(out);
+      }
+    } break;
+    case 15: {
+     graf_test alg(plik1, plik2, N, M, 2);
+      
+      ofstream out("out3.csv");
+      for(int i = 0; i<d; i++){
+        alg.set_N(tabn[i]); 
+        alg.wykonaj(out);
+      }
+    } break;
     default: {cout<<"Bledna opcja, sprobuj ponownie"<<wybor<<endl; wybor = 0; } break;
 }
 }
@@ -190,7 +226,7 @@ x.dodaj("jeden", "jeden");
 x.usun("pi");
 cout<<x.pobierz("pi")<<endl;
 */
-
+/*
 graf G;
 wierzcholek w(0,1);
 G.dodaj_wierzcholek(w);
@@ -208,12 +244,40 @@ G.dodaj_krawedz(w,e,4);
 G.dodaj_krawedz(w,y,19);
 G.dodaj_krawedz(w,r,8);
 G.dodaj_krawedz(t,y,7);
-G.dodaj_krawedz(u,y,7);
+//G.dodaj_krawedz(u,y,7);
 G.dodaj_krawedz(u,w,7);
 G.dodaj_krawedz(t,r,7);
 G.wypisz_liste();
-G.dfs();
+G.best_first(3);
+//G.wypisz_liste();
+*/
+/*losowanie do grafu*/
+ofstream o1("graf1.txt");
+ofstream o2("graf2.txt");
+ofstream o3("graf3.txt");
+ofstream o4("graf4.txt");
+ofstream o5("graf5.txt");
+ofstream o6("graf6.txt");
+srand(time(NULL));
+  
+for(int i = 0; i<tabn[0]; i++)
+  o1<<i<<" "<<rand()%tabn[0]<<" "<<rand()%100<<" "<<rand()%tabn[0]<<" "<<rand()%100<<" "<<rand()%tabn[0]<<" "<<rand()%100<<" "<<rand()%tabn[0]<<" "<<rand()%100<<" "<<rand()%tabn[0]<<" "<<rand()%100<<endl;
 
+for(int i = 0; i<tabn[1]; i++)
+  o2<<i<<" "<<rand()%tabn[1]<<" "<<rand()%100<<" "<<rand()%tabn[1]<<" "<<rand()%100<<" "<<rand()%tabn[1]<<" "<<rand()%100<<" "<<rand()%tabn[1]<<" "<<rand()%100<<" "<<rand()%tabn[1]<<" "<<rand()%100<<endl;
+
+for(int i = 0; i<tabn[2]; i++)
+  o3<<i<<" "<<rand()%tabn[2]<<" "<<rand()%100<<" "<<rand()%tabn[2]<<" "<<rand()%100<<" "<<rand()%tabn[2]<<" "<<rand()%100<<" "<<rand()%tabn[2]<<" "<<rand()%100<<" "<<rand()%tabn[2]<<" "<<rand()%100<<endl;
+
+for(int i = 0; i<tabn[3]; i++)
+  o4<<i<<" "<<rand()%tabn[3]<<" "<<rand()%100<<" "<<rand()%tabn[3]<<" "<<rand()%100<<" "<<rand()%tabn[3]<<" "<<rand()%100<<" "<<rand()%tabn[3]<<" "<<rand()%100<<" "<<rand()%tabn[3]<<" "<<rand()%100<<endl;
+
+for(int i = 0; i<tabn[4]; i++)
+  o5<<i<<" "<<rand()%tabn[4]<<" "<<rand()%100<<" "<<rand()%tabn[4]<<" "<<rand()%100<<" "<<rand()%tabn[4]<<" "<<rand()%100<<" "<<rand()%tabn[4]<<" "<<rand()%100<<" "<<rand()%tabn[4]<<" "<<rand()%100<<endl;
+/*
+for(int i = 0; i<tabn[5]; i++)
+  o6<<i<<" "<<rand()%tabn[5]<<" "<<rand()%100<<" "<<rand()%tabn[5]<<" "<<rand()%100<<" "<<rand()%tabn[5]<<" "<<rand()%100<<" "<<rand()%tabn[5]<<" "<<rand()%100<<" "<<rand()%tabn[5]<<" "<<rand()%100<<endl;
+*/
 
 
 return 0;

@@ -12,13 +12,13 @@ void graf::dodaj_wierzcholek(){
 }
 
 void graf::dodaj_wierzcholek(wierzcholek w){
-	cout<<"dodjae"<<endl;
+	
 	lista_incydencji.push_back(vec);
 	int rozm = lista_incydencji.size();
 	ostringstream s; s<<(--rozm);
 	cout<<s.str()<<endl;
 	tab.dodaj(s.str(), false);
-	cout<<"dodano"<<endl;
+	
 }
 
 void graf::dodaj_krawedz(wierzcholek w1, wierzcholek w2, unsigned int waga){
@@ -46,7 +46,7 @@ void graf::sasiedztwo(wierzcholek w){
 	sasiedztwo(w.id);}
 
 
-void graf::wypisz_liste(){cout<<"wypisuje"<<endl;
+void graf::wypisz_liste(){
 int licznik = 0;
 	for(vector<tablica_asocjacyjna<int> >::iterator it = lista_incydencji.begin(); it!= lista_incydencji.end(); it++){
 		if(it->czy_blokada()){++licznik; continue;}
@@ -92,32 +92,141 @@ void graf::usun_wierzcholek(wierzcholek w){
 	usun_wierzcholek(w.id);
 }
 
-int graf::przeszukaj_wezel(int id){
-	cout<<"Przeszukuje: "<<id<<endl;
+bool graf::przeszukaj_wezel(int id, int wzor){
+	stack_array<string> S(x2);
+	
 	ostringstream s; s<<id;
-	//jezeli nieodwiedzone
+	
+	if(id == wzor) return true;
+	else{
 	
 		tab.ustaw(s.str(), true);
 		for(int i = lista_incydencji[id].zlicz_elementy() -1; i>=0; i--){ 
-			if(lista_incydencji[atoi(lista_incydencji[id].wez_id(i).c_str())].czy_blokada()){ continue;}
+			if(lista_incydencji[atoi(lista_incydencji[id].wez_id(i).c_str())].czy_blokada()) continue;
 			if(tab.pobierz(lista_incydencji[id].wez_id(i))) continue;
-			cout<<"klade na stos: "<<lista_incydencji[id].wez_id(i)<<endl;
+			
 			S.push(lista_incydencji[id].wez_id(i));
+		
 			
 		}
-		if(S.is_empty()) return 0;
-		else {
-			return przeszukaj_wezel(atoi(S.pop().c_str()));
+		
+		
+		while(!S.is_empty()){ 
+			int idd = atoi(S.pop().c_str());
+			if(przeszukaj_wezel(idd,wzor)){
+				Q.push(idd);
+				return true;
+			}
 		}
-	
+		return false;
 
-	//gdy odwiedzone
+	}
 	
 	}
 
-void graf::dfs(){
-	
-	przeszukaj_wezel(0);
-
+void graf::dfs(int id){
+	przeszukaj_wezel(0,id);
+	/*if(przeszukaj_wezel(0,id)){
+		//wypisanie sciezki
+		while(!Q.is_empty())
+			cout<<Q.pop()<<" --> ";
+	}
+	else cout<<"nie znaleziono sciezki"<<endl;
+*/
 }
 
+bool graf::przeszukaj_wezel_1(int id, int wzor){
+	
+	queue_array<string> S(x2);
+	
+	ostringstream s; s<<id;
+	
+	if(id == wzor) return true;
+	else{
+	
+		tab.ustaw(s.str(), true);
+		for(int i = lista_incydencji[id].zlicz_elementy() -1; i>=0; i--){ 
+			if(lista_incydencji[atoi(lista_incydencji[id].wez_id(i).c_str())].czy_blokada()) continue;
+			if(tab.pobierz(lista_incydencji[id].wez_id(i))) continue;
+			
+			S.enqueue(lista_incydencji[id].wez_id(i));
+		
+			
+		}
+		
+		
+		while(!S.is_empty()){ 
+			int idd = atoi(S.dequeue().c_str());
+			if(przeszukaj_wezel_1(idd,wzor)){
+				Q.push(idd);
+				return true;
+			}
+		}
+		return false;
+
+	}
+	
+	
+	}
+
+void graf::bfs(int id){
+	przeszukaj_wezel_1(0,id);
+	/*
+	if(przeszukaj_wezel_1(0,id)){
+		//wypisanie sciezki
+		while(!Q.is_empty())
+			cout<<Q.pop()<<" --> ";
+	}
+	else cout<<"nie znaleziono sciezki"<<endl;
+*/
+}
+
+bool graf::przeszukaj_wezel_2(int id, int wzor){
+
+	tablica_asocjacyjna<string> S;
+	
+	ostringstream s; s<<id;
+	
+	if(id == wzor) return true;
+	else{
+	
+		tab.ustaw(s.str(), true);
+		for(int i = lista_incydencji[id].zlicz_elementy() -1; i>=0; i--){ 
+			if(lista_incydencji[atoi(lista_incydencji[id].wez_id(i).c_str())].czy_blokada()) continue;
+			if(tab.pobierz(lista_incydencji[id].wez_id(i))) continue;
+			
+			ostringstream p;
+			p<<lista_incydencji[id].wez(i);
+			
+
+			S.dodaj(p.str(), lista_incydencji[id].wez_id(i));
+		
+			
+		}
+		
+		
+		for(int l = 0; l<S.zlicz_elementy(); l++){ 
+			int idd = atoi(S.wez(l).c_str());
+			if(przeszukaj_wezel_2(idd,wzor)){
+				Q.push(idd);
+				return true;
+			}
+		}
+		return false;
+
+	}
+	
+	
+}
+
+void graf::best_first(int id){
+	przeszukaj_wezel_2(0,id);
+	/*
+	if(przeszukaj_wezel_2(0,id)){
+		//wypisanie sciezki
+		while(!Q.is_empty())
+			cout<<Q.pop()<<" --> ";
+	}
+	else cout<<"nie znaleziono sciezki"<<endl;
+*/
+}
