@@ -1,0 +1,210 @@
+\hypertarget{classgraf__test}{\section{Dokumentacja klasy graf\-\_\-test}
+\label{classgraf__test}\index{graf\-\_\-test@{graf\-\_\-test}}
+}
+
+
+modeluje strukture grafów uzytych do badan  
+
+
+
+
+{\ttfamily \#include $<$algorytm.\-hh$>$}
+
+
+
+Diagram dziedziczenia dla graf\-\_\-test\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=134pt]{classgraf__test__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Diagram współpracy dla graf\-\_\-test\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgraf__test__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c}{wczytaj\-\_\-graf} ()
+\begin{DoxyCompactList}\small\item\em na podstawie danych z pliku, tworzone sa grafy \end{DoxyCompactList}\item 
+\hyperlink{classgraf__test_a918efb015a8a1c64f0bec75cf9464f73}{graf\-\_\-test} (ifstream \&plik1, ifstream \&plik2, int N, int M, int t)
+\begin{DoxyCompactList}\small\item\em konstruktor \end{DoxyCompactList}\item 
+float \hyperlink{classgraf__test_acd71a655b831470f5458b5d3d12eda00}{przelicz} ()
+\begin{DoxyCompactList}\small\item\em Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty publiczne}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classgraf__test_a0d14d8d811514d102e082a2dc52a4813}{typ}
+\begin{DoxyCompactList}\small\item\em informuje o tym, jaki algorytm zastosowac \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classgraf}{graf} \hyperlink{classgraf__test_ad381752b1793a26f024d7083acc686b7}{G1}
+\item 
+\hyperlink{classgraf}{graf} \hyperlink{classgraf__test_a2da908ecaa7b052598d842ffd6c366a9}{G2}
+\item 
+\hyperlink{classgraf}{graf} \hyperlink{classgraf__test_aaa19fc1426adf89a109e8679b92ee076}{G3}
+\item 
+\hyperlink{classgraf}{graf} \hyperlink{classgraf__test_acdda3ab9733fc4d62802fdf2f3872da5}{G4}
+\item 
+\hyperlink{classgraf}{graf} \hyperlink{classgraf__test_a1ed75824208bf907bf0c80de05046b49}{G5}
+\item 
+\hyperlink{classgraf}{graf} \hyperlink{classgraf__test_a01b58fa6f7b1a36c0239e65d9c6b87a0}{G6}
+\end{DoxyCompactItemize}
+\subsection*{Dodatkowe Dziedziczone Składowe}
+
+
+\subsection{Opis szczegółowy}
+modeluje strukture grafów uzytych do badan 
+
+Definicja w linii 291 pliku algorytm.\-hh.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classgraf__test_a918efb015a8a1c64f0bec75cf9464f73}{\index{graf\-\_\-test@{graf\-\_\-test}!graf\-\_\-test@{graf\-\_\-test}}
+\index{graf\-\_\-test@{graf\-\_\-test}!graf_test@{graf\-\_\-test}}
+\subsubsection[{graf\-\_\-test}]{\setlength{\rightskip}{0pt plus 5cm}graf\-\_\-test\-::graf\-\_\-test (
+\begin{DoxyParamCaption}
+\item[{ifstream \&}]{plik1, }
+\item[{ifstream \&}]{plik2, }
+\item[{int}]{N, }
+\item[{int}]{M, }
+\item[{int}]{t}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classgraf__test_a918efb015a8a1c64f0bec75cf9464f73}
+
+
+konstruktor 
+
+
+
+Definicja w linii 300 pliku algorytm.\-hh.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classgraf__test_acd71a655b831470f5458b5d3d12eda00}{\index{graf\-\_\-test@{graf\-\_\-test}!przelicz@{przelicz}}
+\index{przelicz@{przelicz}!graf_test@{graf\-\_\-test}}
+\subsubsection[{przelicz}]{\setlength{\rightskip}{0pt plus 5cm}float graf\-\_\-test\-::przelicz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classgraf__test_acd71a655b831470f5458b5d3d12eda00}
+
+
+Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. 
+
+
+
+Reimplementowana z \hyperlink{classalgorytm_af3f92bf537b1f2e1f93173983e838449}{algorytm}.
+
+
+
+Definicja w linii 329 pliku algorytm.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgraf__test_acd71a655b831470f5458b5d3d12eda00_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c}{\index{graf\-\_\-test@{graf\-\_\-test}!wczytaj\-\_\-graf@{wczytaj\-\_\-graf}}
+\index{wczytaj\-\_\-graf@{wczytaj\-\_\-graf}!graf_test@{graf\-\_\-test}}
+\subsubsection[{wczytaj\-\_\-graf}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-\_\-test\-::wczytaj\-\_\-graf (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c}
+
+
+na podstawie danych z pliku, tworzone sa grafy 
+
+
+
+Definicja w linii 262 pliku algorytm.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classgraf__test_ad381752b1793a26f024d7083acc686b7}{\index{graf\-\_\-test@{graf\-\_\-test}!G1@{G1}}
+\index{G1@{G1}!graf_test@{graf\-\_\-test}}
+\subsubsection[{G1}]{\setlength{\rightskip}{0pt plus 5cm}{\bf graf} graf\-\_\-test\-::\-G1\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf__test_ad381752b1793a26f024d7083acc686b7}
+\textbackslash{} grafy, na ktorych testuje sie algorytmu przeszukiwania 
+
+Definicja w linii 293 pliku algorytm.\-hh.
+
+\hypertarget{classgraf__test_a2da908ecaa7b052598d842ffd6c366a9}{\index{graf\-\_\-test@{graf\-\_\-test}!G2@{G2}}
+\index{G2@{G2}!graf_test@{graf\-\_\-test}}
+\subsubsection[{G2}]{\setlength{\rightskip}{0pt plus 5cm}{\bf graf} graf\-\_\-test\-::\-G2\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf__test_a2da908ecaa7b052598d842ffd6c366a9}
+
+
+Definicja w linii 293 pliku algorytm.\-hh.
+
+\hypertarget{classgraf__test_aaa19fc1426adf89a109e8679b92ee076}{\index{graf\-\_\-test@{graf\-\_\-test}!G3@{G3}}
+\index{G3@{G3}!graf_test@{graf\-\_\-test}}
+\subsubsection[{G3}]{\setlength{\rightskip}{0pt plus 5cm}{\bf graf} graf\-\_\-test\-::\-G3\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf__test_aaa19fc1426adf89a109e8679b92ee076}
+
+
+Definicja w linii 293 pliku algorytm.\-hh.
+
+\hypertarget{classgraf__test_acdda3ab9733fc4d62802fdf2f3872da5}{\index{graf\-\_\-test@{graf\-\_\-test}!G4@{G4}}
+\index{G4@{G4}!graf_test@{graf\-\_\-test}}
+\subsubsection[{G4}]{\setlength{\rightskip}{0pt plus 5cm}{\bf graf} graf\-\_\-test\-::\-G4\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf__test_acdda3ab9733fc4d62802fdf2f3872da5}
+
+
+Definicja w linii 293 pliku algorytm.\-hh.
+
+\hypertarget{classgraf__test_a1ed75824208bf907bf0c80de05046b49}{\index{graf\-\_\-test@{graf\-\_\-test}!G5@{G5}}
+\index{G5@{G5}!graf_test@{graf\-\_\-test}}
+\subsubsection[{G5}]{\setlength{\rightskip}{0pt plus 5cm}{\bf graf} graf\-\_\-test\-::\-G5\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf__test_a1ed75824208bf907bf0c80de05046b49}
+
+
+Definicja w linii 293 pliku algorytm.\-hh.
+
+\hypertarget{classgraf__test_a01b58fa6f7b1a36c0239e65d9c6b87a0}{\index{graf\-\_\-test@{graf\-\_\-test}!G6@{G6}}
+\index{G6@{G6}!graf_test@{graf\-\_\-test}}
+\subsubsection[{G6}]{\setlength{\rightskip}{0pt plus 5cm}{\bf graf} graf\-\_\-test\-::\-G6\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf__test_a01b58fa6f7b1a36c0239e65d9c6b87a0}
+
+
+Definicja w linii 293 pliku algorytm.\-hh.
+
+\hypertarget{classgraf__test_a0d14d8d811514d102e082a2dc52a4813}{\index{graf\-\_\-test@{graf\-\_\-test}!typ@{typ}}
+\index{typ@{typ}!graf_test@{graf\-\_\-test}}
+\subsubsection[{typ}]{\setlength{\rightskip}{0pt plus 5cm}int graf\-\_\-test\-::typ}}\label{classgraf__test_a0d14d8d811514d102e082a2dc52a4813}
+
+
+informuje o tym, jaki algorytm zastosowac 
+
+
+
+Definicja w linii 296 pliku algorytm.\-hh.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{algorytm_8hh}{algorytm.\-hh}\item 
+\hyperlink{algorytm_8cpp}{algorytm.\-cpp}\end{DoxyCompactItemize}

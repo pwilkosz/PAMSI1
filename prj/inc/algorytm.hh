@@ -287,11 +287,16 @@ public:
   float przelicz();
   
 };
+/*! \brief modeluje strukture grafów uzytych do badan*/
 class graf_test: public algorytm{
+  /*! \ grafy, na ktorych testuje sie algorytmu przeszukiwania*/
   graf G1,G2,G3,G4,G5,G6;
 public:
+  /*! \brief informuje o tym, jaki algorytm zastosowac*/
   int typ;
+  /*! \brief na podstawie danych z pliku, tworzone sa grafy*/
   void wczytaj_graf();
+  /*! \brief konstruktor*/
   graf_test(ifstream&  plik1, ifstream& plik2,  int N, int M, int t) :algorytm(plik1,plik2,N,M){wczytaj_graf(); typ = t;}
   float przelicz();
 };

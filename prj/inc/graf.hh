@@ -113,15 +113,34 @@ public:
 	void wyczysc(){lista_incydencji.clear();}
 	/*! \brief Jeżeli wezel nei byl odwiedzony, odklada na stos wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje
 	\param [in] id - id wezla, ktory ma byc przeszukany
+	\param [in] wzor - id wezla, ktorego szukamy
+	\return informacja, czy wezel zostal znaleziony
 	*/
 	bool przeszukaj_wezel(int id, int wzor);
-	/*! \brief Metoda przeszukuje wglab caly graf  */
+	/*! \brief Metoda przeszukuje wglab caly graf 
+	\param [in] id - wezel, ktorego szukamy
+	 */
 	void dfs(int id);
+	/*! \brief Jeżeli wezel nei byl odwiedzony, odklada do kolejki wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje
+	\param [in] id - id wezla, ktory ma byc przeszukany
+	\param [in] wzor - id wezla, ktorego szukamy
+	\return informacja, czy wezel zostal znaleziony
+	*/
 	bool przeszukaj_wezel_1(int id, int wzor);
-	/*! \brief Metoda przeszukuje wglab caly graf  */
+	/*! \brief Metoda przeszukuje wszerz caly graf 
+	\param [in] id - wezel, ktorego szukamy
+	 */
 	void bfs(int id);
+	/*! \brief Jeżeli wezel nei byl odwiedzony, odklada do tablicy asocjacyjnej wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje,
+	poczynajac od tego, do ktorego mamy najkrotsza sciezke
+	\param [in] id - id wezla, ktory ma byc przeszukany
+	\param [in] wzor - id wezla, ktorego szukamy
+	\return informacja, czy wezel zostal znaleziony
+	*/
 	bool przeszukaj_wezel_2(int id, int wzor);
-	/*! \brief Metoda przeszukuje wglab caly graf  */
+	/*! \brief Metoda przeszukuje graf, poczynajac od najkrotszej sciezki 
+	\param [in] id - wezel, ktorego szukamy
+	 */
 	void best_first(int id);
 };
 

@@ -266,7 +266,7 @@ void graf_test::wczytaj_graf(){
   ifstream in3("graf3.txt");
   ifstream in4("graf4.txt");
   ifstream in5("graf5.txt");
-  
+  ifstream in6("graf6.txt");
   for(int i = 0; i<10; i++)
     G1.dodaj_wierzcholek();
   for(int i = 0; i<100; i++)
@@ -275,8 +275,10 @@ void graf_test::wczytaj_graf(){
     G3.dodaj_wierzcholek();
   for(int i = 0; i<10000; i++)
     G4.dodaj_wierzcholek();
-  for(int i = 0; i<30000; i++)
+  for(int i = 0; i<50000; i++)
     G5.dodaj_wierzcholek();
+  for(int i = 0; i<100000; i++)
+    G6.dodaj_wierzcholek();
  
   /*dodano wierzcholki, teraz tworzymy liste incydencji*/
   for(int i = 0; i<10; i++){
@@ -307,17 +309,25 @@ void graf_test::wczytaj_graf(){
       G4.dodaj_krawedz(i,id,wg);
     }
   }
-  for(int i = 0; i<30000; i++){
+  for(int i = 0; i<50000; i++){
     in5>>nr;
     for(int k = 0; k<5; k++){
       in5>>id>>wg;
       G5.dodaj_krawedz(i,id,wg);
     }
   }
+  for(int i = 0; i<100000; i++){
+    in6>>nr;
+    for(int k = 0; k<5; k++){
+      in6>>id>>wg;
+      G6.dodaj_krawedz(i,id,wg);
+    }
+  }
  
  
 }
 float graf_test::przelicz(){
+  srand(time(NULL));
   if(typ == 0){
     wlacz_zegar();
     switch(n){
@@ -325,7 +335,8 @@ float graf_test::przelicz(){
       case 100: G2.dfs(rand()%n); break;
       case 1000: G3.dfs(rand()%n); break;
       case 10000: G4.dfs(rand()%n); break;
-      case 30000: G5.dfs(rand()%n); break;
+      case 50000: G5.dfs(rand()%n); break;
+      case 100000: G6.dfs(rand()%n); break;
     }
   }
   else if(typ == 1){
@@ -335,7 +346,8 @@ float graf_test::przelicz(){
       case 100: G2.bfs(rand()%n); break;
       case 1000: G3.bfs(rand()%n); break;
       case 10000: G4.bfs(rand()%n); break;
-      case 30000: G5.bfs(rand()%n); break;
+      case 50000: G5.bfs(rand()%n); break;
+      case 100000: G6.bfs(rand()%n); break;
     }
   }
   else if(typ ==2){
@@ -345,7 +357,8 @@ float graf_test::przelicz(){
       case 100: G2.best_first(rand()%n); break;
       case 1000: G3.best_first(rand()%n); break;
       case 10000: G4.best_first(rand()%n); break;
-      case 30000: G5.best_first(rand()%n); break;
+      case 50000: G5.best_first(rand()%n); break;
+      case 100000: G6.best_first(rand()%n); break;
     }
   }
   

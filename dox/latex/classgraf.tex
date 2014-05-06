@@ -1,9 +1,9 @@
-\hypertarget{classgraf}{\section{\-Dokumentacja klasy graf}
+\hypertarget{classgraf}{\section{Dokumentacja klasy graf}
 \label{classgraf}\index{graf@{graf}}
 }
 
 
-\-Klasa modeluje pojecie grafu w oparciu o liste incydencji, \-Operacje na grafie mozliwe sa na dwa sposoby $\backslash$n 1. \-Podajac wierzcholek grafu jako parametr metody $\backslash$n 2. \-Podajac id wierzcholka jako parametr metody.  
+Klasa modeluje pojecie grafu w oparciu o liste incydencji, Operacje na grafie mozliwe sa na dwa sposoby \textbackslash{}n.  
 
 
 
@@ -12,32 +12,32 @@
 
 
 
-\-Diagram współpracy dla graf\-:\nopagebreak
+Diagram współpracy dla graf\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=346pt]{classgraf__coll__graph}
+\includegraphics[width=350pt]{classgraf__coll__graph}
 \end{center}
 \end{figure}
-\subsection*{\-Metody publiczne}
+\subsection*{Metody publiczne}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{classgraf_a6dc94b859678110f1bc85095a55bbee4}{graf} ()
-\begin{DoxyCompactList}\small\item\em \-Konstruktor nieparametryczny -\/ ustala sposob zarzadzania pamiecia na stosie. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Konstruktor nieparametryczny -\/ ustala sposob zarzadzania pamiecia na stosie. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_afaa55f5a9aef1f30a2b3be97b59a476b}{dodaj\-\_\-wierzcholek} ()
-\begin{DoxyCompactList}\small\item\em \-Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. \-Dodany wierzcholek nie posiada krawedzi incydentnych. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. Dodany wierzcholek nie posiada krawedzi incydentnych. \end{DoxyCompactList}\item 
 bool \hyperlink{classgraf_a699329f1a383e2a5816e969498af6eb4}{czy\-\_\-sasiad} (unsigned int id1, unsigned int id2)
-\begin{DoxyCompactList}\small\item\em \-Sprawdza czy podane wierzcholki sa polaczone krawedzia -\/ odwolanie poprzez identyfikatory. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Sprawdza czy podane wierzcholki sa polaczone krawedzia -\/ odwolanie poprzez identyfikatory. \end{DoxyCompactList}\item 
 bool \hyperlink{classgraf_a617db5b49d65cd716b24c8b4930dec2a}{czy\-\_\-sasiad} (\hyperlink{classwierzcholek}{wierzcholek} w1, \hyperlink{classwierzcholek}{wierzcholek} w2)
-\begin{DoxyCompactList}\small\item\em \-Sprawdza czy podane wierzcholki sa polaczone krawedzia -\/ odwolanie poprzez obiekt klasy wierzcholek. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Sprawdza czy podane wierzcholki sa polaczone krawedzia -\/ odwolanie poprzez obiekt klasy wierzcholek. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_ac72411b348f0025613cb03eeb27b9594}{sasiedztwo} (\hyperlink{classwierzcholek}{wierzcholek} w)
 \begin{DoxyCompactList}\small\item\em wypisuje wszystkie wierzcholki polaczone krawedzia z podanym wierzcholkiem -\/ odwolanie poprzez obiekt typu wierzcholek \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_abe2f98850133e73015ab8232d90d7530}{dodaj\-\_\-wierzcholek} (\hyperlink{classwierzcholek}{wierzcholek} w)
-\begin{DoxyCompactList}\small\item\em \-Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. \-Dodany wierzcholek nie posiada krawedzi incydentnych. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. Dodany wierzcholek nie posiada krawedzi incydentnych. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af}{dodaj\-\_\-krawedz} (unsigned int id1, unsigned int id2, unsigned int waga)
-\begin{DoxyCompactList}\small\item\em \-Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez identyfikatory wierzcholkow. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez identyfikatory wierzcholkow. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_a8442b7d095a21024666b12c3e3f4184b}{dodaj\-\_\-krawedz} (\hyperlink{classwierzcholek}{wierzcholek} w1, \hyperlink{classwierzcholek}{wierzcholek} w2, unsigned int waga)
-\begin{DoxyCompactList}\small\item\em \-Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez obiekty typu wierzcholek. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez obiekty typu wierzcholek. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_a6a3ee98f332805da9c65749bacad27db}{sasiedztwo} (unsigned int id)
 \begin{DoxyCompactList}\small\item\em wypisuje wszystkie wierzcholki polaczone krawedzia z podanym wierzcholkiem -\/ odwolanie poprzez identyfikator wierzcholka \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_aede977ec0f8660ad4a8c09449535cb74}{usun\-\_\-krawedz} (unsigned int id1, unsigned int id2)
@@ -52,51 +52,151 @@ void \hyperlink{classgraf_aa4376c1891e93cac64f1b53548af8b11}{wypisz\-\_\-liste} 
 \begin{DoxyCompactList}\small\item\em wypisuje pelna liste incydencji grafu \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_a0aec2013836977402dc75e4c5931f09d}{wyczysc} ()
 \begin{DoxyCompactList}\small\item\em usuwa wszystkie obiekty z listy inceydencji grafu \end{DoxyCompactList}\item 
-int \hyperlink{classgraf_a6f53eff4c615bc5e89371e9a9e221b31}{przeszukaj\-\_\-wezel} (int id)
-\begin{DoxyCompactList}\small\item\em \-Jeżeli wezel nei byl odwiedzony, odklada na stos wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje. \end{DoxyCompactList}\item 
-void \hyperlink{classgraf_afe45945e964407a08e059aacff043d2e}{dfs} ()
-\begin{DoxyCompactList}\small\item\em \-Metoda przeszukuje wglab caly graf. \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{\-Atrybuty prywatne}
+bool \hyperlink{classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b}{przeszukaj\-\_\-wezel} (int id, int wzor)
+\begin{DoxyCompactList}\small\item\em Jeżeli wezel nei byl odwiedzony, odklada na stos wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje. \end{DoxyCompactList}\item 
+void \hyperlink{classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2}{dfs} (int id)
+\begin{DoxyCompactList}\small\item\em Metoda przeszukuje wglab caly graf. \end{DoxyCompactList}\item 
+bool \hyperlink{classgraf_ab10b43b2e8b685118790a550674ab00e}{przeszukaj\-\_\-wezel\-\_\-1} (int id, int wzor)
+\begin{DoxyCompactList}\small\item\em Jeżeli wezel nei byl odwiedzony, odklada do kolejki wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje. \end{DoxyCompactList}\item 
+void \hyperlink{classgraf_a51bb320791ada3c7700fa90477b508f4}{bfs} (int id)
+\begin{DoxyCompactList}\small\item\em Metoda przeszukuje wszerz caly graf. \end{DoxyCompactList}\item 
+bool \hyperlink{classgraf_abf0a6bb0cfd8ef55868981bb91881de3}{przeszukaj\-\_\-wezel\-\_\-2} (int id, int wzor)
+\begin{DoxyCompactList}\small\item\em Jeżeli wezel nei byl odwiedzony, odklada do tablicy asocjacyjnej wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje, poczynajac od tego, do ktorego mamy najkrotsza sciezke. \end{DoxyCompactList}\item 
+void \hyperlink{classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1}{best\-\_\-first} (int id)
+\begin{DoxyCompactList}\small\item\em Metoda przeszukuje graf, poczynajac od najkrotszej sciezki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classstack__array}{stack\-\_\-array}$<$ string $>$ \hyperlink{classgraf_aaefbc4a7f4dfc3076c94455b953a058a}{\-S}
-\begin{DoxyCompactList}\small\item\em stos sluzacy do przeszukiwania grafu \end{DoxyCompactList}\item 
+\hyperlink{classqueue__array}{queue\-\_\-array}$<$ string $>$ \hyperlink{classgraf_a8dfe6c329285c5077e2d612247b0a8b0}{Q0}
+\item 
+\hyperlink{classstack__array}{stack\-\_\-array}$<$ int $>$ \hyperlink{classgraf_a9d7d7f9781f344e37cc41ef26e0f690a}{Q}
+\item 
 \hyperlink{classtablica__asocjacyjna}{tablica\-\_\-asocjacyjna}$<$ bool $>$ \hyperlink{classgraf_a563284d00331e414f9d124da73e43dd6}{tab}
-\begin{DoxyCompactList}\small\item\em struktura sluzaca do przechowywania grafu, zawiera informacje, czy wierzcholek byl odwiedzony \end{DoxyCompactList}\item 
-vector$<$ \hyperlink{classtablica__asocjacyjna}{tablica\-\_\-asocjacyjna}\*
+\begin{DoxyCompactList}\small\item\em stos sluzacy do przeszukiwania grafu \end{DoxyCompactList}\item 
+vector$<$ \hyperlink{classtablica__asocjacyjna}{tablica\-\_\-asocjacyjna}\\*
 $<$ int $>$ $>$ \hyperlink{classgraf_a867b5d2b59608ad67207f4537214e006}{lista\-\_\-incydencji}
 \begin{DoxyCompactList}\small\item\em lista incydencji grafu \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\subsection{\-Opis szczegółowy}
-\-Klasa modeluje pojecie grafu w oparciu o liste incydencji, \-Operacje na grafie mozliwe sa na dwa sposoby $\backslash$n 1. \-Podajac wierzcholek grafu jako parametr metody $\backslash$n 2. \-Podajac id wierzcholka jako parametr metody. 
-
-\-Definicja w linii 36 pliku graf.\-hh.
+\subsection{Opis szczegółowy}
+Klasa modeluje pojecie grafu w oparciu o liste incydencji, Operacje na grafie mozliwe sa na dwa sposoby \textbackslash{}n. 
 
 
+\begin{DoxyEnumerate}
+\item Podajac wierzcholek grafu jako parametr metody \textbackslash{}n
+\item Podajac id wierzcholka jako parametr metody 
+\end{DoxyEnumerate}
 
-\subsection{\-Dokumentacja konstruktora i destruktora}
+Definicja w linii 37 pliku graf.\-hh.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
 \hypertarget{classgraf_a6dc94b859678110f1bc85095a55bbee4}{\index{graf@{graf}!graf@{graf}}
 \index{graf@{graf}!graf@{graf}}
-\subsubsection[{graf}]{\setlength{\rightskip}{0pt plus 5cm}{\bf graf\-::graf} (
+\subsubsection[{graf}]{\setlength{\rightskip}{0pt plus 5cm}graf\-::graf (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classgraf_a6dc94b859678110f1bc85095a55bbee4}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classgraf_a6dc94b859678110f1bc85095a55bbee4}
 
 
-\-Konstruktor nieparametryczny -\/ ustala sposob zarzadzania pamiecia na stosie. 
-
-
-
-\-Definicja w linii 46 pliku graf.\-hh.
+Konstruktor nieparametryczny -\/ ustala sposob zarzadzania pamiecia na stosie. 
 
 
 
-\subsection{\-Dokumentacja funkcji składowych}
+Definicja w linii 49 pliku graf.\-hh.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1}{\index{graf@{graf}!best\-\_\-first@{best\-\_\-first}}
+\index{best\-\_\-first@{best\-\_\-first}!graf@{graf}}
+\subsubsection[{best\-\_\-first}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::best\-\_\-first (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1}
+
+
+Metoda przeszukuje graf, poczynajac od najkrotszej sciezki. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em id} & -\/ wezel, ktorego szukamy \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii 222 pliku graf.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classgraf_a51bb320791ada3c7700fa90477b508f4}{\index{graf@{graf}!bfs@{bfs}}
+\index{bfs@{bfs}!graf@{graf}}
+\subsubsection[{bfs}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::bfs (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{classgraf_a51bb320791ada3c7700fa90477b508f4}
+
+
+Metoda przeszukuje wszerz caly graf. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em id} & -\/ wezel, ktorego szukamy \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii 172 pliku graf.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgraf_a51bb320791ada3c7700fa90477b508f4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=266pt]{classgraf_a51bb320791ada3c7700fa90477b508f4_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{classgraf_a699329f1a383e2a5816e969498af6eb4}{\index{graf@{graf}!czy\-\_\-sasiad@{czy\-\_\-sasiad}}
 \index{czy\-\_\-sasiad@{czy\-\_\-sasiad}!graf@{graf}}
-\subsubsection[{czy\-\_\-sasiad}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf graf\-::czy\-\_\-sasiad} (
+\subsubsection[{czy\-\_\-sasiad}]{\setlength{\rightskip}{0pt plus 5cm}bool graf\-::czy\-\_\-sasiad (
 \begin{DoxyParamCaption}
 \item[{unsigned int}]{id1, }
 \item[{unsigned int}]{id2}
@@ -104,25 +204,25 @@ $<$ int $>$ $>$ \hyperlink{classgraf_a867b5d2b59608ad67207f4537214e006}{lista\-\
 )}}\label{classgraf_a699329f1a383e2a5816e969498af6eb4}
 
 
-\-Sprawdza czy podane wierzcholki sa polaczone krawedzia -\/ odwolanie poprzez identyfikatory. 
+Sprawdza czy podane wierzcholki sa polaczone krawedzia -\/ odwolanie poprzez identyfikatory. 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em id1} & -\/ id 1. wierzcholka \\
 \hline
 \mbox{\tt in}  & {\em id2} & -\/ id 2. wierzcholka \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{\-Zwraca}
+\begin{DoxyReturn}{Zwraca}
 true -\/ gdy sa sasiadami, false -\/ gdy nie sa 
 \end{DoxyReturn}
 
 
-\-Definicja w linii 61 pliku graf.\-cpp.
+Definicja w linii 61 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -133,7 +233,7 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 
 \hypertarget{classgraf_a617db5b49d65cd716b24c8b4930dec2a}{\index{graf@{graf}!czy\-\_\-sasiad@{czy\-\_\-sasiad}}
 \index{czy\-\_\-sasiad@{czy\-\_\-sasiad}!graf@{graf}}
-\subsubsection[{czy\-\_\-sasiad}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf graf\-::czy\-\_\-sasiad} (
+\subsubsection[{czy\-\_\-sasiad}]{\setlength{\rightskip}{0pt plus 5cm}bool graf\-::czy\-\_\-sasiad (
 \begin{DoxyParamCaption}
 \item[{{\bf wierzcholek}}]{w1, }
 \item[{{\bf wierzcholek}}]{w2}
@@ -141,25 +241,25 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 )}}\label{classgraf_a617db5b49d65cd716b24c8b4930dec2a}
 
 
-\-Sprawdza czy podane wierzcholki sa polaczone krawedzia -\/ odwolanie poprzez obiekt klasy wierzcholek. 
+Sprawdza czy podane wierzcholki sa polaczone krawedzia -\/ odwolanie poprzez obiekt klasy wierzcholek. 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em w1} & -\/ pierwszy wierzcholek \\
 \hline
 \mbox{\tt in}  & {\em w2} & -\/ drugi wierzcholek \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{\-Zwraca}
+\begin{DoxyReturn}{Zwraca}
 true -\/ gdy sa sasiadami, false -\/ gdy nie sa 
 \end{DoxyReturn}
 
 
-\-Definicja w linii 68 pliku graf.\-cpp.
+Definicja w linii 68 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -168,46 +268,51 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 \end{figure}
 
 
-\hypertarget{classgraf_afe45945e964407a08e059aacff043d2e}{\index{graf@{graf}!dfs@{dfs}}
+\hypertarget{classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2}{\index{graf@{graf}!dfs@{dfs}}
 \index{dfs@{dfs}!graf@{graf}}
-\subsubsection[{dfs}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::dfs} (
+\subsubsection[{dfs}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::dfs (
 \begin{DoxyParamCaption}
-{}
+\item[{int}]{id}
 \end{DoxyParamCaption}
-)}}\label{classgraf_afe45945e964407a08e059aacff043d2e}
+)}}\label{classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2}
 
 
-\-Metoda przeszukuje wglab caly graf. 
+Metoda przeszukuje wglab caly graf. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em id} & -\/ wezel, ktorego szukamy \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii 127 pliku graf.\-cpp.
 
 
 
-\-Definicja w linii 118 pliku graf.\-cpp.
-
-
-
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classgraf_afe45945e964407a08e059aacff043d2e_cgraph}
+\includegraphics[width=350pt]{classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph}
 \end{center}
 \end{figure}
 
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=208pt]{classgraf_afe45945e964407a08e059aacff043d2e_icgraph}
+\includegraphics[width=266pt]{classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_icgraph}
 \end{center}
 \end{figure}
 
 
 \hypertarget{classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af}{\index{graf@{graf}!dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}}
 \index{dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}!graf@{graf}}
-\subsubsection[{dodaj\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::dodaj\-\_\-krawedz} (
+\subsubsection[{dodaj\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::dodaj\-\_\-krawedz (
 \begin{DoxyParamCaption}
 \item[{unsigned int}]{id1, }
 \item[{unsigned int}]{id2, }
@@ -216,10 +321,10 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 )}}\label{classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af}
 
 
-\-Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez identyfikatory wierzcholkow. 
+Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez identyfikatory wierzcholkow. 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em id1} & -\/ id 1. wierzcholka \\
 \hline
 \mbox{\tt in}  & {\em id2} & -\/ id 2. wierzcholka \\
@@ -229,22 +334,22 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 \end{DoxyParams}
 
 
-\-Definicja w linii 28 pliku graf.\-cpp.
+Definicja w linii 28 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=324pt]{classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af_icgraph}
+\includegraphics[width=336pt]{classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af_icgraph}
 \end{center}
 \end{figure}
 
 
 \hypertarget{classgraf_a8442b7d095a21024666b12c3e3f4184b}{\index{graf@{graf}!dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}}
 \index{dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}!graf@{graf}}
-\subsubsection[{dodaj\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::dodaj\-\_\-krawedz} (
+\subsubsection[{dodaj\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::dodaj\-\_\-krawedz (
 \begin{DoxyParamCaption}
 \item[{{\bf wierzcholek}}]{w1, }
 \item[{{\bf wierzcholek}}]{w2, }
@@ -253,10 +358,10 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 )}}\label{classgraf_a8442b7d095a21024666b12c3e3f4184b}
 
 
-\-Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez obiekty typu wierzcholek. 
+Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez obiekty typu wierzcholek. 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em w1} & -\/ pierwszy wierzcholek \\
 \hline
 \mbox{\tt in}  & {\em w2} & -\/ drugi wierzcholek \\
@@ -266,11 +371,11 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 \end{DoxyParams}
 
 
-\-Definicja w linii 24 pliku graf.\-cpp.
+Definicja w linii 24 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -281,112 +386,214 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 
 \hypertarget{classgraf_afaa55f5a9aef1f30a2b3be97b59a476b}{\index{graf@{graf}!dodaj\-\_\-wierzcholek@{dodaj\-\_\-wierzcholek}}
 \index{dodaj\-\_\-wierzcholek@{dodaj\-\_\-wierzcholek}!graf@{graf}}
-\subsubsection[{dodaj\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::dodaj\-\_\-wierzcholek} (
+\subsubsection[{dodaj\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::dodaj\-\_\-wierzcholek (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
 )}}\label{classgraf_afaa55f5a9aef1f30a2b3be97b59a476b}
 
 
-\-Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. \-Dodany wierzcholek nie posiada krawedzi incydentnych. 
+Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. Dodany wierzcholek nie posiada krawedzi incydentnych. 
 
 
 
-\-Definicja w linii 6 pliku graf.\-cpp.
+Definicja w linii 6 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph}
+\includegraphics[width=338pt]{classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph}
 \end{center}
 \end{figure}
 
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=274pt]{classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_icgraph}
+\includegraphics[width=350pt]{classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_icgraph}
 \end{center}
 \end{figure}
 
 
 \hypertarget{classgraf_abe2f98850133e73015ab8232d90d7530}{\index{graf@{graf}!dodaj\-\_\-wierzcholek@{dodaj\-\_\-wierzcholek}}
 \index{dodaj\-\_\-wierzcholek@{dodaj\-\_\-wierzcholek}!graf@{graf}}
-\subsubsection[{dodaj\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::dodaj\-\_\-wierzcholek} (
+\subsubsection[{dodaj\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::dodaj\-\_\-wierzcholek (
 \begin{DoxyParamCaption}
 \item[{{\bf wierzcholek}}]{w}
 \end{DoxyParamCaption}
 )}}\label{classgraf_abe2f98850133e73015ab8232d90d7530}
 
 
-\-Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. \-Dodany wierzcholek nie posiada krawedzi incydentnych. 
+Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. Dodany wierzcholek nie posiada krawedzi incydentnych. 
 
 
 
-\-Definicja w linii 14 pliku graf.\-cpp.
+Definicja w linii 14 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classgraf_abe2f98850133e73015ab8232d90d7530_cgraph}
+\includegraphics[width=338pt]{classgraf_abe2f98850133e73015ab8232d90d7530_cgraph}
 \end{center}
 \end{figure}
 
 
-\hypertarget{classgraf_a6f53eff4c615bc5e89371e9a9e221b31}{\index{graf@{graf}!przeszukaj\-\_\-wezel@{przeszukaj\-\_\-wezel}}
+\hypertarget{classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b}{\index{graf@{graf}!przeszukaj\-\_\-wezel@{przeszukaj\-\_\-wezel}}
 \index{przeszukaj\-\_\-wezel@{przeszukaj\-\_\-wezel}!graf@{graf}}
-\subsubsection[{przeszukaj\-\_\-wezel}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf graf\-::przeszukaj\-\_\-wezel} (
+\subsubsection[{przeszukaj\-\_\-wezel}]{\setlength{\rightskip}{0pt plus 5cm}bool graf\-::przeszukaj\-\_\-wezel (
 \begin{DoxyParamCaption}
-\item[{int}]{id}
+\item[{int}]{id, }
+\item[{int}]{wzor}
 \end{DoxyParamCaption}
-)}}\label{classgraf_a6f53eff4c615bc5e89371e9a9e221b31}
+)}}\label{classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b}
 
 
-\-Jeżeli wezel nei byl odwiedzony, odklada na stos wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje. 
+Jeżeli wezel nei byl odwiedzony, odklada na stos wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje. 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em id} & -\/ id wezla, ktory ma byc przeszukany \\
 \hline
+\mbox{\tt in}  & {\em wzor} & -\/ id wezla, ktorego szukamy \\
+\hline
 \end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+informacja, czy wezel zostal znaleziony 
+\end{DoxyReturn}
 
 
-\-Definicja w linii 95 pliku graf.\-cpp.
+Definicja w linii 95 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classgraf_a6f53eff4c615bc5e89371e9a9e221b31_cgraph}
+\includegraphics[width=348pt]{classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_cgraph}
 \end{center}
 \end{figure}
 
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classgraf_a6f53eff4c615bc5e89371e9a9e221b31_icgraph}
+\includegraphics[width=350pt]{classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classgraf_ab10b43b2e8b685118790a550674ab00e}{\index{graf@{graf}!przeszukaj\-\_\-wezel\-\_\-1@{przeszukaj\-\_\-wezel\-\_\-1}}
+\index{przeszukaj\-\_\-wezel\-\_\-1@{przeszukaj\-\_\-wezel\-\_\-1}!graf@{graf}}
+\subsubsection[{przeszukaj\-\_\-wezel\-\_\-1}]{\setlength{\rightskip}{0pt plus 5cm}bool graf\-::przeszukaj\-\_\-wezel\-\_\-1 (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{int}]{wzor}
+\end{DoxyParamCaption}
+)}}\label{classgraf_ab10b43b2e8b685118790a550674ab00e}
+
+
+Jeżeli wezel nei byl odwiedzony, odklada do kolejki wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em id} & -\/ id wezla, ktory ma byc przeszukany \\
+\hline
+\mbox{\tt in}  & {\em wzor} & -\/ id wezla, ktorego szukamy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+informacja, czy wezel zostal znaleziony 
+\end{DoxyReturn}
+
+
+Definicja w linii 138 pliku graf.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgraf_ab10b43b2e8b685118790a550674ab00e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgraf_ab10b43b2e8b685118790a550674ab00e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classgraf_abf0a6bb0cfd8ef55868981bb91881de3}{\index{graf@{graf}!przeszukaj\-\_\-wezel\-\_\-2@{przeszukaj\-\_\-wezel\-\_\-2}}
+\index{przeszukaj\-\_\-wezel\-\_\-2@{przeszukaj\-\_\-wezel\-\_\-2}!graf@{graf}}
+\subsubsection[{przeszukaj\-\_\-wezel\-\_\-2}]{\setlength{\rightskip}{0pt plus 5cm}bool graf\-::przeszukaj\-\_\-wezel\-\_\-2 (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{int}]{wzor}
+\end{DoxyParamCaption}
+)}}\label{classgraf_abf0a6bb0cfd8ef55868981bb91881de3}
+
+
+Jeżeli wezel nei byl odwiedzony, odklada do tablicy asocjacyjnej wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje, poczynajac od tego, do ktorego mamy najkrotsza sciezke. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em id} & -\/ id wezla, ktory ma byc przeszukany \\
+\hline
+\mbox{\tt in}  & {\em wzor} & -\/ id wezla, ktorego szukamy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+informacja, czy wezel zostal znaleziony 
+\end{DoxyReturn}
+
+
+Definicja w linii 184 pliku graf.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgraf_abf0a6bb0cfd8ef55868981bb91881de3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classgraf_abf0a6bb0cfd8ef55868981bb91881de3_icgraph}
 \end{center}
 \end{figure}
 
 
 \hypertarget{classgraf_ac72411b348f0025613cb03eeb27b9594}{\index{graf@{graf}!sasiedztwo@{sasiedztwo}}
 \index{sasiedztwo@{sasiedztwo}!graf@{graf}}
-\subsubsection[{sasiedztwo}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::sasiedztwo} (
+\subsubsection[{sasiedztwo}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::sasiedztwo (
 \begin{DoxyParamCaption}
 \item[{{\bf wierzcholek}}]{w}
 \end{DoxyParamCaption}
@@ -396,17 +603,17 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 wypisuje wszystkie wierzcholki polaczone krawedzia z podanym wierzcholkiem -\/ odwolanie poprzez obiekt typu wierzcholek 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em w} & -\/ zadany wierzcholek \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 45 pliku graf.\-cpp.
+Definicja w linii 45 pliku graf.\-cpp.
 
 \hypertarget{classgraf_a6a3ee98f332805da9c65749bacad27db}{\index{graf@{graf}!sasiedztwo@{sasiedztwo}}
 \index{sasiedztwo@{sasiedztwo}!graf@{graf}}
-\subsubsection[{sasiedztwo}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::sasiedztwo} (
+\subsubsection[{sasiedztwo}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::sasiedztwo (
 \begin{DoxyParamCaption}
 \item[{unsigned int}]{id}
 \end{DoxyParamCaption}
@@ -416,17 +623,17 @@ wypisuje wszystkie wierzcholki polaczone krawedzia z podanym wierzcholkiem -\/ o
 wypisuje wszystkie wierzcholki polaczone krawedzia z podanym wierzcholkiem -\/ odwolanie poprzez identyfikator wierzcholka 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em id} & -\/ id wierzcholka \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 36 pliku graf.\-cpp.
+Definicja w linii 36 pliku graf.\-cpp.
 
 \hypertarget{classgraf_aede977ec0f8660ad4a8c09449535cb74}{\index{graf@{graf}!usun\-\_\-krawedz@{usun\-\_\-krawedz}}
 \index{usun\-\_\-krawedz@{usun\-\_\-krawedz}!graf@{graf}}
-\subsubsection[{usun\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::usun\-\_\-krawedz} (
+\subsubsection[{usun\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::usun\-\_\-krawedz (
 \begin{DoxyParamCaption}
 \item[{unsigned int}]{id1, }
 \item[{unsigned int}]{id2}
@@ -437,7 +644,7 @@ wypisuje wszystkie wierzcholki polaczone krawedzia z podanym wierzcholkiem -\/ o
 usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez identyfikatory wierzcholkow 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em id1} & -\/ id 1. wierzcholka \\
 \hline
 \mbox{\tt in}  & {\em id2} & -\/ id 2. wierzcholka \\
@@ -445,11 +652,11 @@ usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez identyfikatory wier
 \end{DoxyParams}
 
 
-\-Definicja w linii 73 pliku graf.\-cpp.
+Definicja w linii 73 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -460,7 +667,7 @@ usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez identyfikatory wier
 
 \hypertarget{classgraf_a17cff8e4bdff073674dc95927221d128}{\index{graf@{graf}!usun\-\_\-krawedz@{usun\-\_\-krawedz}}
 \index{usun\-\_\-krawedz@{usun\-\_\-krawedz}!graf@{graf}}
-\subsubsection[{usun\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::usun\-\_\-krawedz} (
+\subsubsection[{usun\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::usun\-\_\-krawedz (
 \begin{DoxyParamCaption}
 \item[{{\bf wierzcholek}}]{w1, }
 \item[{{\bf wierzcholek}}]{w2}
@@ -471,7 +678,7 @@ usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez identyfikatory wier
 usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez obiekt typu wierzcholek 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em w1} & -\/ pierwszy wierzcholek \\
 \hline
 \mbox{\tt in}  & {\em w2} & -\/ drugi wierzcholek \\
@@ -479,11 +686,11 @@ usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez obiekt typu wierzch
 \end{DoxyParams}
 
 
-\-Definicja w linii 82 pliku graf.\-cpp.
+Definicja w linii 82 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -494,7 +701,7 @@ usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez obiekt typu wierzch
 
 \hypertarget{classgraf_a867f6b80702573ceea8dca8739bf93d8}{\index{graf@{graf}!usun\-\_\-wierzcholek@{usun\-\_\-wierzcholek}}
 \index{usun\-\_\-wierzcholek@{usun\-\_\-wierzcholek}!graf@{graf}}
-\subsubsection[{usun\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::usun\-\_\-wierzcholek} (
+\subsubsection[{usun\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::usun\-\_\-wierzcholek (
 \begin{DoxyParamCaption}
 \item[{unsigned int}]{id}
 \end{DoxyParamCaption}
@@ -504,17 +711,17 @@ usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez obiekt typu wierzch
 usuwa podany wierzcholek, a scislej, ustawia flage w strukturze tablicy asocjacyjnej, przez co dany wierzcholek jest niewidoczny dla uzytkownika 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em id} & -\/ id wierzcholka \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 85 pliku graf.\-cpp.
+Definicja w linii 85 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -525,7 +732,7 @@ usuwa podany wierzcholek, a scislej, ustawia flage w strukturze tablicy asocjacy
 
 \hypertarget{classgraf_a970f1f2c7883eb466a59567e81467cfe}{\index{graf@{graf}!usun\-\_\-wierzcholek@{usun\-\_\-wierzcholek}}
 \index{usun\-\_\-wierzcholek@{usun\-\_\-wierzcholek}!graf@{graf}}
-\subsubsection[{usun\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::usun\-\_\-wierzcholek} (
+\subsubsection[{usun\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::usun\-\_\-wierzcholek (
 \begin{DoxyParamCaption}
 \item[{{\bf wierzcholek}}]{w}
 \end{DoxyParamCaption}
@@ -535,17 +742,17 @@ usuwa podany wierzcholek, a scislej, ustawia flage w strukturze tablicy asocjacy
 usuwa podany wierzcholek, a scislej, ustawia flage w strukturze tablicy asocjacyjnej, przez co dany wierzcholek jest niewidoczny dla uzytkownika 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em w} & -\/ wierzcholek ktory trzeba usunac \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 91 pliku graf.\-cpp.
+Definicja w linii 91 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -556,22 +763,22 @@ usuwa podany wierzcholek, a scislej, ustawia flage w strukturze tablicy asocjacy
 
 \hypertarget{classgraf_a0aec2013836977402dc75e4c5931f09d}{\index{graf@{graf}!wyczysc@{wyczysc}}
 \index{wyczysc@{wyczysc}!graf@{graf}}
-\subsubsection[{wyczysc}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::wyczysc} (
+\subsubsection[{wyczysc}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::wyczysc (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classgraf_a0aec2013836977402dc75e4c5931f09d}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classgraf_a0aec2013836977402dc75e4c5931f09d}
 
 
 usuwa wszystkie obiekty z listy inceydencji grafu 
 
 
 
-\-Definicja w linii 110 pliku graf.\-hh.
+Definicja w linii 113 pliku graf.\-hh.
 
 \hypertarget{classgraf_aa4376c1891e93cac64f1b53548af8b11}{\index{graf@{graf}!wypisz\-\_\-liste@{wypisz\-\_\-liste}}
 \index{wypisz\-\_\-liste@{wypisz\-\_\-liste}!graf@{graf}}
-\subsubsection[{wypisz\-\_\-liste}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf graf\-::wypisz\-\_\-liste} (
+\subsubsection[{wypisz\-\_\-liste}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::wypisz\-\_\-liste (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
@@ -582,58 +789,50 @@ wypisuje pelna liste incydencji grafu
 
 
 
-\-Definicja w linii 49 pliku graf.\-cpp.
+Definicja w linii 49 pliku graf.\-cpp.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=248pt]{classgraf_aa4376c1891e93cac64f1b53548af8b11_icgraph}
-\end{center}
-\end{figure}
-
-
-
-
-\subsection{\-Dokumentacja atrybutów składowych}
+\subsection{Dokumentacja atrybutów składowych}
 \hypertarget{classgraf_a867b5d2b59608ad67207f4537214e006}{\index{graf@{graf}!lista\-\_\-incydencji@{lista\-\_\-incydencji}}
 \index{lista\-\_\-incydencji@{lista\-\_\-incydencji}!graf@{graf}}
-\subsubsection[{lista\-\_\-incydencji}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf tablica\-\_\-asocjacyjna}$<$int$>$ $>$ {\bf graf\-::lista\-\_\-incydencji}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classgraf_a867b5d2b59608ad67207f4537214e006}
+\subsubsection[{lista\-\_\-incydencji}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf tablica\-\_\-asocjacyjna}$<$int$>$ $>$ graf\-::lista\-\_\-incydencji\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a867b5d2b59608ad67207f4537214e006}
 
 
 lista incydencji grafu 
 
 
 
-\-Definicja w linii 43 pliku graf.\-hh.
+Definicja w linii 46 pliku graf.\-hh.
 
-\hypertarget{classgraf_aaefbc4a7f4dfc3076c94455b953a058a}{\index{graf@{graf}!\-S@{\-S}}
-\index{\-S@{\-S}!graf@{graf}}
-\subsubsection[{\-S}]{\setlength{\rightskip}{0pt plus 5cm}{\bf stack\-\_\-array}$<$string$>$ {\bf graf\-::\-S}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classgraf_aaefbc4a7f4dfc3076c94455b953a058a}
+\hypertarget{classgraf_a9d7d7f9781f344e37cc41ef26e0f690a}{\index{graf@{graf}!Q@{Q}}
+\index{Q@{Q}!graf@{graf}}
+\subsubsection[{Q}]{\setlength{\rightskip}{0pt plus 5cm}{\bf stack\-\_\-array}$<$int$>$ graf\-::\-Q\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a9d7d7f9781f344e37cc41ef26e0f690a}
+
+
+Definicja w linii 40 pliku graf.\-hh.
+
+\hypertarget{classgraf_a8dfe6c329285c5077e2d612247b0a8b0}{\index{graf@{graf}!Q0@{Q0}}
+\index{Q0@{Q0}!graf@{graf}}
+\subsubsection[{Q0}]{\setlength{\rightskip}{0pt plus 5cm}{\bf queue\-\_\-array}$<$string$>$ graf\-::\-Q0\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a8dfe6c329285c5077e2d612247b0a8b0}
+
+
+Definicja w linii 39 pliku graf.\-hh.
+
+\hypertarget{classgraf_a563284d00331e414f9d124da73e43dd6}{\index{graf@{graf}!tab@{tab}}
+\index{tab@{tab}!graf@{graf}}
+\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tablica\-\_\-asocjacyjna}$<$bool$>$ graf\-::tab\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a563284d00331e414f9d124da73e43dd6}
 
 
 stos sluzacy do przeszukiwania grafu 
 
-
-
-\-Definicja w linii 39 pliku graf.\-hh.
-
-\hypertarget{classgraf_a563284d00331e414f9d124da73e43dd6}{\index{graf@{graf}!tab@{tab}}
-\index{tab@{tab}!graf@{graf}}
-\subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tablica\-\_\-asocjacyjna}$<$bool$>$ {\bf graf\-::tab}\hspace{0.3cm}{\ttfamily  \mbox{[}private\mbox{]}}}}\label{classgraf_a563284d00331e414f9d124da73e43dd6}
-
-
 struktura sluzaca do przechowywania grafu, zawiera informacje, czy wierzcholek byl odwiedzony 
 
-
-
-\-Definicja w linii 41 pliku graf.\-hh.
+Definicja w linii 44 pliku graf.\-hh.
 
 
 
-\-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
 \item 
 \hyperlink{graf_8hh}{graf.\-hh}\item 
 \hyperlink{graf_8cpp}{graf.\-cpp}\end{DoxyCompactItemize}

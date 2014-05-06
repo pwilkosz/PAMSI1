@@ -37,10 +37,10 @@ string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot 
 "gnuplot skrypt13.pg", "gnuplot skrypt14.pg", "gnuplot skrypt15.pg"};
 
 //ifstream we("wejscie.txt");
-int tabn[] = {10,100,1000,10000, 30000};
-int d = 5;
+int tabn[] = {10,100,1000,10000, 50000, 100000};
+int d = 6;
 int N;
-int M = 10;
+int M = 20;
 int wybor = 0;
 
 ifstream plik1("plik11.txt");
@@ -251,7 +251,7 @@ G.wypisz_liste();
 G.best_first(3);
 //G.wypisz_liste();
 */
-/*losowanie do grafu*/
+/*losowanie do grafu
 ofstream o1("graf1.txt");
 ofstream o2("graf2.txt");
 ofstream o3("graf3.txt");
@@ -274,11 +274,11 @@ for(int i = 0; i<tabn[3]; i++)
 
 for(int i = 0; i<tabn[4]; i++)
   o5<<i<<" "<<rand()%tabn[4]<<" "<<rand()%100<<" "<<rand()%tabn[4]<<" "<<rand()%100<<" "<<rand()%tabn[4]<<" "<<rand()%100<<" "<<rand()%tabn[4]<<" "<<rand()%100<<" "<<rand()%tabn[4]<<" "<<rand()%100<<endl;
-/*
+
 for(int i = 0; i<tabn[5]; i++)
   o6<<i<<" "<<rand()%tabn[5]<<" "<<rand()%100<<" "<<rand()%tabn[5]<<" "<<rand()%100<<" "<<rand()%tabn[5]<<" "<<rand()%100<<" "<<rand()%tabn[5]<<" "<<rand()%100<<" "<<rand()%tabn[5]<<" "<<rand()%100<<endl;
-*/
 
+*/
 
 return 0;
 }

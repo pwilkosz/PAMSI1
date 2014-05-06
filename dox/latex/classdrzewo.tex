@@ -1,4 +1,4 @@
-\hypertarget{classdrzewo}{\section{\-Dokumentacja szablonu klasy drzewo$<$ \-T\-Y\-P $>$}
+\hypertarget{classdrzewo}{\section{Dokumentacja szablonu klasy drzewo$<$ T\-Y\-P $>$}
 \label{classdrzewo}\index{drzewo$<$ T\-Y\-P $>$@{drzewo$<$ T\-Y\-P $>$}}
 }
 
@@ -10,114 +10,114 @@ modeluje binarne drzewo przeszukiwan
 
 {\ttfamily \#include $<$drzewo.\-hh$>$}
 
-\subsection*{\-Metody publiczne}
+\subsection*{Metody publiczne}
 \begin{DoxyCompactItemize}
 \item 
 \hyperlink{classdrzewo_ad43b2e4e82dc089736b57064865fa449}{drzewo} ()
 \begin{DoxyCompactList}\small\item\em konstruktor bezparametryczny \end{DoxyCompactList}\item 
-\hyperlink{classdrzewo_abaa93ec27e55b1a58c747f680446ffd4}{drzewo} (string k, \-T\-Y\-P v)
+\hyperlink{classdrzewo_abaa93ec27e55b1a58c747f680446ffd4}{drzewo} (string k, T\-Y\-P v)
 \begin{DoxyCompactList}\small\item\em konstruktor parametryczny -\/ przypisuje korzeniowi klucz i wartosc \end{DoxyCompactList}\item 
-void \hyperlink{classdrzewo_a9c52aa0c3842425ff5900429bbf0c43d}{dodaj\-\_\-wezel} (\hyperlink{classwezel}{wezel}$<$ \-T\-Y\-P $>$ $\ast$\-W)
+void \hyperlink{classdrzewo_a9c52aa0c3842425ff5900429bbf0c43d}{dodaj\-\_\-wezel} (\hyperlink{classwezel}{wezel}$<$ T\-Y\-P $>$ $\ast$W)
 \begin{DoxyCompactList}\small\item\em dodaje wezel do drzewa \end{DoxyCompactList}\item 
-void \hyperlink{classdrzewo_a53ccf9b49a62bcb6b5dfab4e48415cc1}{dodaj} (string k, \-T\-Y\-P v)
+void \hyperlink{classdrzewo_a53ccf9b49a62bcb6b5dfab4e48415cc1}{dodaj} (string k, T\-Y\-P v)
 \begin{DoxyCompactList}\small\item\em dodaje wezel do drzewa \end{DoxyCompactList}\item 
 bool \hyperlink{classdrzewo_ad9d512467919623595126d88bdb60974}{znajdz} (string k)
 \begin{DoxyCompactList}\small\item\em szuka wezla o zadanym kluczu \end{DoxyCompactList}\item 
-bool \hyperlink{classdrzewo_a2670c642c8edfef4a716c39a3dd626a7}{szukaj} (string k, \hyperlink{classwezel}{wezel}$<$ \-T\-Y\-P $>$ $\ast$w)
+bool \hyperlink{classdrzewo_a2670c642c8edfef4a716c39a3dd626a7}{szukaj} (string k, \hyperlink{classwezel}{wezel}$<$ T\-Y\-P $>$ $\ast$w)
 \begin{DoxyCompactList}\small\item\em sprawdza, czy w danym wezle znajduje sie szukany klucz \end{DoxyCompactList}\item 
 void \hyperlink{classdrzewo_ad80b0276f6f4ed01fb2b42856e62f101}{usun} (string k)
 \begin{DoxyCompactList}\small\item\em usuwa element o kluczu k, jezeli zostanie on znaleizony \end{DoxyCompactList}\item 
-void \hyperlink{classdrzewo_a52496982e5ad7f4002d343e3637a68da}{czysc} (\hyperlink{classwezel}{wezel}$<$ \-T\-Y\-P $>$ $\ast$w)
+void \hyperlink{classdrzewo_a52496982e5ad7f4002d343e3637a68da}{czysc} (\hyperlink{classwezel}{wezel}$<$ T\-Y\-P $>$ $\ast$w)
 \begin{DoxyCompactList}\small\item\em rekursywne czyszczenie wezla \end{DoxyCompactList}\item 
 void \hyperlink{classdrzewo_a25de98ca343edbc949466d3b6cd5ce9f}{wyczysc} ()
 \begin{DoxyCompactList}\small\item\em czysci cale drzewo \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{\-Atrybuty publiczne}
+\subsection*{Atrybuty publiczne}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classwezel}{wezel}$<$ \-T\-Y\-P $>$ $\ast$ \hyperlink{classdrzewo_a8c5c1104e4e6e327ffe7091e96528bf5}{korzen}
+\hyperlink{classwezel}{wezel}$<$ T\-Y\-P $>$ $\ast$ \hyperlink{classdrzewo_a8c5c1104e4e6e327ffe7091e96528bf5}{korzen}
 \begin{DoxyCompactList}\small\item\em korzen drzewa \end{DoxyCompactList}\item 
-\hyperlink{classwezel}{wezel}$<$ \-T\-Y\-P $>$ $\ast$ \hyperlink{classdrzewo_a5c5ca950d7ee79f135c50bd33dba3745}{znaleziony}
+\hyperlink{classwezel}{wezel}$<$ T\-Y\-P $>$ $\ast$ \hyperlink{classdrzewo_a5c5ca950d7ee79f135c50bd33dba3745}{znaleziony}
 \begin{DoxyCompactList}\small\item\em znaleziony wezel w drzewie \end{DoxyCompactList}\end{DoxyCompactItemize}
 
 
-\subsection{\-Opis szczegółowy}
-\subsubsection*{template$<$typename \-T\-Y\-P$>$class drzewo$<$ T\-Y\-P $>$}
+\subsection{Opis szczegółowy}
+\subsubsection*{template$<$typename T\-Y\-P$>$class drzewo$<$ T\-Y\-P $>$}
 
 modeluje binarne drzewo przeszukiwan 
 
-\-Definicja w linii 70 pliku drzewo.\-hh.
+Definicja w linii 70 pliku drzewo.\-hh.
 
 
 
-\subsection{\-Dokumentacja konstruktora i destruktora}
+\subsection{Dokumentacja konstruktora i destruktora}
 \hypertarget{classdrzewo_ad43b2e4e82dc089736b57064865fa449}{\index{drzewo@{drzewo}!drzewo@{drzewo}}
 \index{drzewo@{drzewo}!drzewo@{drzewo}}
-\subsubsection[{drzewo}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf drzewo} (
+\subsubsection[{drzewo}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ {\bf drzewo}$<$ T\-Y\-P $>$\-::{\bf drzewo} (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classdrzewo_ad43b2e4e82dc089736b57064865fa449}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdrzewo_ad43b2e4e82dc089736b57064865fa449}
 
 
 konstruktor bezparametryczny 
 
 
 
-\-Definicja w linii 77 pliku drzewo.\-hh.
+Definicja w linii 77 pliku drzewo.\-hh.
 
 \hypertarget{classdrzewo_abaa93ec27e55b1a58c747f680446ffd4}{\index{drzewo@{drzewo}!drzewo@{drzewo}}
 \index{drzewo@{drzewo}!drzewo@{drzewo}}
-\subsubsection[{drzewo}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf drzewo} (
+\subsubsection[{drzewo}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ {\bf drzewo}$<$ T\-Y\-P $>$\-::{\bf drzewo} (
 \begin{DoxyParamCaption}
 \item[{string}]{k, }
-\item[{\-T\-Y\-P}]{v}
+\item[{T\-Y\-P}]{v}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classdrzewo_abaa93ec27e55b1a58c747f680446ffd4}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdrzewo_abaa93ec27e55b1a58c747f680446ffd4}
 
 
 konstruktor parametryczny -\/ przypisuje korzeniowi klucz i wartosc 
 
 
 
-\-Definicja w linii 79 pliku drzewo.\-hh.
+Definicja w linii 79 pliku drzewo.\-hh.
 
 
 
-\subsection{\-Dokumentacja funkcji składowych}
+\subsection{Dokumentacja funkcji składowych}
 \hypertarget{classdrzewo_a52496982e5ad7f4002d343e3637a68da}{\index{drzewo@{drzewo}!czysc@{czysc}}
 \index{czysc@{czysc}!drzewo@{drzewo}}
-\subsubsection[{czysc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf czysc} (
+\subsubsection[{czysc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf drzewo}$<$ T\-Y\-P $>$\-::czysc (
 \begin{DoxyParamCaption}
-\item[{{\bf wezel}$<$ \-T\-Y\-P $>$ $\ast$}]{w}
+\item[{{\bf wezel}$<$ T\-Y\-P $>$ $\ast$}]{w}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classdrzewo_a52496982e5ad7f4002d343e3637a68da}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdrzewo_a52496982e5ad7f4002d343e3637a68da}
 
 
 rekursywne czyszczenie wezla 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em w} & -\/ czyszczony wezel \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 180 pliku drzewo.\-hh.
+Definicja w linii 180 pliku drzewo.\-hh.
 
 \hypertarget{classdrzewo_a53ccf9b49a62bcb6b5dfab4e48415cc1}{\index{drzewo@{drzewo}!dodaj@{dodaj}}
 \index{dodaj@{dodaj}!drzewo@{drzewo}}
-\subsubsection[{dodaj}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf dodaj} (
+\subsubsection[{dodaj}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf drzewo}$<$ T\-Y\-P $>$\-::dodaj (
 \begin{DoxyParamCaption}
 \item[{string}]{k, }
-\item[{\-T\-Y\-P}]{v}
+\item[{T\-Y\-P}]{v}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classdrzewo_a53ccf9b49a62bcb6b5dfab4e48415cc1}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdrzewo_a53ccf9b49a62bcb6b5dfab4e48415cc1}
 
 
 dodaje wezel do drzewa 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em k} & -\/ klucz wezla \\
 \hline
 \mbox{\tt in}  & {\em v} & = wartosc wezla \\
@@ -125,115 +125,115 @@ dodaje wezel do drzewa
 \end{DoxyParams}
 
 
-\-Definicja w linii 91 pliku drzewo.\-hh.
+Definicja w linii 91 pliku drzewo.\-hh.
 
 \hypertarget{classdrzewo_a9c52aa0c3842425ff5900429bbf0c43d}{\index{drzewo@{drzewo}!dodaj\-\_\-wezel@{dodaj\-\_\-wezel}}
 \index{dodaj\-\_\-wezel@{dodaj\-\_\-wezel}!drzewo@{drzewo}}
-\subsubsection[{dodaj\-\_\-wezel}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf dodaj\-\_\-wezel} (
+\subsubsection[{dodaj\-\_\-wezel}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf drzewo}$<$ T\-Y\-P $>$\-::dodaj\-\_\-wezel (
 \begin{DoxyParamCaption}
-\item[{{\bf wezel}$<$ \-T\-Y\-P $>$ $\ast$}]{\-W}
+\item[{{\bf wezel}$<$ T\-Y\-P $>$ $\ast$}]{W}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classdrzewo_a9c52aa0c3842425ff5900429bbf0c43d}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdrzewo_a9c52aa0c3842425ff5900429bbf0c43d}
 
 
 dodaje wezel do drzewa 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
-\mbox{\tt in}  & {\em \-W} & -\/ utworzony uprzednio wezel \\
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em W} & -\/ utworzony uprzednio wezel \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 83 pliku drzewo.\-hh.
+Definicja w linii 83 pliku drzewo.\-hh.
 
 \hypertarget{classdrzewo_a2670c642c8edfef4a716c39a3dd626a7}{\index{drzewo@{drzewo}!szukaj@{szukaj}}
 \index{szukaj@{szukaj}!drzewo@{drzewo}}
-\subsubsection[{szukaj}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ bool {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf szukaj} (
+\subsubsection[{szukaj}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ bool {\bf drzewo}$<$ T\-Y\-P $>$\-::szukaj (
 \begin{DoxyParamCaption}
 \item[{string}]{k, }
-\item[{{\bf wezel}$<$ \-T\-Y\-P $>$ $\ast$}]{w}
+\item[{{\bf wezel}$<$ T\-Y\-P $>$ $\ast$}]{w}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classdrzewo_a2670c642c8edfef4a716c39a3dd626a7}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdrzewo_a2670c642c8edfef4a716c39a3dd626a7}
 
 
 sprawdza, czy w danym wezle znajduje sie szukany klucz 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em k} & -\/ klucz \\
 \hline
 \mbox{\tt in}  & {\em w} & -\/ wezel, w ktorym sprawdzany jest klucz \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{\-Zwraca}
+\begin{DoxyReturn}{Zwraca}
 true, gdy znaleziono, false w przeciwnym przypadku 
 \end{DoxyReturn}
 
 
-\-Definicja w linii 109 pliku drzewo.\-hh.
+Definicja w linii 109 pliku drzewo.\-hh.
 
 \hypertarget{classdrzewo_ad80b0276f6f4ed01fb2b42856e62f101}{\index{drzewo@{drzewo}!usun@{usun}}
 \index{usun@{usun}!drzewo@{drzewo}}
-\subsubsection[{usun}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf usun} (
+\subsubsection[{usun}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf drzewo}$<$ T\-Y\-P $>$\-::usun (
 \begin{DoxyParamCaption}
 \item[{string}]{k}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classdrzewo_ad80b0276f6f4ed01fb2b42856e62f101}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdrzewo_ad80b0276f6f4ed01fb2b42856e62f101}
 
 
 usuwa element o kluczu k, jezeli zostanie on znaleizony 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em k} & -\/ klucz wezla, ktory nalezy usunac \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 124 pliku drzewo.\-hh.
+Definicja w linii 124 pliku drzewo.\-hh.
 
 \hypertarget{classdrzewo_a25de98ca343edbc949466d3b6cd5ce9f}{\index{drzewo@{drzewo}!wyczysc@{wyczysc}}
 \index{wyczysc@{wyczysc}!drzewo@{drzewo}}
-\subsubsection[{wyczysc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ void {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf wyczysc} (
+\subsubsection[{wyczysc}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ void {\bf drzewo}$<$ T\-Y\-P $>$\-::wyczysc (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classdrzewo_a25de98ca343edbc949466d3b6cd5ce9f}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdrzewo_a25de98ca343edbc949466d3b6cd5ce9f}
 
 
 czysci cale drzewo 
 
 
 
-\-Definicja w linii 188 pliku drzewo.\-hh.
+Definicja w linii 188 pliku drzewo.\-hh.
 
 \hypertarget{classdrzewo_ad9d512467919623595126d88bdb60974}{\index{drzewo@{drzewo}!znajdz@{znajdz}}
 \index{znajdz@{znajdz}!drzewo@{drzewo}}
-\subsubsection[{znajdz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ bool {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf znajdz} (
+\subsubsection[{znajdz}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ bool {\bf drzewo}$<$ T\-Y\-P $>$\-::znajdz (
 \begin{DoxyParamCaption}
 \item[{string}]{k}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classdrzewo_ad9d512467919623595126d88bdb60974}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classdrzewo_ad9d512467919623595126d88bdb60974}
 
 
 szuka wezla o zadanym kluczu 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em k} & -\/ klucz \\
 \hline
 \end{DoxyParams}
-\begin{DoxyReturn}{\-Zwraca}
+\begin{DoxyReturn}{Zwraca}
 true, gdy znaleziono, w przeciwnym wypadku zwraca false 
 \end{DoxyReturn}
 
 
-\-Definicja w linii 100 pliku drzewo.\-hh.
+Definicja w linii 100 pliku drzewo.\-hh.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -244,31 +244,31 @@ true, gdy znaleziono, w przeciwnym wypadku zwraca false
 
 
 
-\subsection{\-Dokumentacja atrybutów składowych}
+\subsection{Dokumentacja atrybutów składowych}
 \hypertarget{classdrzewo_a8c5c1104e4e6e327ffe7091e96528bf5}{\index{drzewo@{drzewo}!korzen@{korzen}}
 \index{korzen@{korzen}!drzewo@{drzewo}}
-\subsubsection[{korzen}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf wezel}$<$\-T\-Y\-P$>$$\ast$ {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf korzen}}}\label{classdrzewo_a8c5c1104e4e6e327ffe7091e96528bf5}
+\subsubsection[{korzen}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ {\bf wezel}$<$T\-Y\-P$>$$\ast$ {\bf drzewo}$<$ T\-Y\-P $>$\-::korzen}}\label{classdrzewo_a8c5c1104e4e6e327ffe7091e96528bf5}
 
 
 korzen drzewa 
 
 
 
-\-Definicja w linii 73 pliku drzewo.\-hh.
+Definicja w linii 73 pliku drzewo.\-hh.
 
 \hypertarget{classdrzewo_a5c5ca950d7ee79f135c50bd33dba3745}{\index{drzewo@{drzewo}!znaleziony@{znaleziony}}
 \index{znaleziony@{znaleziony}!drzewo@{drzewo}}
-\subsubsection[{znaleziony}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename \-T\-Y\-P$>$ {\bf wezel}$<$\-T\-Y\-P$>$$\ast$ {\bf drzewo}$<$ \-T\-Y\-P $>$\-::{\bf znaleziony}}}\label{classdrzewo_a5c5ca950d7ee79f135c50bd33dba3745}
+\subsubsection[{znaleziony}]{\setlength{\rightskip}{0pt plus 5cm}template$<$typename T\-Y\-P$>$ {\bf wezel}$<$T\-Y\-P$>$$\ast$ {\bf drzewo}$<$ T\-Y\-P $>$\-::znaleziony}}\label{classdrzewo_a5c5ca950d7ee79f135c50bd33dba3745}
 
 
 znaleziony wezel w drzewie 
 
 
 
-\-Definicja w linii 75 pliku drzewo.\-hh.
+Definicja w linii 75 pliku drzewo.\-hh.
 
 
 
-\-Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
+Dokumentacja dla tej klasy została wygenerowana z pliku\-:\begin{DoxyCompactItemize}
 \item 
 \hyperlink{drzewo_8hh}{drzewo.\-hh}\end{DoxyCompactItemize}

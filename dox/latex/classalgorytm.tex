@@ -1,9 +1,9 @@
-\hypertarget{classalgorytm}{\section{\-Dokumentacja klasy algorytm}
+\hypertarget{classalgorytm}{\section{Dokumentacja klasy algorytm}
 \label{classalgorytm}\index{algorytm@{algorytm}}
 }
 
 
-\-Definicja klasy algorytm \-Jest to klasa bazowa, ktora ma za zadanie wczytac, przetworzyc i porownac dane z plikiem wzorcowym.  
+Definicja klasy algorytm Jest to klasa bazowa, ktora ma za zadanie wczytac, przetworzyc i porownac dane z plikiem wzorcowym.  
 
 
 
@@ -12,7 +12,7 @@
 
 
 
-\-Diagram dziedziczenia dla algorytm\nopagebreak
+Diagram dziedziczenia dla algorytm\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -21,28 +21,28 @@
 \end{figure}
 
 
-\-Diagram współpracy dla algorytm\-:\nopagebreak
+Diagram współpracy dla algorytm\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
 \includegraphics[width=134pt]{classalgorytm__coll__graph}
 \end{center}
 \end{figure}
-\subsection*{\-Metody publiczne}
+\subsection*{Metody publiczne}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classalgorytm_af51409bfda664789d3a970bb0aa91f41}{algorytm} (ifstream \&plik1, ifstream \&plik2, int \-N, int \-M)
+\hyperlink{classalgorytm_af51409bfda664789d3a970bb0aa91f41}{algorytm} (ifstream \&plik1, ifstream \&plik2, int N, int M)
 \begin{DoxyCompactList}\small\item\em konstruktor kopiujacy -\/ przekazuje informacje o nazwach plikow, ktore zapisywane sa do pol klasy \end{DoxyCompactList}\item 
 void \hyperlink{classalgorytm_a0264787ff113740826ef1368d98dd019}{wykonaj} (ofstream \&out)
 \begin{DoxyCompactList}\small\item\em funkcja dokonuje operacji na pliku wejsciowym, wywoluje metody odpowiedzialne za pomiar czasu oraz za porownanie wyniku operacji z plikiem wzorcowym \end{DoxyCompactList}\item 
 bool \hyperlink{classalgorytm_aa12f93ae34e49251044a72fd76ce3ebb}{wczytaj} (ifstream \&plik)
-\begin{DoxyCompactList}\small\item\em \-Metoda wczytuje plik wejsciowy do tablicy {\ttfamily dane} oraz do obiektu {\ttfamily op} klasy {\ttfamily operacje}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Metoda wczytuje plik wejsciowy do tablicy {\ttfamily dane} oraz do obiektu {\ttfamily op} klasy {\ttfamily operacje}. \end{DoxyCompactList}\item 
 void \hyperlink{classalgorytm_a006ea8d2296b419f128fb936bad49c50}{set\-\_\-\-N} (int wart)
 \begin{DoxyCompactList}\small\item\em metoda ustawia wartosc n \end{DoxyCompactList}\item 
 bool \hyperlink{classalgorytm_abf132ac5055b185a380f1285a29f75fd}{wczytaj\-\_\-wzor} (ifstream \&plik)
-\begin{DoxyCompactList}\small\item\em \-Metoda wczytuje plik wzorcowy do tablicy {\ttfamily dane\-\_\-wz}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Metoda wczytuje plik wzorcowy do tablicy {\ttfamily dane\-\_\-wz}. \end{DoxyCompactList}\item 
 virtual float \hyperlink{classalgorytm_af3f92bf537b1f2e1f93173983e838449}{przelicz} ()
-\begin{DoxyCompactList}\small\item\em \-Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. \end{DoxyCompactList}\item 
 bool \hyperlink{classalgorytm_a167adca6239e12cb5d362fd7c905dde0}{porownaj} ()
 \begin{DoxyCompactList}\small\item\em porownuje przetworzony dane z danymi wzorcowymi \end{DoxyCompactList}\item 
 int \hyperlink{classalgorytm_acbd9260a0b2055acee485f737b960992}{ile\-\_\-danych} ()
@@ -50,23 +50,23 @@ int \hyperlink{classalgorytm_acbd9260a0b2055acee485f737b960992}{ile\-\_\-danych}
 float $\ast$ \hyperlink{classalgorytm_adcd99d6f8b10e222f47fd61328b84c67}{jaki\-\_\-czas} ()
 \item 
 void \hyperlink{classalgorytm_a5ace80a05bfc1305938d173753102ea2}{wlacz\-\_\-zegar} ()
-\begin{DoxyCompactList}\small\item\em \-Metoda wlacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily start}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Metoda wlacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily start}. \end{DoxyCompactList}\item 
 void \hyperlink{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c}{wylacz\-\_\-zegar} ()
-\begin{DoxyCompactList}\small\item\em \-Metoda wyacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily end}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Metoda wyacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily end}. \end{DoxyCompactList}\item 
 void \hyperlink{classalgorytm_a8354af1fb9c7452012a6defcf98d39d8}{zapisz\-\_\-do\-\_\-csv} (ofstream \&out)
-\begin{DoxyCompactList}\small\item\em \-Metoda zapisuje tablice {\ttfamily czas} do pliku {\ttfamily wyjscie.\-csv}. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Metoda zapisuje tablice {\ttfamily czas} do pliku {\ttfamily wyjscie.\-csv}. \end{DoxyCompactList}\item 
 void \hyperlink{classalgorytm_ad2051f4366b78a7c73adc8b3418a495c}{zapisz\-\_\-do\-\_\-gnuplot} (ofstream \&out, float sr, float od)
 \begin{DoxyCompactList}\small\item\em metoda zapisuje do pliku .csv parametry takie jak\-: srednia, ilosc liczb, odchylenie standardowe \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{\-Atrybuty publiczne}
+\subsection*{Atrybuty publiczne}
 \begin{DoxyCompactItemize}
 \item 
 float $\ast$ \hyperlink{classalgorytm_a8005d5f3266848b756400e3bb189de58}{czas}
 \begin{DoxyCompactList}\small\item\em zawiera wyniki dzialania algorytmu \end{DoxyCompactList}\end{DoxyCompactItemize}
-\subsection*{\-Atrybuty chronione}
+\subsection*{Atrybuty chronione}
 \begin{DoxyCompactItemize}
 \item 
 float $\ast$ \hyperlink{classalgorytm_a5dd6d510b611002cfb9737f12eeff63f}{dane}
-\begin{DoxyCompactList}\small\item\em \-Tablica liczb wczytana z pliku. \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em Tablica liczb wczytana z pliku. \end{DoxyCompactList}\item 
 float $\ast$ \hyperlink{classalgorytm_a93fb0f7a64eb1e4f8492445395f98e5f}{dane\-\_\-wz}
 \begin{DoxyCompactList}\small\item\em tablica liczb zawartych w pliku wzorcowym \end{DoxyCompactList}\item 
 int \hyperlink{classalgorytm_a2778c37f0ec06a30b7d494501c40e91a}{n}
@@ -81,77 +81,77 @@ double \hyperlink{classalgorytm_abf8a655cd9b1acea00ba90893d38567b}{czas2}
 \end{DoxyCompactItemize}
 
 
-\subsection{\-Opis szczegółowy}
-\-Definicja klasy algorytm \-Jest to klasa bazowa, ktora ma za zadanie wczytac, przetworzyc i porownac dane z plikiem wzorcowym. 
+\subsection{Opis szczegółowy}
+Definicja klasy algorytm Jest to klasa bazowa, ktora ma za zadanie wczytac, przetworzyc i porownac dane z plikiem wzorcowym. 
 
-\-Definicja w linii 36 pliku algorytm.\-hh.
+Definicja w linii 37 pliku algorytm.\-hh.
 
 
 
-\subsection{\-Dokumentacja konstruktora i destruktora}
+\subsection{Dokumentacja konstruktora i destruktora}
 \hypertarget{classalgorytm_af51409bfda664789d3a970bb0aa91f41}{\index{algorytm@{algorytm}!algorytm@{algorytm}}
 \index{algorytm@{algorytm}!algorytm@{algorytm}}
-\subsubsection[{algorytm}]{\setlength{\rightskip}{0pt plus 5cm}{\bf algorytm\-::algorytm} (
+\subsubsection[{algorytm}]{\setlength{\rightskip}{0pt plus 5cm}algorytm\-::algorytm (
 \begin{DoxyParamCaption}
 \item[{ifstream \&}]{plik1, }
 \item[{ifstream \&}]{plik2, }
-\item[{int}]{\-N, }
-\item[{int}]{\-M}
+\item[{int}]{N, }
+\item[{int}]{M}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classalgorytm_af51409bfda664789d3a970bb0aa91f41}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classalgorytm_af51409bfda664789d3a970bb0aa91f41}
 
 
 konstruktor kopiujacy -\/ przekazuje informacje o nazwach plikow, ktore zapisywane sa do pol klasy 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em plik1} & -\/ plik wejsciowy \\
 \hline
 \mbox{\tt in}  & {\em plik2} & -\/ plik wzorcowy \\
 \hline
-\mbox{\tt in}  & {\em \-N} & -\/ ilosc danych wejsciowych \\
+\mbox{\tt in}  & {\em N} & -\/ ilosc danych wejsciowych \\
 \hline
-\mbox{\tt in}  & {\em \-M} & -\/ ilosc powtorzen \\
+\mbox{\tt in}  & {\em M} & -\/ ilosc powtorzen \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 79 pliku algorytm.\-hh.
+Definicja w linii 80 pliku algorytm.\-hh.
 
 
 
-\subsection{\-Dokumentacja funkcji składowych}
+\subsection{Dokumentacja funkcji składowych}
 \hypertarget{classalgorytm_acbd9260a0b2055acee485f737b960992}{\index{algorytm@{algorytm}!ile\-\_\-danych@{ile\-\_\-danych}}
 \index{ile\-\_\-danych@{ile\-\_\-danych}!algorytm@{algorytm}}
-\subsubsection[{ile\-\_\-danych}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf algorytm\-::ile\-\_\-danych} (
+\subsubsection[{ile\-\_\-danych}]{\setlength{\rightskip}{0pt plus 5cm}int algorytm\-::ile\-\_\-danych (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
 )}}\label{classalgorytm_acbd9260a0b2055acee485f737b960992}
-\begin{DoxyReturn}{\-Zwraca}
+\begin{DoxyReturn}{Zwraca}
 ilosc liczb wejsciowych 
 \end{DoxyReturn}
 
 
-\-Definicja w linii 31 pliku algorytm.\-cpp.
+Definicja w linii 31 pliku algorytm.\-cpp.
 
 \hypertarget{classalgorytm_adcd99d6f8b10e222f47fd61328b84c67}{\index{algorytm@{algorytm}!jaki\-\_\-czas@{jaki\-\_\-czas}}
 \index{jaki\-\_\-czas@{jaki\-\_\-czas}!algorytm@{algorytm}}
-\subsubsection[{jaki\-\_\-czas}]{\setlength{\rightskip}{0pt plus 5cm}float $\ast$ {\bf algorytm\-::jaki\-\_\-czas} (
+\subsubsection[{jaki\-\_\-czas}]{\setlength{\rightskip}{0pt plus 5cm}float $\ast$ algorytm\-::jaki\-\_\-czas (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
 )}}\label{classalgorytm_adcd99d6f8b10e222f47fd61328b84c67}
-\begin{DoxyReturn}{\-Zwraca}
+\begin{DoxyReturn}{Zwraca}
 tablica {\ttfamily czas} z danymi pomiarowymi czasu wykonywania algorytmu 
 \end{DoxyReturn}
 
 
-\-Definicja w linii 34 pliku algorytm.\-cpp.
+Definicja w linii 34 pliku algorytm.\-cpp.
 
 \hypertarget{classalgorytm_a167adca6239e12cb5d362fd7c905dde0}{\index{algorytm@{algorytm}!porownaj@{porownaj}}
 \index{porownaj@{porownaj}!algorytm@{algorytm}}
-\subsubsection[{porownaj}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf algorytm\-::porownaj} (
+\subsubsection[{porownaj}]{\setlength{\rightskip}{0pt plus 5cm}bool algorytm\-::porownaj (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
@@ -160,119 +160,130 @@ tablica {\ttfamily czas} z danymi pomiarowymi czasu wykonywania algorytmu
 
 porownuje przetworzony dane z danymi wzorcowymi 
 
-\begin{DoxyReturn}{\-Zwraca}
+\begin{DoxyReturn}{Zwraca}
 true -\/ gdy pliki zgodne false -\/ w przeciwnym przypadku 
 \end{DoxyReturn}
 
 
-\-Definicja w linii 99 pliku algorytm.\-cpp.
+Definicja w linii 99 pliku algorytm.\-cpp.
 
 \hypertarget{classalgorytm_af3f92bf537b1f2e1f93173983e838449}{\index{algorytm@{algorytm}!przelicz@{przelicz}}
 \index{przelicz@{przelicz}!algorytm@{algorytm}}
-\subsubsection[{przelicz}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf algorytm\-::przelicz} (
+\subsubsection[{przelicz}]{\setlength{\rightskip}{0pt plus 5cm}float algorytm\-::przelicz (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}virtual\mbox{]}}}}\label{classalgorytm_af3f92bf537b1f2e1f93173983e838449}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{classalgorytm_af3f92bf537b1f2e1f93173983e838449}
 
 
-\-Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. 
-
-
-
-\-Reimplementowana w \hyperlink{classtab__aso_a9aaf9c03908c617f51591b3fa32b4c2a}{tab\-\_\-aso}, \hyperlink{classh__table_a8726955778aed30773dccf8e0cb81064}{h\-\_\-table}, \hyperlink{classbst_a7991c5cd90a0d350a3150b31aab9401c}{bst}, \hyperlink{classm__sort_acfcfa7bf26982bf718a169ccb771e694}{m\-\_\-sort}, \hyperlink{classh__sort_a496c249e58b48ca10e06266d1f673bd7}{h\-\_\-sort}, \hyperlink{classq__sort_a4f44405c764de7952fc0d821ef1206b5}{q\-\_\-sort}, \hyperlink{classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037}{kolejka\-\_\-lista}, \hyperlink{classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86}{kolejka\-\_\-tablica}, \hyperlink{classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301}{stos\-\_\-lista}, \hyperlink{classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea}{stos\-\_\-tablica} i \hyperlink{classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0}{mnozenie}.
+Metoda odpowiada za przetworzenie danych wejsciowych zgodnie z zadanym algorytmem. 
 
 
 
-\-Definicja w linii 9 pliku algorytm.\-cpp.
+Reimplementowana w \hyperlink{classgraf__test_acd71a655b831470f5458b5d3d12eda00}{graf\-\_\-test}, \hyperlink{classtab__aso_a9aaf9c03908c617f51591b3fa32b4c2a}{tab\-\_\-aso}, \hyperlink{classh__table_a8726955778aed30773dccf8e0cb81064}{h\-\_\-table}, \hyperlink{classbst_a7991c5cd90a0d350a3150b31aab9401c}{bst}, \hyperlink{classm__sort_acfcfa7bf26982bf718a169ccb771e694}{m\-\_\-sort}, \hyperlink{classh__sort_a496c249e58b48ca10e06266d1f673bd7}{h\-\_\-sort}, \hyperlink{classq__sort_a4f44405c764de7952fc0d821ef1206b5}{q\-\_\-sort}, \hyperlink{classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037}{kolejka\-\_\-lista}, \hyperlink{classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86}{kolejka\-\_\-tablica}, \hyperlink{classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301}{stos\-\_\-lista}, \hyperlink{classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea}{stos\-\_\-tablica} i \hyperlink{classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0}{mnozenie}.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Definicja w linii 9 pliku algorytm.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=306pt]{classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph}
+\includegraphics[width=350pt]{classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph}
 \end{center}
 \end{figure}
 
 
 \hypertarget{classalgorytm_a006ea8d2296b419f128fb936bad49c50}{\index{algorytm@{algorytm}!set\-\_\-\-N@{set\-\_\-\-N}}
 \index{set\-\_\-\-N@{set\-\_\-\-N}!algorytm@{algorytm}}
-\subsubsection[{set\-\_\-\-N}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf algorytm\-::set\-\_\-\-N} (
+\subsubsection[{set\-\_\-\-N}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::set\-\_\-\-N (
 \begin{DoxyParamCaption}
 \item[{int}]{wart}
 \end{DoxyParamCaption}
-)\hspace{0.3cm}{\ttfamily  \mbox{[}inline\mbox{]}}}}\label{classalgorytm_a006ea8d2296b419f128fb936bad49c50}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classalgorytm_a006ea8d2296b419f128fb936bad49c50}
 
 
 metoda ustawia wartosc n 
 
 
 
-\-Definicja w linii 93 pliku algorytm.\-hh.
+Definicja w linii 94 pliku algorytm.\-hh.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=240pt]{classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph}
+\end{center}
+\end{figure}
+
 
 \hypertarget{classalgorytm_aa12f93ae34e49251044a72fd76ce3ebb}{\index{algorytm@{algorytm}!wczytaj@{wczytaj}}
 \index{wczytaj@{wczytaj}!algorytm@{algorytm}}
-\subsubsection[{wczytaj}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf algorytm\-::wczytaj} (
+\subsubsection[{wczytaj}]{\setlength{\rightskip}{0pt plus 5cm}bool algorytm\-::wczytaj (
 \begin{DoxyParamCaption}
 \item[{ifstream \&}]{plik}
 \end{DoxyParamCaption}
 )}}\label{classalgorytm_aa12f93ae34e49251044a72fd76ce3ebb}
 
 
-\-Metoda wczytuje plik wejsciowy do tablicy {\ttfamily dane} oraz do obiektu {\ttfamily op} klasy {\ttfamily operacje}. 
+Metoda wczytuje plik wejsciowy do tablicy {\ttfamily dane} oraz do obiektu {\ttfamily op} klasy {\ttfamily operacje}. 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em plik} & -\/ strumien pliku wejsciowego \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 10 pliku algorytm.\-cpp.
+Definicja w linii 10 pliku algorytm.\-cpp.
 
 \hypertarget{classalgorytm_abf132ac5055b185a380f1285a29f75fd}{\index{algorytm@{algorytm}!wczytaj\-\_\-wzor@{wczytaj\-\_\-wzor}}
 \index{wczytaj\-\_\-wzor@{wczytaj\-\_\-wzor}!algorytm@{algorytm}}
-\subsubsection[{wczytaj\-\_\-wzor}]{\setlength{\rightskip}{0pt plus 5cm}bool {\bf algorytm\-::wczytaj\-\_\-wzor} (
+\subsubsection[{wczytaj\-\_\-wzor}]{\setlength{\rightskip}{0pt plus 5cm}bool algorytm\-::wczytaj\-\_\-wzor (
 \begin{DoxyParamCaption}
 \item[{ifstream \&}]{plik}
 \end{DoxyParamCaption}
 )}}\label{classalgorytm_abf132ac5055b185a380f1285a29f75fd}
 
 
-\-Metoda wczytuje plik wzorcowy do tablicy {\ttfamily dane\-\_\-wz}. 
+Metoda wczytuje plik wzorcowy do tablicy {\ttfamily dane\-\_\-wz}. 
 
 
-\begin{DoxyParams}[1]{\-Parametry}
+\begin{DoxyParams}[1]{Parametry}
 \mbox{\tt in}  & {\em plik} & -\/ strumien pliku wejsciowego \\
 \hline
 \end{DoxyParams}
 
 
-\-Definicja w linii 21 pliku algorytm.\-cpp.
+Definicja w linii 21 pliku algorytm.\-cpp.
 
 \hypertarget{classalgorytm_a5ace80a05bfc1305938d173753102ea2}{\index{algorytm@{algorytm}!wlacz\-\_\-zegar@{wlacz\-\_\-zegar}}
 \index{wlacz\-\_\-zegar@{wlacz\-\_\-zegar}!algorytm@{algorytm}}
-\subsubsection[{wlacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf algorytm\-::wlacz\-\_\-zegar} (
+\subsubsection[{wlacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::wlacz\-\_\-zegar (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
 )}}\label{classalgorytm_a5ace80a05bfc1305938d173753102ea2}
 
 
-\-Metoda wlacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily start}. 
+Metoda wlacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily start}. 
 
-\begin{DoxyReturn}{\-Zwraca}
+\begin{DoxyReturn}{Zwraca}
 start -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu 
 \end{DoxyReturn}
 
 
-\-Definicja w linii 38 pliku algorytm.\-cpp.
+Definicja w linii 38 pliku algorytm.\-cpp.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -283,7 +294,7 @@ start -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
 
 \hypertarget{classalgorytm_a0264787ff113740826ef1368d98dd019}{\index{algorytm@{algorytm}!wykonaj@{wykonaj}}
 \index{wykonaj@{wykonaj}!algorytm@{algorytm}}
-\subsubsection[{wykonaj}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf algorytm\-::wykonaj} (
+\subsubsection[{wykonaj}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::wykonaj (
 \begin{DoxyParamCaption}
 \item[{ofstream \&}]{out}
 \end{DoxyParamCaption}
@@ -294,11 +305,11 @@ funkcja dokonuje operacji na pliku wejsciowym, wywoluje metody odpowiedzialne za
 
 
 
-\-Definicja w linii 78 pliku algorytm.\-cpp.
+Definicja w linii 78 pliku algorytm.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -307,27 +318,38 @@ funkcja dokonuje operacji na pliku wejsciowym, wywoluje metody odpowiedzialne za
 \end{figure}
 
 
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=250pt]{classalgorytm_a0264787ff113740826ef1368d98dd019_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c}{\index{algorytm@{algorytm}!wylacz\-\_\-zegar@{wylacz\-\_\-zegar}}
 \index{wylacz\-\_\-zegar@{wylacz\-\_\-zegar}!algorytm@{algorytm}}
-\subsubsection[{wylacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf algorytm\-::wylacz\-\_\-zegar} (
+\subsubsection[{wylacz\-\_\-zegar}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::wylacz\-\_\-zegar (
 \begin{DoxyParamCaption}
 {}
 \end{DoxyParamCaption}
 )}}\label{classalgorytm_a12c132e1a407f5dd38796f4d24308a6c}
 
 
-\-Metoda wyacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily end}. 
+Metoda wyacza pomiar czasu poprzez wlaczenie funkcji {\ttfamily gettimeofday} i przechowanie czasu w zmiennej {\ttfamily end}. 
 
-\begin{DoxyReturn}{\-Zwraca}
+\begin{DoxyReturn}{Zwraca}
 end -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu 
 \end{DoxyReturn}
 
 
-\-Definicja w linii 49 pliku algorytm.\-cpp.
+Definicja w linii 49 pliku algorytm.\-cpp.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -338,22 +360,22 @@ end -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
 
 \hypertarget{classalgorytm_a8354af1fb9c7452012a6defcf98d39d8}{\index{algorytm@{algorytm}!zapisz\-\_\-do\-\_\-csv@{zapisz\-\_\-do\-\_\-csv}}
 \index{zapisz\-\_\-do\-\_\-csv@{zapisz\-\_\-do\-\_\-csv}!algorytm@{algorytm}}
-\subsubsection[{zapisz\-\_\-do\-\_\-csv}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf algorytm\-::zapisz\-\_\-do\-\_\-csv} (
+\subsubsection[{zapisz\-\_\-do\-\_\-csv}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::zapisz\-\_\-do\-\_\-csv (
 \begin{DoxyParamCaption}
 \item[{ofstream \&}]{out}
 \end{DoxyParamCaption}
 )}}\label{classalgorytm_a8354af1fb9c7452012a6defcf98d39d8}
 
 
-\-Metoda zapisuje tablice {\ttfamily czas} do pliku {\ttfamily wyjscie.\-csv}. 
+Metoda zapisuje tablice {\ttfamily czas} do pliku {\ttfamily wyjscie.\-csv}. 
 
 
 
-\-Definicja w linii 62 pliku algorytm.\-cpp.
+Definicja w linii 62 pliku algorytm.\-cpp.
 
 
 
-\-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -364,18 +386,18 @@ end -\/ zmienna pamietajaca czas poprzedzajacy wykonanie algorytmu
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=338pt]{classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph}
+\includegraphics[width=350pt]{classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph}
 \end{center}
 \end{figure}
 
 
 \hypertarget{classalgorytm_ad2051f4366b78a7c73adc8b3418a495c}{\index{algorytm@{algorytm}!zapisz\-\_\-do\-\_\-gnuplot@{zapisz\-\_\-do\-\_\-gnuplot}}
 \index{zapisz\-\_\-do\-\_\-gnuplot@{zapisz\-\_\-do\-\_\-gnuplot}!algorytm@{algorytm}}
-\subsubsection[{zapisz\-\_\-do\-\_\-gnuplot}]{\setlength{\rightskip}{0pt plus 5cm}void {\bf algorytm\-::zapisz\-\_\-do\-\_\-gnuplot} (
+\subsubsection[{zapisz\-\_\-do\-\_\-gnuplot}]{\setlength{\rightskip}{0pt plus 5cm}void algorytm\-::zapisz\-\_\-do\-\_\-gnuplot (
 \begin{DoxyParamCaption}
 \item[{ofstream \&}]{out, }
 \item[{float}]{sr, }
@@ -388,11 +410,11 @@ metoda zapisuje do pliku .csv parametry takie jak\-: srednia, ilosc liczb, odchy
 
 
 
-\-Definicja w linii 106 pliku algorytm.\-cpp.
+Definicja w linii 106 pliku algorytm.\-cpp.
 
 
 
-\-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
@@ -403,90 +425,90 @@ metoda zapisuje do pliku .csv parametry takie jak\-: srednia, ilosc liczb, odchy
 
 
 
-\subsection{\-Dokumentacja atrybutów składowych}
+\subsection{Dokumentacja atrybutów składowych}
 \hypertarget{classalgorytm_a8005d5f3266848b756400e3bb189de58}{\index{algorytm@{algorytm}!czas@{czas}}
 \index{czas@{czas}!algorytm@{algorytm}}
-\subsubsection[{czas}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ {\bf algorytm\-::czas}}}\label{classalgorytm_a8005d5f3266848b756400e3bb189de58}
+\subsubsection[{czas}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ algorytm\-::czas}}\label{classalgorytm_a8005d5f3266848b756400e3bb189de58}
 
 
 zawiera wyniki dzialania algorytmu 
 
 
 
-\-Definicja w linii 69 pliku algorytm.\-hh.
+Definicja w linii 70 pliku algorytm.\-hh.
 
 \hypertarget{classalgorytm_a4dae8e390930e55b11f9e0f4efd9edaf}{\index{algorytm@{algorytm}!czas1@{czas1}}
 \index{czas1@{czas1}!algorytm@{algorytm}}
-\subsubsection[{czas1}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf algorytm\-::czas1}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_a4dae8e390930e55b11f9e0f4efd9edaf}
+\subsubsection[{czas1}]{\setlength{\rightskip}{0pt plus 5cm}double algorytm\-::czas1\hspace{0.3cm}{\ttfamily [protected]}}}\label{classalgorytm_a4dae8e390930e55b11f9e0f4efd9edaf}
 
 
-\-Definicja w linii 64 pliku algorytm.\-hh.
+Definicja w linii 65 pliku algorytm.\-hh.
 
 \hypertarget{classalgorytm_abf8a655cd9b1acea00ba90893d38567b}{\index{algorytm@{algorytm}!czas2@{czas2}}
 \index{czas2@{czas2}!algorytm@{algorytm}}
-\subsubsection[{czas2}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf algorytm\-::czas2}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_abf8a655cd9b1acea00ba90893d38567b}
+\subsubsection[{czas2}]{\setlength{\rightskip}{0pt plus 5cm}double algorytm\-::czas2\hspace{0.3cm}{\ttfamily [protected]}}}\label{classalgorytm_abf8a655cd9b1acea00ba90893d38567b}
 
 
-\-Definicja w linii 64 pliku algorytm.\-hh.
+Definicja w linii 65 pliku algorytm.\-hh.
 
 \hypertarget{classalgorytm_a5dd6d510b611002cfb9737f12eeff63f}{\index{algorytm@{algorytm}!dane@{dane}}
 \index{dane@{dane}!algorytm@{algorytm}}
-\subsubsection[{dane}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ {\bf algorytm\-::dane}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_a5dd6d510b611002cfb9737f12eeff63f}
+\subsubsection[{dane}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ algorytm\-::dane\hspace{0.3cm}{\ttfamily [protected]}}}\label{classalgorytm_a5dd6d510b611002cfb9737f12eeff63f}
 
 
-\-Tablica liczb wczytana z pliku. 
+Tablica liczb wczytana z pliku. 
 
 
 
-\-Definicja w linii 44 pliku algorytm.\-hh.
+Definicja w linii 45 pliku algorytm.\-hh.
 
 \hypertarget{classalgorytm_a93fb0f7a64eb1e4f8492445395f98e5f}{\index{algorytm@{algorytm}!dane\-\_\-wz@{dane\-\_\-wz}}
 \index{dane\-\_\-wz@{dane\-\_\-wz}!algorytm@{algorytm}}
-\subsubsection[{dane\-\_\-wz}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ {\bf algorytm\-::dane\-\_\-wz}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_a93fb0f7a64eb1e4f8492445395f98e5f}
+\subsubsection[{dane\-\_\-wz}]{\setlength{\rightskip}{0pt plus 5cm}float$\ast$ algorytm\-::dane\-\_\-wz\hspace{0.3cm}{\ttfamily [protected]}}}\label{classalgorytm_a93fb0f7a64eb1e4f8492445395f98e5f}
 
 
 tablica liczb zawartych w pliku wzorcowym 
 
 
 
-\-Definicja w linii 49 pliku algorytm.\-hh.
+Definicja w linii 50 pliku algorytm.\-hh.
 
 \hypertarget{classalgorytm_ac9429e88b0630a008df4d011458ee5a2}{\index{algorytm@{algorytm}!m@{m}}
 \index{m@{m}!algorytm@{algorytm}}
-\subsubsection[{m}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf algorytm\-::m}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_ac9429e88b0630a008df4d011458ee5a2}
+\subsubsection[{m}]{\setlength{\rightskip}{0pt plus 5cm}int algorytm\-::m\hspace{0.3cm}{\ttfamily [protected]}}}\label{classalgorytm_ac9429e88b0630a008df4d011458ee5a2}
 
 
 ilosc powtorzen 
 
 
 
-\-Definicja w linii 59 pliku algorytm.\-hh.
+Definicja w linii 60 pliku algorytm.\-hh.
 
 \hypertarget{classalgorytm_a2778c37f0ec06a30b7d494501c40e91a}{\index{algorytm@{algorytm}!n@{n}}
 \index{n@{n}!algorytm@{algorytm}}
-\subsubsection[{n}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf algorytm\-::n}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_a2778c37f0ec06a30b7d494501c40e91a}
+\subsubsection[{n}]{\setlength{\rightskip}{0pt plus 5cm}int algorytm\-::n\hspace{0.3cm}{\ttfamily [protected]}}}\label{classalgorytm_a2778c37f0ec06a30b7d494501c40e91a}
 
 
 ilosc danych w pliku 
 
 
 
-\-Definicja w linii 55 pliku algorytm.\-hh.
+Definicja w linii 56 pliku algorytm.\-hh.
 
 \hypertarget{classalgorytm_aedaee1aa41206b5f050fe660d0846f2d}{\index{algorytm@{algorytm}!op@{op}}
 \index{op@{op}!algorytm@{algorytm}}
-\subsubsection[{op}]{\setlength{\rightskip}{0pt plus 5cm}{\bf operacje} {\bf algorytm\-::op}\hspace{0.3cm}{\ttfamily  \mbox{[}protected\mbox{]}}}}\label{classalgorytm_aedaee1aa41206b5f050fe660d0846f2d}
+\subsubsection[{op}]{\setlength{\rightskip}{0pt plus 5cm}{\bf operacje} algorytm\-::op\hspace{0.3cm}{\ttfamily [protected]}}}\label{classalgorytm_aedaee1aa41206b5f050fe660d0846f2d}
 
 
 klasa zawierajaca tablice i metody do operacji na niej 
 
 
 
-\-Definicja w linii 63 pliku algorytm.\-hh.
+Definicja w linii 64 pliku algorytm.\-hh.
 
 
 
-\-Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
 \item 
 \hyperlink{algorytm_8hh}{algorytm.\-hh}\item 
 \hyperlink{algorytm_8cpp}{algorytm.\-cpp}\end{DoxyCompactItemize}
