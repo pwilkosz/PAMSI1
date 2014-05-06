@@ -142,7 +142,12 @@ public:
 	\param [in] id - wezel, ktorego szukamy
 	 */
 	void best_first(int id);
-};
+
+	void rysuj();
+
+
+};	
+
 
 
 #endif

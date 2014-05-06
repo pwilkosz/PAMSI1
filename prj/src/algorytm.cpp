@@ -323,7 +323,7 @@ void graf_test::wczytaj_graf(){
       G6.dodaj_krawedz(i,id,wg);
     }
   }
- 
+ G1.rysuj();
  
 }
 float graf_test::przelicz(){

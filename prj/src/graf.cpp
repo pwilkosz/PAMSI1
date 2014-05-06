@@ -1,5 +1,6 @@
 #include"graf.hh"
 #include<sstream>
+#include<fstream>
 #include<cstdlib>
 tablica_asocjacyjna<int> vec;
 
@@ -229,4 +230,16 @@ void graf::best_first(int id){
 	}
 	else cout<<"nie znaleziono sciezki"<<endl;
 */
+}
+
+void graf::rysuj(){
+	ofstream dot("graf.dot");
+
+	dot<<"digraph G{"<<endl;
+	for(int i = 0; i<lista_incydencji.size(); i++){
+		for(int j = 0; j<lista_incydencji[i].zlicz_elementy(); j++){
+			dot<<i<<" -> "<<lista_incydencji[i].wez_id(j)<<"[label = \""<<lista_incydencji[i].wez(j)<<"\"];"<<endl;
+		}
+	}
+	dot<<"}"<<endl;
 }
