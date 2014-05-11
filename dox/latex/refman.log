@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.4)  6 MAY 2014 23:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.5.4)  11 MAY 2014 23:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1192,10 +1192,14 @@ LaTeX Font Info:    Font shape `T1/phv/bc/n' will be
 
 ]
 Rozdzia\PlPrIeC {\l } 2.
-(./annotated.tex [3]) [4]
+(./annotated.tex
+Underfull \vbox (badness 3250) has occurred while \output is active []
+
+ [3])
+[4]
 Rozdzia\PlPrIeC {\l } 3.
 (./files.tex
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 15.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 16.
  (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 ))
@@ -1209,13 +1213,13 @@ Rozdzia\PlPrIeC {\l } 4.
 
 pdfTeX warning: pdflatex (file ./classalgorytm__inherit__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classalgorytm__inherit__graph.pdf, id=2190, 252.945pt x 519.9425pt>
+<classalgorytm__inherit__graph.pdf, id=2316, 252.945pt x 558.085pt>
 File: classalgorytm__inherit__graph.pdf Graphic file (type pdf)
 
 <use classalgorytm__inherit__graph.pdf>
 Package pdftex.def Info: classalgorytm__inherit__graph.pdf used on input line 1
 9.
-(pdftex.def)             Requested size: 252.0pt x 518.01335pt.
+(pdftex.def)             Requested size: 249.2893pt x 550.0pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1223,7 +1227,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 pdfTeX warning: pdflatex (file ./classalgorytm__coll__graph.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<classalgorytm__coll__graph.pdf, id=2195, 134.5025pt x 168.63pt>
+<classalgorytm__coll__graph.pdf, id=2321, 134.5025pt x 168.63pt>
 File: classalgorytm__coll__graph.pdf Graphic file (type pdf)
 
 <use classalgorytm__coll__graph.pdf>
@@ -1289,7 +1293,7 @@ pdfTeX warning: pdflatex (file ./classalgorytm_af3f92bf537b1f2e1f93173983e83844
 9_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph.pdf, id=2283, 381.425p
+<classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph.pdf, id=2410, 381.425p
 t x 100.375pt>
 File: classalgorytm_af3f92bf537b1f2e1f93173983e838449_icgraph.pdf Graphic file 
 (type pdf)
@@ -1304,7 +1308,7 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a006ea8d2296b419f128fb936bad49c5
 0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph.pdf, id=2284, 240.9pt 
+<classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph.pdf, id=2411, 240.9pt 
 x 100.375pt>
 File: classalgorytm_a006ea8d2296b419f128fb936bad49c50_icgraph.pdf Graphic file 
 (type pdf)
@@ -1330,15 +1334,15 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a5ace80a05bfc1305938d173753102ea
 2_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a5ace80a05bfc1305938d173753102ea2_icgraph.pdf, id=2314, 355.3275
-pt x 519.9425pt>
+<classalgorytm_a5ace80a05bfc1305938d173753102ea2_icgraph.pdf, id=2441, 355.3275
+pt x 558.085pt>
 File: classalgorytm_a5ace80a05bfc1305938d173753102ea2_icgraph.pdf Graphic file 
 (type pdf)
 
 <use classalgorytm_a5ace80a05bfc1305938d173753102ea2_icgraph.pdf>
 Package pdftex.def Info: classalgorytm_a5ace80a05bfc1305938d173753102ea2_icgrap
 h.pdf used on input line 290.
-(pdftex.def)             Requested size: 350.0pt x 512.16623pt.
+(pdftex.def)             Requested size: 350.0pt x 549.73828pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1348,7 +1352,7 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a0264787ff113740826ef1368d98dd01
 9_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classalgorytm_a0264787ff113740826ef1368d98dd019_cgraph.pdf, id=2319, 499.8675p
+<classalgorytm_a0264787ff113740826ef1368d98dd019_cgraph.pdf, id=2446, 499.8675p
 t x 187.70125pt>
 File: classalgorytm_a0264787ff113740826ef1368d98dd019_cgraph.pdf Graphic file (
 type pdf)
@@ -1357,16 +1361,13 @@ type pdf)
 Package pdftex.def Info: classalgorytm_a0264787ff113740826ef1368d98dd019_cgraph
 .pdf used on input line 316.
 (pdftex.def)             Requested size: 350.0pt x 131.43007pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
  [13 <./classalgorytm_a5ace80a05bfc1305938d173753102ea2_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classalgorytm_a0264787ff113740826ef1368d98dd01
 9_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a0264787ff113740826ef1368d98dd019_icgraph.pdf, id=2330, 250.9375
+<classalgorytm_a0264787ff113740826ef1368d98dd019_icgraph.pdf, id=2457, 250.9375
 pt x 100.375pt>
 File: classalgorytm_a0264787ff113740826ef1368d98dd019_icgraph.pdf Graphic file 
 (type pdf)
@@ -1386,15 +1387,15 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a12c132e1a407f5dd38796f4d24308a6
 c_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a12c132e1a407f5dd38796f4d24308a6c_icgraph.pdf, id=2331, 359.3425
-pt x 519.9425pt>
+<classalgorytm_a12c132e1a407f5dd38796f4d24308a6c_icgraph.pdf, id=2458, 359.3425
+pt x 558.085pt>
 File: classalgorytm_a12c132e1a407f5dd38796f4d24308a6c_icgraph.pdf Graphic file 
 (type pdf)
 
 <use classalgorytm_a12c132e1a407f5dd38796f4d24308a6c_icgraph.pdf>
 Package pdftex.def Info: classalgorytm_a12c132e1a407f5dd38796f4d24308a6c_icgrap
 h.pdf used on input line 356.
-(pdftex.def)             Requested size: 350.0pt x 506.46191pt.
+(pdftex.def)             Requested size: 350.0pt x 543.6155pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1410,7 +1411,7 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a8354af1fb9c7452012a6defcf98d39d
 8_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_cgraph.pdf, id=2347, 367.3725p
+<classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_cgraph.pdf, id=2474, 367.3725p
 t x 187.70125pt>
 File: classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_cgraph.pdf Graphic file (
 type pdf)
@@ -1420,7 +1421,7 @@ Package pdftex.def Info: classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_cgraph
 .pdf used on input line 382.
 (pdftex.def)             Requested size: 350.0pt x 178.83644pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Underfull \vbox (badness 5504) has occurred while \output is active []
 
  [15 <./classalgorytm_a12c132e1a407f5dd38796f4d24308a6c_icgraph.pdf>]
 
@@ -1428,7 +1429,7 @@ pdfTeX warning: pdflatex (file ./classalgorytm_a8354af1fb9c7452012a6defcf98d39d
 8_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph.pdf, id=2358, 413.545p
+<classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph.pdf, id=2485, 413.545p
 t x 100.375pt>
 File: classalgorytm_a8354af1fb9c7452012a6defcf98d39d8_icgraph.pdf Graphic file 
 (type pdf)
@@ -1443,7 +1444,7 @@ pdfTeX warning: pdflatex (file ./classalgorytm_ad2051f4366b78a7c73adc8b3418a495
 c_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classalgorytm_ad2051f4366b78a7c73adc8b3418a495c_icgraph.pdf, id=2359, 554.07pt
+<classalgorytm_ad2051f4366b78a7c73adc8b3418a495c_icgraph.pdf, id=2486, 554.07pt
  x 110.4125pt>
 File: classalgorytm_ad2051f4366b78a7c73adc8b3418a495c_icgraph.pdf Graphic file 
 (type pdf)
@@ -1463,37 +1464,95 @@ le page
 pdfTeX warning: pdflatex (file ./classalgorytm_ad2051f4366b78a7c73adc8b3418a495
 c_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
+>]) (./classastar.tex
+
+pdfTeX warning: pdflatex (file ./classastar__inherit__graph.pdf): PDF inclusion
+: found PDF version <1.5>, but at most version <1.4> allowed
+<classastar__inherit__graph.pdf, id=2509, 134.5025pt x 156.585pt>
+File: classastar__inherit__graph.pdf Graphic file (type pdf)
+
+<use classastar__inherit__graph.pdf>
+Package pdftex.def Info: classastar__inherit__graph.pdf used on input line 14.
+(pdftex.def)             Requested size: 134.0pt x 156.00162pt.
+
+Underfull \vbox (badness 7777) has occurred while \output is active []
+
+ [17]
+
+pdfTeX warning: pdflatex (file ./classastar__coll__graph.pdf): PDF inclusion: f
+ound PDF version <1.5>, but at most version <1.4> allowed
+<classastar__coll__graph.pdf, id=2515, 367.3725pt x 303.1325pt>
+File: classastar__coll__graph.pdf Graphic file (type pdf)
+
+<use classastar__coll__graph.pdf>
+Package pdftex.def Info: classastar__coll__graph.pdf used on input line 23.
+(pdftex.def)             Requested size: 350.0pt x 288.81607pt.
+ [18 <./classastar__inherit__graph.pdf> <./classastar__coll__graph.pdf
+
+pdfTeX warning: pdflatex (file ./classastar__coll__graph.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
+
+pdfTeX warning: pdflatex (file ./classastar_a7b105d036382302a04bb2fd7923eb980_c
+graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
+llowed
+
+<classastar_a7b105d036382302a04bb2fd7923eb980_cgraph.pdf, id=2550, 477.785pt x 
+444.66125pt>
+File: classastar_a7b105d036382302a04bb2fd7923eb980_cgraph.pdf Graphic file (typ
+e pdf)
+ <use classastar_a7b105d036382302a04bb2fd7923eb980_cgraph.pdf>
+Package pdftex.def Info: classastar_a7b105d036382302a04bb2fd7923eb980_cgraph.pd
+f used on input line 107.
+(pdftex.def)             Requested size: 350.0pt x 325.7331pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+
+pdfTeX warning: pdflatex (file ./classastar_a49a57d782d6c8e45d52b8172de9599c3_c
+graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
+llowed
+
+<classastar_a49a57d782d6c8e45d52b8172de9599c3_cgraph.pdf, id=2563, 475.7775pt x
+ 143.53625pt>
+File: classastar_a49a57d782d6c8e45d52b8172de9599c3_cgraph.pdf Graphic file (typ
+e pdf)
+ <use classastar_a49a57d782d6c8e45d52b8172de9599c3_cgraph.pdf>
+Package pdftex.def Info: classastar_a49a57d782d6c8e45d52b8172de9599c3_cgraph.pd
+f used on input line 133.
+(pdftex.def)             Requested size: 350.0pt x 105.59532pt.
+
+[20 <./classastar_a7b105d036382302a04bb2fd7923eb980_cgraph.pdf> <./classastar_a
+49a57d782d6c8e45d52b8172de9599c3_cgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classastar_a49a57d782d6c8e45d52b8172de9599c3_c
+graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
 >]) (./classbst.tex
 
 pdfTeX warning: pdflatex (file ./classbst__inherit__graph.pdf): PDF inclusion: 
 found PDF version <1.5>, but at most version <1.4> allowed
-<classbst__inherit__graph.pdf, id=2382, 134.5025pt x 156.585pt>
+<classbst__inherit__graph.pdf, id=2581, 134.5025pt x 156.585pt>
 File: classbst__inherit__graph.pdf Graphic file (type pdf)
 
 <use classbst__inherit__graph.pdf>
 Package pdftex.def Info: classbst__inherit__graph.pdf used on input line 19.
 (pdftex.def)             Requested size: 134.0pt x 156.00162pt.
 
-Underfull \vbox (badness 5548) has occurred while \output is active []
-
- [17]
 
 pdfTeX warning: pdflatex (file ./classbst__coll__graph.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<classbst__coll__graph.pdf, id=2388, 280.04625pt x 417.56pt>
+<classbst__coll__graph.pdf, id=2582, 280.04625pt x 417.56pt>
 File: classbst__coll__graph.pdf Graphic file (type pdf)
 
 <use classbst__coll__graph.pdf>
 Package pdftex.def Info: classbst__coll__graph.pdf used on input line 28.
 (pdftex.def)             Requested size: 279.0pt x 416.01706pt.
 
-Underfull \vbox (badness 1389) has occurred while \output is active []
+Underfull \vbox (badness 2005) has occurred while \output is active []
 
- [18 <./classbst__inherit__graph.pdf> <./classbst__coll__graph.pdf
-
-pdfTeX warning: pdflatex (file ./classbst__coll__graph.pdf): PDF inclusion: mul
-tiple pdfs with page group included in a single page
->]
+ [21 <./classbst__inherit__graph.pdf>] [22 <./classbst__coll__graph.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 81.
@@ -1512,7 +1571,7 @@ pdfTeX warning: pdflatex (file ./classbst_a7991c5cd90a0d350a3150b31aab9401c_cgr
 aph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> all
 owed
 
-<classbst_a7991c5cd90a0d350a3150b31aab9401c_cgraph.pdf, id=2412, 307.1475pt x 1
+<classbst_a7991c5cd90a0d350a3150b31aab9401c_cgraph.pdf, id=2619, 307.1475pt x 1
 76.66pt>
 File: classbst_a7991c5cd90a0d350a3150b31aab9401c_cgraph.pdf Graphic file (type 
 pdf)
@@ -1520,11 +1579,8 @@ pdf)
 Package pdftex.def Info: classbst_a7991c5cd90a0d350a3150b31aab9401c_cgraph.pdf 
 used on input line 114.
 (pdftex.def)             Requested size: 306.0pt x 176.00992pt.
-
-Underfull \vbox (badness 5817) has occurred while \output is active []
-
- [19])
-(./classdrzewo.tex
+ [23 <./classbst_a7991c5cd90a0d350a3150b31aab9401c_cgraph.pdf>]) (./classdrzewo
+.tex
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
@@ -1548,12 +1604,12 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-[20 <./classbst_a7991c5cd90a0d350a3150b31aab9401c_cgraph.pdf>] [21]
+[24]
 Underfull \hbox (badness 10000) detected at line 169
 [][][]
  []
 
-[22]
+[25]
 Underfull \hbox (badness 10000) detected at line 227
 [][][]
  []
@@ -1564,7 +1620,7 @@ pdfTeX warning: pdflatex (file ./classdrzewo_ad9d512467919623595126d88bdb60974_
 icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
  allowed
 
-<classdrzewo_ad9d512467919623595126d88bdb60974_icgraph.pdf, id=2475, 271.0125pt
+<classdrzewo_ad9d512467919623595126d88bdb60974_icgraph.pdf, id=2671, 271.0125pt
  x 100.375pt>
 File: classdrzewo_ad9d512467919623595126d88bdb60974_icgraph.pdf Graphic file (t
 ype pdf)
@@ -1572,7 +1628,8 @@ ype pdf)
 Package pdftex.def Info: classdrzewo_ad9d512467919623595126d88bdb60974_icgraph.
 pdf used on input line 240.
 (pdftex.def)             Requested size: 270.0pt x 100.00409pt.
-)
+
+[26 <./classdrzewo_ad9d512467919623595126d88bdb60974_icgraph.pdf>])
 (./classel__tab.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -1594,16 +1651,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 pdfTeX warning: pdflatex (file ./classel__tab__coll__graph.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<classel__tab__coll__graph.pdf, id=2477, 160.6pt x 168.63pt>
+<classel__tab__coll__graph.pdf, id=2683, 160.6pt x 168.63pt>
 File: classel__tab__coll__graph.pdf Graphic file (type pdf)
 
 <use classel__tab__coll__graph.pdf>
 Package pdftex.def Info: classel__tab__coll__graph.pdf used on input line 19.
 (pdftex.def)             Requested size: 160.0pt x 168.00432pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [23 <./classdrzewo_ad9d512467919623595126d88bdb60974_icgraph.pdf>]
+ [27 <./classel__tab__coll__graph.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 67.
@@ -1616,29 +1670,78 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 67.
 
-[24 <./classel__tab__coll__graph.pdf>]) (./classgraf.tex
+) (./classgraf.tex
 
 pdfTeX warning: pdflatex (file ./classgraf__coll__graph.pdf): PDF inclusion: fo
 und PDF version <1.5>, but at most version <1.4> allowed
-<classgraf__coll__graph.pdf, id=2513, 426.59375pt x 180.675pt>
+<classgraf__coll__graph.pdf, id=2708, 296.10625pt x 180.675pt>
 File: classgraf__coll__graph.pdf Graphic file (type pdf)
 
 <use classgraf__coll__graph.pdf>
 Package pdftex.def Info: classgraf__coll__graph.pdf used on input line 19.
-(pdftex.def)             Requested size: 350.0pt x 148.24542pt.
- [25 <./classgraf__coll__graph.pdf>] [26]
+(pdftex.def)             Requested size: 295.0pt x 180.00462pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 36.
+
+[29 <./classgraf__coll__graph.pdf>] [30]
+
+pdfTeX warning: pdflatex (file ./classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_cg
+raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
+lowed
+
+<classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_cgraph.pdf, id=2808, 309.155pt x 4
+44.66125pt>
+File: classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_cgraph.pdf Graphic file (type
+ pdf)
+ <use classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_cgraph.pdf>
+Package pdftex.def Info: classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_cgraph.pdf
+ used on input line 158.
+(pdftex.def)             Requested size: 308.0pt x 443.03854pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+
+pdfTeX warning: pdflatex (file ./classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_ic
+graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
+llowed
+
+<classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_icgraph.pdf, id=2815, 260.975pt x 
+138.5175pt>
+File: classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_icgraph.pdf Graphic file (typ
+e pdf)
+ <use classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_icgraph.pdf>
+Package pdftex.def Info: classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_icgraph.pd
+f used on input line 169.
+(pdftex.def)             Requested size: 260.0pt x 138.00142pt.
+
+[32 <./classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_cgraph.pdf> <./classgraf_aa0
+a5bfb4cb8a7d76620804cbc6230752_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_ic
+graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+>] [33]
 
 pdfTeX warning: pdflatex (file ./classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_cgraph.pdf, id=2593, 487.8225pt x 
+<classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_cgraph.pdf, id=2835, 487.8225pt x 
 335.2525pt>
 File: classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_cgraph.pdf>
 Package pdftex.def Info: classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_cgraph.pdf
- used on input line 139.
+ used on input line 200.
 (pdftex.def)             Requested size: 350.0pt x 240.53755pt.
 
 
@@ -1646,59 +1749,53 @@ pdfTeX warning: pdflatex (file ./classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_icgraph.pdf, id=2594, 293.095pt x 
+<classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_icgraph.pdf, id=2836, 293.095pt x 
 100.375pt>
 File: classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_icgraph.pdf>
 Package pdftex.def Info: classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_icgraph.pd
-f used on input line 150.
+f used on input line 211.
 (pdftex.def)             Requested size: 292.0pt x 99.9995pt.
 
-Underfull \vbox (badness 1527) has occurred while \output is active []
-
- [27 <./classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classgraf_a51bb320791ada3c7700fa90477b508f4_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_a51bb320791ada3c7700fa90477b508f4_cgraph.pdf, id=2607, 451.6875pt x 
+<classgraf_a51bb320791ada3c7700fa90477b508f4_cgraph.pdf, id=2837, 451.6875pt x 
 313.17pt>
 File: classgraf_a51bb320791ada3c7700fa90477b508f4_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_a51bb320791ada3c7700fa90477b508f4_cgraph.pdf>
 Package pdftex.def Info: classgraf_a51bb320791ada3c7700fa90477b508f4_cgraph.pdf
- used on input line 181.
+ used on input line 242.
 (pdftex.def)             Requested size: 350.0pt x 242.68033pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [34 <./classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_cgraph.pdf> <./classgraf_ac
+7c83abd9cf9ee4d3d9dfb1fdbf157a1_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_ic
+graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+>]
 
 pdfTeX warning: pdflatex (file ./classgraf_a51bb320791ada3c7700fa90477b508f4_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_a51bb320791ada3c7700fa90477b508f4_icgraph.pdf, id=2608, 266.9975pt x
+<classgraf_a51bb320791ada3c7700fa90477b508f4_icgraph.pdf, id=2853, 266.9975pt x
  100.375pt>
 File: classgraf_a51bb320791ada3c7700fa90477b508f4_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_a51bb320791ada3c7700fa90477b508f4_icgraph.pdf>
 Package pdftex.def Info: classgraf_a51bb320791ada3c7700fa90477b508f4_icgraph.pd
-f used on input line 192.
+f used on input line 253.
 (pdftex.def)             Requested size: 266.0pt x 100.01021pt.
 
-[28 <./classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1_icgraph.pdf> <./classgraf_a5
-1bb320791ada3c7700fa90477b508f4_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classgraf_a51bb320791ada3c7700fa90477b508f4_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
-> <./classgraf_a51bb320791ada3c7700fa90477b508f4_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classgraf_a51bb320791ada3c7700fa90477b508f4_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
-Underfull \hbox (badness 10000) detected at line 216
+Underfull \hbox (badness 10000) detected at line 277
 [][][]
  []
 
@@ -1708,16 +1805,25 @@ pdfTeX warning: pdflatex (file ./classgraf_a699329f1a383e2a5816e969498af6eb4_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_a699329f1a383e2a5816e969498af6eb4_icgraph.pdf, id=2629, 297.11pt x 1
+<classgraf_a699329f1a383e2a5816e969498af6eb4_icgraph.pdf, id=2854, 297.11pt x 1
 00.375pt>
 File: classgraf_a699329f1a383e2a5816e969498af6eb4_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_a699329f1a383e2a5816e969498af6eb4_icgraph.pdf>
 Package pdftex.def Info: classgraf_a699329f1a383e2a5816e969498af6eb4_icgraph.pd
-f used on input line 229.
+f used on input line 290.
 (pdftex.def)             Requested size: 296.0pt x 100.00409pt.
 
-Underfull \hbox (badness 10000) detected at line 253
+Underfull \vbox (badness 1264) has occurred while \output is active []
+
+ [35 <./classgraf_a51bb320791ada3c7700fa90477b508f4_cgraph.pdf> <./classgraf_a5
+1bb320791ada3c7700fa90477b508f4_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classgraf_a51bb320791ada3c7700fa90477b508f4_ic
+graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+>]
+Underfull \hbox (badness 10000) detected at line 314
 [][][]
  []
 
@@ -1727,66 +1833,67 @@ pdfTeX warning: pdflatex (file ./classgraf_a617db5b49d65cd716b24c8b4930dec2a_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_a617db5b49d65cd716b24c8b4930dec2a_cgraph.pdf, id=2630, 297.11pt x 10
+<classgraf_a617db5b49d65cd716b24c8b4930dec2a_cgraph.pdf, id=2871, 297.11pt x 10
 0.375pt>
 File: classgraf_a617db5b49d65cd716b24c8b4930dec2a_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_a617db5b49d65cd716b24c8b4930dec2a_cgraph.pdf>
 Package pdftex.def Info: classgraf_a617db5b49d65cd716b24c8b4930dec2a_cgraph.pdf
- used on input line 266.
+ used on input line 327.
 (pdftex.def)             Requested size: 296.0pt x 100.00409pt.
- [29 <./classgraf_a699329f1a383e2a5816e969498af6eb4_icgraph.pdf> <./classgraf_a
-617db5b49d65cd716b24c8b4930dec2a_cgraph.pdf
+
+
+pdfTeX warning: pdflatex (file ./classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cg
+raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
+lowed
+
+<classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf, id=2872, 439.6425pt x 
+275.0275pt>
+File: classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf Graphic file (type
+ pdf)
+ <use classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf>
+Package pdftex.def Info: classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf
+ used on input line 358.
+(pdftex.def)             Requested size: 350.0pt x 218.95636pt.
+
+[36 <./classgraf_a699329f1a383e2a5816e969498af6eb4_icgraph.pdf> <./classgraf_a6
+17db5b49d65cd716b24c8b4930dec2a_cgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classgraf_a617db5b49d65cd716b24c8b4930dec2a_cg
 raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
 >]
 
-pdfTeX warning: pdflatex (file ./classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cg
-raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
-lowed
-
-<classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf, id=2647, 439.6425pt x 
-275.0275pt>
-File: classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf Graphic file (type
- pdf)
- <use classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf>
-Package pdftex.def Info: classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf
- used on input line 297.
-(pdftex.def)             Requested size: 350.0pt x 218.95636pt.
-
-
 pdfTeX warning: pdflatex (file ./classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_icgraph.pdf, id=2648, 266.9975pt x
+<classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_icgraph.pdf, id=2888, 266.9975pt x
  100.375pt>
 File: classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_icgraph.pdf>
 Package pdftex.def Info: classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_icgraph.pd
-f used on input line 308.
+f used on input line 369.
 (pdftex.def)             Requested size: 266.0pt x 100.01021pt.
 
 
-pdfTeX warning: pdflatex (file ./classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af_ic
+pdfTeX warning: pdflatex (file ./classgraf_a815e60a2e34a99d498f3345b15d678b7_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af_icgraph.pdf, id=2649, 337.26pt x 1
-38.5175pt>
-File: classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af_icgraph.pdf Graphic file (typ
+<classgraf_a815e60a2e34a99d498f3345b15d678b7_icgraph.pdf, id=2889, 337.26pt x 2
+14.8025pt>
+File: classgraf_a815e60a2e34a99d498f3345b15d678b7_icgraph.pdf Graphic file (typ
 e pdf)
- <use classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af_icgraph.pdf>
-Package pdftex.def Info: classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af_icgraph.pd
-f used on input line 345.
-(pdftex.def)             Requested size: 336.0pt x 138.00354pt.
+ <use classgraf_a815e60a2e34a99d498f3345b15d678b7_icgraph.pdf>
+Package pdftex.def Info: classgraf_a815e60a2e34a99d498f3345b15d678b7_icgraph.pd
+f used on input line 403.
+(pdftex.def)             Requested size: 336.0pt x 214.00551pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30 <./classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf> <./classgraf_ac
+ [37 <./classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_cgraph.pdf> <./classgraf_ac
 87b0c158f92d78cc9ccaabc8ce5fcd2_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_ic
@@ -1798,32 +1905,15 @@ pdfTeX warning: pdflatex (file ./classgraf_a8442b7d095a21024666b12c3e3f4184b_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_a8442b7d095a21024666b12c3e3f4184b_cgraph.pdf, id=2665, 325.215pt x 1
+<classgraf_a8442b7d095a21024666b12c3e3f4184b_cgraph.pdf, id=2905, 325.215pt x 1
 00.375pt>
 File: classgraf_a8442b7d095a21024666b12c3e3f4184b_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_a8442b7d095a21024666b12c3e3f4184b_cgraph.pdf>
 Package pdftex.def Info: classgraf_a8442b7d095a21024666b12c3e3f4184b_cgraph.pdf
- used on input line 382.
+ used on input line 466.
 (pdftex.def)             Requested size: 324.0pt x 100.00716pt.
-
-
-pdfTeX warning: pdflatex (file ./classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cg
-raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
-lowed
-
-<classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf, id=2666, 339.2675pt x 
-110.4125pt>
-File: classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf Graphic file (type
- pdf)
- <use classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf>
-Package pdftex.def Info: classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf
- used on input line 408.
-(pdftex.def)             Requested size: 338.0pt x 110.0045pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [31 <./classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af_icgraph.pdf> <./classgraf_a
+ [38 <./classgraf_a815e60a2e34a99d498f3345b15d678b7_icgraph.pdf> <./classgraf_a
 8442b7d095a21024666b12c3e3f4184b_cgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classgraf_a8442b7d095a21024666b12c3e3f4184b_cg
@@ -1831,46 +1921,71 @@ raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
 ge
 >]
 
+pdfTeX warning: pdflatex (file ./classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cg
+raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
+lowed
+
+<classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf, id=2921, 339.2675pt x 
+110.4125pt>
+File: classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf Graphic file (type
+ pdf)
+ <use classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf>
+Package pdftex.def Info: classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf
+ used on input line 492.
+(pdftex.def)             Requested size: 338.0pt x 110.0045pt.
+
+
 pdfTeX warning: pdflatex (file ./classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_icgraph.pdf, id=2682, 353.32pt x 1
-00.375pt>
+<classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_icgraph.pdf, id=2922, 353.32pt x 1
+76.66pt>
 File: classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_icgraph.pdf>
 Package pdftex.def Info: classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_icgraph.pd
-f used on input line 419.
-(pdftex.def)             Requested size: 350.0pt x 99.4328pt.
+f used on input line 503.
+(pdftex.def)             Requested size: 350.0pt x 175.00175pt.
 
+
+pdfTeX warning: pdflatex (file ./classgraf_a8b81ec6754b796abb926a750a4ed6025_cg
+raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
+lowed
+
+<classgraf_a8b81ec6754b796abb926a750a4ed6025_cgraph.pdf, id=2923, 339.2675pt x 
+110.4125pt>
+File: classgraf_a8b81ec6754b796abb926a750a4ed6025_cgraph.pdf Graphic file (type
+ pdf)
+ <use classgraf_a8b81ec6754b796abb926a750a4ed6025_cgraph.pdf>
+Package pdftex.def Info: classgraf_a8b81ec6754b796abb926a750a4ed6025_cgraph.pdf
+ used on input line 534.
+(pdftex.def)             Requested size: 338.0pt x 110.0045pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [39 <./classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf> <./classgraf_af
+aa55f5a9aef1f30a2b3be97b59a476b_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_ic
+graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+>]
 
 pdfTeX warning: pdflatex (file ./classgraf_abe2f98850133e73015ab8232d90d7530_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_abe2f98850133e73015ab8232d90d7530_cgraph.pdf, id=2683, 339.2675pt x 
+<classgraf_abe2f98850133e73015ab8232d90d7530_cgraph.pdf, id=2939, 339.2675pt x 
 110.4125pt>
 File: classgraf_abe2f98850133e73015ab8232d90d7530_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_abe2f98850133e73015ab8232d90d7530_cgraph.pdf>
 Package pdftex.def Info: classgraf_abe2f98850133e73015ab8232d90d7530_cgraph.pdf
- used on input line 445.
+ used on input line 560.
 (pdftex.def)             Requested size: 338.0pt x 110.0045pt.
 
-[32 <./classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_cgraph.pdf> <./classgraf_afa
-a55f5a9aef1f30a2b3be97b59a476b_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classgraf_afaa55f5a9aef1f30a2b3be97b59a476b_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
-> <./classgraf_abe2f98850133e73015ab8232d90d7530_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classgraf_abe2f98850133e73015ab8232d90d7530_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
->]
-Underfull \hbox (badness 10000) detected at line 469
+Underfull \hbox (badness 10000) detected at line 584
 [][][]
  []
 
@@ -1880,37 +1995,39 @@ pdfTeX warning: pdflatex (file ./classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_cgraph.pdf, id=2704, 349.305pt x 2
+<classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_cgraph.pdf, id=2940, 349.305pt x 2
 75.0275pt>
 File: classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_cgraph.pdf>
 Package pdftex.def Info: classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_cgraph.pdf
- used on input line 482.
+ used on input line 597.
 (pdftex.def)             Requested size: 348.0pt x 274.01544pt.
 
+Underfull \vbox (badness 1527) has occurred while \output is active []
+
+ [40 <./classgraf_a8b81ec6754b796abb926a750a4ed6025_cgraph.pdf> <./classgraf_ab
+e2f98850133e73015ab8232d90d7530_cgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classgraf_abe2f98850133e73015ab8232d90d7530_cg
+raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
+ge
+>]
 
 pdfTeX warning: pdflatex (file ./classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_icgraph.pdf, id=2705, 421.575pt x 
+<classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_icgraph.pdf, id=2956, 421.575pt x 
 100.375pt>
 File: classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_icgraph.pdf>
 Package pdftex.def Info: classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_icgraph.pd
-f used on input line 493.
+f used on input line 608.
 (pdftex.def)             Requested size: 350.0pt x 83.33418pt.
 
-[33 <./classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_cgraph.pdf> <./classgraf_a94
-6364c1b0bf2ff98d1e1a5fabf6ce9b_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_ic
-graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
-age
->]
-Underfull \hbox (badness 10000) detected at line 517
+Underfull \hbox (badness 10000) detected at line 632
 [][][]
  []
 
@@ -1920,37 +2037,43 @@ pdfTeX warning: pdflatex (file ./classgraf_ab10b43b2e8b685118790a550674ab00e_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_ab10b43b2e8b685118790a550674ab00e_cgraph.pdf, id=2721, 361.35pt x 31
+<classgraf_ab10b43b2e8b685118790a550674ab00e_cgraph.pdf, id=2957, 361.35pt x 31
 3.17pt>
 File: classgraf_ab10b43b2e8b685118790a550674ab00e_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_ab10b43b2e8b685118790a550674ab00e_cgraph.pdf>
 Package pdftex.def Info: classgraf_ab10b43b2e8b685118790a550674ab00e_cgraph.pdf
- used on input line 530.
+ used on input line 645.
 (pdftex.def)             Requested size: 350.0pt x 303.33488pt.
+ [41 <./classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_cgraph.pdf> <./classgraf_a9
+46364c1b0bf2ff98d1e1a5fabf6ce9b_icgraph.pdf
 
+pdfTeX warning: pdflatex (file ./classgraf_a946364c1b0bf2ff98d1e1a5fabf6ce9b_ic
+graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+>]
 
 pdfTeX warning: pdflatex (file ./classgraf_ab10b43b2e8b685118790a550674ab00e_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_ab10b43b2e8b685118790a550674ab00e_icgraph.pdf, id=2722, 431.6125pt x
+<classgraf_ab10b43b2e8b685118790a550674ab00e_icgraph.pdf, id=2974, 431.6125pt x
  100.375pt>
 File: classgraf_ab10b43b2e8b685118790a550674ab00e_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_ab10b43b2e8b685118790a550674ab00e_icgraph.pdf>
 Package pdftex.def Info: classgraf_ab10b43b2e8b685118790a550674ab00e_icgraph.pd
-f used on input line 541.
+f used on input line 656.
 (pdftex.def)             Requested size: 350.0pt x 81.39824pt.
 
-[34 <./classgraf_ab10b43b2e8b685118790a550674ab00e_cgraph.pdf> <./classgraf_ab1
+[42 <./classgraf_ab10b43b2e8b685118790a550674ab00e_cgraph.pdf> <./classgraf_ab1
 0b43b2e8b685118790a550674ab00e_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classgraf_ab10b43b2e8b685118790a550674ab00e_ic
 graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
 >]
-Underfull \hbox (badness 10000) detected at line 565
+Underfull \hbox (badness 10000) detected at line 680
 [][][]
  []
 
@@ -1960,13 +2083,13 @@ pdfTeX warning: pdflatex (file ./classgraf_abf0a6bb0cfd8ef55868981bb91881de3_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_abf0a6bb0cfd8ef55868981bb91881de3_cgraph.pdf, id=2738, 371.3875pt x 
+<classgraf_abf0a6bb0cfd8ef55868981bb91881de3_cgraph.pdf, id=2990, 371.3875pt x 
 335.2525pt>
 File: classgraf_abf0a6bb0cfd8ef55868981bb91881de3_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_abf0a6bb0cfd8ef55868981bb91881de3_cgraph.pdf>
 Package pdftex.def Info: classgraf_abf0a6bb0cfd8ef55868981bb91881de3_cgraph.pdf
- used on input line 578.
+ used on input line 693.
 (pdftex.def)             Requested size: 350.0pt x 315.95076pt.
 
 
@@ -1974,17 +2097,33 @@ pdfTeX warning: pdflatex (file ./classgraf_abf0a6bb0cfd8ef55868981bb91881de3_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_abf0a6bb0cfd8ef55868981bb91881de3_icgraph.pdf, id=2739, 457.71pt x 1
+<classgraf_abf0a6bb0cfd8ef55868981bb91881de3_icgraph.pdf, id=2991, 457.71pt x 1
 00.375pt>
 File: classgraf_abf0a6bb0cfd8ef55868981bb91881de3_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_abf0a6bb0cfd8ef55868981bb91881de3_icgraph.pdf>
 Package pdftex.def Info: classgraf_abf0a6bb0cfd8ef55868981bb91881de3_icgraph.pd
-f used on input line 589.
+f used on input line 704.
 (pdftex.def)             Requested size: 350.0pt x 76.7575pt.
 
-[35 <./classgraf_abf0a6bb0cfd8ef55868981bb91881de3_cgraph.pdf> <./classgraf_abf
-0a6bb0cfd8ef55868981bb91881de3_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classgraf_ab3d25f79040645495cda405bdc4975e8_ic
+graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
+llowed
+
+<classgraf_ab3d25f79040645495cda405bdc4975e8_icgraph.pdf, id=2992, 293.095pt x 
+100.375pt>
+File: classgraf_ab3d25f79040645495cda405bdc4975e8_icgraph.pdf Graphic file (typ
+e pdf)
+ <use classgraf_ab3d25f79040645495cda405bdc4975e8_icgraph.pdf>
+Package pdftex.def Info: classgraf_ab3d25f79040645495cda405bdc4975e8_icgraph.pd
+f used on input line 726.
+(pdftex.def)             Requested size: 292.0pt x 99.9995pt.
+
+Underfull \vbox (badness 2073) has occurred while \output is active []
+
+ [43 <./classgraf_abf0a6bb0cfd8ef55868981bb91881de3_cgraph.pdf> <./classgraf_ab
+f0a6bb0cfd8ef55868981bb91881de3_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classgraf_abf0a6bb0cfd8ef55868981bb91881de3_ic
 graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
@@ -1995,44 +2134,47 @@ pdfTeX warning: pdflatex (file ./classgraf_aede977ec0f8660ad4a8c09449535cb74_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_aede977ec0f8660ad4a8c09449535cb74_icgraph.pdf, id=2756, 321.2pt x 10
+<classgraf_aede977ec0f8660ad4a8c09449535cb74_icgraph.pdf, id=3008, 321.2pt x 10
 0.375pt>
 File: classgraf_aede977ec0f8660ad4a8c09449535cb74_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_aede977ec0f8660ad4a8c09449535cb74_icgraph.pdf>
 Package pdftex.def Info: classgraf_aede977ec0f8660ad4a8c09449535cb74_icgraph.pd
-f used on input line 663.
+f used on input line 800.
 (pdftex.def)             Requested size: 320.0pt x 100.00255pt.
+ [44 <./classgraf_ab3d25f79040645495cda405bdc4975e8_icgraph.pdf> <./classgraf_a
+ede977ec0f8660ad4a8c09449535cb74_icgraph.pdf
 
+pdfTeX warning: pdflatex (file ./classgraf_aede977ec0f8660ad4a8c09449535cb74_ic
+graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
+age
+>] [45]
 
 pdfTeX warning: pdflatex (file ./classgraf_a17cff8e4bdff073674dc95927221d128_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_a17cff8e4bdff073674dc95927221d128_cgraph.pdf, id=2757, 321.2pt x 100
+<classgraf_a17cff8e4bdff073674dc95927221d128_cgraph.pdf, id=3028, 321.2pt x 100
 .375pt>
 File: classgraf_a17cff8e4bdff073674dc95927221d128_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_a17cff8e4bdff073674dc95927221d128_cgraph.pdf>
 Package pdftex.def Info: classgraf_a17cff8e4bdff073674dc95927221d128_cgraph.pdf
- used on input line 697.
+ used on input line 834.
 (pdftex.def)             Requested size: 320.0pt x 100.00255pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [36 <./classgraf_aede977ec0f8660ad4a8c09449535cb74_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classgraf_a867f6b80702573ceea8dca8739bf93d8_ic
 graph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> a
 llowed
 
-<classgraf_a867f6b80702573ceea8dca8739bf93d8_icgraph.pdf, id=2768, 353.32pt x 1
+<classgraf_a867f6b80702573ceea8dca8739bf93d8_icgraph.pdf, id=3029, 353.32pt x 1
 00.375pt>
 File: classgraf_a867f6b80702573ceea8dca8739bf93d8_icgraph.pdf Graphic file (typ
 e pdf)
  <use classgraf_a867f6b80702573ceea8dca8739bf93d8_icgraph.pdf>
 Package pdftex.def Info: classgraf_a867f6b80702573ceea8dca8739bf93d8_icgraph.pd
-f used on input line 728.
+f used on input line 865.
 (pdftex.def)             Requested size: 350.0pt x 99.4328pt.
 
 
@@ -2040,30 +2182,29 @@ pdfTeX warning: pdflatex (file ./classgraf_a970f1f2c7883eb466a59567e81467cfe_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<classgraf_a970f1f2c7883eb466a59567e81467cfe_cgraph.pdf, id=2769, 353.32pt x 10
+<classgraf_a970f1f2c7883eb466a59567e81467cfe_cgraph.pdf, id=3030, 353.32pt x 10
 0.375pt>
 File: classgraf_a970f1f2c7883eb466a59567e81467cfe_cgraph.pdf Graphic file (type
  pdf)
  <use classgraf_a970f1f2c7883eb466a59567e81467cfe_cgraph.pdf>
 Package pdftex.def Info: classgraf_a970f1f2c7883eb466a59567e81467cfe_cgraph.pdf
- used on input line 759.
+ used on input line 896.
 (pdftex.def)             Requested size: 350.0pt x 99.4328pt.
- [37 <./classgraf_a17cff8e4bdff073674dc95927221d128_cgraph.pdf> <./classgraf_a8
+
+Underfull \vbox (badness 6412) has occurred while \output is active []
+
+ [46 <./classgraf_a17cff8e4bdff073674dc95927221d128_cgraph.pdf> <./classgraf_a8
 67f6b80702573ceea8dca8739bf93d8_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classgraf_a867f6b80702573ceea8dca8739bf93d8_ic
 graph.pdf): PDF inclusion: multiple pdfs with page group included in a single p
 age
-> <./classgraf_a970f1f2c7883eb466a59567e81467cfe_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classgraf_a970f1f2c7883eb466a59567e81467cfe_cg
-raph.pdf): PDF inclusion: multiple pdfs with page group included in a single pa
-ge
->]) (./classgraf__test.tex
+>] [47 <./classgraf_a970f1f2c7883eb466a59567e81467cfe_cgraph.pdf>])
+(./classgraf__test.tex
 
 pdfTeX warning: pdflatex (file ./classgraf__test__inherit__graph.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<classgraf__test__inherit__graph.pdf, id=2792, 134.5025pt x 156.585pt>
+<classgraf__test__inherit__graph.pdf, id=3059, 134.5025pt x 156.585pt>
 File: classgraf__test__inherit__graph.pdf Graphic file (type pdf)
 
 <use classgraf__test__inherit__graph.pdf>
@@ -2071,31 +2212,27 @@ Package pdftex.def Info: classgraf__test__inherit__graph.pdf used on input line
  19.
 (pdftex.def)             Requested size: 134.0pt x 156.00162pt.
 
-Underfull \vbox (badness 2837) has occurred while \output is active []
-
- [38]
 
 pdfTeX warning: pdflatex (file ./classgraf__test__coll__graph.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<classgraf__test__coll__graph.pdf, id=2797, 497.86pt x 303.1325pt>
+<classgraf__test__coll__graph.pdf, id=3060, 367.3725pt x 303.1325pt>
 File: classgraf__test__coll__graph.pdf Graphic file (type pdf)
 
 <use classgraf__test__coll__graph.pdf>
 Package pdftex.def Info: classgraf__test__coll__graph.pdf used on input line 28
 .
-(pdftex.def)             Requested size: 350.0pt x 213.10713pt.
- [39 <./classgraf__test__inherit__graph.pdf> <./classgraf__test__coll__graph.pd
-f
+(pdftex.def)             Requested size: 350.0pt x 288.81607pt.
 
-pdfTeX warning: pdflatex (file ./classgraf__test__coll__graph.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
->]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [48 <./classgraf__test__inherit__graph.pdf>] [49 <./classgraf__test__coll__gra
+ph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classgraf__test_acd71a655b831470f5458b5d3d12ed
 a00_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1
 .4> allowed
 
-<classgraf__test_acd71a655b831470f5458b5d3d12eda00_cgraph.pdf, id=2835, 660.467
+<classgraf__test_acd71a655b831470f5458b5d3d12eda00_cgraph.pdf, id=3110, 660.467
 5pt x 527.9725pt>
 File: classgraf__test_acd71a655b831470f5458b5d3d12eda00_cgraph.pdf Graphic file
  (type pdf)
@@ -2104,35 +2241,28 @@ File: classgraf__test_acd71a655b831470f5458b5d3d12eda00_cgraph.pdf Graphic file
 Package pdftex.def Info: classgraf__test_acd71a655b831470f5458b5d3d12eda00_cgra
 ph.pdf used on input line 118.
 (pdftex.def)             Requested size: 350.0pt x 279.79187pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [40]
+ [50 <./classgraf__test_acd71a655b831470f5458b5d3d12eda00_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classgraf__test_aeff6fe08c72fe45a15bd7b41028ac
 c7c_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1
 .4> allowed
 
-<classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c_cgraph.pdf, id=2848, 491.837
-5pt x 143.53625pt>
+<classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c_cgraph.pdf, id=3122, 491.837
+5pt x 181.67876pt>
 File: classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c_cgraph.pdf Graphic file
  (type pdf)
 
 <use classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c_cgraph.pdf>
 Package pdftex.def Info: classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c_cgra
 ph.pdf used on input line 144.
-(pdftex.def)             Requested size: 350.0pt x 102.14578pt.
- [41 <./classgraf__test_acd71a655b831470f5458b5d3d12eda00_cgraph.pdf> <./classg
-raf__test_aeff6fe08c72fe45a15bd7b41028acc7c_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classgraf__test_aeff6fe08c72fe45a15bd7b41028ac
-c7c_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a sin
-gle page
->]) (./classh__sort.tex
+(pdftex.def)             Requested size: 350.0pt x 129.28943pt.
+)
+(./classh__sort.tex [51 <./classgraf__test_aeff6fe08c72fe45a15bd7b41028acc7c_cg
+raph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classh__sort__inherit__graph.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<classh__sort__inherit__graph.pdf, id=2867, 134.5025pt x 156.585pt>
+<classh__sort__inherit__graph.pdf, id=3135, 134.5025pt x 156.585pt>
 File: classh__sort__inherit__graph.pdf Graphic file (type pdf)
 
 <use classh__sort__inherit__graph.pdf>
@@ -2143,22 +2273,23 @@ Package pdftex.def Info: classh__sort__inherit__graph.pdf used on input line 19
 
 pdfTeX warning: pdflatex (file ./classh__sort__coll__graph.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<classh__sort__coll__graph.pdf, id=2868, 134.5025pt x 226.8475pt>
+<classh__sort__coll__graph.pdf, id=3136, 134.5025pt x 226.8475pt>
 File: classh__sort__coll__graph.pdf Graphic file (type pdf)
 
 <use classh__sort__coll__graph.pdf>
 Package pdftex.def Info: classh__sort__coll__graph.pdf used on input line 28.
 (pdftex.def)             Requested size: 134.0pt x 226.00235pt.
+ [52 <./classh__sort__inherit__graph.pdf> <./classh__sort__coll__graph.pdf
 
-Underfull \vbox (badness 1082) has occurred while \output is active []
-
- [42 <./classh__sort__inherit__graph.pdf>]
+pdfTeX warning: pdflatex (file ./classh__sort__coll__graph.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>]
 
 pdfTeX warning: pdflatex (file ./classh__sort_a496c249e58b48ca10e06266d1f673bd7
 _cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
  allowed
 
-<classh__sort_a496c249e58b48ca10e06266d1f673bd7_cgraph.pdf, id=2882, 614.295pt 
+<classh__sort_a496c249e58b48ca10e06266d1f673bd7_cgraph.pdf, id=3158, 614.295pt 
 x 176.66pt>
 File: classh__sort_a496c249e58b48ca10e06266d1f673bd7_cgraph.pdf Graphic file (t
 ype pdf)
@@ -2166,12 +2297,12 @@ ype pdf)
 Package pdftex.def Info: classh__sort_a496c249e58b48ca10e06266d1f673bd7_cgraph.
 pdf used on input line 95.
 (pdftex.def)             Requested size: 350.0pt x 100.65411pt.
-
-[43 <./classh__sort__coll__graph.pdf>]) (./classh__table.tex
+)
+(./classh__table.tex
 
 pdfTeX warning: pdflatex (file ./classh__table__inherit__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classh__table__inherit__graph.pdf, id=2898, 134.5025pt x 156.585pt>
+<classh__table__inherit__graph.pdf, id=3161, 134.5025pt x 156.585pt>
 File: classh__table__inherit__graph.pdf Graphic file (type pdf)
 
 <use classh__table__inherit__graph.pdf>
@@ -2179,30 +2310,29 @@ Package pdftex.def Info: classh__table__inherit__graph.pdf used on input line 1
 9.
 (pdftex.def)             Requested size: 134.0pt x 156.00162pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [53 <./classh__sort_a496c249e58b48ca10e06266d1f673bd7_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classh__table__coll__graph.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<classh__table__coll__graph.pdf, id=2899, 134.5025pt x 226.8475pt>
+<classh__table__coll__graph.pdf, id=3173, 134.5025pt x 226.8475pt>
 File: classh__table__coll__graph.pdf Graphic file (type pdf)
 
 <use classh__table__coll__graph.pdf>
 Package pdftex.def Info: classh__table__coll__graph.pdf used on input line 28.
 (pdftex.def)             Requested size: 134.0pt x 226.00235pt.
+ [54 <./classh__table__inherit__graph.pdf> <./classh__table__coll__graph.pdf
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [44 <./classh__sort_a496c249e58b48ca10e06266d1f673bd7_cgraph.pdf> <./classh__t
-able__inherit__graph.pdf
-
-pdfTeX warning: pdflatex (file ./classh__table__inherit__graph.pdf): PDF inclus
-ion: multiple pdfs with page group included in a single page
->] [45 <./classh__table__coll__graph.pdf>]
+pdfTeX warning: pdflatex (file ./classh__table__coll__graph.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]
 
 pdfTeX warning: pdflatex (file ./classh__table_a8726955778aed30773dccf8e0cb8106
 4_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classh__table_a8726955778aed30773dccf8e0cb81064_cgraph.pdf, id=2936, 439.6425p
+<classh__table_a8726955778aed30773dccf8e0cb81064_cgraph.pdf, id=3199, 439.6425p
 t x 214.8025pt>
 File: classh__table_a8726955778aed30773dccf8e0cb81064_cgraph.pdf Graphic file (
 type pdf)
@@ -2211,8 +2341,8 @@ type pdf)
 Package pdftex.def Info: classh__table_a8726955778aed30773dccf8e0cb81064_cgraph
 .pdf used on input line 103.
 (pdftex.def)             Requested size: 350.0pt x 171.0097pt.
-)
-(./classhashtab.tex
+ [55 <./classh__table_a8726955778aed30773dccf8e0cb81064_cgraph.pdf>]) (./classh
+ashtab.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
@@ -2229,13 +2359,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-[46 <./classh__table_a8726955778aed30773dccf8e0cb81064_cgraph.pdf>]
+[56]
 
 pdfTeX warning: pdflatex (file ./classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8
 _cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
  allowed
 
-<classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8_cgraph.pdf, id=2963, 331.2375pt
+<classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8_cgraph.pdf, id=3244, 331.2375pt
  x 100.375pt>
 File: classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8_cgraph.pdf Graphic file (t
 ype pdf)
@@ -2244,13 +2374,12 @@ Package pdftex.def Info: classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8_cgraph.
 pdf used on input line 92.
 (pdftex.def)             Requested size: 330.0pt x 100.00409pt.
 
-[47]
 
 pdfTeX warning: pdflatex (file ./classhashtab_ad25515f0b7a631904c65b57f834c428f
 _cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
  allowed
 
-<classhashtab_ad25515f0b7a631904c65b57f834c428f_cgraph.pdf, id=2982, 275.0275pt
+<classhashtab_ad25515f0b7a631904c65b57f834c428f_cgraph.pdf, id=3245, 275.0275pt
  x 100.375pt>
 File: classhashtab_ad25515f0b7a631904c65b57f834c428f_cgraph.pdf Graphic file (t
 ype pdf)
@@ -2264,7 +2393,7 @@ pdfTeX warning: pdflatex (file ./classhashtab_ad25515f0b7a631904c65b57f834c428f
 _icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classhashtab_ad25515f0b7a631904c65b57f834c428f_icgraph.pdf, id=2983, 285.065pt
+<classhashtab_ad25515f0b7a631904c65b57f834c428f_icgraph.pdf, id=3246, 285.065pt
  x 100.375pt>
 File: classhashtab_ad25515f0b7a631904c65b57f834c428f_icgraph.pdf Graphic file (
 type pdf)
@@ -2273,6 +2402,15 @@ Package pdftex.def Info: classhashtab_ad25515f0b7a631904c65b57f834c428f_icgraph
 .pdf used on input line 133.
 (pdftex.def)             Requested size: 284.0pt x 99.9995pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57 <./classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8_cgraph.pdf> <./classhash
+tab_ad25515f0b7a631904c65b57f834c428f_cgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classhashtab_ad25515f0b7a631904c65b57f834c428f
+_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+>]
 Underfull \hbox (badness 10000) detected at line 149
 [][][]
  []
@@ -2283,7 +2421,7 @@ pdfTeX warning: pdflatex (file ./classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6
 _icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6_icgraph.pdf, id=2984, 405.515pt
+<classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6_icgraph.pdf, id=3262, 405.515pt
  x 138.5175pt>
 File: classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6_icgraph.pdf Graphic file (
 type pdf)
@@ -2292,24 +2430,13 @@ type pdf)
 Package pdftex.def Info: classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6_icgraph
 .pdf used on input line 162.
 (pdftex.def)             Requested size: 350.0pt x 119.55812pt.
- [48 <./classhashtab_aa7315b45b8b2251113cc6d9c8d606bb8_cgraph.pdf> <./classhash
-tab_ad25515f0b7a631904c65b57f834c428f_cgraph.pdf
 
-pdfTeX warning: pdflatex (file ./classhashtab_ad25515f0b7a631904c65b57f834c428f
-_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
-> <./classhashtab_ad25515f0b7a631904c65b57f834c428f_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classhashtab_ad25515f0b7a631904c65b57f834c428f
-_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
->]
 
 pdfTeX warning: pdflatex (file ./classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4
 _icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4_icgraph.pdf, id=3005, 331.2375p
+<classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4_icgraph.pdf, id=3263, 331.2375p
 t x 100.375pt>
 File: classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4_icgraph.pdf Graphic file (
 type pdf)
@@ -2318,13 +2445,24 @@ type pdf)
 Package pdftex.def Info: classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4_icgraph
 .pdf used on input line 188.
 (pdftex.def)             Requested size: 330.0pt x 100.00409pt.
+ [58 <./classhashtab_ad25515f0b7a631904c65b57f834c428f_icgraph.pdf> <./classhas
+htab_ad52a5a127bcfe2b93bbec7fe702f10a6_icgraph.pdf
 
+pdfTeX warning: pdflatex (file ./classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6
+_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+> <./classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4
+_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a singl
+e page
+>] [59]
 
 pdfTeX warning: pdflatex (file ./classhashtab_a2c0b494972d78d893a6db6c08b8af3a2
 _cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
  allowed
 
-<classhashtab_a2c0b494972d78d893a6db6c08b8af3a2_cgraph.pdf, id=3006, 395.4775pt
+<classhashtab_a2c0b494972d78d893a6db6c08b8af3a2_cgraph.pdf, id=3289, 395.4775pt
  x 100.375pt>
 File: classhashtab_a2c0b494972d78d893a6db6c08b8af3a2_cgraph.pdf Graphic file (t
 ype pdf)
@@ -2333,18 +2471,6 @@ Package pdftex.def Info: classhashtab_a2c0b494972d78d893a6db6c08b8af3a2_cgraph.
 pdf used on input line 219.
 (pdftex.def)             Requested size: 350.0pt x 88.83415pt.
 
-[49 <./classhashtab_ad52a5a127bcfe2b93bbec7fe702f10a6_icgraph.pdf> <./classhash
-tab_a94671e2fe307f5248c0b1b6855d4c3d4_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classhashtab_a94671e2fe307f5248c0b1b6855d4c3d4
-_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
-> <./classhashtab_a2c0b494972d78d893a6db6c08b8af3a2_cgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classhashtab_a2c0b494972d78d893a6db6c08b8af3a2
-_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a single
- page
->]
 Underfull \hbox (badness 10000) detected at line 251
 [][][]
  []
@@ -2355,7 +2481,7 @@ pdfTeX warning: pdflatex (file ./classhashtab_af6452a7dbb4a30870ec16635b859f18c
 _cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
  allowed
 
-<classhashtab_af6452a7dbb4a30870ec16635b859f18c_cgraph.pdf, id=3027, 281.05pt x
+<classhashtab_af6452a7dbb4a30870ec16635b859f18c_cgraph.pdf, id=3290, 281.05pt x
  100.375pt>
 File: classhashtab_af6452a7dbb4a30870ec16635b859f18c_cgraph.pdf Graphic file (t
 ype pdf)
@@ -2369,7 +2495,7 @@ pdfTeX warning: pdflatex (file ./classhashtab_af6452a7dbb4a30870ec16635b859f18c
 _icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classhashtab_af6452a7dbb4a30870ec16635b859f18c_icgraph.pdf, id=3028, 291.0875p
+<classhashtab_af6452a7dbb4a30870ec16635b859f18c_icgraph.pdf, id=3291, 291.0875p
 t x 138.5175pt>
 File: classhashtab_af6452a7dbb4a30870ec16635b859f18c_icgraph.pdf Graphic file (
 type pdf)
@@ -2378,18 +2504,20 @@ type pdf)
 Package pdftex.def Info: classhashtab_af6452a7dbb4a30870ec16635b859f18c_icgraph
 .pdf used on input line 275.
 (pdftex.def)             Requested size: 290.0pt x 138.00987pt.
-)
-(./classkolejka__lista.tex [50 <./classhashtab_af6452a7dbb4a30870ec16635b859f18
-c_cgraph.pdf> <./classhashtab_af6452a7dbb4a30870ec16635b859f18c_icgraph.pdf
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60 <./classhashtab_a2c0b494972d78d893a6db6c08b8af3a2_cgraph.pdf> <./classhash
+tab_af6452a7dbb4a30870ec16635b859f18c_cgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classhashtab_af6452a7dbb4a30870ec16635b859f18c
-_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a singl
-e page
->]
+_cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a single
+ page
+>]) (./classkolejka__lista.tex
 
 pdfTeX warning: pdflatex (file ./classkolejka__lista__inherit__graph.pdf): PDF 
 inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classkolejka__lista__inherit__graph.pdf, id=3045, 150.5625pt x 156.585pt>
+<classkolejka__lista__inherit__graph.pdf, id=3308, 150.5625pt x 156.585pt>
 File: classkolejka__lista__inherit__graph.pdf Graphic file (type pdf)
 
 <use classkolejka__lista__inherit__graph.pdf>
@@ -2400,25 +2528,25 @@ line 19.
 
 pdfTeX warning: pdflatex (file ./classkolejka__lista__coll__graph.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classkolejka__lista__coll__graph.pdf, id=3046, 249.93375pt x 236.885pt>
+<classkolejka__lista__coll__graph.pdf, id=3309, 249.93375pt x 236.885pt>
 File: classkolejka__lista__coll__graph.pdf Graphic file (type pdf)
 
 <use classkolejka__lista__coll__graph.pdf>
 Package pdftex.def Info: classkolejka__lista__coll__graph.pdf used on input lin
 e 28.
 (pdftex.def)             Requested size: 249.0pt x 236.00967pt.
- [51 <./classkolejka__lista__inherit__graph.pdf> <./classkolejka__lista__coll__
-graph.pdf
+ [61 <./classhashtab_af6452a7dbb4a30870ec16635b859f18c_icgraph.pdf> <./classkol
+ejka__lista__inherit__graph.pdf
 
-pdfTeX warning: pdflatex (file ./classkolejka__lista__coll__graph.pdf): PDF inc
-lusion: multiple pdfs with page group included in a single page
->]
+pdfTeX warning: pdflatex (file ./classkolejka__lista__inherit__graph.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>] [62 <./classkolejka__lista__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classkolejka__lista_a239ae8bcd2dcee9b79945010e
 0e32037_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most versio
 n <1.4> allowed
 
-<classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_cgraph.pdf, id=3071, 347
+<classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_cgraph.pdf, id=3345, 347
 .2975pt x 214.8025pt>
 File: classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_cgraph.pdf Graphic 
 file (type pdf)
@@ -2428,12 +2556,11 @@ Package pdftex.def Info: classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_
 cgraph.pdf used on input line 96.
 (pdftex.def)             Requested size: 346.0pt x 214.00877pt.
 )
-(./classkolejka__tablica.tex [52 <./classkolejka__lista_a239ae8bcd2dcee9b799450
-10e0e32037_cgraph.pdf>]
+(./classkolejka__tablica.tex
 
 pdfTeX warning: pdflatex (file ./classkolejka__tablica__inherit__graph.pdf): PD
 F inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classkolejka__tablica__inherit__graph.pdf, id=3085, 160.6pt x 156.585pt>
+<classkolejka__tablica__inherit__graph.pdf, id=3348, 160.6pt x 156.585pt>
 File: classkolejka__tablica__inherit__graph.pdf Graphic file (type pdf)
 
 <use classkolejka__tablica__inherit__graph.pdf>
@@ -2444,25 +2571,25 @@ t line 19.
 
 pdfTeX warning: pdflatex (file ./classkolejka__tablica__coll__graph.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classkolejka__tablica__coll__graph.pdf, id=3086, 259.97125pt x 236.885pt>
+<classkolejka__tablica__coll__graph.pdf, id=3349, 259.97125pt x 236.885pt>
 File: classkolejka__tablica__coll__graph.pdf Graphic file (type pdf)
 
 <use classkolejka__tablica__coll__graph.pdf>
 Package pdftex.def Info: classkolejka__tablica__coll__graph.pdf used on input l
 ine 28.
 (pdftex.def)             Requested size: 259.0pt x 235.99884pt.
- [53 <./classkolejka__tablica__inherit__graph.pdf> <./classkolejka__tablica__co
-ll__graph.pdf
+ [63 <./classkolejka__lista_a239ae8bcd2dcee9b79945010e0e32037_cgraph.pdf> <./cl
+asskolejka__tablica__inherit__graph.pdf
 
-pdfTeX warning: pdflatex (file ./classkolejka__tablica__coll__graph.pdf): PDF i
-nclusion: multiple pdfs with page group included in a single page
->]
+pdfTeX warning: pdflatex (file ./classkolejka__tablica__inherit__graph.pdf): PD
+F inclusion: multiple pdfs with page group included in a single page
+>] [64 <./classkolejka__tablica__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classkolejka__tablica_aad6baa28ce61111666e70df
 7d6ac4f86_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most vers
 ion <1.4> allowed
 
-<classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86_cgraph.pdf, id=3114, 3
+<classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86_cgraph.pdf, id=3387, 3
 59.3425pt x 214.8025pt>
 File: classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86_cgraph.pdf Graphi
 c file (type pdf)
@@ -2472,12 +2599,11 @@ Package pdftex.def Info: classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f8
 6_cgraph.pdf used on input line 101.
 (pdftex.def)             Requested size: 350.0pt x 209.23329pt.
 )
-(./classm__sort.tex [54 <./classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4
-f86_cgraph.pdf>]
+(./classm__sort.tex
 
 pdfTeX warning: pdflatex (file ./classm__sort__inherit__graph.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<classm__sort__inherit__graph.pdf, id=3128, 134.5025pt x 156.585pt>
+<classm__sort__inherit__graph.pdf, id=3390, 134.5025pt x 156.585pt>
 File: classm__sort__inherit__graph.pdf Graphic file (type pdf)
 
 <use classm__sort__inherit__graph.pdf>
@@ -2485,16 +2611,19 @@ Package pdftex.def Info: classm__sort__inherit__graph.pdf used on input line 19
 .
 (pdftex.def)             Requested size: 134.0pt x 156.00162pt.
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [65 <./classkolejka__tablica_aad6baa28ce61111666e70df7d6ac4f86_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classm__sort__coll__graph.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<classm__sort__coll__graph.pdf, id=3129, 134.5025pt x 226.8475pt>
+<classm__sort__coll__graph.pdf, id=3402, 134.5025pt x 226.8475pt>
 File: classm__sort__coll__graph.pdf Graphic file (type pdf)
 
 <use classm__sort__coll__graph.pdf>
 Package pdftex.def Info: classm__sort__coll__graph.pdf used on input line 28.
 (pdftex.def)             Requested size: 134.0pt x 226.00235pt.
- [55 <./classm__sort__inherit__graph.pdf> <./classm__sort__coll__graph.pdf
+ [66 <./classm__sort__inherit__graph.pdf> <./classm__sort__coll__graph.pdf
 
 pdfTeX warning: pdflatex (file ./classm__sort__coll__graph.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -2504,7 +2633,7 @@ pdfTeX warning: pdflatex (file ./classm__sort_acfcfa7bf26982bf718a169ccb771e694
 _cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
  allowed
 
-<classm__sort_acfcfa7bf26982bf718a169ccb771e694_cgraph.pdf, id=3151, 445.665pt 
+<classm__sort_acfcfa7bf26982bf718a169ccb771e694_cgraph.pdf, id=3424, 445.665pt 
 x 176.66pt>
 File: classm__sort_acfcfa7bf26982bf718a169ccb771e694_cgraph.pdf Graphic file (t
 ype pdf)
@@ -2517,7 +2646,7 @@ pdf used on input line 95.
 
 pdfTeX warning: pdflatex (file ./classmnozenie__inherit__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classmnozenie__inherit__graph.pdf, id=3154, 138.5175pt x 156.585pt>
+<classmnozenie__inherit__graph.pdf, id=3427, 138.5175pt x 156.585pt>
 File: classmnozenie__inherit__graph.pdf Graphic file (type pdf)
 
 <use classmnozenie__inherit__graph.pdf>
@@ -2525,29 +2654,29 @@ Package pdftex.def Info: classmnozenie__inherit__graph.pdf used on input line 1
 9.
 (pdftex.def)             Requested size: 138.0pt x 156.00162pt.
 
-Underfull \vbox (badness 3646) has occurred while \output is active []
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56 <./classm__sort_acfcfa7bf26982bf718a169ccb771e694_cgraph.pdf>]
+ [67 <./classm__sort_acfcfa7bf26982bf718a169ccb771e694_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classmnozenie__coll__graph.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<classmnozenie__coll__graph.pdf, id=3165, 138.5175pt x 226.8475pt>
+<classmnozenie__coll__graph.pdf, id=3438, 138.5175pt x 226.8475pt>
 File: classmnozenie__coll__graph.pdf Graphic file (type pdf)
 
 <use classmnozenie__coll__graph.pdf>
 Package pdftex.def Info: classmnozenie__coll__graph.pdf used on input line 28.
 (pdftex.def)             Requested size: 138.0pt x 226.00235pt.
- [57 <./classmnozenie__inherit__graph.pdf> <./classmnozenie__coll__graph.pdf
+ [68 <./classmnozenie__inherit__graph.pdf> <./classmnozenie__coll__graph.pdf
 
 pdfTeX warning: pdflatex (file ./classmnozenie__coll__graph.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
->] [58]
+>] [69]
 
 pdfTeX warning: pdflatex (file ./classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b
 0_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph.pdf, id=3191, 335.2525p
+<classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph.pdf, id=3464, 335.2525p
 t x 138.5175pt>
 File: classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph.pdf Graphic file (
 type pdf)
@@ -2557,14 +2686,14 @@ Package pdftex.def Info: classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgraph
 .pdf used on input line 102.
 (pdftex.def)             Requested size: 334.0pt x 137.99931pt.
 )
-(./classoperacje.tex [59 <./classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgr
-aph.pdf>] [60] [61]
+(./classoperacje.tex [70 <./classmnozenie_a672afac7fbb6f9cdec82bca6f9e921b0_cgr
+aph.pdf>] [71] [72]
 
 pdfTeX warning: pdflatex (file ./classoperacje_aec9d2248eb072f97da794ee4c9b99a5
 d_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph.pdf, id=3249, 475.7775p
+<classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph.pdf, id=3522, 475.7775p
 t x 119.44624pt>
 File: classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph.pdf Graphic file (
 type pdf)
@@ -2579,7 +2708,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_aec9d2248eb072f97da794ee4c9b99a5
 d_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_icgraph.pdf, id=3250, 303.1325
+<classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_icgraph.pdf, id=3523, 303.1325
 pt x 100.375pt>
 File: classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_icgraph.pdf Graphic file 
 (type pdf)
@@ -2594,7 +2723,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_ae752685beea6c7ee81d2347a98d4014
 6_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph.pdf, id=3251, 337.26pt 
+<classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph.pdf, id=3524, 337.26pt 
 x 100.375pt>
 File: classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph.pdf Graphic file (
 type pdf)
@@ -2605,7 +2734,7 @@ Package pdftex.def Info: classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph
 
 Underfull \vbox (badness 2990) has occurred while \output is active []
 
- [62 <./classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph.pdf> <./classope
+ [73 <./classoperacje_aec9d2248eb072f97da794ee4c9b99a5d_cgraph.pdf> <./classope
 racje_aec9d2248eb072f97da794ee4c9b99a5d_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classoperacje_aec9d2248eb072f97da794ee4c9b99a5
@@ -2617,7 +2746,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_ae752685beea6c7ee81d2347a98d4014
 6_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classoperacje_ae752685beea6c7ee81d2347a98d40146_icgraph.pdf, id=3267, 449.68pt
+<classoperacje_ae752685beea6c7ee81d2347a98d40146_icgraph.pdf, id=3540, 449.68pt
  x 100.375pt>
 File: classoperacje_ae752685beea6c7ee81d2347a98d40146_icgraph.pdf Graphic file 
 (type pdf)
@@ -2632,7 +2761,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_a9be241905b909e7aef0151902c6f5b8
 1_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classoperacje_a9be241905b909e7aef0151902c6f5b81_icgraph.pdf, id=3268, 596.2275
+<classoperacje_a9be241905b909e7aef0151902c6f5b81_icgraph.pdf, id=3541, 596.2275
 pt x 119.44624pt>
 File: classoperacje_a9be241905b909e7aef0151902c6f5b81_icgraph.pdf Graphic file 
 (type pdf)
@@ -2641,7 +2770,7 @@ File: classoperacje_a9be241905b909e7aef0151902c6f5b81_icgraph.pdf Graphic file
 Package pdftex.def Info: classoperacje_a9be241905b909e7aef0151902c6f5b81_icgrap
 h.pdf used on input line 243.
 (pdftex.def)             Requested size: 350.0pt x 70.11725pt.
- [63 <./classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph.pdf> <./classope
+ [74 <./classoperacje_ae752685beea6c7ee81d2347a98d40146_cgraph.pdf> <./classope
 racje_ae752685beea6c7ee81d2347a98d40146_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classoperacje_ae752685beea6c7ee81d2347a98d4014
@@ -2658,7 +2787,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_ad766f1d18595ff6b779485528c65d3f
 0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph.pdf, id=3289, 433.62pt
+<classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph.pdf, id=3562, 433.62pt
  x 100.375pt>
 File: classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph.pdf Graphic file 
 (type pdf)
@@ -2673,7 +2802,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aa
 b_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_cgraph.pdf, id=3290, 311.1625p
+<classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_cgraph.pdf, id=3563, 311.1625p
 t x 100.375pt>
 File: classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_cgraph.pdf Graphic file (
 type pdf)
@@ -2688,7 +2817,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aa
 b_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgraph.pdf, id=3291, 311.1625
+<classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgraph.pdf, id=3564, 311.1625
 pt x 100.375pt>
 File: classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgraph.pdf Graphic file 
 (type pdf)
@@ -2697,7 +2826,7 @@ File: classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgraph.pdf Graphic file
 Package pdftex.def Info: classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aab_icgrap
 h.pdf used on input line 321.
 (pdftex.def)             Requested size: 310.0pt x 100.00102pt.
- [64 <./classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph.pdf> <./classop
+ [75 <./classoperacje_ad766f1d18595ff6b779485528c65d3f0_icgraph.pdf> <./classop
 eracje_ac65f2613b7d32b4f95e59bf2f8fd1aab_cgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aa
@@ -2708,7 +2837,7 @@ e page
 pdfTeX warning: pdflatex (file ./classoperacje_ac65f2613b7d32b4f95e59bf2f8fd1aa
 b_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a sing
 le page
->] [65]
+>] [76]
 Underfull \hbox (badness 10000) detected at line 377
 [][][]
  []
@@ -2719,7 +2848,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_a7aa29c588e5a8f93c437150f03a133f
 1_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph.pdf, id=3317, 357.335pt
+<classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph.pdf, id=3589, 357.335pt
  x 100.375pt>
 File: classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph.pdf Graphic file (
 type pdf)
@@ -2733,7 +2862,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_a7aa29c588e5a8f93c437150f03a133f
 1_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classoperacje_a7aa29c588e5a8f93c437150f03a133f1_icgraph.pdf, id=3318, 305.14pt
+<classoperacje_a7aa29c588e5a8f93c437150f03a133f1_icgraph.pdf, id=3590, 305.14pt
  x 100.375pt>
 File: classoperacje_a7aa29c588e5a8f93c437150f03a133f1_icgraph.pdf Graphic file 
 (type pdf)
@@ -2742,7 +2871,7 @@ File: classoperacje_a7aa29c588e5a8f93c437150f03a133f1_icgraph.pdf Graphic file
 Package pdftex.def Info: classoperacje_a7aa29c588e5a8f93c437150f03a133f1_icgrap
 h.pdf used on input line 435.
 (pdftex.def)             Requested size: 304.0pt x 100.00409pt.
- [66 <./classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph.pdf> <./classope
+ [77 <./classoperacje_a7aa29c588e5a8f93c437150f03a133f1_cgraph.pdf> <./classope
 racje_a7aa29c588e5a8f93c437150f03a133f1_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classoperacje_a7aa29c588e5a8f93c437150f03a133f
@@ -2759,7 +2888,7 @@ pdfTeX warning: pdflatex (file ./classoperacje_a7393a8b3b394921a084e0c1f4ad517b
 7_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.
 4> allowed
 
-<classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph.pdf, id=3334, 477.785p
+<classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph.pdf, id=3607, 477.785p
 t x 100.375pt>
 File: classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph.pdf Graphic file 
 (type pdf)
@@ -2773,7 +2902,7 @@ h.pdf used on input line 472.
 
 pdfTeX warning: pdflatex (file ./classq__sort__inherit__graph.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<classq__sort__inherit__graph.pdf, id=3337, 134.5025pt x 156.585pt>
+<classq__sort__inherit__graph.pdf, id=3610, 134.5025pt x 156.585pt>
 File: classq__sort__inherit__graph.pdf Graphic file (type pdf)
 
 <use classq__sort__inherit__graph.pdf>
@@ -2783,17 +2912,17 @@ Package pdftex.def Info: classq__sort__inherit__graph.pdf used on input line 19
 
 Underfull \vbox (badness 4024) has occurred while \output is active []
 
- [67 <./classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph.pdf>]
+ [78 <./classoperacje_a7393a8b3b394921a084e0c1f4ad517b7_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classq__sort__coll__graph.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<classq__sort__coll__graph.pdf, id=3348, 134.5025pt x 226.8475pt>
+<classq__sort__coll__graph.pdf, id=3621, 134.5025pt x 226.8475pt>
 File: classq__sort__coll__graph.pdf Graphic file (type pdf)
 
 <use classq__sort__coll__graph.pdf>
 Package pdftex.def Info: classq__sort__coll__graph.pdf used on input line 28.
 (pdftex.def)             Requested size: 134.0pt x 226.00235pt.
- [68 <./classq__sort__inherit__graph.pdf> <./classq__sort__coll__graph.pdf
+ [79 <./classq__sort__inherit__graph.pdf> <./classq__sort__coll__graph.pdf
 
 pdfTeX warning: pdflatex (file ./classq__sort__coll__graph.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
@@ -2803,7 +2932,7 @@ pdfTeX warning: pdflatex (file ./classq__sort_a4f44405c764de7952fc0d821ef1206b5
 _cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4>
  allowed
 
-<classq__sort_a4f44405c764de7952fc0d821ef1206b5_cgraph.pdf, id=3370, 493.845pt 
+<classq__sort_a4f44405c764de7952fc0d821ef1206b5_cgraph.pdf, id=3643, 493.845pt 
 x 176.66pt>
 File: classq__sort_a4f44405c764de7952fc0d821ef1206b5_cgraph.pdf Graphic file (t
 ype pdf)
@@ -2833,7 +2962,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 pdfTeX warning: pdflatex (file ./classqueue__array__coll__graph.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<classqueue__array__coll__graph.pdf, id=3373, 186.6975pt x 168.63pt>
+<classqueue__array__coll__graph.pdf, id=3646, 186.6975pt x 168.63pt>
 File: classqueue__array__coll__graph.pdf Graphic file (type pdf)
 
 <use classqueue__array__coll__graph.pdf>
@@ -2843,14 +2972,14 @@ Package pdftex.def Info: classqueue__array__coll__graph.pdf used on input line
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69 <./classq__sort_a4f44405c764de7952fc0d821ef1206b5_cgraph.pdf>] [70 <./clas
+ [80 <./classq__sort_a4f44405c764de7952fc0d821ef1206b5_cgraph.pdf>] [81 <./clas
 squeue__array__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classqueue__array_acfe3b3e3ed5cc3b380d3f0d261a
 de3d9_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf, id=3422, 337.
+<classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf, id=3695, 337.
 26pt x 100.375pt>
 File: classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf Graphic f
 ile (type pdf)
@@ -2865,7 +2994,7 @@ pdfTeX warning: pdflatex (file ./classqueue__array_a67a036da416c976652c9039e5e1
 01538_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classqueue__array_a67a036da416c976652c9039e5e101538_icgraph.pdf, id=3423, 582.
+<classqueue__array_a67a036da416c976652c9039e5e101538_icgraph.pdf, id=3696, 582.
 175pt x 100.375pt>
 File: classqueue__array_a67a036da416c976652c9039e5e101538_icgraph.pdf Graphic f
 ile (type pdf)
@@ -2880,7 +3009,7 @@ pdfTeX warning: pdflatex (file ./classqueue__array_a0c35f63c53ee3e3019fffde84bb
 f6bd1_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classqueue__array_a0c35f63c53ee3e3019fffde84bbf6bd1_icgraph.pdf, id=3424, 582.
+<classqueue__array_a0c35f63c53ee3e3019fffde84bbf6bd1_icgraph.pdf, id=3697, 582.
 175pt x 138.5175pt>
 File: classqueue__array_a0c35f63c53ee3e3019fffde84bbf6bd1_icgraph.pdf Graphic f
 ile (type pdf)
@@ -2889,7 +3018,7 @@ ile (type pdf)
 Package pdftex.def Info: classqueue__array_a0c35f63c53ee3e3019fffde84bbf6bd1_ic
 graph.pdf used on input line 171.
 (pdftex.def)             Requested size: 350.0pt x 83.2781pt.
- [71 <./classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf> <./cla
+ [82 <./classqueue__array_acfe3b3e3ed5cc3b380d3f0d261ade3d9_icgraph.pdf> <./cla
 ssqueue__array_a67a036da416c976652c9039e5e101538_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classqueue__array_a67a036da416c976652c9039e5e1
@@ -2906,7 +3035,7 @@ pdfTeX warning: pdflatex (file ./classqueue__array_aa6ddf8e684f31a34f721e89ea83
 a7469_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classqueue__array_aa6ddf8e684f31a34f721e89ea83a7469_icgraph.pdf, id=3441, 584.
+<classqueue__array_aa6ddf8e684f31a34f721e89ea83a7469_icgraph.pdf, id=3713, 584.
 1825pt x 100.375pt>
 File: classqueue__array_aa6ddf8e684f31a34f721e89ea83a7469_icgraph.pdf Graphic f
 ile (type pdf)
@@ -2920,7 +3049,7 @@ Underfull \hbox (badness 10000) detected at line 208
 [][][]
  []
 
-[72 <./classqueue__array_a0c35f63c53ee3e3019fffde84bbf6bd1_icgraph.pdf> <./clas
+[83 <./classqueue__array_a0c35f63c53ee3e3019fffde84bbf6bd1_icgraph.pdf> <./clas
 squeue__array_aa6ddf8e684f31a34f721e89ea83a7469_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classqueue__array_aa6ddf8e684f31a34f721e89ea83
@@ -2949,7 +3078,7 @@ pdfTeX warning: pdflatex (file ./classqueue__list_a4dcb6bb4dfee45fb084dff647ded
 82f0_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
 <1.4> allowed
 
-<classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf, id=3464, 315.1
+<classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf, id=3737, 315.1
 775pt x 100.375pt>
 File: classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf Graphic fi
 le (type pdf)
@@ -2961,13 +3090,13 @@ raph.pdf used on input line 64.
 
 Underfull \vbox (badness 1320) has occurred while \output is active []
 
- [73]
+ [84]
 
 pdfTeX warning: pdflatex (file ./classqueue__list_ab2985d4f0192202336311fd89d83
 6573_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
 <1.4> allowed
 
-<classqueue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf, id=3478, 331.2
+<classqueue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf, id=3751, 331.2
 375pt x 100.375pt>
 File: classqueue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf Graphic fi
 le (type pdf)
@@ -2986,7 +3115,7 @@ Underfull \hbox (badness 10000) detected at line 131
 [][][]
  []
 
-[74 <./classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf> <./class
+[85 <./classqueue__list_a4dcb6bb4dfee45fb084dff647ded82f0_icgraph.pdf> <./class
 queue__list_ab2985d4f0192202336311fd89d836573_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classqueue__list_ab2985d4f0192202336311fd89d83
@@ -3013,20 +3142,20 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 pdfTeX warning: pdflatex (file ./classstack__array__coll__graph.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstack__array__coll__graph.pdf, id=3495, 184.69pt x 168.63pt>
+<classstack__array__coll__graph.pdf, id=3768, 184.69pt x 168.63pt>
 File: classstack__array__coll__graph.pdf Graphic file (type pdf)
 
 <use classstack__array__coll__graph.pdf>
 Package pdftex.def Info: classstack__array__coll__graph.pdf used on input line 
 19.
 (pdftex.def)             Requested size: 184.0pt x 168.00174pt.
- [75 <./classstack__array__coll__graph.pdf>]
+ [86 <./classstack__array__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstack__array_ac55f6fe35d44781d918884e4c46
 6d3ee_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf, id=3529, 323.
+<classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf, id=3802, 323.
 2075pt x 100.375pt>
 File: classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf Graphic f
 ile (type pdf)
@@ -3046,7 +3175,7 @@ pdfTeX warning: pdflatex (file ./classstack__array_a653b67eb0566e9481e3525dd2f2
 bc519_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classstack__array_a653b67eb0566e9481e3525dd2f2bc519_icgraph.pdf, id=3530, 572.
+<classstack__array_a653b67eb0566e9481e3525dd2f2bc519_icgraph.pdf, id=3803, 572.
 1375pt x 100.375pt>
 File: classstack__array_a653b67eb0566e9481e3525dd2f2bc519_icgraph.pdf Graphic f
 ile (type pdf)
@@ -3055,13 +3184,13 @@ ile (type pdf)
 Package pdftex.def Info: classstack__array_a653b67eb0566e9481e3525dd2f2bc519_ic
 graph.pdf used on input line 146.
 (pdftex.def)             Requested size: 350.0pt x 61.40324pt.
- [76 <./classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf>]
+ [87 <./classstack__array_ac55f6fe35d44781d918884e4c466d3ee_icgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstack__array_ad2ce52b1a99f72d383b429dff26
 2b9eb_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classstack__array_ad2ce52b1a99f72d383b429dff262b9eb_icgraph.pdf, id=3546, 548.
+<classstack__array_ad2ce52b1a99f72d383b429dff262b9eb_icgraph.pdf, id=3819, 548.
 0475pt x 100.375pt>
 File: classstack__array_ad2ce52b1a99f72d383b429dff262b9eb_icgraph.pdf Graphic f
 ile (type pdf)
@@ -3076,7 +3205,7 @@ pdfTeX warning: pdflatex (file ./classstack__array_ac0d13dd3989ad8dd6689795acc3
 352cf_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classstack__array_ac0d13dd3989ad8dd6689795acc3352cf_icgraph.pdf, id=3547, 590.
+<classstack__array_ac0d13dd3989ad8dd6689795acc3352cf_icgraph.pdf, id=3820, 590.
 205pt x 214.8025pt>
 File: classstack__array_ac0d13dd3989ad8dd6689795acc3352cf_icgraph.pdf Graphic f
 ile (type pdf)
@@ -3090,7 +3219,7 @@ Underfull \hbox (badness 10000) detected at line 210
 [][][]
  []
 
-[77 <./classstack__array_a653b67eb0566e9481e3525dd2f2bc519_icgraph.pdf> <./clas
+[88 <./classstack__array_a653b67eb0566e9481e3525dd2f2bc519_icgraph.pdf> <./clas
 sstack__array_ad2ce52b1a99f72d383b429dff262b9eb_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./classstack__array_ad2ce52b1a99f72d383b429dff26
@@ -3118,13 +3247,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-[78]
+[89]
 
 pdfTeX warning: pdflatex (file ./classstack__list_afb284368d44ea1f2ab231c8f662d
 eb5f_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
 <1.4> allowed
 
-<classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf, id=3588, 301.1
+<classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf, id=3861, 301.1
 25pt x 100.375pt>
 File: classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf Graphic fi
 le (type pdf)
@@ -3144,7 +3273,7 @@ pdfTeX warning: pdflatex (file ./classstack__list_a7c8c94a164f180c87fa1d7a8be14
 6a4c_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version 
 <1.4> allowed
 
-<classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf, id=3589, 301.1
+<classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf, id=3862, 301.1
 25pt x 100.375pt>
 File: classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf Graphic fi
 le (type pdf)
@@ -3156,7 +3285,7 @@ raph.pdf used on input line 119.
 
 Underfull \vbox (badness 4699) has occurred while \output is active []
 
- [79 <./classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf>]
+ [90 <./classstack__list_afb284368d44ea1f2ab231c8f662deb5f_icgraph.pdf>]
 Underfull \hbox (badness 10000) detected at line 131
 [][][]
  []
@@ -3165,7 +3294,7 @@ Underfull \hbox (badness 10000) detected at line 131
 
 pdfTeX warning: pdflatex (file ./classstos__lista__inherit__graph.pdf): PDF inc
 lusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstos__lista__inherit__graph.pdf, id=3602, 138.5175pt x 156.585pt>
+<classstos__lista__inherit__graph.pdf, id=3875, 138.5175pt x 156.585pt>
 File: classstos__lista__inherit__graph.pdf Graphic file (type pdf)
 
 <use classstos__lista__inherit__graph.pdf>
@@ -3176,25 +3305,25 @@ e 19.
 
 pdfTeX warning: pdflatex (file ./classstos__lista__coll__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstos__lista__coll__graph.pdf, id=3603, 247.92625pt x 236.885pt>
+<classstos__lista__coll__graph.pdf, id=3876, 247.92625pt x 236.885pt>
 File: classstos__lista__coll__graph.pdf Graphic file (type pdf)
 
 <use classstos__lista__coll__graph.pdf>
 Package pdftex.def Info: classstos__lista__coll__graph.pdf used on input line 2
 8.
 (pdftex.def)             Requested size: 247.0pt x 236.00246pt.
- [80 <./classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf> <./clas
+ [91 <./classstack__list_a7c8c94a164f180c87fa1d7a8be146a4c_icgraph.pdf> <./clas
 sstos__lista__inherit__graph.pdf
 
 pdfTeX warning: pdflatex (file ./classstos__lista__inherit__graph.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
->] [81 <./classstos__lista__coll__graph.pdf>]
+>] [92 <./classstos__lista__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstos__lista_a3b0ae65f88cd7760ca7e06f49b57
 d301_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <
 1.4> allowed
 
-<classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf, id=3639, 335.25
+<classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf, id=3912, 335.25
 25pt x 214.8025pt>
 File: classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf Graphic fil
 e (type pdf)
@@ -3208,7 +3337,7 @@ aph.pdf used on input line 96.
 
 pdfTeX warning: pdflatex (file ./classstos__tablica__inherit__graph.pdf): PDF i
 nclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstos__tablica__inherit__graph.pdf, id=3642, 148.555pt x 156.585pt>
+<classstos__tablica__inherit__graph.pdf, id=3915, 148.555pt x 156.585pt>
 File: classstos__tablica__inherit__graph.pdf Graphic file (type pdf)
 
 <use classstos__tablica__inherit__graph.pdf>
@@ -3219,25 +3348,25 @@ ine 19.
 
 pdfTeX warning: pdflatex (file ./classstos__tablica__coll__graph.pdf): PDF incl
 usion: found PDF version <1.5>, but at most version <1.4> allowed
-<classstos__tablica__coll__graph.pdf, id=3643, 256.96pt x 236.885pt>
+<classstos__tablica__coll__graph.pdf, id=3916, 256.96pt x 236.885pt>
 File: classstos__tablica__coll__graph.pdf Graphic file (type pdf)
 
 <use classstos__tablica__coll__graph.pdf>
 Package pdftex.def Info: classstos__tablica__coll__graph.pdf used on input line
  28.
 (pdftex.def)             Requested size: 256.0pt x 236.0169pt.
- [82 <./classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf> <./class
+ [93 <./classstos__lista_a3b0ae65f88cd7760ca7e06f49b57d301_cgraph.pdf> <./class
 stos__tablica__inherit__graph.pdf
 
 pdfTeX warning: pdflatex (file ./classstos__tablica__inherit__graph.pdf): PDF i
 nclusion: multiple pdfs with page group included in a single page
->] [83 <./classstos__tablica__coll__graph.pdf>]
+>] [94 <./classstos__tablica__coll__graph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classstos__tablica_a44ec89c9723d4034e46ae3b51b
 01faea_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version
  <1.4> allowed
 
-<classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf, id=3681, 347.
+<classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf, id=3953, 347.
 2975pt x 214.8025pt>
 File: classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf Graphic f
 ile (type pdf)
@@ -3251,7 +3380,7 @@ graph.pdf used on input line 101.
 
 pdfTeX warning: pdflatex (file ./classtab__aso__inherit__graph.pdf): PDF inclus
 ion: found PDF version <1.5>, but at most version <1.4> allowed
-<classtab__aso__inherit__graph.pdf, id=3684, 134.5025pt x 156.585pt>
+<classtab__aso__inherit__graph.pdf, id=3956, 134.5025pt x 156.585pt>
 File: classtab__aso__inherit__graph.pdf Graphic file (type pdf)
 
 <use classtab__aso__inherit__graph.pdf>
@@ -3261,17 +3390,17 @@ Package pdftex.def Info: classtab__aso__inherit__graph.pdf used on input line 1
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [84 <./classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf>]
+ [95 <./classstos__tablica_a44ec89c9723d4034e46ae3b51b01faea_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./classtab__aso__coll__graph.pdf): PDF inclusion
 : found PDF version <1.5>, but at most version <1.4> allowed
-<classtab__aso__coll__graph.pdf, id=3695, 253.94875pt x 248.93pt>
+<classtab__aso__coll__graph.pdf, id=3968, 253.94875pt x 248.93pt>
 File: classtab__aso__coll__graph.pdf Graphic file (type pdf)
 
 <use classtab__aso__coll__graph.pdf>
 Package pdftex.def Info: classtab__aso__coll__graph.pdf used on input line 28.
 (pdftex.def)             Requested size: 253.0pt x 248.01018pt.
- [85 <./classtab__aso__inherit__graph.pdf> <./classtab__aso__coll__graph.pdf
+ [96 <./classtab__aso__inherit__graph.pdf> <./classtab__aso__coll__graph.pdf
 
 pdfTeX warning: pdflatex (file ./classtab__aso__coll__graph.pdf): PDF inclusion
 : multiple pdfs with page group included in a single page
@@ -3281,7 +3410,7 @@ pdfTeX warning: pdflatex (file ./classtab__aso_a9aaf9c03908c617f51591b3fa32b4c2
 a_cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4
 > allowed
 
-<classtab__aso_a9aaf9c03908c617f51591b3fa32b4c2a_cgraph.pdf, id=3723, 329.23pt 
+<classtab__aso_a9aaf9c03908c617f51591b3fa32b4c2a_cgraph.pdf, id=3996, 329.23pt 
 x 188.705pt>
 File: classtab__aso_a9aaf9c03908c617f51591b3fa32b4c2a_cgraph.pdf Graphic file (
 type pdf)
@@ -3290,7 +3419,7 @@ Package pdftex.def Info: classtab__aso_a9aaf9c03908c617f51591b3fa32b4c2a_cgraph
 .pdf used on input line 105.
 (pdftex.def)             Requested size: 328.0pt x 188.00482pt.
 
-[86 <./classtab__aso_a9aaf9c03908c617f51591b3fa32b4c2a_cgraph.pdf>])
+[97 <./classtab__aso_a9aaf9c03908c617f51591b3fa32b4c2a_cgraph.pdf>])
 (./classtablica__asocjacyjna.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3308,16 +3437,16 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 3.
 
-[87]
+[98]
 LaTeX Font Info:    Font shape `T1/phv/m/n' will be
-(Font)              scaled to size 7.19995pt on input line 91.
- [88]
-Underfull \hbox (badness 10000) detected at line 112
+(Font)              scaled to size 7.19995pt on input line 93.
+ [99]
+Underfull \hbox (badness 10000) detected at line 114
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 126
+Underfull \hbox (badness 10000) detected at line 128
 [][][]
  []
 
@@ -3327,19 +3456,19 @@ pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_afab8557bd095ee1ba17
 56a5a195f8ca7_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most
  version <1.4> allowed
 
-<classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7_icgraph.pdf, id=37
-96, 632.3625pt x 138.5175pt>
+<classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7_icgraph.pdf, id=40
+71, 632.3625pt x 252.945pt>
 File: classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7_icgraph.pdf G
 raphic file (type pdf)
 
 <use classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7_icgraph.pdf>
 Package pdftex.def Info: classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195
-f8ca7_icgraph.pdf used on input line 155.
-(pdftex.def)             Requested size: 350.0pt x 76.66675pt.
+f8ca7_icgraph.pdf used on input line 157.
+(pdftex.def)             Requested size: 350.0pt x 140.00017pt.
 
-[89 <./classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7_icgraph.pdf>
-]
-Underfull \hbox (badness 10000) detected at line 203
+[100 <./classtablica__asocjacyjna_afab8557bd095ee1ba1756a5a195f8ca7_icgraph.pdf
+>]
+Underfull \hbox (badness 10000) detected at line 205
 [][][]
  []
 
@@ -3349,39 +3478,49 @@ pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_a45b52661ed6e20e64a6
 86fb55d9aa2f9_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most
  version <1.4> allowed
 
-<classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9_icgraph.pdf, id=38
-08, 596.2275pt x 176.66pt>
+<classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9_icgraph.pdf, id=40
+82, 596.2275pt x 252.945pt>
 File: classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9_icgraph.pdf G
 raphic file (type pdf)
 
 <use classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9_icgraph.pdf>
 Package pdftex.def Info: classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9
-aa2f9_icgraph.pdf used on input line 216.
-(pdftex.def)             Requested size: 350.0pt x 103.70284pt.
+aa2f9_icgraph.pdf used on input line 218.
+(pdftex.def)             Requested size: 350.0pt x 148.48363pt.
 
 
 pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_a2ffe030234f0618af8a
 24020e909dda5_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most
  version <1.4> allowed
 
-<classtablica__asocjacyjna_a2ffe030234f0618af8a24020e909dda5_icgraph.pdf, id=38
-09, 596.2275pt x 176.66pt>
+<classtablica__asocjacyjna_a2ffe030234f0618af8a24020e909dda5_icgraph.pdf, id=40
+83, 596.2275pt x 252.945pt>
 File: classtablica__asocjacyjna_a2ffe030234f0618af8a24020e909dda5_icgraph.pdf G
 raphic file (type pdf)
 
 <use classtablica__asocjacyjna_a2ffe030234f0618af8a24020e909dda5_icgraph.pdf>
 Package pdftex.def Info: classtablica__asocjacyjna_a2ffe030234f0618af8a24020e90
-9dda5_icgraph.pdf used on input line 250.
-(pdftex.def)             Requested size: 350.0pt x 103.70284pt.
+9dda5_icgraph.pdf used on input line 252.
+(pdftex.def)             Requested size: 350.0pt x 148.48363pt.
 
-[90 <./classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9_icgraph.pdf>
- <./classtablica__asocjacyjna_a2ffe030234f0618af8a24020e909dda5_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_a2ffe030234f0618af8a
-24020e909dda5_icgraph.pdf): PDF inclusion: multiple pdfs with page group includ
-ed in a single page
+[101 <./classtablica__asocjacyjna_a45b52661ed6e20e64a686fb55d9aa2f9_icgraph.pdf
 >]
-Underfull \hbox (badness 10000) detected at line 286
+
+pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220
+672a246a7d8ad_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most
+ version <1.4> allowed
+
+<classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220672a246a7d8ad_icgraph.pdf, id=40
+95, 399.4925pt x 138.5175pt>
+File: classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220672a246a7d8ad_icgraph.pdf G
+raphic file (type pdf)
+
+<use classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220672a246a7d8ad_icgraph.pdf>
+Package pdftex.def Info: classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220672a246a
+7d8ad_icgraph.pdf used on input line 278.
+(pdftex.def)             Requested size: 350.0pt x 121.36313pt.
+
+Underfull \hbox (badness 10000) detected at line 299
 [][][]
  []
 
@@ -3391,22 +3530,68 @@ pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_a52a9625a6eaed5c952b
 db28a62b98de9_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most
  version <1.4> allowed
 
-<classtablica__asocjacyjna_a52a9625a6eaed5c952bdb28a62b98de9_icgraph.pdf, id=38
-25, 620.3175pt x 100.375pt>
+<classtablica__asocjacyjna_a52a9625a6eaed5c952bdb28a62b98de9_icgraph.pdf, id=40
+96, 620.3175pt x 176.66pt>
 File: classtablica__asocjacyjna_a52a9625a6eaed5c952bdb28a62b98de9_icgraph.pdf G
 raphic file (type pdf)
 
 <use classtablica__asocjacyjna_a52a9625a6eaed5c952bdb28a62b98de9_icgraph.pdf>
 Package pdftex.def Info: classtablica__asocjacyjna_a52a9625a6eaed5c952bdb28a62b
-98de9_icgraph.pdf used on input line 299.
-(pdftex.def)             Requested size: 350.0pt x 56.63385pt.
+98de9_icgraph.pdf used on input line 312.
+(pdftex.def)             Requested size: 350.0pt x 99.6756pt.
 
-Underfull \hbox (badness 10000) detected at line 320
+Underfull \vbox (badness 1184) has occurred while \output is active []
+
+ [102 <./classtablica__asocjacyjna_a2ffe030234f0618af8a24020e909dda5_icgraph.pd
+f> <./classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220672a246a7d8ad_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_ae0d1ac59cdc7a7dd220
+672a246a7d8ad_icgraph.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+>]
+Underfull \hbox (badness 10000) detected at line 333
 [][][]
  []
 
 
-Underfull \hbox (badness 10000) detected at line 378
+
+pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_ae3dd4ef48ffaacb3d6e
+7985241e4fcdb_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most
+ version <1.4> allowed
+
+<classtablica__asocjacyjna_ae3dd4ef48ffaacb3d6e7985241e4fcdb_icgraph.pdf, id=41
+12, 399.4925pt x 138.5175pt>
+File: classtablica__asocjacyjna_ae3dd4ef48ffaacb3d6e7985241e4fcdb_icgraph.pdf G
+raphic file (type pdf)
+
+<use classtablica__asocjacyjna_ae3dd4ef48ffaacb3d6e7985241e4fcdb_icgraph.pdf>
+Package pdftex.def Info: classtablica__asocjacyjna_ae3dd4ef48ffaacb3d6e7985241e
+4fcdb_icgraph.pdf used on input line 346.
+(pdftex.def)             Requested size: 350.0pt x 121.36313pt.
+
+
+pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_aad385ad010e6f0c5152
+b9b2cc187e15b_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most
+ version <1.4> allowed
+
+<classtablica__asocjacyjna_aad385ad010e6f0c5152b9b2cc187e15b_icgraph.pdf, id=41
+13, 431.6125pt x 233.87375pt>
+File: classtablica__asocjacyjna_aad385ad010e6f0c5152b9b2cc187e15b_icgraph.pdf G
+raphic file (type pdf)
+
+<use classtablica__asocjacyjna_aad385ad010e6f0c5152b9b2cc187e15b_icgraph.pdf>
+Package pdftex.def Info: classtablica__asocjacyjna_aad385ad010e6f0c5152b9b2cc18
+7e15b_icgraph.pdf used on input line 390.
+(pdftex.def)             Requested size: 350.0pt x 189.65793pt.
+
+[103 <./classtablica__asocjacyjna_a52a9625a6eaed5c952bdb28a62b98de9_icgraph.pdf
+> <./classtablica__asocjacyjna_ae3dd4ef48ffaacb3d6e7985241e4fcdb_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_ae3dd4ef48ffaacb3d6e
+7985241e4fcdb_icgraph.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+>]
+Underfull \hbox (badness 10000) detected at line 432
 [][][]
  []
 
@@ -3416,19 +3601,24 @@ pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_a103aa115af24abf1d08
 c56e14c87b249_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most
  version <1.4> allowed
 
-<classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c87b249_icgraph.pdf, id=38
-26, 596.2275pt x 110.4125pt>
+<classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c87b249_icgraph.pdf, id=41
+29, 596.2275pt x 176.66pt>
 File: classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c87b249_icgraph.pdf G
 raphic file (type pdf)
 
 <use classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c87b249_icgraph.pdf>
 Package pdftex.def Info: classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c8
-7b249_icgraph.pdf used on input line 391.
-(pdftex.def)             Requested size: 350.0pt x 64.81427pt.
+7b249_icgraph.pdf used on input line 445.
+(pdftex.def)             Requested size: 350.0pt x 103.70284pt.
 
-[91 <./classtablica__asocjacyjna_a52a9625a6eaed5c952bdb28a62b98de9_icgraph.pdf>
-]
-Underfull \hbox (badness 10000) detected at line 409
+[104 <./classtablica__asocjacyjna_aad385ad010e6f0c5152b9b2cc187e15b_icgraph.pdf
+> <./classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c87b249_icgraph.pdf
+
+pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_a103aa115af24abf1d08
+c56e14c87b249_icgraph.pdf): PDF inclusion: multiple pdfs with page group includ
+ed in a single page
+>]
+Underfull \hbox (badness 10000) detected at line 463
 [][][]
  []
 
@@ -3438,22 +3628,17 @@ pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_a70a184c5358e4765521
 1e68925c2e12e_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most
  version <1.4> allowed
 
-<classtablica__asocjacyjna_a70a184c5358e47655211e68925c2e12e_icgraph.pdf, id=38
-37, 311.1625pt x 110.4125pt>
+<classtablica__asocjacyjna_a70a184c5358e47655211e68925c2e12e_icgraph.pdf, id=41
+45, 311.1625pt x 110.4125pt>
 File: classtablica__asocjacyjna_a70a184c5358e47655211e68925c2e12e_icgraph.pdf G
 raphic file (type pdf)
 
 <use classtablica__asocjacyjna_a70a184c5358e47655211e68925c2e12e_icgraph.pdf>
 Package pdftex.def Info: classtablica__asocjacyjna_a70a184c5358e47655211e68925c
-2e12e_icgraph.pdf used on input line 422.
+2e12e_icgraph.pdf used on input line 476.
 (pdftex.def)             Requested size: 310.0pt x 110.00113pt.
 
-[92 <./classtablica__asocjacyjna_a103aa115af24abf1d08c56e14c87b249_icgraph.pdf>
- <./classtablica__asocjacyjna_a70a184c5358e47655211e68925c2e12e_icgraph.pdf
-
-pdfTeX warning: pdflatex (file ./classtablica__asocjacyjna_a70a184c5358e4765521
-1e68925c2e12e_icgraph.pdf): PDF inclusion: multiple pdfs with page group includ
-ed in a single page
+[105 <./classtablica__asocjacyjna_a70a184c5358e47655211e68925c2e12e_icgraph.pdf
 >]) (./classwezel.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
@@ -3475,13 +3660,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 
 pdfTeX warning: pdflatex (file ./classwezel__coll__graph.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<classwezel__coll__graph.pdf, id=3854, 204.765pt x 180.675pt>
+<classwezel__coll__graph.pdf, id=4157, 204.765pt x 180.675pt>
 File: classwezel__coll__graph.pdf Graphic file (type pdf)
 
 <use classwezel__coll__graph.pdf>
 Package pdftex.def Info: classwezel__coll__graph.pdf used on input line 19.
 (pdftex.def)             Requested size: 204.0pt x 180.01013pt.
- [93 <./classwezel__coll__graph.pdf>] [94]
+ [106 <./classwezel__coll__graph.pdf>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 113.
@@ -3494,13 +3679,13 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 113.
 
-
+[107]
 
 pdfTeX warning: pdflatex (file ./classwezel_ae0b0c58bee96c0ca205549a69d7197a7_i
 cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> 
 allowed
 
-<classwezel_ae0b0c58bee96c0ca205549a69d7197a7_icgraph.pdf, id=3906, 329.23pt x 
+<classwezel_ae0b0c58bee96c0ca205549a69d7197a7_icgraph.pdf, id=4210, 329.23pt x 
 123.46124pt>
 File: classwezel_ae0b0c58bee96c0ca205549a69d7197a7_icgraph.pdf Graphic file (ty
 pe pdf)
@@ -3519,7 +3704,7 @@ pdfTeX warning: pdflatex (file ./classwezel_a2d01a9345190a1e1a5988802465da07e_i
 cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> 
 allowed
 
-<classwezel_a2d01a9345190a1e1a5988802465da07e_icgraph.pdf, id=3907, 347.2975pt 
+<classwezel_a2d01a9345190a1e1a5988802465da07e_icgraph.pdf, id=4211, 347.2975pt 
 x 176.66pt>
 File: classwezel_a2d01a9345190a1e1a5988802465da07e_icgraph.pdf Graphic file (ty
 pe pdf)
@@ -3528,20 +3713,23 @@ Package pdftex.def Info: classwezel_a2d01a9345190a1e1a5988802465da07e_icgraph.p
 df used on input line 171.
 (pdftex.def)             Requested size: 346.0pt x 176.00722pt.
 
-Underfull \vbox (badness 4242) has occurred while \output is active []
-
- [95 <./classwezel_ae0b0c58bee96c0ca205549a69d7197a7_icgraph.pdf>]
 Underfull \hbox (badness 10000) detected at line 183
 [][][]
  []
 
+[108 <./classwezel_ae0b0c58bee96c0ca205549a69d7197a7_icgraph.pdf> <./classwezel
+_a2d01a9345190a1e1a5988802465da07e_icgraph.pdf
 
+pdfTeX warning: pdflatex (file ./classwezel_a2d01a9345190a1e1a5988802465da07e_i
+cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a single 
+page
+>]
 
 pdfTeX warning: pdflatex (file ./classwezel_a4c9fdab031ecfd4c4a99e78752930d13_i
 cgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> 
 allowed
 
-<classwezel_a4c9fdab031ecfd4c4a99e78752930d13_icgraph.pdf, id=3919, 331.2375pt 
+<classwezel_a4c9fdab031ecfd4c4a99e78752930d13_icgraph.pdf, id=4227, 331.2375pt 
 x 118.4425pt>
 File: classwezel_a4c9fdab031ecfd4c4a99e78752930d13_icgraph.pdf Graphic file (ty
 pe pdf)
@@ -3550,19 +3738,16 @@ Package pdftex.def Info: classwezel_a4c9fdab031ecfd4c4a99e78752930d13_icgraph.p
 df used on input line 207.
 (pdftex.def)             Requested size: 330.0pt x 118.00482pt.
 
-[96 <./classwezel_a2d01a9345190a1e1a5988802465da07e_icgraph.pdf> <./classwezel_
-a4c9fdab031ecfd4c4a99e78752930d13_icgraph.pdf
+[109 <./classwezel_a4c9fdab031ecfd4c4a99e78752930d13_icgraph.pdf>])
+(./classwierzcholek.tex [110]) [111] [112
 
-pdfTeX warning: pdflatex (file ./classwezel_a4c9fdab031ecfd4c4a99e78752930d13_i
-cgraph.pdf): PDF inclusion: multiple pdfs with page group included in a single 
-page
->]) (./classwierzcholek.tex [97]) [98]
+]
 Rozdzia\PlPrIeC {\l } 5.
 (./algorytm_8cpp.tex
 
 pdfTeX warning: pdflatex (file ./algorytm_8cpp__incl.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<algorytm_8cpp__incl.pdf, id=3957, 874.26625pt x 381.425pt>
+<algorytm_8cpp__incl.pdf, id=4264, 874.26625pt x 381.425pt>
 File: algorytm_8cpp__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8cpp__incl.pdf>
@@ -3572,28 +3757,26 @@ Package pdftex.def Info: algorytm_8cpp__incl.pdf used on input line 16.
 
 pdfTeX warning: pdflatex (file ./algorytm_8hh__incl.pdf): PDF inclusion: found 
 PDF version <1.5>, but at most version <1.4> allowed
-<algorytm_8hh__incl.pdf, id=3960, 938.50626pt x 325.215pt>
+<algorytm_8hh__incl.pdf, id=4267, 991.705pt x 325.215pt>
 File: algorytm_8hh__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8hh__incl.pdf>
 Package pdftex.def Info: algorytm_8hh__incl.pdf used on input line 26.
-(pdftex.def)             Requested size: 350.0pt x 121.28044pt.
+(pdftex.def)             Requested size: 350.0pt x 114.77477pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [99
-
- <./algorytm_8cpp__incl.pdf>]
+ [113 <./algorytm_8cpp__incl.pdf>]
 
 pdfTeX warning: pdflatex (file ./algorytm_8hh__dep__incl.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<algorytm_8hh__dep__incl.pdf, id=3972, 226.8475pt x 156.585pt>
+<algorytm_8hh__dep__incl.pdf, id=4280, 226.8475pt x 156.585pt>
 File: algorytm_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use algorytm_8hh__dep__incl.pdf>
 Package pdftex.def Info: algorytm_8hh__dep__incl.pdf used on input line 33.
 (pdftex.def)             Requested size: 226.0pt x 156.00162pt.
- [100 <./algorytm_8hh__incl.pdf> <./algorytm_8hh__dep__incl.pdf
+ [114 <./algorytm_8hh__incl.pdf> <./algorytm_8hh__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./algorytm_8hh__dep__incl.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
@@ -3601,7 +3784,7 @@ ultiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./drzewo_8hh__incl.pdf): PDF inclusion: found PD
 F version <1.5>, but at most version <1.4> allowed
-<drzewo_8hh__incl.pdf, id=4003, 247.92625pt x 212.795pt>
+<drzewo_8hh__incl.pdf, id=4312, 247.92625pt x 212.795pt>
 File: drzewo_8hh__incl.pdf Graphic file (type pdf)
 
 <use drzewo_8hh__incl.pdf>
@@ -3611,13 +3794,13 @@ Package pdftex.def Info: drzewo_8hh__incl.pdf used on input line 11.
 
 pdfTeX warning: pdflatex (file ./drzewo_8hh__dep__incl.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<drzewo_8hh__dep__incl.pdf, id=4004, 226.8475pt x 212.795pt>
+<drzewo_8hh__dep__incl.pdf, id=4313, 226.8475pt x 212.795pt>
 File: drzewo_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use drzewo_8hh__dep__incl.pdf>
 Package pdftex.def Info: drzewo_8hh__dep__incl.pdf used on input line 18.
 (pdftex.def)             Requested size: 226.0pt x 212.0022pt.
- [101 <./drzewo_8hh__incl.pdf>]
+ [115 <./drzewo_8hh__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 54
 [][][]
  []
@@ -3632,60 +3815,60 @@ LaTeX Font Info:    Font shape `T1/phv/b/sl' will be
 
 pdfTeX warning: pdflatex (file ./graf_8cpp__incl.pdf): PDF inclusion: found PDF
  version <1.5>, but at most version <1.4> allowed
-<graf_8cpp__incl.pdf, id=4024, 487.8225pt x 325.215pt>
+<graf_8cpp__incl.pdf, id=4332, 565.11125pt x 325.215pt>
 File: graf_8cpp__incl.pdf Graphic file (type pdf)
 
 <use graf_8cpp__incl.pdf>
-Package pdftex.def Info: graf_8cpp__incl.pdf used on input line 11.
-(pdftex.def)             Requested size: 350.0pt x 233.33583pt.
- [102 <./drzewo_8hh__dep__incl.pdf>]) (./graf_8hh.tex
+Package pdftex.def Info: graf_8cpp__incl.pdf used on input line 13.
+(pdftex.def)             Requested size: 350.0pt x 201.42279pt.
+ [116 <./drzewo_8hh__dep__incl.pdf>]) (./graf_8hh.tex
 
 pdfTeX warning: pdflatex (file ./graf_8hh__incl.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<graf_8hh__incl.pdf, id=4044, 454.69875pt x 269.005pt>
+<graf_8hh__incl.pdf, id=4352, 524.96124pt x 269.005pt>
 File: graf_8hh__incl.pdf Graphic file (type pdf)
 
 <use graf_8hh__incl.pdf>
 Package pdftex.def Info: graf_8hh__incl.pdf used on input line 13.
-(pdftex.def)             Requested size: 350.0pt x 207.0647pt.
+(pdftex.def)             Requested size: 350.0pt x 179.354pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [103 <./graf_8cpp__incl.pdf>]
+ [117 <./graf_8cpp__incl.pdf>]
 
 pdfTeX warning: pdflatex (file ./graf_8hh__dep__incl.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<graf_8hh__dep__incl.pdf, id=4057, 280.04625pt x 212.795pt>
+<graf_8hh__dep__incl.pdf, id=4365, 280.04625pt x 212.795pt>
 File: graf_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use graf_8hh__dep__incl.pdf>
 Package pdftex.def Info: graf_8hh__dep__incl.pdf used on input line 20.
 (pdftex.def)             Requested size: 279.0pt x 212.00868pt.
-) (./hashtab_8hh.tex [104 <./graf_8hh__incl.pdf> <./graf_8hh__dep__incl.pdf
-
-pdfTeX warning: pdflatex (file ./graf_8hh__dep__incl.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
->]
+) (./hashtab_8hh.tex
 
 pdfTeX warning: pdflatex (file ./hashtab_8hh__incl.pdf): PDF inclusion: found P
 DF version <1.5>, but at most version <1.4> allowed
-<hashtab_8hh__incl.pdf, id=4078, 144.54pt x 156.585pt>
+<hashtab_8hh__incl.pdf, id=4369, 144.54pt x 156.585pt>
 File: hashtab_8hh__incl.pdf Graphic file (type pdf)
 
 <use hashtab_8hh__incl.pdf>
 Package pdftex.def Info: hashtab_8hh__incl.pdf used on input line 9.
 (pdftex.def)             Requested size: 144.0pt x 156.00879pt.
+ [118 <./graf_8hh__incl.pdf> <./graf_8hh__dep__incl.pdf
 
+pdfTeX warning: pdflatex (file ./graf_8hh__dep__incl.pdf): PDF inclusion: multi
+ple pdfs with page group included in a single page
+>]
 
 pdfTeX warning: pdflatex (file ./hashtab_8hh__dep__incl.pdf): PDF inclusion: fo
 und PDF version <1.5>, but at most version <1.4> allowed
-<hashtab_8hh__dep__incl.pdf, id=4079, 226.8475pt x 212.795pt>
+<hashtab_8hh__dep__incl.pdf, id=4387, 226.8475pt x 212.795pt>
 File: hashtab_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use hashtab_8hh__dep__incl.pdf>
 Package pdftex.def Info: hashtab_8hh__dep__incl.pdf used on input line 16.
 (pdftex.def)             Requested size: 226.0pt x 212.0022pt.
-) (./kolejka_8hh.tex [105 <./hashtab_8hh__incl.pdf> <./hashtab_8hh__dep__incl.p
+) (./kolejka_8hh.tex [119 <./hashtab_8hh__incl.pdf> <./hashtab_8hh__dep__incl.p
 df
 
 pdfTeX warning: pdflatex (file ./hashtab_8hh__dep__incl.pdf): PDF inclusion: mu
@@ -3694,7 +3877,7 @@ ltiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./kolejka_8hh__incl.pdf): PDF inclusion: found P
 DF version <1.5>, but at most version <1.4> allowed
-<kolejka_8hh__incl.pdf, id=4101, 161.60374pt x 212.795pt>
+<kolejka_8hh__incl.pdf, id=4410, 161.60374pt x 212.795pt>
 File: kolejka_8hh__incl.pdf Graphic file (type pdf)
 
 <use kolejka_8hh__incl.pdf>
@@ -3704,13 +3887,13 @@ Package pdftex.def Info: kolejka_8hh__incl.pdf used on input line 15.
 
 pdfTeX warning: pdflatex (file ./kolejka_8hh__dep__incl.pdf): PDF inclusion: fo
 und PDF version <1.5>, but at most version <1.4> allowed
-<kolejka_8hh__dep__incl.pdf, id=4102, 280.04625pt x 269.005pt>
+<kolejka_8hh__dep__incl.pdf, id=4411, 280.04625pt x 269.005pt>
 File: kolejka_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use kolejka_8hh__dep__incl.pdf>
 Package pdftex.def Info: kolejka_8hh__dep__incl.pdf used on input line 22.
 (pdftex.def)             Requested size: 279.0pt x 268.01099pt.
- [106 <./kolejka_8hh__incl.pdf> <./kolejka_8hh__dep__incl.pdf
+ [120 <./kolejka_8hh__incl.pdf> <./kolejka_8hh__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./kolejka_8hh__dep__incl.pdf): PDF inclusion: mu
 ltiple pdfs with page group included in a single page
@@ -3718,80 +3901,81 @@ ltiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./main_8cpp__incl.pdf): PDF inclusion: found PDF
  version <1.5>, but at most version <1.4> allowed
-<main_8cpp__incl.pdf, id=4122, 1000.73875pt x 381.425pt>
+<main_8cpp__incl.pdf, id=4431, 1104.125pt x 381.425pt>
 File: main_8cpp__incl.pdf Graphic file (type pdf)
 
 <use main_8cpp__incl.pdf>
 Package pdftex.def Info: main_8cpp__incl.pdf used on input line 24.
-(pdftex.def)             Requested size: 350.0pt x 133.4018pt.
- [107 <./main_8cpp__incl.pdf>]
+(pdftex.def)             Requested size: 350.0pt x 120.91193pt.
+ [121 <./main_8cpp__incl.pdf>]
 
 pdfTeX warning: pdflatex (file ./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cg
 raph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1.4> al
 lowed
 
-<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=4142, 574.145pt x 2
-06.7725pt>
+<main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf, id=4450, 598.235pt x 5
+21.95pt>
 File: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf Graphic file (type
  pdf)
  <use main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>
 Package pdftex.def Info: main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf
  used on input line 59.
-(pdftex.def)             Requested size: 350.0pt x 126.05215pt.
+(pdftex.def)             Requested size: 350.0pt x 305.37535pt.
 )
 (./operacje_8cpp.tex
 
 pdfTeX warning: pdflatex (file ./operacje_8cpp__incl.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<operacje_8cpp__incl.pdf, id=4143, 197.73875pt x 212.795pt>
+<operacje_8cpp__incl.pdf, id=4451, 197.73875pt x 212.795pt>
 File: operacje_8cpp__incl.pdf Graphic file (type pdf)
 
 <use operacje_8cpp__incl.pdf>
 Package pdftex.def Info: operacje_8cpp__incl.pdf used on input line 9.
 (pdftex.def)             Requested size: 197.0pt x 212.0022pt.
 ) (./operacje_8hh.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [122 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf>]
 
 pdfTeX warning: pdflatex (file ./operacje_8hh__incl.pdf): PDF inclusion: found 
 PDF version <1.5>, but at most version <1.4> allowed
-<operacje_8hh__incl.pdf, id=4144, 197.73875pt x 156.585pt>
+<operacje_8hh__incl.pdf, id=4462, 197.73875pt x 156.585pt>
 File: operacje_8hh__incl.pdf Graphic file (type pdf)
 
 <use operacje_8hh__incl.pdf>
 Package pdftex.def Info: operacje_8hh__incl.pdf used on input line 10.
 (pdftex.def)             Requested size: 197.0pt x 156.00162pt.
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [108 <./main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.pdf> <./operacje_8c
-pp__incl.pdf
-
-pdfTeX warning: pdflatex (file ./operacje_8cpp__incl.pdf): PDF inclusion: multi
-ple pdfs with page group included in a single page
->]
 
 pdfTeX warning: pdflatex (file ./operacje_8hh__dep__incl.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<operacje_8hh__dep__incl.pdf, id=4160, 300.12125pt x 212.795pt>
+<operacje_8hh__dep__incl.pdf, id=4463, 300.12125pt x 212.795pt>
 File: operacje_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use operacje_8hh__dep__incl.pdf>
 Package pdftex.def Info: operacje_8hh__dep__incl.pdf used on input line 17.
 (pdftex.def)             Requested size: 299.0pt x 212.01843pt.
-) (./statystyki_8cpp.tex
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [123 <./operacje_8cpp__incl.pdf> <./operacje_8hh__incl.pdf
+
+pdfTeX warning: pdflatex (file ./operacje_8hh__incl.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+>]) (./simplex_8hh.tex) (./statystyki_8cpp.tex
 
 pdfTeX warning: pdflatex (file ./statystyki_8cpp__incl.pdf): PDF inclusion: fou
 nd PDF version <1.5>, but at most version <1.4> allowed
-<statystyki_8cpp__incl.pdf, id=4163, 257.96375pt x 212.795pt>
+<statystyki_8cpp__incl.pdf, id=4481, 257.96375pt x 212.795pt>
 File: statystyki_8cpp__incl.pdf Graphic file (type pdf)
 
 <use statystyki_8cpp__incl.pdf>
 Package pdftex.def Info: statystyki_8cpp__incl.pdf used on input line 9.
 (pdftex.def)             Requested size: 257.0pt x 212.01843pt.
- [109 <./operacje_8hh__incl.pdf> <./operacje_8hh__dep__incl.pdf
 
-pdfTeX warning: pdflatex (file ./operacje_8hh__dep__incl.pdf): PDF inclusion: m
-ultiple pdfs with page group included in a single page
->]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [124 <./operacje_8hh__dep__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 44
 [][][]
  []
@@ -3802,7 +3986,7 @@ pdfTeX warning: pdflatex (file ./statystyki_8cpp_a6648f32fbaacb03204231efea979c
 bf8_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <
 1.4> allowed
 
-<statystyki_8cpp_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf, id=4185, 574.14
+<statystyki_8cpp_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf, id=4498, 574.14
 5pt x 100.375pt>
 File: statystyki_8cpp_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf Graphic fil
 e (type pdf)
@@ -3811,7 +3995,7 @@ e (type pdf)
 Package pdftex.def Info: statystyki_8cpp_a6648f32fbaacb03204231efea979cbf8_icgr
 aph.pdf used on input line 57.
 (pdftex.def)             Requested size: 350.0pt x 61.19035pt.
- [110 <./statystyki_8cpp__incl.pdf> <./statystyki_8cpp_a6648f32fbaacb03204231ef
+ [125 <./statystyki_8cpp__incl.pdf> <./statystyki_8cpp_a6648f32fbaacb03204231ef
 ea979cbf8_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./statystyki_8cpp_a6648f32fbaacb03204231efea979c
@@ -3828,7 +4012,7 @@ pdfTeX warning: pdflatex (file ./statystyki_8cpp_a978b972ebd4a834c47800d668ba8e
 cf2_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <
 1.4> allowed
 
-<statystyki_8cpp_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf, id=4204, 497.86
+<statystyki_8cpp_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf, id=4518, 497.86
 pt x 100.375pt>
 File: statystyki_8cpp_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf Graphic fil
 e (type pdf)
@@ -3842,7 +4026,7 @@ aph.pdf used on input line 94.
 
 pdfTeX warning: pdflatex (file ./statystyki_8hh__incl.pdf): PDF inclusion: foun
 d PDF version <1.5>, but at most version <1.4> allowed
-<statystyki_8hh__incl.pdf, id=4205, 257.96375pt x 156.585pt>
+<statystyki_8hh__incl.pdf, id=4519, 257.96375pt x 156.585pt>
 File: statystyki_8hh__incl.pdf Graphic file (type pdf)
 
 <use statystyki_8hh__incl.pdf>
@@ -3852,7 +4036,7 @@ Package pdftex.def Info: statystyki_8hh__incl.pdf used on input line 16.
 
 pdfTeX warning: pdflatex (file ./statystyki_8hh__dep__incl.pdf): PDF inclusion:
  found PDF version <1.5>, but at most version <1.4> allowed
-<statystyki_8hh__dep__incl.pdf, id=4206, 324.21124pt x 156.585pt>
+<statystyki_8hh__dep__incl.pdf, id=4520, 324.21124pt x 156.585pt>
 File: statystyki_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use statystyki_8hh__dep__incl.pdf>
@@ -3861,7 +4045,7 @@ Package pdftex.def Info: statystyki_8hh__dep__incl.pdf used on input line 23.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [111 <./statystyki_8cpp_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf> <./stat
+ [126 <./statystyki_8cpp_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf> <./stat
 ystyki_8hh__incl.pdf
 
 pdfTeX warning: pdflatex (file ./statystyki_8hh__incl.pdf): PDF inclusion: mult
@@ -3877,7 +4061,7 @@ pdfTeX warning: pdflatex (file ./statystyki_8hh_a6648f32fbaacb03204231efea979cb
 f8_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1
 .4> allowed
 
-<statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf, id=4226, 574.145
+<statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf, id=4540, 574.145
 pt x 100.375pt>
 File: statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf Graphic file
  (type pdf)
@@ -3886,13 +4070,13 @@ File: statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgraph.pdf Graphic file
 Package pdftex.def Info: statystyki_8hh_a6648f32fbaacb03204231efea979cbf8_icgra
 ph.pdf used on input line 78.
 (pdftex.def)             Requested size: 350.0pt x 61.19035pt.
- [112 <./statystyki_8hh__dep__incl.pdf> <./statystyki_8hh_a6648f32fbaacb0320423
+ [127 <./statystyki_8hh__dep__incl.pdf> <./statystyki_8hh_a6648f32fbaacb0320423
 1efea979cbf8_icgraph.pdf
 
 pdfTeX warning: pdflatex (file ./statystyki_8hh_a6648f32fbaacb03204231efea979cb
 f8_icgraph.pdf): PDF inclusion: multiple pdfs with page group included in a sin
 gle page
->] [113]
+>] [128]
 Underfull \hbox (badness 10000) detected at line 102
 [][][]
  []
@@ -3903,7 +4087,7 @@ pdfTeX warning: pdflatex (file ./statystyki_8hh_a978b972ebd4a834c47800d668ba8ec
 f2_icgraph.pdf): PDF inclusion: found PDF version <1.5>, but at most version <1
 .4> allowed
 
-<statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf, id=4251, 497.86p
+<statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf, id=4564, 497.86p
 t x 100.375pt>
 File: statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf Graphic file
  (type pdf)
@@ -3917,7 +4101,7 @@ ph.pdf used on input line 115.
 
 pdfTeX warning: pdflatex (file ./stos_8hh__incl.pdf): PDF inclusion: found PDF 
 version <1.5>, but at most version <1.4> allowed
-<stos_8hh__incl.pdf, id=4252, 128.48pt x 156.585pt>
+<stos_8hh__incl.pdf, id=4565, 128.48pt x 156.585pt>
 File: stos_8hh__incl.pdf Graphic file (type pdf)
  <use stos_8hh__incl.pdf>
 Package pdftex.def Info: stos_8hh__incl.pdf used on input line 14.
@@ -3926,7 +4110,7 @@ Package pdftex.def Info: stos_8hh__incl.pdf used on input line 14.
 
 pdfTeX warning: pdflatex (file ./stos_8hh__dep__incl.pdf): PDF inclusion: found
  PDF version <1.5>, but at most version <1.4> allowed
-<stos_8hh__dep__incl.pdf, id=4253, 281.05pt x 325.215pt>
+<stos_8hh__dep__incl.pdf, id=4566, 281.05pt x 325.215pt>
 File: stos_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use stos_8hh__dep__incl.pdf>
@@ -3935,12 +4119,12 @@ Package pdftex.def Info: stos_8hh__dep__incl.pdf used on input line 21.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [114 <./statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf> <./stos_
+ [129 <./statystyki_8hh_a978b972ebd4a834c47800d668ba8ecf2_icgraph.pdf> <./stos_
 8hh__incl.pdf
 
 pdfTeX warning: pdflatex (file ./stos_8hh__incl.pdf): PDF inclusion: multiple p
 dfs with page group included in a single page
->] [115 <./stos_8hh__dep__incl.pdf>]
+>] [130 <./stos_8hh__dep__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 60
 [][][]
  []
@@ -3949,7 +4133,7 @@ Underfull \hbox (badness 10000) detected at line 60
 
 pdfTeX warning: pdflatex (file ./str__operacje_8cpp__incl.pdf): PDF inclusion: 
 found PDF version <1.5>, but at most version <1.4> allowed
-<str__operacje_8cpp__incl.pdf, id=4292, 306.14375pt x 212.795pt>
+<str__operacje_8cpp__incl.pdf, id=4605, 306.14375pt x 212.795pt>
 File: str__operacje_8cpp__incl.pdf Graphic file (type pdf)
 
 <use str__operacje_8cpp__incl.pdf>
@@ -3964,7 +4148,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `math shift' on input line 37.
 
-[116 <./str__operacje_8cpp__incl.pdf>]
+[131 <./str__operacje_8cpp__incl.pdf>]
 Underfull \hbox (badness 10000) detected at line 42
 [][][]
  []
@@ -4017,7 +4201,7 @@ Underfull \hbox (badness 10000) detected at line 106
 
 pdfTeX warning: pdflatex (file ./str__operacje_8hh__incl.pdf): PDF inclusion: f
 ound PDF version <1.5>, but at most version <1.4> allowed
-<str__operacje_8hh__incl.pdf, id=4314, 162.6075pt x 156.585pt>
+<str__operacje_8hh__incl.pdf, id=4628, 162.6075pt x 156.585pt>
 File: str__operacje_8hh__incl.pdf Graphic file (type pdf)
 
 <use str__operacje_8hh__incl.pdf>
@@ -4026,18 +4210,18 @@ Package pdftex.def Info: str__operacje_8hh__incl.pdf used on input line 9.
 
 Underfull \vbox (badness 3000) has occurred while \output is active []
 
- [117]
+ [132]
 
 pdfTeX warning: pdflatex (file ./str__operacje_8hh__dep__incl.pdf): PDF inclusi
 on: found PDF version <1.5>, but at most version <1.4> allowed
-<str__operacje_8hh__dep__incl.pdf, id=4319, 379.4175pt x 325.215pt>
+<str__operacje_8hh__dep__incl.pdf, id=4633, 379.4175pt x 325.215pt>
 File: str__operacje_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use str__operacje_8hh__dep__incl.pdf>
 Package pdftex.def Info: str__operacje_8hh__dep__incl.pdf used on input line 16
 .
 (pdftex.def)             Requested size: 350.0pt x 300.00533pt.
- [118 <./str__operacje_8hh__incl.pdf> <./str__operacje_8hh__dep__incl.pdf
+ [133 <./str__operacje_8hh__incl.pdf> <./str__operacje_8hh__dep__incl.pdf
 
 pdfTeX warning: pdflatex (file ./str__operacje_8hh__dep__incl.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
@@ -4099,57 +4283,60 @@ Underfull \hbox (badness 10000) detected at line 111
 [][][]
  []
 
-) (./strona_8dox.tex) (./tablica__asocjacyjna_8hh.tex [119]
+) (./strona_8dox.tex) (./tablica__asocjacyjna_8hh.tex [134]
 
 pdfTeX warning: pdflatex (file ./tablica__asocjacyjna_8hh__incl.pdf): PDF inclu
 sion: found PDF version <1.5>, but at most version <1.4> allowed
-<tablica__asocjacyjna_8hh__incl.pdf, id=4352, 384.43625pt x 212.795pt>
+<tablica__asocjacyjna_8hh__incl.pdf, id=4665, 455.7025pt x 212.795pt>
 File: tablica__asocjacyjna_8hh__incl.pdf Graphic file (type pdf)
 
 <use tablica__asocjacyjna_8hh__incl.pdf>
 Package pdftex.def Info: tablica__asocjacyjna_8hh__incl.pdf used on input line 
-13.
-(pdftex.def)             Requested size: 350.0pt x 193.74763pt.
+14.
+(pdftex.def)             Requested size: 350.0pt x 163.44028pt.
 
 
 pdfTeX warning: pdflatex (file ./tablica__asocjacyjna_8hh__dep__incl.pdf): PDF 
 inclusion: found PDF version <1.5>, but at most version <1.4> allowed
-<tablica__asocjacyjna_8hh__dep__incl.pdf, id=4353, 307.1475pt x 269.005pt>
+<tablica__asocjacyjna_8hh__dep__incl.pdf, id=4666, 307.1475pt x 269.005pt>
 File: tablica__asocjacyjna_8hh__dep__incl.pdf Graphic file (type pdf)
 
 <use tablica__asocjacyjna_8hh__dep__incl.pdf>
 Package pdftex.def Info: tablica__asocjacyjna_8hh__dep__incl.pdf used on input 
-line 20.
+line 21.
 (pdftex.def)             Requested size: 306.0pt x 268.01509pt.
- [120 <./tablica__asocjacyjna_8hh__incl.pdf> <./tablica__asocjacyjna_8hh__dep__
+
+Underfull \vbox (badness 1533) has occurred while \output is active []
+
+ [135 <./tablica__asocjacyjna_8hh__incl.pdf> <./tablica__asocjacyjna_8hh__dep__
 incl.pdf
 
 pdfTeX warning: pdflatex (file ./tablica__asocjacyjna_8hh__dep__incl.pdf): PDF 
 inclusion: multiple pdfs with page group included in a single page
->]) [121] (./refman.ind [122
+>]) [136] (./refman.ind [137
 
-] [123] [124] [125] [126] [127])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 195.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 195.
+] [138] [139] [140] [141] [142])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 197.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 197.
  (./refman.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 195.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 195.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 197.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 197.
 Package rerunfilecheck Info: File `refman.out' has not changed.
-(rerunfilecheck)             Checksum: FA47CC02648B0A0093B0554E51861346;59575.
+(rerunfilecheck)             Checksum: D949DDDCAD118C3EECD8E6A872E36E16;62749.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 195.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 197.
  ) 
 Here is how much of TeX's memory you used:
- 14673 strings out of 493308
- 249592 string characters out of 6140093
- 271399 words of memory out of 5000000
- 16781 multiletter control sequences out of 15000+600000
- 85001 words of font info for 116 fonts, out of 8000000 for 9000
+ 14873 strings out of 493308
+ 256132 string characters out of 6140093
+ 273477 words of memory out of 5000000
+ 16900 multiletter control sequences out of 15000+600000
+ 96185 words of font info for 144 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 48i,13n,43p,993b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,13n,43p,1058b,524s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{tablica__asocjacyjna_8hh_source} has been referen
 ced but does not exist, replaced by a fixed one
 
@@ -4190,9 +4377,9 @@ hvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8ac.pfb><
 texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8ac.pfb></usr/share/texlive/te
 xmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
 ts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on refman.pdf (141 pages, 1424919 bytes).
+Output written on refman.pdf (156 pages, 1523725 bytes).
 PDF statistics:
- 5099 PDF objects out of 5155 (max. 8388607)
- 900 named destinations out of 1000 (max. 500000)
- 3861 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 5459 PDF objects out of 6186 (max. 8388607)
+ 962 named destinations out of 1000 (max. 500000)
+ 4108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

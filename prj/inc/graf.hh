@@ -36,10 +36,22 @@ public:
 */
 class graf{
 	/*atrybuty prywatne*/
-	queue_array<string> Q0;
-	stack_array<int> Q;
-	/*! \brief stos sluzacy do przeszukiwania grafu */
 	
+	//queue_array<string> Q0;
+	/*! \brief przechowuje sciezke w algorytmach dfs, bfs oraz best - first*/
+	stack_array<int> Q;
+	/*! \brief wspolrzedna x-owa wierzcholka grafu*/
+	vector<int> w_x;
+	/*! \brief wspolrzedna y-owa wierzcholka grafu*/
+	vector<int> w_y;
+	/*! \brief wektor, ktory zawiera sciezke w algorytmie A**/
+	vector<int> poprzednik;
+	/*! \brief dystans wierzcholka od zadanego wezla zrodlowego*/
+	vector<int> dist;
+	/*! \brief estymacja odleglosci do celu w oparciu o metrykę typu Manhattan*/
+	vector<int> est;
+
+	//tablica_asocjacyjna<bool> tab2;
 	/*! \brief struktura sluzaca do przechowywania grafu, zawiera informacje, czy wierzcholek byl odwiedzony*/
 	tablica_asocjacyjna<bool> tab;
 	/*! \brief lista incydencji grafu*/
@@ -67,10 +79,21 @@ public:
 	\param [in] w - zadany wierzcholek
 	*/
 	void sasiedztwo(wierzcholek w);
+	/*! \brief Dodaje wierzcholek do grafu, metoda dedykowana do algorytmu A* - algorytm ustawia wezly grafu na siatce, nadajac 
+	im jednoczesnie wspolrzedne kartezjanskie
+	\param [in] id - id wierzcholka, wg ktorego wyliczamy jego wspolrzedne
+	*/
+	void dodaj_wierzcholek(int id);
 	/*! \brief Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi.
 	Dodany wierzcholek nie posiada krawedzi incydentnych
 	*/
 	void dodaj_wierzcholek(wierzcholek w);
+	/*! \brief dodaje krawedz pomiedzy zadane wierzcholki. Waga krawedzi jest wyznaczana w sposob losowy. Najkrotsza odlegloscia miedzy wezlami,
+	jest odleglosc wezlow w sensie metryki typu Manhattan
+	\param [in] id1 - id pierwszego wezla
+	\param [in] id2 - id drugiego wezla
+	*/
+	void dodaj_krawedz(int id1, int id2);
 	/*! \brief Dodaje krawedz o wadze waga pomiedzy 2 wezly - odwolanie poprzez identyfikatory wierzcholkow
 	\param [in] id1 - id 1. wierzcholka
 	\param [in] id2 - id 2. wierzcholka
@@ -142,6 +165,11 @@ public:
 	\param [in] id - wezel, ktorego szukamy
 	 */
 	void best_first(int id);
+	/*! \brief Metoda przeszukuje wyszukuje zadany element grafu w mysl algorytmu A*.
+		\param [in] id - id wezla zrodlowego
+		\param [in] wzor - wezel docelowy
+	*/
+	void a_star(int id, int wzor);
 
 	void rysuj();
 

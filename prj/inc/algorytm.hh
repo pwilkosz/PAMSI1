@@ -300,5 +300,13 @@ public:
   graf_test(ifstream&  plik1, ifstream& plik2,  int N, int M, int t) :algorytm(plik1,plik2,N,M){wczytaj_graf(); typ = t;}
   float przelicz();
 };
-
+class astar: public algorytm{
+  graf G1, G2, G3, G4, G5, G6;
+public:
+   /*! \brief na podstawie danych z pliku, tworzone sa grafy*/
+  void wczytaj_graf();
+  /*! \brief konstruktor*/
+  astar(ifstream&  plik1, ifstream& plik2,  int N, int M) :algorytm(plik1,plik2,N,M){wczytaj_graf();}
+  float przelicz();
+};
 #endif

@@ -1,15 +1,17 @@
 \begin{theindex}
 
   \item {$\sim $bst}
-    \subitem {bst}, \hyperpage{19}
+    \subitem {bst}, \hyperpage{23}
   \item {$\sim $el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}
     \subitem {el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{24}
+		\hyperpage{28}
   \item {$\sim $wezel}
-    \subitem {wezel}, \hyperpage{95}
+    \subitem {wezel}, \hyperpage{107}
 
   \indexspace
 
+  \item {a\discretionary {-}{}{}\_\discretionary {-}{}{}star}
+    \subitem {graf}, \hyperpage{31}
   \item {algorytm}, \hyperpage{7}
     \subitem {algorytm}, \hyperpage{10}
     \subitem {czas}, \hyperpage{16}
@@ -41,38 +43,49 @@
 		\hyperpage{15}
     \subitem {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot}, 
 		\hyperpage{16}
-  \item {algorytm.\discretionary {-}{}{}cpp}, \hyperpage{99}
-  \item {algorytm.\discretionary {-}{}{}hh}, \hyperpage{99}
+  \item {algorytm.\discretionary {-}{}{}cpp}, \hyperpage{113}
+  \item {algorytm.\discretionary {-}{}{}hh}, \hyperpage{113}
+  \item {astar}, \hyperpage{17}
+    \subitem {astar}, \hyperpage{19}
+    \subitem {G1}, \hyperpage{20}
+    \subitem {G2}, \hyperpage{20}
+    \subitem {G3}, \hyperpage{21}
+    \subitem {G4}, \hyperpage{21}
+    \subitem {G5}, \hyperpage{21}
+    \subitem {G6}, \hyperpage{21}
+    \subitem {przelicz}, \hyperpage{19}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}graf}, 
+		\hyperpage{20}
 
   \indexspace
 
   \item {best\discretionary {-}{}{}\_\discretionary {-}{}{}first}
-    \subitem {graf}, \hyperpage{27}
+    \subitem {graf}, \hyperpage{32}
   \item {bfs}
-    \subitem {graf}, \hyperpage{28}
+    \subitem {graf}, \hyperpage{34}
   \item {blok}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{92}
-  \item {bst}, \hyperpage{17}
-    \subitem {$\sim $bst}, \hyperpage{19}
-    \subitem {bst}, \hyperpage{19}
-    \subitem {d}, \hyperpage{20}
-    \subitem {klucze}, \hyperpage{20}
-    \subitem {przelicz}, \hyperpage{19}
+		\hyperpage{105}
+  \item {bst}, \hyperpage{21}
+    \subitem {$\sim $bst}, \hyperpage{23}
+    \subitem {bst}, \hyperpage{23}
+    \subitem {d}, \hyperpage{23}
+    \subitem {klucze}, \hyperpage{23}
+    \subitem {przelicz}, \hyperpage{23}
     \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}, 
-		\hyperpage{20}
+		\hyperpage{23}
 
   \indexspace
 
   \item {clear}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{71}
+		\hyperpage{82}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{73}
+		\hyperpage{84}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{76}
+		\hyperpage{87}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{79}
+		\hyperpage{90}
   \item {czas}
     \subitem {algorytm}, \hyperpage{16}
   \item {czas1}
@@ -81,234 +94,253 @@
     \subitem {algorytm}, \hyperpage{16}
   \item {czy\discretionary {-}{}{}\_\discretionary {-}{}{}blokada}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{89}
+		\hyperpage{100}
   \item {czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{89}
+		\hyperpage{100}
   \item {czy\discretionary {-}{}{}\_\discretionary {-}{}{}sasiad}
-    \subitem {graf}, \hyperpage{28, 29}
+    \subitem {graf}, \hyperpage{35, 36}
   \item {czysc}
-    \subitem {drzewo}, \hyperpage{21}
+    \subitem {drzewo}, \hyperpage{25}
 
   \indexspace
 
   \item {d}
-    \subitem {bst}, \hyperpage{20}
+    \subitem {bst}, \hyperpage{23}
     \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}, 
-		\hyperpage{87}
+		\hyperpage{98}
   \item {dane}
     \subitem {algorytm}, \hyperpage{17}
   \item {dane\discretionary {-}{}{}\_\discretionary {-}{}{}wz}
     \subitem {algorytm}, \hyperpage{17}
   \item {dequeue}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{71}
+		\hyperpage{82}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{74}
+		\hyperpage{85}
   \item {dfs}
-    \subitem {graf}, \hyperpage{29}
+    \subitem {graf}, \hyperpage{36}
+  \item {dist}
+    \subitem {graf}, \hyperpage{47}
   \item {dlugosc}
-    \subitem {hashtab}, \hyperpage{50}
+    \subitem {hashtab}, \hyperpage{61}
   \item {dodaj}
-    \subitem {drzewo}, \hyperpage{22}
-    \subitem {hashtab}, \hyperpage{48}
+    \subitem {drzewo}, \hyperpage{25}
+    \subitem {hashtab}, \hyperpage{57}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{89}
+		\hyperpage{100}
   \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}
-    \subitem {operacje}, \hyperpage{61}
+    \subitem {operacje}, \hyperpage{72}
   \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
-    \subitem {operacje}, \hyperpage{62}
+    \subitem {operacje}, \hyperpage{73}
   \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}krawedz}
-    \subitem {graf}, \hyperpage{30, 31}
+    \subitem {graf}, \hyperpage{37, 38}
   \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}syna}
-    \subitem {wezel}, \hyperpage{95}
+    \subitem {wezel}, \hyperpage{108}
   \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel}
-    \subitem {drzewo}, \hyperpage{22}
+    \subitem {drzewo}, \hyperpage{25}
   \item {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}wierzcholek}
-    \subitem {graf}, \hyperpage{31, 32}
+    \subitem {graf}, \hyperpage{38--40}
   \item {drzewo}
-    \subitem {czysc}, \hyperpage{21}
-    \subitem {dodaj}, \hyperpage{22}
+    \subitem {czysc}, \hyperpage{25}
+    \subitem {dodaj}, \hyperpage{25}
     \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel}, 
-		\hyperpage{22}
-    \subitem {drzewo}, \hyperpage{21}
-    \subitem {korzen}, \hyperpage{23}
-    \subitem {szukaj}, \hyperpage{22}
-    \subitem {usun}, \hyperpage{22}
-    \subitem {wyczysc}, \hyperpage{22}
-    \subitem {znajdz}, \hyperpage{22}
-    \subitem {znaleziony}, \hyperpage{23}
+		\hyperpage{25}
+    \subitem {drzewo}, \hyperpage{25}
+    \subitem {korzen}, \hyperpage{26}
+    \subitem {szukaj}, \hyperpage{25}
+    \subitem {usun}, \hyperpage{26}
+    \subitem {wyczysc}, \hyperpage{26}
+    \subitem {znajdz}, \hyperpage{26}
+    \subitem {znaleziony}, \hyperpage{26}
   \item {drzewo$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
-		\hyperpage{20}
+		\hyperpage{24}
   \item {drzewo.\-hh}
-    \subitem {lewy}, \hyperpage{102}
-    \subitem {prawy}, \hyperpage{102}
-    \subitem {zaden}, \hyperpage{102}
-  \item {drzewo.\discretionary {-}{}{}hh}, \hyperpage{101}
-    \subitem {syn}, \hyperpage{102}
+    \subitem {lewy}, \hyperpage{116}
+    \subitem {prawy}, \hyperpage{116}
+    \subitem {zaden}, \hyperpage{116}
+  \item {drzewo.\discretionary {-}{}{}hh}, \hyperpage{115}
+    \subitem {syn}, \hyperpage{116}
 
   \indexspace
 
   \item {el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}
     \subitem {$\sim $el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{24}
+		\hyperpage{28}
     \subitem {el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{24}
+		\hyperpage{28}
     \subitem {el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{24}
-    \subitem {klucz}, \hyperpage{25}
-    \subitem {wart}, \hyperpage{25}
-    \subitem {zajety}, \hyperpage{25}
+		\hyperpage{28}
+    \subitem {klucz}, \hyperpage{28}
+    \subitem {wart}, \hyperpage{28}
+    \subitem {zajety}, \hyperpage{28}
   \item {el\discretionary {-}{}{}\_\discretionary {-}{}{}tab$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
-		\hyperpage{23}
+		\hyperpage{27}
   \item {enqueue}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{71}
+		\hyperpage{82}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{74}
+		\hyperpage{85}
+  \item {est}
+    \subitem {graf}, \hyperpage{47}
 
   \indexspace
 
   \item {f}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{72}
+		\hyperpage{83}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{78}
+		\hyperpage{89}
   \item {flag}
-    \subitem {stos.\discretionary {-}{}{}hh}, \hyperpage{116}
-    \subitem {wezel}, \hyperpage{96}
+    \subitem {stos.\discretionary {-}{}{}hh}, \hyperpage{131}
+    \subitem {wezel}, \hyperpage{109}
   \item {found}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{92}
+		\hyperpage{105}
 
   \indexspace
 
   \item {G1}
+    \subitem {astar}, \hyperpage{20}
     \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{41}
+		\hyperpage{51}
   \item {G2}
+    \subitem {astar}, \hyperpage{20}
     \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{41}
+		\hyperpage{51}
   \item {G3}
+    \subitem {astar}, \hyperpage{21}
     \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{41}
+		\hyperpage{51}
   \item {G4}
+    \subitem {astar}, \hyperpage{21}
     \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{42}
+		\hyperpage{51}
   \item {G5}
+    \subitem {astar}, \hyperpage{21}
     \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{42}
+		\hyperpage{51}
   \item {G6}
+    \subitem {astar}, \hyperpage{21}
     \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{42}
-  \item {graf}, \hyperpage{25}
+		\hyperpage{51}
+  \item {graf}, \hyperpage{28}
+    \subitem {a\discretionary {-}{}{}\_\discretionary {-}{}{}star}, 
+		\hyperpage{31}
     \subitem {best\discretionary {-}{}{}\_\discretionary {-}{}{}first}, 
-		\hyperpage{27}
-    \subitem {bfs}, \hyperpage{28}
-    \subitem {czy\discretionary {-}{}{}\_\discretionary {-}{}{}sasiad}, 
-		\hyperpage{28, 29}
-    \subitem {dfs}, \hyperpage{29}
-    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}krawedz}, 
-		\hyperpage{30, 31}
-    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}wierzcholek}, 
-		\hyperpage{31, 32}
-    \subitem {graf}, \hyperpage{27}
-    \subitem {lista\discretionary {-}{}{}\_\discretionary {-}{}{}incydencji}, 
-		\hyperpage{38}
-    \subitem {przeszukaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel}, 
 		\hyperpage{32}
+    \subitem {bfs}, \hyperpage{34}
+    \subitem {czy\discretionary {-}{}{}\_\discretionary {-}{}{}sasiad}, 
+		\hyperpage{35, 36}
+    \subitem {dfs}, \hyperpage{36}
+    \subitem {dist}, \hyperpage{47}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}krawedz}, 
+		\hyperpage{37, 38}
+    \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}wierzcholek}, 
+		\hyperpage{38--40}
+    \subitem {est}, \hyperpage{47}
+    \subitem {graf}, \hyperpage{31}
+    \subitem {lista\discretionary {-}{}{}\_\discretionary {-}{}{}incydencji}, 
+		\hyperpage{47}
+    \subitem {poprzednik}, \hyperpage{47}
+    \subitem {przeszukaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel}, 
+		\hyperpage{40}
     \subitem {przeszukaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel\discretionary {-}{}{}\_\discretionary {-}{}{}1}, 
-		\hyperpage{33}
-    \subitem {przeszukaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel\discretionary {-}{}{}\_\discretionary {-}{}{}2}, 
-		\hyperpage{34}
-    \subitem {Q}, \hyperpage{38}
-    \subitem {Q0}, \hyperpage{38}
-    \subitem {sasiedztwo}, \hyperpage{35, 36}
-    \subitem {tab}, \hyperpage{38}
-    \subitem {usun\discretionary {-}{}{}\_\discretionary {-}{}{}krawedz}, 
-		\hyperpage{36}
-    \subitem {usun\discretionary {-}{}{}\_\discretionary {-}{}{}wierzcholek}, 
-		\hyperpage{37}
-    \subitem {wierzcholek}, \hyperpage{98}
-    \subitem {wyczysc}, \hyperpage{37}
-    \subitem {wypisz\discretionary {-}{}{}\_\discretionary {-}{}{}liste}, 
-		\hyperpage{38}
-  \item {graf.\discretionary {-}{}{}cpp}, \hyperpage{103}
-    \subitem {vec}, \hyperpage{103}
-  \item {graf.\discretionary {-}{}{}hh}, \hyperpage{103}
-  \item {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{38}
-    \subitem {G1}, \hyperpage{41}
-    \subitem {G2}, \hyperpage{41}
-    \subitem {G3}, \hyperpage{41}
-    \subitem {G4}, \hyperpage{42}
-    \subitem {G5}, \hyperpage{42}
-    \subitem {G6}, \hyperpage{42}
-    \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{40}
-    \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{40}
-    \subitem {przelicz}, \hyperpage{40}
-    \subitem {typ}, \hyperpage{42}
-    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}graf}, 
 		\hyperpage{41}
+    \subitem {przeszukaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel\discretionary {-}{}{}\_\discretionary {-}{}{}2}, 
+		\hyperpage{42}
+    \subitem {Q}, \hyperpage{47}
+    \subitem {rysuj}, \hyperpage{43}
+    \subitem {sasiedztwo}, \hyperpage{44}
+    \subitem {tab}, \hyperpage{47}
+    \subitem {usun\discretionary {-}{}{}\_\discretionary {-}{}{}krawedz}, 
+		\hyperpage{44}
+    \subitem {usun\discretionary {-}{}{}\_\discretionary {-}{}{}wierzcholek}, 
+		\hyperpage{46}
+    \subitem {w\discretionary {-}{}{}\_\discretionary {-}{}{}x}, 
+		\hyperpage{48}
+    \subitem {w\discretionary {-}{}{}\_\discretionary {-}{}{}y}, 
+		\hyperpage{48}
+    \subitem {wierzcholek}, \hyperpage{110}
+    \subitem {wyczysc}, \hyperpage{47}
+    \subitem {wypisz\discretionary {-}{}{}\_\discretionary {-}{}{}liste}, 
+		\hyperpage{47}
+  \item {graf.\discretionary {-}{}{}cpp}, \hyperpage{117}
+    \subitem {vec}, \hyperpage{117}
+  \item {graf.\discretionary {-}{}{}hh}, \hyperpage{117}
+  \item {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
+		\hyperpage{48}
+    \subitem {G1}, \hyperpage{51}
+    \subitem {G2}, \hyperpage{51}
+    \subitem {G3}, \hyperpage{51}
+    \subitem {G4}, \hyperpage{51}
+    \subitem {G5}, \hyperpage{51}
+    \subitem {G6}, \hyperpage{51}
+    \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
+		\hyperpage{50}
+    \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
+		\hyperpage{50}
+    \subitem {przelicz}, \hyperpage{50}
+    \subitem {typ}, \hyperpage{51}
+    \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}graf}, 
+		\hyperpage{50}
 
   \indexspace
 
   \item {h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{42}
+		\hyperpage{52}
     \subitem {h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{43}
+		\hyperpage{53}
     \subitem {h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{43}
-    \subitem {przelicz}, \hyperpage{43}
+		\hyperpage{53}
+    \subitem {przelicz}, \hyperpage{53}
   \item {h\discretionary {-}{}{}\_\discretionary {-}{}{}table}, 
-		\hyperpage{44}
+		\hyperpage{53}
     \subitem {h\discretionary {-}{}{}\_\discretionary {-}{}{}table}, 
-		\hyperpage{45}
+		\hyperpage{55}
     \subitem {h\discretionary {-}{}{}\_\discretionary {-}{}{}table}, 
-		\hyperpage{45}
-    \subitem {klucze}, \hyperpage{46}
-    \subitem {przelicz}, \hyperpage{46}
+		\hyperpage{55}
+    \subitem {klucze}, \hyperpage{55}
+    \subitem {przelicz}, \hyperpage{55}
     \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}, 
-		\hyperpage{46}
+		\hyperpage{55}
   \item {hash}
-    \subitem {hashtab}, \hyperpage{48}
+    \subitem {hashtab}, \hyperpage{58}
   \item {hashtab}
-    \subitem {dlugosc}, \hyperpage{50}
-    \subitem {dodaj}, \hyperpage{48}
-    \subitem {hash}, \hyperpage{48}
-    \subitem {hashtab}, \hyperpage{47}
-    \subitem {tab}, \hyperpage{50}
+    \subitem {dlugosc}, \hyperpage{61}
+    \subitem {dodaj}, \hyperpage{57}
+    \subitem {hash}, \hyperpage{58}
+    \subitem {hashtab}, \hyperpage{57}
+    \subitem {tab}, \hyperpage{61}
     \subitem {ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}dlugosc}, 
-		\hyperpage{49}
-    \subitem {usun}, \hyperpage{49}
-    \subitem {wypisz}, \hyperpage{49}
-    \subitem {znajdz}, \hyperpage{49}
+		\hyperpage{58}
+    \subitem {usun}, \hyperpage{58}
+    \subitem {wypisz}, \hyperpage{60}
+    \subitem {znajdz}, \hyperpage{60}
   \item {hashtab$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
-		\hyperpage{46}
-  \item {hashtab.\discretionary {-}{}{}hh}, \hyperpage{105}
+		\hyperpage{56}
+  \item {hashtab.\discretionary {-}{}{}hh}, \hyperpage{119}
   \item {heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort}
-    \subitem {operacje}, \hyperpage{62}
+    \subitem {operacje}, \hyperpage{73}
 
   \indexspace
 
   \item {id}
-    \subitem {wierzcholek}, \hyperpage{98}
+    \subitem {wierzcholek}, \hyperpage{111}
   \item {ile\discretionary {-}{}{}\_\discretionary {-}{}{}danych}
     \subitem {algorytm}, \hyperpage{10}
   \item {insert}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{89}
+		\hyperpage{100}
   \item {is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{72}
+		\hyperpage{83}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{74}
+		\hyperpage{85}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{76}
+		\hyperpage{87}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{79}
+		\hyperpage{90}
 
   \indexspace
 
@@ -319,567 +351,579 @@
 
   \item {key}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{92}
+		\hyperpage{105}
   \item {klucz}
     \subitem {el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{25}
-    \subitem {wezel}, \hyperpage{96}
+		\hyperpage{28}
+    \subitem {wezel}, \hyperpage{109}
   \item {klucze}
-    \subitem {bst}, \hyperpage{20}
+    \subitem {bst}, \hyperpage{23}
     \subitem {h\discretionary {-}{}{}\_\discretionary {-}{}{}table}, 
-		\hyperpage{46}
+		\hyperpage{55}
     \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}, 
-		\hyperpage{87}
-  \item {kolejka.\discretionary {-}{}{}hh}, \hyperpage{106}
+		\hyperpage{98}
+  \item {kolejka.\discretionary {-}{}{}hh}, \hyperpage{120}
   \item {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{51}
+		\hyperpage{61}
     \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{52}
+		\hyperpage{62}
     \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{52}
-    \subitem {przelicz}, \hyperpage{52}
-    \subitem {qu}, \hyperpage{52}
+		\hyperpage{62}
+    \subitem {przelicz}, \hyperpage{62}
+    \subitem {qu}, \hyperpage{63}
   \item {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{53}
+		\hyperpage{63}
     \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{54}
+		\hyperpage{64}
     \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{54}
-    \subitem {przelicz}, \hyperpage{54}
-    \subitem {qu}, \hyperpage{54}
+		\hyperpage{64}
+    \subitem {przelicz}, \hyperpage{64}
+    \subitem {qu}, \hyperpage{65}
   \item {korzen}
-    \subitem {drzewo}, \hyperpage{23}
+    \subitem {drzewo}, \hyperpage{26}
 
   \indexspace
 
   \item {lewy}
-    \subitem {drzewo.\-hh}, \hyperpage{102}
+    \subitem {drzewo.\-hh}, \hyperpage{116}
   \item {lista\discretionary {-}{}{}\_\discretionary {-}{}{}incydencji}
-    \subitem {graf}, \hyperpage{38}
+    \subitem {graf}, \hyperpage{47}
   \item {lsyn}
-    \subitem {wezel}, \hyperpage{97}
+    \subitem {wezel}, \hyperpage{109}
 
   \indexspace
 
   \item {m}
     \subitem {algorytm}, \hyperpage{17}
   \item {m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{55}
+		\hyperpage{65}
     \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{56}
+		\hyperpage{67}
     \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{56}
-    \subitem {przelicz}, \hyperpage{56}
+		\hyperpage{67}
+    \subitem {przelicz}, \hyperpage{67}
   \item {main}
-    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{108}
-  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{107}
-    \subitem {main}, \hyperpage{108}
+    \subitem {main.\discretionary {-}{}{}cpp}, \hyperpage{122}
+  \item {main.\discretionary {-}{}{}cpp}, \hyperpage{121}
+    \subitem {main}, \hyperpage{122}
   \item {make\discretionary {-}{}{}\_\discretionary {-}{}{}heap}
-    \subitem {operacje}, \hyperpage{62}
+    \subitem {operacje}, \hyperpage{73}
   \item {make\discretionary {-}{}{}\_\discretionary {-}{}{}node}
-    \subitem {operacje}, \hyperpage{63}
+    \subitem {operacje}, \hyperpage{74}
   \item {merge}
-    \subitem {operacje}, \hyperpage{63}
+    \subitem {operacje}, \hyperpage{74}
   \item {merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort}
-    \subitem {operacje}, \hyperpage{64}
-  \item {mnozenie}, \hyperpage{56}
-    \subitem {mnozenie}, \hyperpage{57}
-    \subitem {przelicz}, \hyperpage{59}
+    \subitem {operacje}, \hyperpage{75}
+  \item {mnozenie}, \hyperpage{67}
+    \subitem {mnozenie}, \hyperpage{68}
+    \subitem {przelicz}, \hyperpage{70}
 
   \indexspace
 
   \item {n}
     \subitem {algorytm}, \hyperpage{17}
-    \subitem {operacje}, \hyperpage{67}
+    \subitem {operacje}, \hyperpage{78}
 
   \indexspace
 
   \item {odblokuj}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{89}
+		\hyperpage{101}
   \item {odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}
-    \subitem {statystyki.\discretionary {-}{}{}cpp}, \hyperpage{110}
-    \subitem {statystyki.\discretionary {-}{}{}hh}, \hyperpage{112}
+    \subitem {statystyki.\discretionary {-}{}{}cpp}, \hyperpage{125}
+    \subitem {statystyki.\discretionary {-}{}{}hh}, \hyperpage{127}
   \item {odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}
-    \subitem {operacje}, \hyperpage{64}
+    \subitem {operacje}, \hyperpage{75}
   \item {ojciec}
-    \subitem {wezel}, \hyperpage{97}
+    \subitem {wezel}, \hyperpage{109}
   \item {op}
     \subitem {algorytm}, \hyperpage{17}
-  \item {operacje}, \hyperpage{59}
+  \item {operacje}, \hyperpage{70}
     \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}element}, 
-		\hyperpage{61}
+		\hyperpage{72}
     \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
-		\hyperpage{62}
+		\hyperpage{73}
     \subitem {heap\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{62}
+		\hyperpage{73}
     \subitem {make\discretionary {-}{}{}\_\discretionary {-}{}{}heap}, 
-		\hyperpage{62}
+		\hyperpage{73}
     \subitem {make\discretionary {-}{}{}\_\discretionary {-}{}{}node}, 
-		\hyperpage{63}
-    \subitem {merge}, \hyperpage{63}
+		\hyperpage{74}
+    \subitem {merge}, \hyperpage{74}
     \subitem {merge\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{64}
-    \subitem {n}, \hyperpage{67}
+		\hyperpage{75}
+    \subitem {n}, \hyperpage{78}
     \subitem {odwroc\discretionary {-}{}{}\_\discretionary {-}{}{}tablice}, 
-		\hyperpage{64}
-    \subitem {operacje}, \hyperpage{60}
-    \subitem {operator=}, \hyperpage{64}
-    \subitem {operator==}, \hyperpage{66}
+		\hyperpage{75}
+    \subitem {operacje}, \hyperpage{71}
+    \subitem {operator=}, \hyperpage{75}
+    \subitem {operator==}, \hyperpage{77}
     \subitem {quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{66}
-    \subitem {tab}, \hyperpage{67}
+		\hyperpage{77}
+    \subitem {tab}, \hyperpage{78}
     \subitem {zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
-		\hyperpage{66}
-  \item {operacje.\discretionary {-}{}{}cpp}, \hyperpage{108}
-  \item {operacje.\discretionary {-}{}{}hh}, \hyperpage{108}
+		\hyperpage{77}
+  \item {operacje.\discretionary {-}{}{}cpp}, \hyperpage{122}
+  \item {operacje.\discretionary {-}{}{}hh}, \hyperpage{123}
     \subitem {R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R}, 
-		\hyperpage{109}
+		\hyperpage{124}
   \item {operator$<$}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}, 
-		\hyperpage{116}
+		\hyperpage{131}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}, 
-		\hyperpage{119}
+		\hyperpage{134}
   \item {operator$<$=}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}, 
-		\hyperpage{117}
+		\hyperpage{132}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}, 
-		\hyperpage{119}
+		\hyperpage{134}
   \item {operator$>$}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}, 
-		\hyperpage{117}
+		\hyperpage{132}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}, 
-		\hyperpage{119}
+		\hyperpage{134}
   \item {operator$>$=}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}, 
-		\hyperpage{117}
+		\hyperpage{132}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}, 
-		\hyperpage{119}
+		\hyperpage{134}
   \item {operator=}
-    \subitem {operacje}, \hyperpage{64}
+    \subitem {operacje}, \hyperpage{75}
   \item {operator==}
-    \subitem {operacje}, \hyperpage{66}
+    \subitem {operacje}, \hyperpage{77}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}, 
-		\hyperpage{117}
+		\hyperpage{132}
     \subitem {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}, 
-		\hyperpage{119}
+		\hyperpage{134}
 
   \indexspace
 
   \item {plus1}
-    \subitem {stos.\-hh}, \hyperpage{116}
+    \subitem {stos.\-hh}, \hyperpage{131}
   \item {pobierz}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{89}
+		\hyperpage{101}
   \item {pop}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{77}
+		\hyperpage{88}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{79}
+		\hyperpage{90}
+  \item {poprzednik}
+    \subitem {graf}, \hyperpage{47}
   \item {porownaj}
     \subitem {algorytm}, \hyperpage{10}
   \item {prawy}
-    \subitem {drzewo.\-hh}, \hyperpage{102}
+    \subitem {drzewo.\-hh}, \hyperpage{116}
   \item {przelicz}
     \subitem {algorytm}, \hyperpage{11}
-    \subitem {bst}, \hyperpage{19}
+    \subitem {astar}, \hyperpage{19}
+    \subitem {bst}, \hyperpage{23}
     \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{40}
+		\hyperpage{50}
     \subitem {h\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{43}
+		\hyperpage{53}
     \subitem {h\discretionary {-}{}{}\_\discretionary {-}{}{}table}, 
-		\hyperpage{46}
+		\hyperpage{55}
     \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{52}
+		\hyperpage{62}
     \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{54}
+		\hyperpage{64}
     \subitem {m\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{56}
-    \subitem {mnozenie}, \hyperpage{59}
+		\hyperpage{67}
+    \subitem {mnozenie}, \hyperpage{70}
     \subitem {q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{69}
+		\hyperpage{80}
     \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{81}
+		\hyperpage{92}
     \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{83}
+		\hyperpage{94}
     \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}, 
-		\hyperpage{86}
+		\hyperpage{97}
   \item {przeszukaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel}
-    \subitem {graf}, \hyperpage{32}
+    \subitem {graf}, \hyperpage{40}
   \item {przeszukaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel\discretionary {-}{}{}\_\discretionary {-}{}{}1}
-    \subitem {graf}, \hyperpage{33}
+    \subitem {graf}, \hyperpage{41}
   \item {przeszukaj\discretionary {-}{}{}\_\discretionary {-}{}{}wezel\discretionary {-}{}{}\_\discretionary {-}{}{}2}
-    \subitem {graf}, \hyperpage{34}
+    \subitem {graf}, \hyperpage{42}
   \item {psyn}
-    \subitem {wezel}, \hyperpage{97}
+    \subitem {wezel}, \hyperpage{109}
   \item {push}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{77}
+		\hyperpage{88}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{79}
+		\hyperpage{90}
 
   \indexspace
 
   \item {Q}
-    \subitem {graf}, \hyperpage{38}
+    \subitem {graf}, \hyperpage{47}
   \item {q}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{72}
+		\hyperpage{83}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{75}
-  \item {Q0}
-    \subitem {graf}, \hyperpage{38}
+		\hyperpage{86}
   \item {q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{67}
-    \subitem {przelicz}, \hyperpage{69}
+		\hyperpage{78}
+    \subitem {przelicz}, \hyperpage{80}
     \subitem {q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{69}
+		\hyperpage{80}
     \subitem {q\discretionary {-}{}{}\_\discretionary {-}{}{}sort}, 
-		\hyperpage{69}
+		\hyperpage{80}
   \item {qu}
     \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{52}
+		\hyperpage{63}
     \subitem {kolejka\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{54}
+		\hyperpage{65}
   \item {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}
-    \subitem {clear}, \hyperpage{71}
-    \subitem {dequeue}, \hyperpage{71}
-    \subitem {enqueue}, \hyperpage{71}
-    \subitem {f}, \hyperpage{72}
+    \subitem {clear}, \hyperpage{82}
+    \subitem {dequeue}, \hyperpage{82}
+    \subitem {enqueue}, \hyperpage{82}
+    \subitem {f}, \hyperpage{83}
     \subitem {is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}, 
-		\hyperpage{72}
-    \subitem {q}, \hyperpage{72}
+		\hyperpage{83}
+    \subitem {q}, \hyperpage{83}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{71}
+		\hyperpage{82}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{71}
-    \subitem {s}, \hyperpage{72}
-    \subitem {size}, \hyperpage{72}
-    \subitem {sp}, \hyperpage{72}
+		\hyperpage{82}
+    \subitem {s}, \hyperpage{83}
+    \subitem {size}, \hyperpage{83}
+    \subitem {sp}, \hyperpage{83}
   \item {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
-		\hyperpage{69}
+		\hyperpage{80}
   \item {queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}
-    \subitem {clear}, \hyperpage{73}
-    \subitem {dequeue}, \hyperpage{74}
-    \subitem {enqueue}, \hyperpage{74}
+    \subitem {clear}, \hyperpage{84}
+    \subitem {dequeue}, \hyperpage{85}
+    \subitem {enqueue}, \hyperpage{85}
     \subitem {is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}, 
-		\hyperpage{74}
-    \subitem {q}, \hyperpage{75}
-    \subitem {size}, \hyperpage{74}
+		\hyperpage{85}
+    \subitem {q}, \hyperpage{86}
+    \subitem {size}, \hyperpage{85}
   \item {queue\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
-		\hyperpage{73}
+		\hyperpage{84}
   \item {quick\discretionary {-}{}{}\_\discretionary {-}{}{}sort}
-    \subitem {operacje}, \hyperpage{66}
+    \subitem {operacje}, \hyperpage{77}
 
   \indexspace
 
   \item {R\discretionary {-}{}{}O\discretionary {-}{}{}Z\discretionary {-}{}{}M\discretionary {-}{}{}I\discretionary {-}{}{}A\discretionary {-}{}{}R}
-    \subitem {operacje.\discretionary {-}{}{}hh}, \hyperpage{109}
+    \subitem {operacje.\discretionary {-}{}{}hh}, \hyperpage{124}
+  \item {rysuj}
+    \subitem {graf}, \hyperpage{43}
 
   \indexspace
 
   \item {s}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{72}
+		\hyperpage{83}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{78}
+		\hyperpage{89}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{93}
+		\hyperpage{105}
   \item {sasiedztwo}
-    \subitem {graf}, \hyperpage{35, 36}
+    \subitem {graf}, \hyperpage{44}
   \item {set\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}N}
     \subitem {algorytm}, \hyperpage{11}
+  \item {simplex.\discretionary {-}{}{}hh}, \hyperpage{124}
   \item {size}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{72}
+		\hyperpage{83}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{74}
+		\hyperpage{85}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{77}
+		\hyperpage{88}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{80}
+		\hyperpage{91}
   \item {sp}
     \subitem {queue\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{72}
+		\hyperpage{83}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{78}
+		\hyperpage{89}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{93}
+		\hyperpage{105}
   \item {srednia}
-    \subitem {statystyki.\discretionary {-}{}{}cpp}, \hyperpage{111}
-    \subitem {statystyki.\discretionary {-}{}{}hh}, \hyperpage{112}
+    \subitem {statystyki.\discretionary {-}{}{}cpp}, \hyperpage{126}
+    \subitem {statystyki.\discretionary {-}{}{}hh}, \hyperpage{127}
   \item {st}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{78}
+		\hyperpage{89}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}, 
-		\hyperpage{80}
+		\hyperpage{91}
   \item {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}
-    \subitem {clear}, \hyperpage{76}
-    \subitem {f}, \hyperpage{78}
+    \subitem {clear}, \hyperpage{87}
+    \subitem {f}, \hyperpage{89}
     \subitem {is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}, 
-		\hyperpage{76}
-    \subitem {pop}, \hyperpage{77}
-    \subitem {push}, \hyperpage{77}
-    \subitem {s}, \hyperpage{78}
-    \subitem {size}, \hyperpage{77}
-    \subitem {sp}, \hyperpage{78}
-    \subitem {st}, \hyperpage{78}
+		\hyperpage{87}
+    \subitem {pop}, \hyperpage{88}
+    \subitem {push}, \hyperpage{88}
+    \subitem {s}, \hyperpage{89}
+    \subitem {size}, \hyperpage{88}
+    \subitem {sp}, \hyperpage{89}
+    \subitem {st}, \hyperpage{89}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{76}
+		\hyperpage{87}
     \subitem {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array}, 
-		\hyperpage{76}
+		\hyperpage{87}
   \item {stack\discretionary {-}{}{}\_\discretionary {-}{}{}array$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
-		\hyperpage{75}
+		\hyperpage{86}
   \item {stack\discretionary {-}{}{}\_\discretionary {-}{}{}list}
-    \subitem {clear}, \hyperpage{79}
+    \subitem {clear}, \hyperpage{90}
     \subitem {is\discretionary {-}{}{}\_\discretionary {-}{}{}empty}, 
-		\hyperpage{79}
-    \subitem {pop}, \hyperpage{79}
-    \subitem {push}, \hyperpage{79}
-    \subitem {size}, \hyperpage{80}
-    \subitem {st}, \hyperpage{80}
+		\hyperpage{90}
+    \subitem {pop}, \hyperpage{90}
+    \subitem {push}, \hyperpage{90}
+    \subitem {size}, \hyperpage{91}
+    \subitem {st}, \hyperpage{91}
   \item {stack\discretionary {-}{}{}\_\discretionary {-}{}{}list$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
-		\hyperpage{78}
-  \item {statystyki.\discretionary {-}{}{}cpp}, \hyperpage{110}
+		\hyperpage{89}
+  \item {statystyki.\discretionary {-}{}{}cpp}, \hyperpage{125}
     \subitem {odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}, 
-		\hyperpage{110}
-    \subitem {srednia}, \hyperpage{111}
-  \item {statystyki.\discretionary {-}{}{}hh}, \hyperpage{111}
+		\hyperpage{125}
+    \subitem {srednia}, \hyperpage{126}
+  \item {statystyki.\discretionary {-}{}{}hh}, \hyperpage{126}
     \subitem {odchylenie\discretionary {-}{}{}\_\discretionary {-}{}{}standardowe}, 
-		\hyperpage{112}
-    \subitem {srednia}, \hyperpage{112}
+		\hyperpage{127}
+    \subitem {srednia}, \hyperpage{127}
   \item {stos}
     \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{82}
+		\hyperpage{93}
     \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{84}
+		\hyperpage{95}
   \item {stos.\-hh}
-    \subitem {plus1}, \hyperpage{116}
-    \subitem {x2}, \hyperpage{116}
-  \item {stos.\discretionary {-}{}{}hh}, \hyperpage{114}
-    \subitem {flag}, \hyperpage{116}
+    \subitem {plus1}, \hyperpage{131}
+    \subitem {x2}, \hyperpage{131}
+  \item {stos.\discretionary {-}{}{}hh}, \hyperpage{129}
+    \subitem {flag}, \hyperpage{131}
   \item {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{80}
-    \subitem {przelicz}, \hyperpage{81}
-    \subitem {stos}, \hyperpage{82}
+		\hyperpage{91}
+    \subitem {przelicz}, \hyperpage{92}
+    \subitem {stos}, \hyperpage{93}
     \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{81}
+		\hyperpage{92}
     \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}lista}, 
-		\hyperpage{81}
+		\hyperpage{92}
   \item {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{82}
-    \subitem {przelicz}, \hyperpage{83}
-    \subitem {stos}, \hyperpage{84}
+		\hyperpage{93}
+    \subitem {przelicz}, \hyperpage{94}
+    \subitem {stos}, \hyperpage{95}
     \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{83}
+		\hyperpage{94}
     \subitem {stos\discretionary {-}{}{}\_\discretionary {-}{}{}tablica}, 
-		\hyperpage{83}
+		\hyperpage{94}
   \item {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}cpp}, 
-		\hyperpage{116}
-    \subitem {operator$<$}, \hyperpage{116}
-    \subitem {operator$<$=}, \hyperpage{117}
-    \subitem {operator$>$}, \hyperpage{117}
-    \subitem {operator$>$=}, \hyperpage{117}
-    \subitem {operator==}, \hyperpage{117}
+		\hyperpage{131}
+    \subitem {operator$<$}, \hyperpage{131}
+    \subitem {operator$<$=}, \hyperpage{132}
+    \subitem {operator$>$}, \hyperpage{132}
+    \subitem {operator$>$=}, \hyperpage{132}
+    \subitem {operator==}, \hyperpage{132}
   \item {str\discretionary {-}{}{}\_\discretionary {-}{}{}operacje.\discretionary {-}{}{}hh}, 
-		\hyperpage{118}
-    \subitem {operator$<$}, \hyperpage{119}
-    \subitem {operator$<$=}, \hyperpage{119}
-    \subitem {operator$>$}, \hyperpage{119}
-    \subitem {operator$>$=}, \hyperpage{119}
-    \subitem {operator==}, \hyperpage{119}
-  \item {strona.\discretionary {-}{}{}dox}, \hyperpage{120}
+		\hyperpage{133}
+    \subitem {operator$<$}, \hyperpage{134}
+    \subitem {operator$<$=}, \hyperpage{134}
+    \subitem {operator$>$}, \hyperpage{134}
+    \subitem {operator$>$=}, \hyperpage{134}
+    \subitem {operator==}, \hyperpage{134}
+  \item {strona.\discretionary {-}{}{}dox}, \hyperpage{135}
   \item {syn}
-    \subitem {drzewo.\discretionary {-}{}{}hh}, \hyperpage{102}
+    \subitem {drzewo.\discretionary {-}{}{}hh}, \hyperpage{116}
   \item {szukaj}
-    \subitem {drzewo}, \hyperpage{22}
+    \subitem {drzewo}, \hyperpage{25}
 
   \indexspace
 
   \item {tab}
-    \subitem {graf}, \hyperpage{38}
-    \subitem {hashtab}, \hyperpage{50}
-    \subitem {operacje}, \hyperpage{67}
+    \subitem {graf}, \hyperpage{47}
+    \subitem {hashtab}, \hyperpage{61}
+    \subitem {operacje}, \hyperpage{78}
   \item {tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}, 
-		\hyperpage{84}
-    \subitem {d}, \hyperpage{87}
-    \subitem {klucze}, \hyperpage{87}
-    \subitem {przelicz}, \hyperpage{86}
+		\hyperpage{95}
+    \subitem {d}, \hyperpage{98}
+    \subitem {klucze}, \hyperpage{98}
+    \subitem {przelicz}, \hyperpage{97}
     \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}, 
-		\hyperpage{86}
+		\hyperpage{97}
     \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}, 
-		\hyperpage{86}
+		\hyperpage{97}
     \subitem {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}, 
-		\hyperpage{86}
+		\hyperpage{97}
   \item {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}
-    \subitem {blok}, \hyperpage{92}
+    \subitem {blok}, \hyperpage{105}
     \subitem {czy\discretionary {-}{}{}\_\discretionary {-}{}{}blokada}, 
-		\hyperpage{89}
+		\hyperpage{100}
     \subitem {czy\discretionary {-}{}{}\_\discretionary {-}{}{}pusta}, 
-		\hyperpage{89}
-    \subitem {dodaj}, \hyperpage{89}
-    \subitem {found}, \hyperpage{92}
-    \subitem {insert}, \hyperpage{89}
-    \subitem {key}, \hyperpage{92}
-    \subitem {odblokuj}, \hyperpage{89}
-    \subitem {pobierz}, \hyperpage{89}
-    \subitem {s}, \hyperpage{93}
-    \subitem {sp}, \hyperpage{93}
+		\hyperpage{100}
+    \subitem {dodaj}, \hyperpage{100}
+    \subitem {found}, \hyperpage{105}
+    \subitem {insert}, \hyperpage{100}
+    \subitem {key}, \hyperpage{105}
+    \subitem {odblokuj}, \hyperpage{101}
+    \subitem {pobierz}, \hyperpage{101}
+    \subitem {s}, \hyperpage{105}
+    \subitem {sp}, \hyperpage{105}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{88}
+		\hyperpage{100}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{88}
-    \subitem {ustaw}, \hyperpage{90}
-    \subitem {usun}, \hyperpage{90}
-    \subitem {value}, \hyperpage{93}
-    \subitem {wez}, \hyperpage{90}
+		\hyperpage{100}
+    \subitem {ustaw}, \hyperpage{101}
+    \subitem {usun}, \hyperpage{102}
+    \subitem {value}, \hyperpage{106}
+    \subitem {wez}, \hyperpage{102}
     \subitem {wez\discretionary {-}{}{}\_\discretionary {-}{}{}id}, 
-		\hyperpage{91}
-    \subitem {wstaw}, \hyperpage{91}
-    \subitem {wypisz}, \hyperpage{91}
-    \subitem {zablokuj}, \hyperpage{91}
+		\hyperpage{103}
+    \subitem {wstaw}, \hyperpage{103}
+    \subitem {wyczysc}, \hyperpage{103}
+    \subitem {wypisz}, \hyperpage{104}
+    \subitem {zablokuj}, \hyperpage{104}
     \subitem {zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}, 
-		\hyperpage{91}
-    \subitem {znajdz}, \hyperpage{92}
+		\hyperpage{104}
+    \subitem {znajdz}, \hyperpage{104, 105}
   \item {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
-		\hyperpage{87}
+		\hyperpage{98}
   \item {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna.\discretionary {-}{}{}hh}, 
-		\hyperpage{120}
+		\hyperpage{135}
   \item {typ}
     \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{42}
+		\hyperpage{51}
 
   \indexspace
 
   \item {ustaw}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{90}
+		\hyperpage{101}
   \item {ustaw\discretionary {-}{}{}\_\discretionary {-}{}{}dlugosc}
-    \subitem {hashtab}, \hyperpage{49}
+    \subitem {hashtab}, \hyperpage{58}
   \item {usun}
-    \subitem {drzewo}, \hyperpage{22}
-    \subitem {hashtab}, \hyperpage{49}
+    \subitem {drzewo}, \hyperpage{26}
+    \subitem {hashtab}, \hyperpage{58}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{90}
+		\hyperpage{102}
   \item {usun\discretionary {-}{}{}\_\discretionary {-}{}{}krawedz}
-    \subitem {graf}, \hyperpage{36}
+    \subitem {graf}, \hyperpage{44}
   \item {usun\discretionary {-}{}{}\_\discretionary {-}{}{}wierzcholek}
-    \subitem {graf}, \hyperpage{37}
+    \subitem {graf}, \hyperpage{46}
 
   \indexspace
 
   \item {value}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{93}
+		\hyperpage{106}
   \item {vec}
-    \subitem {graf.\discretionary {-}{}{}cpp}, \hyperpage{103}
+    \subitem {graf.\discretionary {-}{}{}cpp}, \hyperpage{117}
 
   \indexspace
 
+  \item {w\discretionary {-}{}{}\_\discretionary {-}{}{}x}
+    \subitem {graf}, \hyperpage{48}
+  \item {w\discretionary {-}{}{}\_\discretionary {-}{}{}y}
+    \subitem {graf}, \hyperpage{48}
   \item {waga}
-    \subitem {wierzcholek}, \hyperpage{98}
+    \subitem {wierzcholek}, \hyperpage{111}
   \item {wart}
     \subitem {el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{25}
-    \subitem {wezel}, \hyperpage{97}
+		\hyperpage{28}
+    \subitem {wezel}, \hyperpage{109}
   \item {wczytaj}
     \subitem {algorytm}, \hyperpage{11}
   \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}graf}
+    \subitem {astar}, \hyperpage{20}
     \subitem {graf\discretionary {-}{}{}\_\discretionary {-}{}{}test}, 
-		\hyperpage{41}
+		\hyperpage{50}
   \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}klucze}
-    \subitem {bst}, \hyperpage{20}
+    \subitem {bst}, \hyperpage{23}
     \subitem {h\discretionary {-}{}{}\_\discretionary {-}{}{}table}, 
-		\hyperpage{46}
+		\hyperpage{55}
     \subitem {tab\discretionary {-}{}{}\_\discretionary {-}{}{}aso}, 
-		\hyperpage{86}
+		\hyperpage{97}
   \item {wczytaj\discretionary {-}{}{}\_\discretionary {-}{}{}wzor}
     \subitem {algorytm}, \hyperpage{12}
   \item {wez}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{90}
+		\hyperpage{102}
   \item {wez\discretionary {-}{}{}\_\discretionary {-}{}{}id}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{91}
+		\hyperpage{103}
   \item {wez\discretionary {-}{}{}\_\discretionary {-}{}{}klucz}
-    \subitem {wezel}, \hyperpage{95}
+    \subitem {wezel}, \hyperpage{108}
   \item {wez\discretionary {-}{}{}\_\discretionary {-}{}{}wart}
-    \subitem {wezel}, \hyperpage{96}
+    \subitem {wezel}, \hyperpage{108}
   \item {wezel}
-    \subitem {$\sim $wezel}, \hyperpage{95}
+    \subitem {$\sim $wezel}, \hyperpage{107}
     \subitem {dodaj\discretionary {-}{}{}\_\discretionary {-}{}{}syna}, 
-		\hyperpage{95}
-    \subitem {flag}, \hyperpage{96}
-    \subitem {klucz}, \hyperpage{96}
-    \subitem {lsyn}, \hyperpage{97}
-    \subitem {ojciec}, \hyperpage{97}
-    \subitem {psyn}, \hyperpage{97}
-    \subitem {wart}, \hyperpage{97}
+		\hyperpage{108}
+    \subitem {flag}, \hyperpage{109}
+    \subitem {klucz}, \hyperpage{109}
+    \subitem {lsyn}, \hyperpage{109}
+    \subitem {ojciec}, \hyperpage{109}
+    \subitem {psyn}, \hyperpage{109}
+    \subitem {wart}, \hyperpage{109}
     \subitem {wez\discretionary {-}{}{}\_\discretionary {-}{}{}klucz}, 
-		\hyperpage{95}
+		\hyperpage{108}
     \subitem {wez\discretionary {-}{}{}\_\discretionary {-}{}{}wart}, 
-		\hyperpage{96}
-    \subitem {wezel}, \hyperpage{94}
+		\hyperpage{108}
+    \subitem {wezel}, \hyperpage{107}
     \subitem {znajdz\discretionary {-}{}{}\_\discretionary {-}{}{}nast}, 
-		\hyperpage{96}
+		\hyperpage{108}
   \item {wezel$<$ T\discretionary {-}{}{}Y\discretionary {-}{}{}P $>$}, 
-		\hyperpage{93}
-  \item {wierzcholek}, \hyperpage{97}
-    \subitem {graf}, \hyperpage{98}
-    \subitem {id}, \hyperpage{98}
-    \subitem {waga}, \hyperpage{98}
-    \subitem {wierzcholek}, \hyperpage{98}
+		\hyperpage{106}
+  \item {wierzcholek}, \hyperpage{110}
+    \subitem {graf}, \hyperpage{110}
+    \subitem {id}, \hyperpage{111}
+    \subitem {waga}, \hyperpage{111}
+    \subitem {wierzcholek}, \hyperpage{110}
   \item {wlacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}
     \subitem {algorytm}, \hyperpage{12}
   \item {wstaw}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{91}
+		\hyperpage{103}
   \item {wyczysc}
-    \subitem {drzewo}, \hyperpage{22}
-    \subitem {graf}, \hyperpage{37}
+    \subitem {drzewo}, \hyperpage{26}
+    \subitem {graf}, \hyperpage{47}
+    \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
+		\hyperpage{103}
   \item {wykonaj}
     \subitem {algorytm}, \hyperpage{13}
   \item {wylacz\discretionary {-}{}{}\_\discretionary {-}{}{}zegar}
     \subitem {algorytm}, \hyperpage{14}
   \item {wypisz}
-    \subitem {hashtab}, \hyperpage{49}
+    \subitem {hashtab}, \hyperpage{60}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{91}
+		\hyperpage{104}
   \item {wypisz\discretionary {-}{}{}\_\discretionary {-}{}{}liste}
-    \subitem {graf}, \hyperpage{38}
+    \subitem {graf}, \hyperpage{47}
 
   \indexspace
 
   \item {x2}
-    \subitem {stos.\-hh}, \hyperpage{116}
+    \subitem {stos.\-hh}, \hyperpage{131}
 
   \indexspace
 
   \item {zablokuj}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{91}
+		\hyperpage{104}
   \item {zaden}
-    \subitem {drzewo.\-hh}, \hyperpage{102}
+    \subitem {drzewo.\-hh}, \hyperpage{116}
   \item {zajety}
     \subitem {el\discretionary {-}{}{}\_\discretionary {-}{}{}tab}, 
-		\hyperpage{25}
+		\hyperpage{28}
   \item {zamien\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
-    \subitem {operacje}, \hyperpage{66}
+    \subitem {operacje}, \hyperpage{77}
   \item {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}csv}
     \subitem {algorytm}, \hyperpage{15}
   \item {zapisz\discretionary {-}{}{}\_\discretionary {-}{}{}do\discretionary {-}{}{}\_\discretionary {-}{}{}gnuplot}
     \subitem {algorytm}, \hyperpage{16}
   \item {zlicz\discretionary {-}{}{}\_\discretionary {-}{}{}elementy}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{91}
+		\hyperpage{104}
   \item {znajdz}
-    \subitem {drzewo}, \hyperpage{22}
-    \subitem {hashtab}, \hyperpage{49}
+    \subitem {drzewo}, \hyperpage{26}
+    \subitem {hashtab}, \hyperpage{60}
     \subitem {tablica\discretionary {-}{}{}\_\discretionary {-}{}{}asocjacyjna}, 
-		\hyperpage{92}
+		\hyperpage{104, 105}
   \item {znajdz\discretionary {-}{}{}\_\discretionary {-}{}{}nast}
-    \subitem {wezel}, \hyperpage{96}
+    \subitem {wezel}, \hyperpage{108}
   \item {znaleziony}
-    \subitem {drzewo}, \hyperpage{23}
+    \subitem {drzewo}, \hyperpage{26}
 
 \end{theindex}

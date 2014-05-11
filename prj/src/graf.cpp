@@ -2,6 +2,8 @@
 #include<sstream>
 #include<fstream>
 #include<cstdlib>
+#include<cmath>
+
 tablica_asocjacyjna<int> vec;
 
 void graf::dodaj_wierzcholek(){
@@ -20,6 +22,34 @@ void graf::dodaj_wierzcholek(wierzcholek w){
 	cout<<s.str()<<endl;
 	tab.dodaj(s.str(), false);
 	
+}
+
+void graf::dodaj_wierzcholek(int id){
+	lista_incydencji.push_back(vec);
+	int rozm = lista_incydencji.size();
+	ostringstream s; s<<(--rozm);
+	cout<<s.str()<<endl;
+	tab.dodaj(s.str(), false);
+	//tab2.dodaj(s.str(), false);
+	poprzednik.push_back(0);
+	dist.push_back(0);
+	est.push_back(0);
+	w_x.push_back((id%100)*10);
+	w_y.push_back((id/100)*10);
+}
+
+void graf::dodaj_krawedz(int id1, int id2){ 
+	srand(time(NULL));
+	if((id1>lista_incydencji.size() && id2>lista_incydencji.size())|| lista_incydencji[id1].czy_blokada()||lista_incydencji[id2].czy_blokada()) cout<<"w grafie nie ma takich wierzchołków"<<endl;
+	else{
+		ostringstream s1, s2; s1<<id1; s2<<id2;
+		
+		int waga = (abs(w_x[id1] - w_x[id2]) + abs(w_y[id1] - w_y[id2])) -10;//rand()%50;
+		
+		lista_incydencji.at(id1).dodaj(s2.str(), waga);
+	
+		lista_incydencji.at(id2).dodaj(s1.str(), waga);
+	}
 }
 
 void graf::dodaj_krawedz(wierzcholek w1, wierzcholek w2, unsigned int waga){
@@ -95,10 +125,10 @@ void graf::usun_wierzcholek(wierzcholek w){
 
 bool graf::przeszukaj_wezel(int id, int wzor){
 	stack_array<string> S(x2);
-	
+
 	ostringstream s; s<<id;
 	
-	if(id == wzor) return true;
+	if(id == wzor) {;return true;}
 	else{
 	
 		tab.ustaw(s.str(), true);
@@ -107,6 +137,7 @@ bool graf::przeszukaj_wezel(int id, int wzor){
 			if(tab.pobierz(lista_incydencji[id].wez_id(i))) continue;
 			
 			S.push(lista_incydencji[id].wez_id(i));
+			
 		
 			
 		}
@@ -115,6 +146,7 @@ bool graf::przeszukaj_wezel(int id, int wzor){
 		while(!S.is_empty()){ 
 			int idd = atoi(S.pop().c_str());
 			if(przeszukaj_wezel(idd,wzor)){
+				
 				Q.push(idd);
 				return true;
 			}
@@ -127,13 +159,13 @@ bool graf::przeszukaj_wezel(int id, int wzor){
 
 void graf::dfs(int id){
 	przeszukaj_wezel(0,id);
-	/*if(przeszukaj_wezel(0,id)){
+	//if(przeszukaj_wezel(0,id)){
 		//wypisanie sciezki
-		while(!Q.is_empty())
-			cout<<Q.pop()<<" --> ";
-	}
-	else cout<<"nie znaleziono sciezki"<<endl;
-*/
+	//	while(!Q.is_empty())
+	//		cout<<Q.pop()<<" --> ";
+	//}
+	//else cout<<"nie znaleziono sciezki"<<endl;
+	tab.wyczysc();
 }
 
 bool graf::przeszukaj_wezel_1(int id, int wzor){
@@ -180,6 +212,7 @@ void graf::bfs(int id){
 	}
 	else cout<<"nie znaleziono sciezki"<<endl;
 */
+	tab.wyczysc();
 }
 
 bool graf::przeszukaj_wezel_2(int id, int wzor){
@@ -222,14 +255,14 @@ bool graf::przeszukaj_wezel_2(int id, int wzor){
 
 void graf::best_first(int id){
 	przeszukaj_wezel_2(0,id);
-	/*
-	if(przeszukaj_wezel_2(0,id)){
+	
+	//if(przeszukaj_wezel_2(0,id)){
 		//wypisanie sciezki
-		while(!Q.is_empty())
-			cout<<Q.pop()<<" --> ";
-	}
-	else cout<<"nie znaleziono sciezki"<<endl;
-*/
+	//	while(!Q.is_empty())
+	//		cout<<Q.pop()<<" --> ";
+	//}
+	//else cout<<"nie znaleziono sciezki"<<endl;
+	tab.wyczysc();
 }
 
 void graf::rysuj(){
@@ -242,4 +275,47 @@ void graf::rysuj(){
 		}
 	}
 	dot<<"}"<<endl;
+}
+
+void graf::a_star(int id, int wzor){ 
+	tablica_asocjacyjna<int> nie_przejrzane;
+	
+	nie_przejrzane.dodaj("0", id);
+	//tab2.ustaw(s.str(), false);
+	while(nie_przejrzane.zlicz_elementy()){ 
+		
+		int temp = nie_przejrzane.wez(0);
+		
+		ostringstream s; s<<temp;
+		if(temp == wzor) break;
+		nie_przejrzane.usun(nie_przejrzane.wez_id(0));
+		
+		tab.ustaw(s.str(), true);
+		
+		for(int i = lista_incydencji[temp].zlicz_elementy() -1; i>=0; i--){
+			string k = lista_incydencji[temp].wez_id(i);
+			ostringstream s1; 
+			
+			if(lista_incydencji[atoi(lista_incydencji[temp].wez_id(i).c_str())].czy_blokada()) continue;
+			
+			if(tab.pobierz(k)) continue;
+			//cout<<"b3"<<endl;
+			//cout<<" przeszukuje: "<<k<<endl;
+			//if(tab2.pobierz(k)) continue; //jezeli jest w tych do odwiedzenia
+			poprzednik[atoi(lista_incydencji[temp].wez_id(i).c_str())] = temp; 
+			dist[atoi(k.c_str())] = dist[temp] + lista_incydencji[temp].wez(i);
+			//cout<<"b4"<<endl;
+			est[atoi(k.c_str())] = abs(w_y[wzor] - w_y[atoi(k.c_str())]) + abs(w_x[wzor] - w_x[atoi(k.c_str())]);
+			s1<<(dist[atoi(k.c_str())] + est[atoi(k.c_str())]);
+			//cout<<"b5"<<endl;
+			nie_przejrzane.dodaj(s1.str(), atoi(k.c_str()));
+			//cout<<"b6"<<endl;
+
+		}
+	}
+	
+	//for(int l = 0; l<9; l++)
+	//	cout<<" "<<l<<": "<<poprzednik[l]<<endl;
+	tab.wyczysc();
+
 }

@@ -34,7 +34,8 @@ string tablica_skryptow[] = {"gnuplot skrypt1.pg","gnuplot skrypt2.pg","gnuplot 
 "gnuplot skrypt4.pg","gnuplot skrypt5.pg","gnuplot skrypt6.pg",
 "gnuplot skrypt7.pg","gnuplot skrypt8.pg","gnuplot skrypt9.pg",
 "gnuplot skrypt10.pg","gnuplot skrypt11.pg", "gnuplot skrypt12.pg",
-"gnuplot skrypt13.pg", "gnuplot skrypt14.pg", "gnuplot skrypt15.pg"};
+"gnuplot skrypt13.pg", "gnuplot skrypt14.pg", "gnuplot skrypt15.pg",
+"gnuplot skrypt16.pg"};
 
 //ifstream we("wejscie.txt");
 int tabn[] = {10,100,1000,10000, 50000, 100000};
@@ -67,8 +68,9 @@ while(!wybor){
   cout<<"* 11.# table                                                               *"<<endl;
   cout<<"* 12.tablica_asocjacyjna                                                   *"<<endl;
   cout<<"* 13.Depth first search                                                    *"<<endl;
-  cout<<"* 14.Breadth first search                                                    *"<<endl;
-  cout<<"* 15.Best first search                                                    *"<<endl;
+  cout<<"* 14.Breadth first search                                                  *"<<endl;
+  cout<<"* 15.Best first search                                                     *"<<endl;
+  cout<<"* 16.A*                                                                    *"<<endl;
   cout<<"----------------------------------------------------------------------------"<<endl;
   cout<<"Twoj wybor: "<<flush;
   cin>>wybor;
@@ -188,7 +190,7 @@ while(!wybor){
     case 13: {
      graf_test alg(plik1, plik2, N, M, 0);
       
-      ofstream out("out3.csv");
+      ofstream out("out1.csv");
       for(int i = 0; i<d; i++){
         alg.set_N(tabn[i]); 
         alg.wykonaj(out);
@@ -197,7 +199,7 @@ while(!wybor){
     case 14: {
      graf_test alg(plik1, plik2, N, M, 1);
       
-      ofstream out("out3.csv");
+      ofstream out("out2.csv");
       for(int i = 0; i<d; i++){
         alg.set_N(tabn[i]); 
         alg.wykonaj(out);
@@ -212,20 +214,21 @@ while(!wybor){
         alg.wykonaj(out);
       }
     } break;
+    case 16: {
+     astar alg(plik1, plik2, N, M);
+      
+      ofstream out("out4.csv");
+      for(int i = 0; i<d; i++){
+        alg.set_N(tabn[i]); 
+        alg.wykonaj(out);
+      }
+    } break;
     default: {cout<<"Bledna opcja, sprobuj ponownie"<<wybor<<endl; wybor = 0; } break;
-}
+}//koniec switch
 }
 
 system(tablica_skryptow[wybor-1].c_str());
   
-/*x.dodaj("pi", "liczba pi; wartosc 3.14");
-x.dodaj("e", "liczba e; wartosc 2.728.");
-x.dodaj("jeden", "jeden");
-*/
-/*cout<<x.pobierz("pi")<<endl;
-x.usun("pi");
-cout<<x.pobierz("pi")<<endl;
-*/
 /*
 graf G;
 wierzcholek w(0,1);
@@ -247,10 +250,25 @@ G.dodaj_krawedz(t,y,7);
 //G.dodaj_krawedz(u,y,7);
 G.dodaj_krawedz(u,w,7);
 G.dodaj_krawedz(t,r,7);
+
 G.wypisz_liste();
 G.best_first(3);
-//G.wypisz_liste();
 */
+
+graf G;
+for(int i = 0; i<9; i++)
+  G.dodaj_wierzcholek(i);
+G.dodaj_krawedz(0,2);
+G.dodaj_krawedz(0,6);
+G.dodaj_krawedz(0,8);
+G.dodaj_krawedz(1,3);
+G.dodaj_krawedz(4,2);
+G.dodaj_krawedz(1,5);
+G.dodaj_krawedz(3,7);
+G.dodaj_krawedz(7,6);
+G.a_star(0,1);
+
+
 /*losowanie do grafu
 ofstream o1("graf1.txt");
 ofstream o2("graf2.txt");

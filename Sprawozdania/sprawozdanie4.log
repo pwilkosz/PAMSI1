@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.5.4)  7 MAY 2014 00:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.5.4)  11 MAY 2014 23:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -414,7 +414,7 @@ File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 28.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 41.
+(Font)              <10.95> on input line 42.
  [1
 
 ]
@@ -425,16 +425,26 @@ File: ../prj/wykres14.eps Graphic file (type eps)
  <../prj/wykres14.eps> [3]
 File: ../prj/wykres15.eps Graphic file (type eps)
  <../prj/wykres15.eps>
+Overfull \hbox (7.0079pt too wide) in paragraph at lines 138--144
+\OT4/cmr/m/n/10.95 prze-ci-wie«-stwie do po-wy»-szych al-go-ryt-mów, nie po-daj
+e do-wol-nej ±cie»ki,
+ []
+
+[4]
+File: ../prj/wykres16.eps Graphic file (type eps)
+ <../prj/wykres16.eps> [5]
+File: ../prj/wykres_a.eps Graphic file (type eps)
+ <../prj/wykres_a.eps> [6]
 File: ../prj/graf.dot.eps Graphic file (type eps)
-
-<../prj/graf.dot.eps> [4] [5] (./sprawozdanie4.aux) ) 
+ <../prj/graf.dot.eps>
+[7] (./sprawozdanie4.aux) ) 
 Here is how much of TeX's memory you used:
- 3186 strings out of 493309
- 46510 string characters out of 6140119
+ 3193 strings out of 493309
+ 46618 string characters out of 6140119
  109546 words of memory out of 5000000
- 6605 multiletter control sequences out of 15000+600000
- 9778 words of font info for 31 fonts, out of 8000000 for 9000
+ 6610 multiletter control sequences out of 15000+600000
+ 10282 words of font info for 32 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,8n,42p,307b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,8n,42p,307b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sprawozdanie4.dvi (5 pages, 7224 bytes).
+Output written on sprawozdanie4.dvi (7 pages, 12476 bytes).

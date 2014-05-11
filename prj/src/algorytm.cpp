@@ -366,3 +366,87 @@ float graf_test::przelicz(){
   float cz = czas1 + czas2;
   return cz;
 }
+
+
+void astar::wczytaj_graf(){
+  int id, wg, nr, il;
+  ifstream in1("graf1.txt");
+  ifstream in2("graf2.txt");
+  ifstream in3("graf3.txt");
+  ifstream in4("graf4.txt");
+  ifstream in5("graf5.txt");
+  ifstream in6("graf6.txt");
+   for(int i = 0; i<10; i++)
+    G1.dodaj_wierzcholek(i);
+  for(int i = 0; i<100; i++)
+    G2.dodaj_wierzcholek(i);
+  for(int i = 0; i<1000; i++)
+    G3.dodaj_wierzcholek(i);
+  for(int i = 0; i<10000; i++)
+    G4.dodaj_wierzcholek(i);
+  for(int i = 0; i<50000; i++)
+    G5.dodaj_wierzcholek(i);
+  for(int i = 0; i<100000; i++)
+    G6.dodaj_wierzcholek(i);
+
+   for(int i = 0; i<10; i++){
+    in1>>nr;
+    for(int k = 0; k<5; k++){
+      in1>>id>>wg;
+     
+      G1.dodaj_krawedz(i,id);
+      
+    }
+  }
+  for(int i = 0; i<100; i++){
+    in2>>nr;
+    for(int k = 0; k<5; k++){
+      in2>>id>>wg;
+      G2.dodaj_krawedz(i,id);
+    }
+  }
+  for(int i = 0; i<1000; i++){
+    in3>>nr;
+    for(int k = 0; k<5; k++){
+      in3>>id>>wg;
+      G3.dodaj_krawedz(i,id);
+    }
+  }
+  for(int i = 0; i<10000; i++){
+    in4>>nr;
+    for(int k = 0; k<5; k++){
+      in4>>id>>wg;
+      G4.dodaj_krawedz(i,id);
+    }
+  }
+  for(int i = 0; i<50000; i++){
+    in5>>nr;
+    for(int k = 0; k<5; k++){
+      in5>>id>>wg;
+      G5.dodaj_krawedz(i,id);
+    }
+  }
+  for(int i = 0; i<100000; i++){
+    in6>>nr;
+    for(int k = 0; k<5; k++){
+      in6>>id>>wg;
+      G6.dodaj_krawedz(i,id);
+    }
+  }
+
+}
+
+float astar::przelicz(){
+   wlacz_zegar();
+    switch(n){
+      case 10: G1.a_star(0, rand()%n); break;
+      case 100: G2.a_star(0, rand()%n); break;
+      case 1000: G3.a_star(0, rand()%n); break;
+      case 10000: G4.a_star(0, rand()%n); break;
+      case 50000: G5.a_star(0, rand()%n); break;
+      case 100000: G6.a_star(0, rand()%n); break;
+    }
+     wylacz_zegar();
+  float cz = czas1 + czas2;
+  return cz;
+}

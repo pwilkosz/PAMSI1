@@ -4,6 +4,7 @@
 #include<string>
 #include<list>
 #include<cstdlib>
+#include<sstream>
 #include"str_operacje.hh"
 using namespace std;
 
@@ -148,8 +149,9 @@ public:
 			
 			if (found){
 				if(sp == 1);
-				else{
-				for(int i = ind; i<sp; i++){
+				else{ 
+				for(int i = ind; i<sp-1; i++){
+				
 					key[i] = key[i+1];
 					value[i] = value[i+1];
 				}}
@@ -158,7 +160,7 @@ public:
 			else cout<<"NIE ZNALEZIONO ELEMENTU"<<endl;
 		}
 		found = false;
-		cout<<"usunieto"<<endl;
+		
 	}
 	/*! \brief 
 		Metoda zwraca uzytkownikowi szukany element, pod warunkiem, ze jest on w zbiorze
@@ -167,14 +169,16 @@ public:
 	*/
 	TYP pobierz(string k){
 		if(czy_pusta()) {cout<<"SLOWNIK PUSTY!"<<endl; return 0;}
-		else{
-			TYP v = value[znajdz(k, 0, sp-1)];
-			if(found) return v;
+		else{ 
+			TYP v = value[znajdz(k, 0, sp-1)]; 
+			if(found) return v; 
 			else {cout<<"NIE ZNALEZIONO ELEMENTU"<<endl; return 0;}
 		}
 		found = false;
 	}
-
+	/*! \brief Metoda sprawdza, czy element o kluczu k znajduje sie w strukturze
+	\param [in] k - klucz szukanego elementu
+	*/
 	bool znajdz(string k){
 
 		pobierz(k);
@@ -183,13 +187,13 @@ public:
 	/*! \brief
 		\return true, gdy stos jest pusty, false w przeciwnym wypadku
 	*/
-	bool czy_pusta(){return (s==0);}
+	bool czy_pusta(){return (sp==0);}
 	/*! \brief
 		\return ilosc elementow w strukturze
 	*/
 	
 	int zlicz_elementy(){return sp;}
-
+	/*! \brief wypisuje wszystkie elementy tablicy*/
 	void wypisz(){
 		for(int i = 0; i<zlicz_elementy(); i++)
 			cout<<key[i]<<endl;
@@ -233,6 +237,14 @@ void odblokuj(){
 void ustaw(string k, TYP v){
 	
 	value[znajdz(k,0,sp-1)] = v;
+}
+/*! \brief resetuje wartusci wszystkich elementow tablicy - ustawia wartosci an wartosc 0*/
+void wyczysc(){
+	for(int i = 0; i<zlicz_elementy(); i++){
+		ostringstream s; s<<i;
+		ustaw(s.str(), 0);
+	}
+
 }
 };
 

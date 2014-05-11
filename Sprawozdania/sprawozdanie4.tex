@@ -28,6 +28,7 @@ na podstawie listy incydencji. Przetestowano następujące algorytmy:
    \item Przeszukiwanie wgłąb - DFS
    \item Przeszukiwanie wszerz - BFS
    \item Przeszukiwanie grafu poczynając od najkrótszej ścieżki - Best - First Search
+   \item Algorytm A*
   \end{itemize}
 Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego elementu w grafie.
 \section{Wyniki pomiarów}
@@ -42,17 +43,17 @@ Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego element
 	\hline
 	N & czas & odchylenie \\
     \hline
-  10 & 0.000241798 & 0.000197743 \\
-  \hline
-100 & 0.00295474 & 0.00432009 \\
+ 10 & 0.00110325 & 0.000130398\\
+ \hline
+100 & 0.0274422 & 0.00285908\\
 \hline
-1000 & 0.126165 & 0.334439 \\
+1000 & 0.134149 & 0.0233129\\
 \hline
-10000 & 0.56064 & 1.12066 \\
+10000 & 3.41307 & 1.98324\\
 \hline
-50000 & 3.74226 & 11.2241 \\
+50000 & 36.1375 & 11.0835\\
 \hline
-100000 & 9.42976 & 19.3432 \\
+100000 & 54.0686 & 16.6036\\
 \hline
     \end{tabular}
     \end{table}
@@ -75,17 +76,17 @@ Na podstawie wykresu czas operacji przeszukiwania wgłąb szacuje się jako lini
 	\hline
 	N & czas & odchylenie \\
     \hline
-10 & 4.5747e-06 & 1.52169e-06 \\
+10 & 0.000492332 & 4.54287e-05\\
 \hline
-100 & 0.00106285 & 0.00193947 \\
+100 & 0.00385789 & 0.000494668\\
 \hline
-1000 & 0.0216128 & 0.0473675 \\
+1000 & 0.116186 & 0.0625103\\
 \hline
-10000 & 0.339568 & 0.941901 \\
+10000 & 4.10229 & 1.92677\\
 \hline
-50000 & 1.76083 & 5.35834 \\
+50000 & 27.1518 & 10.3526\\
 \hline
-100000 & 10.5094 & 39.9244 \\
+100000 & 54.1763 & 20.0539\\
 \hline
     \end{tabular}
     \end{table}
@@ -108,17 +109,17 @@ spore odchylenie, jednak uśrednienie wyników daje czas proporcjonalny do sumy 
 	\hline
 	N & czas & odchylenie \\
     \hline
- 10 & 0.000279491 & 0.000470026 \\
- \hline
-100 & 0.00318932 & 0.00492697 \\
+10 & 0.000659847 & 6.09969e-05\\
 \hline
-1000 & 0.0417995 & 0.0982492 \\
+100 & 0.0108403 & 0.000987436\\
 \hline
-10000 & 0.70878 & 1.24863 \\
+1000 & 0.358854 & 0.217304\\
 \hline
-50000 & 4.73391 & 9.98982 \\
+10000 & 5.71089 & 2.71159\\
 \hline
-100000 & 11.1066 & 17.9514 \\
+50000 & 25.7899 & 13.9438\\
+\hline
+100000 & 58.4636 & 24.0813\\
 \hline
     \end{tabular}
     \end{table}
@@ -131,6 +132,67 @@ spore odchylenie, jednak uśrednienie wyników daje czas proporcjonalny do sumy 
 \label{Wykres do tabeli nr 3}
 \end{figure} 
 Z powyższych danych mozna wyciągnąć podobne wnioski jak w przypadku dwóch poprzednich algorytmów. Czas wykonania operacji jest liniowy.
+
+\item Algorytm A*
+
+Algorytm A* służy do znajdowania najkrótszej ścieżki w grafie. W przeciwieństwie do powyższych algorytmów, nie podaje dowolnej ścieżki, lecz 
+możliwie najkrótszą. Oczywiście dokładność tego algorytmu zależy od przyjętej heurystyki, im szacowana odległość jest bliższa rzeczywistej, tym lepszą 
+ściezkę wskaże algorytm. Na potrzeby ćwiczenia zaimplementowano reprezentację grafu, która wspomagana była przez rozmieszczenie wierzchołków 
+na płaszczyźnie kartezjańskiej. Do wyznaczania heurystyki użyto tzw. metryki typu Manhattan. W metryce tej odległość wyznacza się poprzez 
+sumę odległości przebytych w linii prostej i poziomej. Ponadto długości ścieżek wybierane są losowo, gdzie najkrótsza możliwa odległość jest równa  
+szacowanej odległości pomiędzy dwoma punktami, co zapobiega przeszacowaniu heurystyki.
+
+\begin{table}[th]
+\centering
+    \caption{Pomiar czasu działania algorytmu A* w grafie}
+
+      \begin{tabular}{|l|l|l|}
+	\hline
+	N & czas & odchylenie \\
+    \hline
+10 & 0.00104789 & 0.000782535\\
+\hline
+100 & 0.021713 & 0.00951804\\
+\hline
+1000 & 0.177888 & 0.13306\\
+\hline
+10000 & 15.6215 & 31.3469\\
+\hline
+50000 & 80.7123 & 88.6142\\
+\hline
+    \end{tabular}
+    \end{table}
+    \newpage
+
+    \begin{figure}[th]
+\centering
+\includegraphics[width=0.8\textwidth]{../prj/wykres16.eps}
+\caption{Wykres do tabeli nr 4}
+\label{Wykres do tabeli nr 4}
+\end{figure} 
+Z powyższych danych mozna wyciągnąć podobne wnioski jak w przypadku dwóch poprzednich algorytmów. Czas wykonania operacji jest wprost proporcjonalny do sumy ilości węzłów oraz krawędzi.
+
+\subsection{Zależność szybkości algorytmu A* od dokładności heurystyki}
+
+Działanie algorytmu A* w istotny sposób zależy od jakości oszacowania drogi potrzebnej do przebycia pomiędzy danymi punktami. Poniżej umieszczono 
+wykres przedstawiający szybkość działania algorytmu A* w zależności od stopnia dokładności heurystyki. 
+Jak już wcześniej wspomniano, długość ścieżki pomiędzy dwoma punktami jest przydzielana losowo, lecz programista ma możliwość ustalenia 
+maksymalnej różnicy pomiędzy oszacowaniem a rzeczywistą długością. Tak więc za miarę dokładności heurystyki można przyjąć maksymalną różnicę długości 
+drogi oszacowanej i drogi rzeczywistej. Pomiarów dokonano na próbie 10 000 węzłów grafu ze względu na długi czas wykonania algorytmu.
+
+  \begin{figure}[th]
+\centering
+\includegraphics[width=0.8\textwidth]{../prj/wykres_a.eps}
+\caption{Szybkość wykonania algorytmu A*}
+\label{a_star}
+
+Liczby na osi poziomej to różnica pomiędzy rzeczywistą drogą a jej oszacowaniem zgodnie z zastosowaną metryką. Jak widać, im mniejsza jest ta różnica,
+tym szybciej pracuje algorytm, gdy długość ścieżki estymujemy z nadmiarem, czas jest również krótszy, jednak możemy nie znaleźć najkrótszej ścieżki.
+Powyższy wykres jest spójny z teorią, tzn. gdy heurystyka jest o wiele mniejsze od rzeczywistej długości, działanie algorytmu coraz bardziej zbliza się do algorytmu Dijkstry, w 
+drugą stronę algorytm upodabnia się do tzw. best - first search.
+
+\end{figure} 
+
 \end{enumerate}
 
 \section{Wnioski}
@@ -140,8 +202,11 @@ Z powyższych danych mozna wyciągnąć podobne wnioski jak w przypadku dwóch p
 
 \item wykorzystanie uprzednio stworzonych struktur danych, jak np. tablica asocjacyjna, pozwoliło na bardziej intuicyjną implementację algorytmów.
 
-\item Niestety badane algorytmy mogą okazać się mało efektywnym sposobem przeszukiwania grafów. Efekty ich działania są zbyt mocno zależne od struktury grafu. O efektywności
+\item Niestety badane algorytmy mogą okazać się mało efektywnym sposobem przeszukiwania grafów. Efekty ich działania są zbyt mocno zależne od struktury grafu. O efektywności 
 wykonania algorytmu w wielu sytuacjach decyduje losowe wybranie szukanego elementu, co często może prowadzić do sytuacji optymistycznej, ale także pesymistycznej.
+\item Algorytm A* okazał się bardzo wydajnym algorytmem wyszukiwania najkrótszej ścieżki w grafie. Gdy potrafimy wyznaczyć dokładną heurystykę, algorytm łączy szybkość oraz 
+możliwość optymalizacji (znalezienia najkrótszej ścieżki). Przyjęte oszacowanie ma wpływ na szybkość działania oraz na dokładność (dla przeszacowania algorytm może znalźć inną ścieżkę).
+
 \end{itemize}
 
 \begin{figure}[th]

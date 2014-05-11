@@ -1,0 +1,15 @@
+reset
+
+set title "Czas wykonania od dokladnosci heurystyki"
+set xlabel "dokladnosc"
+set ylabel "Czas sredni [s]"
+
+set grid
+
+
+#set xrange [10:60000]
+set terminal postscript eps color
+set output "wykres_a.eps"
+
+
+plot 'a_star.csv' title 'Czas' with xyerrorbars pointtype 1 pointsize 2 smooth bezier

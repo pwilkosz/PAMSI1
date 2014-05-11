@@ -16,7 +16,7 @@ Diagram współpracy dla graf\-:\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=350pt]{classgraf__coll__graph}
+\includegraphics[width=295pt]{classgraf__coll__graph}
 \end{center}
 \end{figure}
 \subsection*{Metody publiczne}
@@ -32,8 +32,12 @@ bool \hyperlink{classgraf_a617db5b49d65cd716b24c8b4930dec2a}{czy\-\_\-sasiad} (\
 \begin{DoxyCompactList}\small\item\em Sprawdza czy podane wierzcholki sa polaczone krawedzia -\/ odwolanie poprzez obiekt klasy wierzcholek. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_ac72411b348f0025613cb03eeb27b9594}{sasiedztwo} (\hyperlink{classwierzcholek}{wierzcholek} w)
 \begin{DoxyCompactList}\small\item\em wypisuje wszystkie wierzcholki polaczone krawedzia z podanym wierzcholkiem -\/ odwolanie poprzez obiekt typu wierzcholek \end{DoxyCompactList}\item 
+void \hyperlink{classgraf_a8b81ec6754b796abb926a750a4ed6025}{dodaj\-\_\-wierzcholek} (int id)
+\begin{DoxyCompactList}\small\item\em Dodaje wierzcholek do grafu, metoda dedykowana do algorytmu A$\ast$ -\/ algorytm ustawia wezly grafu na siatce, nadajac im jednoczesnie wspolrzedne kartezjanskie. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_abe2f98850133e73015ab8232d90d7530}{dodaj\-\_\-wierzcholek} (\hyperlink{classwierzcholek}{wierzcholek} w)
 \begin{DoxyCompactList}\small\item\em Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. Dodany wierzcholek nie posiada krawedzi incydentnych. \end{DoxyCompactList}\item 
+void \hyperlink{classgraf_a815e60a2e34a99d498f3345b15d678b7}{dodaj\-\_\-krawedz} (int id1, int id2)
+\begin{DoxyCompactList}\small\item\em dodaje krawedz pomiedzy zadane wierzcholki. Waga krawedzi jest wyznaczana w sposob losowy. Najkrotsza odlegloscia miedzy wezlami, jest odleglosc wezlow w sensie metryki typu Manhattan \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af}{dodaj\-\_\-krawedz} (unsigned int id1, unsigned int id2, unsigned int waga)
 \begin{DoxyCompactList}\small\item\em Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez identyfikatory wierzcholkow. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_a8442b7d095a21024666b12c3e3f4184b}{dodaj\-\_\-krawedz} (\hyperlink{classwierzcholek}{wierzcholek} w1, \hyperlink{classwierzcholek}{wierzcholek} w2, unsigned int waga)
@@ -63,16 +67,28 @@ void \hyperlink{classgraf_a51bb320791ada3c7700fa90477b508f4}{bfs} (int id)
 bool \hyperlink{classgraf_abf0a6bb0cfd8ef55868981bb91881de3}{przeszukaj\-\_\-wezel\-\_\-2} (int id, int wzor)
 \begin{DoxyCompactList}\small\item\em Jeżeli wezel nei byl odwiedzony, odklada do tablicy asocjacyjnej wszystkie jego nieodwiedzone nastepniki i rekurencyjnie je przeszukuje, poczynajac od tego, do ktorego mamy najkrotsza sciezke. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1}{best\-\_\-first} (int id)
-\begin{DoxyCompactList}\small\item\em Metoda przeszukuje graf, poczynajac od najkrotszej sciezki. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\begin{DoxyCompactList}\small\item\em Metoda przeszukuje graf, poczynajac od najkrotszej sciezki. \end{DoxyCompactList}\item 
+void \hyperlink{classgraf_aa0a5bfb4cb8a7d76620804cbc6230752}{a\-\_\-star} (int id, int wzor)
+\begin{DoxyCompactList}\small\item\em Metoda przeszukuje wyszukuje zadany element grafu w mysl algorytmu A$\ast$. \end{DoxyCompactList}\item 
+void \hyperlink{classgraf_ab3d25f79040645495cda405bdc4975e8}{rysuj} ()
+\end{DoxyCompactItemize}
 \subsection*{Atrybuty prywatne}
 \begin{DoxyCompactItemize}
 \item 
-\hyperlink{classqueue__array}{queue\-\_\-array}$<$ string $>$ \hyperlink{classgraf_a8dfe6c329285c5077e2d612247b0a8b0}{Q0}
-\item 
 \hyperlink{classstack__array}{stack\-\_\-array}$<$ int $>$ \hyperlink{classgraf_a9d7d7f9781f344e37cc41ef26e0f690a}{Q}
-\item 
+\begin{DoxyCompactList}\small\item\em przechowuje sciezke w algorytmach dfs, bfs oraz best -\/ first \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{classgraf_add49fee88b9df326c31bb81318f8bb39}{w\-\_\-x}
+\begin{DoxyCompactList}\small\item\em wspolrzedna x-\/owa wierzcholka grafu \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{classgraf_a43cbf9a972dc7cad492fb8fc811a51d1}{w\-\_\-y}
+\begin{DoxyCompactList}\small\item\em wspolrzedna y-\/owa wierzcholka grafu \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{classgraf_a46ea752f882ac298a838907a32466a7a}{poprzednik}
+\begin{DoxyCompactList}\small\item\em wektor, ktory zawiera sciezke w algorytmie A \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{classgraf_aa16a7a8009745b43e5d34494696ebb5e}{dist}
+\begin{DoxyCompactList}\small\item\em dystans wierzcholka od zadanego wezla zrodlowego \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{classgraf_a7592be0ba67c7dac367fefa53cc32b5f}{est}
+\begin{DoxyCompactList}\small\item\em estymacja odleglosci do celu w oparciu o metrykę typu Manhattan \end{DoxyCompactList}\item 
 \hyperlink{classtablica__asocjacyjna}{tablica\-\_\-asocjacyjna}$<$ bool $>$ \hyperlink{classgraf_a563284d00331e414f9d124da73e43dd6}{tab}
-\begin{DoxyCompactList}\small\item\em stos sluzacy do przeszukiwania grafu \end{DoxyCompactList}\item 
+\begin{DoxyCompactList}\small\item\em struktura sluzaca do przechowywania grafu, zawiera informacje, czy wierzcholek byl odwiedzony \end{DoxyCompactList}\item 
 vector$<$ \hyperlink{classtablica__asocjacyjna}{tablica\-\_\-asocjacyjna}\\*
 $<$ int $>$ $>$ \hyperlink{classgraf_a867b5d2b59608ad67207f4537214e006}{lista\-\_\-incydencji}
 \begin{DoxyCompactList}\small\item\em lista incydencji grafu \end{DoxyCompactList}\end{DoxyCompactItemize}
@@ -105,11 +121,56 @@ Konstruktor nieparametryczny -\/ ustala sposob zarzadzania pamiecia na stosie.
 
 
 
-Definicja w linii 49 pliku graf.\-hh.
+Definicja w linii 61 pliku graf.\-hh.
 
 
 
 \subsection{Dokumentacja funkcji składowych}
+\hypertarget{classgraf_aa0a5bfb4cb8a7d76620804cbc6230752}{\index{graf@{graf}!a\-\_\-star@{a\-\_\-star}}
+\index{a\-\_\-star@{a\-\_\-star}!graf@{graf}}
+\subsubsection[{a\-\_\-star}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::a\-\_\-star (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{int}]{wzor}
+\end{DoxyParamCaption}
+)}}\label{classgraf_aa0a5bfb4cb8a7d76620804cbc6230752}
+
+
+Metoda przeszukuje wyszukuje zadany element grafu w mysl algorytmu A$\ast$. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em id} & -\/ id wezla zrodlowego \\
+\hline
+\mbox{\tt in}  & {\em wzor} & -\/ wezel docelowy \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii 280 pliku graf.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=308pt]{classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=260pt]{classgraf_aa0a5bfb4cb8a7d76620804cbc6230752_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{classgraf_ac7c83abd9cf9ee4d3d9dfb1fdbf157a1}{\index{graf@{graf}!best\-\_\-first@{best\-\_\-first}}
 \index{best\-\_\-first@{best\-\_\-first}!graf@{graf}}
 \subsubsection[{best\-\_\-first}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::best\-\_\-first (
@@ -128,7 +189,7 @@ Metoda przeszukuje graf, poczynajac od najkrotszej sciezki.
 \end{DoxyParams}
 
 
-Definicja w linii 222 pliku graf.\-cpp.
+Definicja w linii 256 pliku graf.\-cpp.
 
 
 
@@ -170,7 +231,7 @@ Metoda przeszukuje wszerz caly graf.
 \end{DoxyParams}
 
 
-Definicja w linii 172 pliku graf.\-cpp.
+Definicja w linii 205 pliku graf.\-cpp.
 
 
 
@@ -218,7 +279,7 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 \end{DoxyReturn}
 
 
-Definicja w linii 61 pliku graf.\-cpp.
+Definicja w linii 92 pliku graf.\-cpp.
 
 
 
@@ -255,7 +316,7 @@ true -\/ gdy sa sasiadami, false -\/ gdy nie sa
 \end{DoxyReturn}
 
 
-Definicja w linii 68 pliku graf.\-cpp.
+Definicja w linii 99 pliku graf.\-cpp.
 
 
 
@@ -286,7 +347,7 @@ Metoda przeszukuje wglab caly graf.
 \end{DoxyParams}
 
 
-Definicja w linii 127 pliku graf.\-cpp.
+Definicja w linii 160 pliku graf.\-cpp.
 
 
 
@@ -306,6 +367,40 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \begin{center}
 \leavevmode
 \includegraphics[width=266pt]{classgraf_ac87b0c158f92d78cc9ccaabc8ce5fcd2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classgraf_a815e60a2e34a99d498f3345b15d678b7}{\index{graf@{graf}!dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}}
+\index{dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}!graf@{graf}}
+\subsubsection[{dodaj\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::dodaj\-\_\-krawedz (
+\begin{DoxyParamCaption}
+\item[{int}]{id1, }
+\item[{int}]{id2}
+\end{DoxyParamCaption}
+)}}\label{classgraf_a815e60a2e34a99d498f3345b15d678b7}
+
+
+dodaje krawedz pomiedzy zadane wierzcholki. Waga krawedzi jest wyznaczana w sposob losowy. Najkrotsza odlegloscia miedzy wezlami, jest odleglosc wezlow w sensie metryki typu Manhattan 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em id1} & -\/ id pierwszego wezla \\
+\hline
+\mbox{\tt in}  & {\em id2} & -\/ id drugiego wezla \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii 41 pliku graf.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=336pt]{classgraf_a815e60a2e34a99d498f3345b15d678b7_icgraph}
 \end{center}
 \end{figure}
 
@@ -334,18 +429,7 @@ Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez identyfikator
 \end{DoxyParams}
 
 
-Definicja w linii 28 pliku graf.\-cpp.
-
-
-
-Oto graf wywoływań tej funkcji\-:\nopagebreak
-\begin{figure}[H]
-\begin{center}
-\leavevmode
-\includegraphics[width=336pt]{classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af_icgraph}
-\end{center}
-\end{figure}
-
+Definicja w linii 59 pliku graf.\-cpp.
 
 \hypertarget{classgraf_a8442b7d095a21024666b12c3e3f4184b}{\index{graf@{graf}!dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}}
 \index{dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}!graf@{graf}}
@@ -371,7 +455,7 @@ Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez obiekty typu 
 \end{DoxyParams}
 
 
-Definicja w linii 24 pliku graf.\-cpp.
+Definicja w linii 55 pliku graf.\-cpp.
 
 
 
@@ -397,7 +481,7 @@ Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace k
 
 
 
-Definicja w linii 6 pliku graf.\-cpp.
+Definicja w linii 9 pliku graf.\-cpp.
 
 
 
@@ -421,6 +505,37 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{figure}
 
 
+\hypertarget{classgraf_a8b81ec6754b796abb926a750a4ed6025}{\index{graf@{graf}!dodaj\-\_\-wierzcholek@{dodaj\-\_\-wierzcholek}}
+\index{dodaj\-\_\-wierzcholek@{dodaj\-\_\-wierzcholek}!graf@{graf}}
+\subsubsection[{dodaj\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::dodaj\-\_\-wierzcholek (
+\begin{DoxyParamCaption}
+\item[{int}]{id}
+\end{DoxyParamCaption}
+)}}\label{classgraf_a8b81ec6754b796abb926a750a4ed6025}
+
+
+Dodaje wierzcholek do grafu, metoda dedykowana do algorytmu A$\ast$ -\/ algorytm ustawia wezly grafu na siatce, nadajac im jednoczesnie wspolrzedne kartezjanskie. 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em id} & -\/ id wierzcholka, wg ktorego wyliczamy jego wspolrzedne \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii 27 pliku graf.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{classgraf_a8b81ec6754b796abb926a750a4ed6025_cgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{classgraf_abe2f98850133e73015ab8232d90d7530}{\index{graf@{graf}!dodaj\-\_\-wierzcholek@{dodaj\-\_\-wierzcholek}}
 \index{dodaj\-\_\-wierzcholek@{dodaj\-\_\-wierzcholek}!graf@{graf}}
 \subsubsection[{dodaj\-\_\-wierzcholek}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::dodaj\-\_\-wierzcholek (
@@ -434,7 +549,7 @@ Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace k
 
 
 
-Definicja w linii 14 pliku graf.\-cpp.
+Definicja w linii 17 pliku graf.\-cpp.
 
 
 
@@ -471,7 +586,7 @@ informacja, czy wezel zostal znaleziony
 \end{DoxyReturn}
 
 
-Definicja w linii 95 pliku graf.\-cpp.
+Definicja w linii 126 pliku graf.\-cpp.
 
 
 
@@ -519,7 +634,7 @@ informacja, czy wezel zostal znaleziony
 \end{DoxyReturn}
 
 
-Definicja w linii 138 pliku graf.\-cpp.
+Definicja w linii 171 pliku graf.\-cpp.
 
 
 
@@ -567,7 +682,7 @@ informacja, czy wezel zostal znaleziony
 \end{DoxyReturn}
 
 
-Definicja w linii 184 pliku graf.\-cpp.
+Definicja w linii 218 pliku graf.\-cpp.
 
 
 
@@ -591,6 +706,28 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{figure}
 
 
+\hypertarget{classgraf_ab3d25f79040645495cda405bdc4975e8}{\index{graf@{graf}!rysuj@{rysuj}}
+\index{rysuj@{rysuj}!graf@{graf}}
+\subsubsection[{rysuj}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::rysuj (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classgraf_ab3d25f79040645495cda405bdc4975e8}
+
+
+Definicja w linii 268 pliku graf.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=292pt]{classgraf_ab3d25f79040645495cda405bdc4975e8_icgraph}
+\end{center}
+\end{figure}
+
+
 \hypertarget{classgraf_ac72411b348f0025613cb03eeb27b9594}{\index{graf@{graf}!sasiedztwo@{sasiedztwo}}
 \index{sasiedztwo@{sasiedztwo}!graf@{graf}}
 \subsubsection[{sasiedztwo}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::sasiedztwo (
@@ -609,7 +746,7 @@ wypisuje wszystkie wierzcholki polaczone krawedzia z podanym wierzcholkiem -\/ o
 \end{DoxyParams}
 
 
-Definicja w linii 45 pliku graf.\-cpp.
+Definicja w linii 76 pliku graf.\-cpp.
 
 \hypertarget{classgraf_a6a3ee98f332805da9c65749bacad27db}{\index{graf@{graf}!sasiedztwo@{sasiedztwo}}
 \index{sasiedztwo@{sasiedztwo}!graf@{graf}}
@@ -629,7 +766,7 @@ wypisuje wszystkie wierzcholki polaczone krawedzia z podanym wierzcholkiem -\/ o
 \end{DoxyParams}
 
 
-Definicja w linii 36 pliku graf.\-cpp.
+Definicja w linii 67 pliku graf.\-cpp.
 
 \hypertarget{classgraf_aede977ec0f8660ad4a8c09449535cb74}{\index{graf@{graf}!usun\-\_\-krawedz@{usun\-\_\-krawedz}}
 \index{usun\-\_\-krawedz@{usun\-\_\-krawedz}!graf@{graf}}
@@ -652,7 +789,7 @@ usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez identyfikatory wier
 \end{DoxyParams}
 
 
-Definicja w linii 73 pliku graf.\-cpp.
+Definicja w linii 104 pliku graf.\-cpp.
 
 
 
@@ -686,7 +823,7 @@ usuwa krawedz spomiedzy 2 wierzcholkow -\/ odwolanie poprzez obiekt typu wierzch
 \end{DoxyParams}
 
 
-Definicja w linii 82 pliku graf.\-cpp.
+Definicja w linii 113 pliku graf.\-cpp.
 
 
 
@@ -717,7 +854,7 @@ usuwa podany wierzcholek, a scislej, ustawia flage w strukturze tablicy asocjacy
 \end{DoxyParams}
 
 
-Definicja w linii 85 pliku graf.\-cpp.
+Definicja w linii 116 pliku graf.\-cpp.
 
 
 
@@ -748,7 +885,7 @@ usuwa podany wierzcholek, a scislej, ustawia flage w strukturze tablicy asocjacy
 \end{DoxyParams}
 
 
-Definicja w linii 91 pliku graf.\-cpp.
+Definicja w linii 122 pliku graf.\-cpp.
 
 
 
@@ -774,7 +911,7 @@ usuwa wszystkie obiekty z listy inceydencji grafu
 
 
 
-Definicja w linii 113 pliku graf.\-hh.
+Definicja w linii 136 pliku graf.\-hh.
 
 \hypertarget{classgraf_aa4376c1891e93cac64f1b53548af8b11}{\index{graf@{graf}!wypisz\-\_\-liste@{wypisz\-\_\-liste}}
 \index{wypisz\-\_\-liste@{wypisz\-\_\-liste}!graf@{graf}}
@@ -789,11 +926,33 @@ wypisuje pelna liste incydencji grafu
 
 
 
-Definicja w linii 49 pliku graf.\-cpp.
+Definicja w linii 80 pliku graf.\-cpp.
 
 
 
 \subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classgraf_aa16a7a8009745b43e5d34494696ebb5e}{\index{graf@{graf}!dist@{dist}}
+\index{dist@{dist}!graf@{graf}}
+\subsubsection[{dist}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ graf\-::dist\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_aa16a7a8009745b43e5d34494696ebb5e}
+
+
+dystans wierzcholka od zadanego wezla zrodlowego 
+
+
+
+Definicja w linii 50 pliku graf.\-hh.
+
+\hypertarget{classgraf_a7592be0ba67c7dac367fefa53cc32b5f}{\index{graf@{graf}!est@{est}}
+\index{est@{est}!graf@{graf}}
+\subsubsection[{est}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ graf\-::est\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a7592be0ba67c7dac367fefa53cc32b5f}
+
+
+estymacja odleglosci do celu w oparciu o metrykę typu Manhattan 
+
+
+
+Definicja w linii 52 pliku graf.\-hh.
+
 \hypertarget{classgraf_a867b5d2b59608ad67207f4537214e006}{\index{graf@{graf}!lista\-\_\-incydencji@{lista\-\_\-incydencji}}
 \index{lista\-\_\-incydencji@{lista\-\_\-incydencji}!graf@{graf}}
 \subsubsection[{lista\-\_\-incydencji}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf tablica\-\_\-asocjacyjna}$<$int$>$ $>$ graf\-::lista\-\_\-incydencji\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a867b5d2b59608ad67207f4537214e006}
@@ -803,32 +962,62 @@ lista incydencji grafu
 
 
 
-Definicja w linii 46 pliku graf.\-hh.
+Definicja w linii 58 pliku graf.\-hh.
+
+\hypertarget{classgraf_a46ea752f882ac298a838907a32466a7a}{\index{graf@{graf}!poprzednik@{poprzednik}}
+\index{poprzednik@{poprzednik}!graf@{graf}}
+\subsubsection[{poprzednik}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ graf\-::poprzednik\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a46ea752f882ac298a838907a32466a7a}
+
+
+wektor, ktory zawiera sciezke w algorytmie A 
+
+
+
+Definicja w linii 48 pliku graf.\-hh.
 
 \hypertarget{classgraf_a9d7d7f9781f344e37cc41ef26e0f690a}{\index{graf@{graf}!Q@{Q}}
 \index{Q@{Q}!graf@{graf}}
 \subsubsection[{Q}]{\setlength{\rightskip}{0pt plus 5cm}{\bf stack\-\_\-array}$<$int$>$ graf\-::\-Q\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a9d7d7f9781f344e37cc41ef26e0f690a}
 
 
-Definicja w linii 40 pliku graf.\-hh.
-
-\hypertarget{classgraf_a8dfe6c329285c5077e2d612247b0a8b0}{\index{graf@{graf}!Q0@{Q0}}
-\index{Q0@{Q0}!graf@{graf}}
-\subsubsection[{Q0}]{\setlength{\rightskip}{0pt plus 5cm}{\bf queue\-\_\-array}$<$string$>$ graf\-::\-Q0\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a8dfe6c329285c5077e2d612247b0a8b0}
+przechowuje sciezke w algorytmach dfs, bfs oraz best -\/ first 
 
 
-Definicja w linii 39 pliku graf.\-hh.
+
+Definicja w linii 42 pliku graf.\-hh.
 
 \hypertarget{classgraf_a563284d00331e414f9d124da73e43dd6}{\index{graf@{graf}!tab@{tab}}
 \index{tab@{tab}!graf@{graf}}
 \subsubsection[{tab}]{\setlength{\rightskip}{0pt plus 5cm}{\bf tablica\-\_\-asocjacyjna}$<$bool$>$ graf\-::tab\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a563284d00331e414f9d124da73e43dd6}
 
 
-stos sluzacy do przeszukiwania grafu 
-
 struktura sluzaca do przechowywania grafu, zawiera informacje, czy wierzcholek byl odwiedzony 
 
+
+
+Definicja w linii 56 pliku graf.\-hh.
+
+\hypertarget{classgraf_add49fee88b9df326c31bb81318f8bb39}{\index{graf@{graf}!w\-\_\-x@{w\-\_\-x}}
+\index{w\-\_\-x@{w\-\_\-x}!graf@{graf}}
+\subsubsection[{w\-\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ graf\-::w\-\_\-x\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_add49fee88b9df326c31bb81318f8bb39}
+
+
+wspolrzedna x-\/owa wierzcholka grafu 
+
+
+
 Definicja w linii 44 pliku graf.\-hh.
+
+\hypertarget{classgraf_a43cbf9a972dc7cad492fb8fc811a51d1}{\index{graf@{graf}!w\-\_\-y@{w\-\_\-y}}
+\index{w\-\_\-y@{w\-\_\-y}!graf@{graf}}
+\subsubsection[{w\-\_\-y}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ graf\-::w\-\_\-y\hspace{0.3cm}{\ttfamily [private]}}}\label{classgraf_a43cbf9a972dc7cad492fb8fc811a51d1}
+
+
+wspolrzedna y-\/owa wierzcholka grafu 
+
+
+
+Definicja w linii 46 pliku graf.\-hh.
 
 
 
