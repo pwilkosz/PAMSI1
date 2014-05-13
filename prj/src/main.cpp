@@ -7,6 +7,7 @@
 #include"drzewo.hh"
 #include"hashtab.hh"
 #include"graf.hh"
+#include"simplex.hh"
 #include<cstdlib>
 #include<string>
 
@@ -298,5 +299,9 @@ for(int i = 0; i<tabn[5]; i++)
 
 */
 
+simplex S;
+S.interfejs();
+S.wypisz_uklad();
+S.zamien(1,3);
 return 0;
 }

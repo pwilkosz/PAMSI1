@@ -1,0 +1,106 @@
+#include "simplex.hh"
+#include <iostream>
+#include <cstdlib>
+void simplex::interfejs(){
+	int il_zm;
+	int il_rown;
+	float k;
+	cout<<"Podaj ilosc zmiennych decyzyjnych: ";
+	cin>>il_zm;
+	while(cin.fail()){
+		cout<<"Bledny format, sprobuj ponownie: ";
+		cin>>il_zm;
+	}
+	cout<<"Podaj ilosc rownan: ";
+	cin>>il_rown;
+	while(cin.fail() || (il_rown<il_zm)){
+		cout<<"Bledny format, sprobuj ponownie: ";
+		cin>>il_rown;
+	}
+
+	/*wprowadzenie kosztow dla kazdej zmiennej. Koszt i-tej zmiennej to element pod indeksem 'i-1'*/
+	for(int i = 0; i<il_zm; i++){
+		cout<<"wprowadz koszt dla zmiennej nr "<<i;
+		cin>>k;
+		koszt.push_back(k);
+	}
+
+	/*Tworzenie struktury do przechowania danych*/
+	vector<float> vec;
+	uklad.push_back(vec);
+	/*wyraz wolny*/
+	uklad.at(0).push_back(0);
+	/*Przepisanie kosztow*/
+	for(int i = 0; i<il_zm; i++)
+		uklad.at(0).push_back(koszt[i]);
+	for(int i = 1; i<=(il_zm + il_rown); i++){
+		uklad.push_back(vec);
+		for(int k = 0; k<=il_zm; k++)
+		uklad.at(i).push_back(0);
+	}
+
+	/*Wczytam dane jak bede juz mial strukture danych*/
+	cout<<"Podaj kolejne wspolczynniki: "<<endl;
+	for(int i = 1; i<=il_rown; i++)
+		for(int k = 1; k<=il_zm; k++){
+			cout<<"pozycja: ( "<<i<<", "<<k<<" ): ";
+			cin>>uklad.at(i+il_zm).at(k);
+			if(uklad.at(i+il_zm).at(k)<0) cout<<"gdzie mie z tym minusem?! Potraktuje to jako plus."<<endl;
+			else uklad.at(i+il_zm).at(k) *= -1;
+		}
+	for(int i = 1; i<=il_rown; i++){
+		cout<<"Ograniczenie "<<i<<": ";
+		cin>>uklad.at(i+il_zm).at(0);
+	}
+
+	for(int i = 0; i<il_zm; i++){
+		nie_baza.push_back(i);
+		baza.push_back(il_zm + i);
+	}
+}
+void simplex::wypisz_uklad(){
+		/*wypisanie ukladu zeby sprawdzic czy dobrze dziala*/
+	cout<<"WYPISANIE UKLADU: "<<endl;
+	for(int i = 0; i<uklad.size(); i++){
+		if(i == 0){
+			cout<<"Z = ";
+			for(int k = 0; k<uklad.at(0).size(); k++ )
+				cout<<uklad.at(0).at(k)<<" * x"<<k<<" + ";
+			cout<<endl;
+		}
+		else{
+			cout<<" X"<<i<<" = ";
+			for(int k = 0; k<=(uklad.at(0).size()-1);k++)
+				cout<<uklad.at(i).at(k)<<" * X"<<k<<" ";
+			cout<<endl;
+		}
+	}
+}
+
+bool simplex::zamien(int zm1, int zm2){
+	int ind1, ind2;
+	/*znajdz id1 w niebazie*/
+	for(int l = 0; l<=nie_baza.size();l++){
+		if(l == nie_baza.size()) return false;
+		if(nie_baza.at(l) == zm1) {ind1 = l; break; }
+	}
+	/*znajdz id2 w bazie*/
+	for(int l = 0; l<=baza.size();l++){
+		if(l == baza.size()) return false;
+		if(baza.at(l) == zm1){ind2 = l; break;}
+	}
+	/*z rowania bazowego wyznaczyc zmienna niebazowa*/
+	/*stworz nowy wektor i przepisz do niego elementy ze zmienionym znakiem*/
+	vector<float> temp;
+	for(int i = 0; i < uklad.at(zm2).size(); i++){
+		if(i == zm1) temp.push_back(0);
+		temp.push_back(-uklad.at(zm2).at(i));
+	}
+	/*zamieniamy elementy w wektorze*/
+	nie_baza.erase(nie_baza.begin() + ind1);
+	nie_baza.push_back(zm2);
+	baza.erase(baza.begin() + ind2);
+	baza.push_back(zm1);
+	return true;
+}
+
