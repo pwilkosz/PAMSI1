@@ -302,6 +302,9 @@ for(int i = 0; i<tabn[5]; i++)
 simplex S;
 S.interfejs();
 S.wypisz_uklad();
-S.zamien(1,3);
+cout<<"zamien zwraca: "<<S.zamien(1,3)<<endl;
+vector<float> V;
+S.wstaw(1,V);
+S.wypisz_uklad();
 return 0;
 }

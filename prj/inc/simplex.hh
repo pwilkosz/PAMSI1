@@ -25,6 +25,7 @@ public:
 	float max_wart_zm_niebazowej(){}
 	/*! \brief zamienia zmienna bazowa i niebazowa zachowujac zbior rozwiazan dopuszczalnych*/
 	bool zamien(int zm1, int zm2);
+	void wstaw(int id, vector<float> temp);
 	void wypisz_uklad();
 };
 

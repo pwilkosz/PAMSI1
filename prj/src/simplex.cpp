@@ -35,7 +35,7 @@ void simplex::interfejs(){
 		uklad.at(0).push_back(koszt[i]);
 	for(int i = 1; i<=(il_zm + il_rown); i++){
 		uklad.push_back(vec);
-		for(int k = 0; k<=il_zm; k++)
+		for(int k = 0; k<=(il_zm+il_rown); k++)
 		uklad.at(i).push_back(0);
 	}
 
@@ -54,11 +54,16 @@ void simplex::interfejs(){
 	}
 
 	for(int i = 0; i<il_zm; i++){
-		nie_baza.push_back(i);
-		baza.push_back(il_zm + i);
+		nie_baza.push_back(i+1);
+		baza.push_back(il_zm + i+1);
 	}
 }
 void simplex::wypisz_uklad(){
+	for(int i = 0; i<baza.size(); i++)
+		cout<<"baza: "<<baza.at(i)<<endl;
+	
+	for(int i = 0; i<nie_baza.size(); i++)
+		cout<<"niebaza: "<<nie_baza.at(i)<<endl;
 		/*wypisanie ukladu zeby sprawdzic czy dobrze dziala*/
 	cout<<"WYPISANIE UKLADU: "<<endl;
 	for(int i = 0; i<uklad.size(); i++){
@@ -81,13 +86,13 @@ bool simplex::zamien(int zm1, int zm2){
 	int ind1, ind2;
 	/*znajdz id1 w niebazie*/
 	for(int l = 0; l<=nie_baza.size();l++){
-		if(l == nie_baza.size()) return false;
+		if(l == nie_baza.size()) {return false;}
 		if(nie_baza.at(l) == zm1) {ind1 = l; break; }
 	}
 	/*znajdz id2 w bazie*/
 	for(int l = 0; l<=baza.size();l++){
 		if(l == baza.size()) return false;
-		if(baza.at(l) == zm1){ind2 = l; break;}
+		if(baza.at(l) == zm2){ind2 = l; break;}
 	}
 	/*z rowania bazowego wyznaczyc zmienna niebazowa*/
 	/*stworz nowy wektor i przepisz do niego elementy ze zmienionym znakiem*/
@@ -96,11 +101,30 @@ bool simplex::zamien(int zm1, int zm2){
 		if(i == zm1) temp.push_back(0);
 		temp.push_back(-uklad.at(zm2).at(i));
 	}
+	/*Teraz jeszcze podzielmy wekor przez wiadomo co*/
+	for(int i = 0; i<temp.size();i++){
+		temp.at(i) = temp.at(i)/uklad.at(zm2).at(zm1);
+		cout<<"temp: "<<temp.at(i)<<endl;
+	}
 	/*zamieniamy elementy w wektorze*/
 	nie_baza.erase(nie_baza.begin() + ind1);
 	nie_baza.push_back(zm2);
 	baza.erase(baza.begin() + ind2);
 	baza.push_back(zm1);
+
 	return true;
 }
 
+void simplex::wstaw(int id, vector<float> temp){
+	/*wyzeruj wszystkie niebazowe*/
+	
+	for(int i = 0; i<nie_baza.size(); i++){
+		vector<float>::iterator it = uklad.at(nie_baza.at(i)).begin();
+		vector<float> nowy(uklad.at(0).size(), 0);
+		uklad.at(nie_baza.at(i)).clear();
+		uklad.at(nie_baza.at(i)).insert(it,nowy.begin(),nowy.end());
+
+	}
+	/*Teraz podstawiamy nowa zmienna bazowa*/	
+		
+}
