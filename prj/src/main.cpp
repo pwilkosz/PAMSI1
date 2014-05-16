@@ -303,8 +303,8 @@ simplex S;
 S.interfejs();
 S.wypisz_uklad();
 cout<<"zamien zwraca: "<<S.zamien(1,3)<<endl;
-vector<float> V;
-S.wstaw(1,V);
+
+
 S.wypisz_uklad();
 return 0;
 }

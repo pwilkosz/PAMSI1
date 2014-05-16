@@ -24,6 +24,8 @@ void simplex::interfejs(){
 		cin>>k;
 		koszt.push_back(k);
 	}
+	for(int i =0; i<il_rown;i++)
+		koszt.push_back(0);
 
 	/*Tworzenie struktury do przechowania danych*/
 	vector<float> vec;
@@ -31,7 +33,7 @@ void simplex::interfejs(){
 	/*wyraz wolny*/
 	uklad.at(0).push_back(0);
 	/*Przepisanie kosztow*/
-	for(int i = 0; i<il_zm; i++)
+	for(int i = 0; i<(il_zm+il_rown); i++)
 		uklad.at(0).push_back(koszt[i]);
 	for(int i = 1; i<=(il_zm + il_rown); i++){
 		uklad.push_back(vec);
@@ -96,10 +98,12 @@ bool simplex::zamien(int zm1, int zm2){
 	}
 	/*z rowania bazowego wyznaczyc zmienna niebazowa*/
 	/*stworz nowy wektor i przepisz do niego elementy ze zmienionym znakiem*/
+	/*wektor wyznacza zmienna ktora weszla do bazy*/
 	vector<float> temp;
 	for(int i = 0; i < uklad.at(zm2).size(); i++){
 		if(i == zm1) temp.push_back(0);
-		temp.push_back(-uklad.at(zm2).at(i));
+		else if(i == zm2) temp.push_back(1);
+		else temp.push_back(-uklad.at(zm2).at(i));
 	}
 	/*Teraz jeszcze podzielmy wekor przez wiadomo co*/
 	for(int i = 0; i<temp.size();i++){
@@ -111,20 +115,54 @@ bool simplex::zamien(int zm1, int zm2){
 	nie_baza.push_back(zm2);
 	baza.erase(baza.begin() + ind2);
 	baza.push_back(zm1);
-
+	wstaw(zm1,temp);
 	return true;
 }
-
-void simplex::wstaw(int id, vector<float> temp){
+/*! \brief metoda aktualizuje uklad dopelnieniowy*/
+void simplex::wstaw(int id, vector<float> temp){ cout<<"WSTAW"<<endl;
 	/*wyzeruj wszystkie niebazowe*/
-	
+	vector<float>temp1;
+	temp1 = temp;
+	for(int i = 0; i<temp.size();i++){
+		
+		cout<<"temp: "<<temp1.at(i)<<endl;
+	}
 	for(int i = 0; i<nie_baza.size(); i++){
 		vector<float>::iterator it = uklad.at(nie_baza.at(i)).begin();
 		vector<float> nowy(uklad.at(0).size(), 0);
 		uklad.at(nie_baza.at(i)).clear();
 		uklad.at(nie_baza.at(i)).insert(it,nowy.begin(),nowy.end());
 
+	}cout<<"krok 2"<<endl;
+	/*Teraz podstawiamy nowa zmienna bazowa*/
+	/*Aktualizacja ukladu, zrobimy troche osobno dla funkcji celu*/
+	for(int k = 0; k<temp1.size(); k++){cout<<uklad.at(0).at(id)<<" w funckji celu"<<endl;
+			temp1.at(k) = temp1.at(k)*uklad.at(0).at(id);
+			
+		}
+		for(int l = 0; l<temp.size();l++){
+		
+		cout<<"temp: "<<temp1.at(l)<<endl;
 	}
-	/*Teraz podstawiamy nowa zmienna bazowa*/	
+	for (int k = 0; k<temp1.size(); k++){
+			/*sumowanie elementow*/
+			uklad.at(0).at(k) = uklad.at(0).at(k) + temp1.at(k);
+		}
+	temp1 = temp;
+	cout<<"b2"<<endl;
+	for(int i = 0; i<baza.size(); i++){
+		for(int k = 0; k<temp1.size(); k++){
+			temp1.at(k) = temp1.at(k)*uklad.at(baza.at(i)).at(id);
+		}
+		for(int i = 0; i<temp.size();i++){
+		
+		cout<<"temp: "<<temp1.at(i)<<endl;
+	}
+		for (int k = 0; k<temp1.size(); k++){
+			/*sumowanie elementow*/
+			uklad.at(baza.at(i)).at(k) = uklad.at(baza.at(i)).at(k) + temp1.at(k);
+		}
+		temp1 = temp;
+	}cout<<"wyjscie z petli"<<endl;
 		
 }
