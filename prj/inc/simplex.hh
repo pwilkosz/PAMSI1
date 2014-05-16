@@ -19,14 +19,18 @@ public:
 	void interfejs();
 	/*! \brief metoda szuka wsrod zbioru zmiennych niebazowych tej, ktora 
 	mozna wykorzystac do obliczen, powinna ona miec nieujemny wspolczynnik funkcji celu*/
-	int wez_zmienna_niebazowa(){}
+	int wez_zmienna_niebazowa();
 	/*! \brief metoda wyznacza maksymalna wartosc zmiennej niebazowej, aby spelnic
 	warunki brzegowe*/
-	float max_wart_zm_niebazowej(){}
+	float zmienna_bazowa_do_wymiany();
 	/*! \brief zamienia zmienna bazowa i niebazowa zachowujac zbior rozwiazan dopuszczalnych*/
 	bool zamien(int zm1, int zm2);
 	void wstaw(int id, vector<float> temp);
 	void wypisz_uklad();
+	/*! \brief wyznacza funkcje celu*/
+	float Z();
+	/*! \brief rozwiazuje uklad dopelnienipowy*/
+	void rozwiaz();
 };
 
 

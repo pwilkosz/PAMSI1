@@ -1,6 +1,7 @@
 #include "simplex.hh"
 #include <iostream>
 #include <cstdlib>
+#include <limits>
 void simplex::interfejs(){
 	int il_zm;
 	int il_rown;
@@ -108,7 +109,7 @@ bool simplex::zamien(int zm1, int zm2){
 	/*Teraz jeszcze podzielmy wekor przez wiadomo co*/
 	for(int i = 0; i<temp.size();i++){
 		temp.at(i) = temp.at(i)/uklad.at(zm2).at(zm1);
-		cout<<"temp: "<<temp.at(i)<<endl;
+		
 	}
 	/*zamieniamy elementy w wektorze*/
 	nie_baza.erase(nie_baza.begin() + ind1);
@@ -119,31 +120,25 @@ bool simplex::zamien(int zm1, int zm2){
 	return true;
 }
 /*! \brief metoda aktualizuje uklad dopelnieniowy*/
-void simplex::wstaw(int id, vector<float> temp){ cout<<"WSTAW"<<endl;
+void simplex::wstaw(int id, vector<float> temp){ 
 	/*wyzeruj wszystkie niebazowe*/
 	vector<float>temp1;
 	temp1 = temp;
-	for(int i = 0; i<temp.size();i++){
-		
-		cout<<"temp: "<<temp1.at(i)<<endl;
-	}
+	
 	for(int i = 0; i<nie_baza.size(); i++){
 		vector<float>::iterator it = uklad.at(nie_baza.at(i)).begin();
 		vector<float> nowy(uklad.at(0).size(), 0);
 		uklad.at(nie_baza.at(i)).clear();
 		uklad.at(nie_baza.at(i)).insert(it,nowy.begin(),nowy.end());
 
-	}cout<<"krok 2"<<endl;
+	}
 	/*Teraz podstawiamy nowa zmienna bazowa*/
 	/*Aktualizacja ukladu, zrobimy troche osobno dla funkcji celu*/
-	for(int k = 0; k<temp1.size(); k++){cout<<uklad.at(0).at(id)<<" w funckji celu"<<endl;
+	for(int k = 0; k<temp1.size(); k++){
 			temp1.at(k) = temp1.at(k)*uklad.at(0).at(id);
 			
 		}
-		for(int l = 0; l<temp.size();l++){
 		
-		cout<<"temp: "<<temp1.at(l)<<endl;
-	}
 	for (int k = 0; k<temp1.size(); k++){
 			/*sumowanie elementow*/
 			uklad.at(0).at(k) = uklad.at(0).at(k) + temp1.at(k);
@@ -154,15 +149,63 @@ void simplex::wstaw(int id, vector<float> temp){ cout<<"WSTAW"<<endl;
 		for(int k = 0; k<temp1.size(); k++){
 			temp1.at(k) = temp1.at(k)*uklad.at(baza.at(i)).at(id);
 		}
-		for(int i = 0; i<temp.size();i++){
+		uklad.at(baza.at(i)).at(id) = 0;
 		
-		cout<<"temp: "<<temp1.at(i)<<endl;
-	}
 		for (int k = 0; k<temp1.size(); k++){
 			/*sumowanie elementow*/
 			uklad.at(baza.at(i)).at(k) = uklad.at(baza.at(i)).at(k) + temp1.at(k);
 		}
 		temp1 = temp;
-	}cout<<"wyjscie z petli"<<endl;
+	}
 		
+
+	temp1 = temp;
+	}
+int simplex::wez_zmienna_niebazowa(){
+	for(int i = 0; i<nie_baza.size(); i++){
+		if(nie_baza.at(i)>0) return nie_baza.at(i);
+	}
+	return 0;
+}
+
+float simplex::zmienna_bazowa_do_wymiany(){
+	/*wez zmienna niebazowa*/
+	vector<float> do_min;
+	int nb = wez_zmienna_niebazowa();
+	cout<<"b2"<<endl;
+	if(nb == 0) return -1;
+	else{
+		/*dla kazdej zmiennej bazowej wyznacz zaleznosc od zmiennej niebazowej*/
+		for(int i = 0; i<baza.size(); i++){
+			
+			if(uklad.at(baza.at(i)).at(nb) > 0) do_min.push_back(numeric_limits<float>::max());
+			else{
+				float a = uklad.at(baza.at(i)).at(0)/(-uklad.at(i).at(nb));
+				do_min.push_back(a);
+			}
+		}
+	}cout<<"b3"<<endl;
+	/*bierzemy najmniejsza ilosc z podanej tablicy*/
+	/*Ale jak sprawdzic o ktora zmienna chodzi
+	zmienna bazowa ma ten sam indeks co w do_min!!
+	/**/
+	int indeks_min = -1;
+	float wart_min = numeric_limits<float>::max();
+	for(int i = 0; i<do_min.size(); i++){cout<<"do min: "<<do_min.at(i)<<endl;
+		if(do_min.at(i)<wart_min) {
+			wart_min = do_min.at(i);
+			indeks_min = i;
+		}
+		
+	}
+	cout<<"b4"<<indeks_min<<endl;
+	return baza.at(indeks_min);
+}
+
+float simplex::Z(){
+	return uklad.at(0).at(0);
+}
+
+void simplex::rozwiaz(){
+
 }
