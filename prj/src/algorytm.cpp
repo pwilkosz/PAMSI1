@@ -260,7 +260,7 @@ float tab_aso::przelicz(){
 }
 
 void graf_test::wczytaj_graf(){
-  int id, wg, nr, il;
+  int id, wg, nr;
   ifstream in1("graf1.txt");
   ifstream in2("graf2.txt");
   ifstream in3("graf3.txt");
@@ -369,7 +369,7 @@ float graf_test::przelicz(){
 
 
 void astar::wczytaj_graf(){
-  int id, wg, nr, il;
+  int id, wg, nr;
   ifstream in1("graf1.txt");
   ifstream in2("graf2.txt");
   ifstream in3("graf3.txt");

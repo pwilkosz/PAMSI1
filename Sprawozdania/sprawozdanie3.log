@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.5.4)  6 MAY 2014 22:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.5.4)  17 MAY 2014 19:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,19 +425,19 @@ File: ../prj/wykres10.eps Graphic file (type eps)
  <../prj/wykres10.eps> [3]
 File: ../prj/wykres11.eps Graphic file (type eps)
  <../prj/wykres11.eps>
-Overfull \hbox (0.31625pt too wide) in paragraph at lines 138--142
+Overfull \hbox (0.31625pt too wide) in paragraph at lines 141--145
 \OT4/cmr/m/n/10.95 men-to-wana w spo-sób umo»-li-wia-j¡cy prze-szu-ki-wa-nie bi
 -narne, czyli pod-
  []
 
 [4] [5] (./sprawozdanie3.aux) ) 
 Here is how much of TeX's memory you used:
- 3182 strings out of 493309
- 46456 string characters out of 6140119
+ 3189 strings out of 493309
+ 46482 string characters out of 6140119
  109546 words of memory out of 5000000
- 6602 multiletter control sequences out of 15000+600000
+ 6609 multiletter control sequences out of 15000+600000
  9778 words of font info for 31 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,7n,42p,307b,346s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,7n,42p,307b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sprawozdanie3.dvi (5 pages, 8664 bytes).
+Output written on sprawozdanie3.dvi (5 pages, 8704 bytes).

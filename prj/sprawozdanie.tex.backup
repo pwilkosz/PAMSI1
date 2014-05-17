@@ -3,7 +3,7 @@
 \usepackage[OT4]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-
+\usepackage{subfig}
 \usepackage{epstopdf}
 
 
@@ -15,7 +15,7 @@
 %opening
 \title{PAMSI -- testowanie implementacji struktur danych}
 \author{Piotr Wilkosz}
-
+\captionsetup{belowskip=12pt,aboveskip=4pt}
 \begin{document}
 
 \maketitle
@@ -33,7 +33,7 @@ Zadaniem było zmierzenie czasu wykonywania operacji wypełnienia powyższych st
    
   \begin{table}[th]
   \centering
-    \caption{Test nr 1}
+    \caption{Pomiar czasu zapełnienia stosu bazującego na liście}
 
       \begin{tabular}{|l|l|l|}
       
@@ -53,19 +53,22 @@ Zadaniem było zmierzenie czasu wykonywania operacji wypełnienia powyższych st
 100000 & 0.0148653 & 0.00293036\\
 \hline
     \end{tabular}
+    \label{tab1}
     \end{table}
     \newpage
  \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{wykres1.eps}
-\caption{Test nr 1}
-\label{Test nr 1}
+\caption{Wykres do tabeli 1}
+\label{Wykres1}
 \end{figure} 
+Na podstawie wykresu złożoność obliczeniową algorytmu zapełnienia stosu bazującego na liście szacuje się na $ O(n) $.
+
 \item Stos bazujący na tablicy dynamicznej, każdorazowo powiększającej swój rozmiar:
 
   \begin{table}[th]
   \centering
-    \caption{Test nr 2}
+    \caption{Pomiar czasu zapełnienia stosu bazującego na tablicy dynamicznej; każdorazowe powiększanie pamięci}
 
       \begin{tabular}{|l|l|l|}
 	\hline
@@ -81,7 +84,7 @@ Zadaniem było zmierzenie czasu wykonywania operacji wypełnienia powyższych st
 \hline
 50000 & 16.1983 & 1.47384\\
 \hline
-100000 & 63.4257 0 6.11571\\
+100000 & 63.4257 & 6.11571\\
 \hline
     \end{tabular}
     \end{table}
@@ -89,15 +92,18 @@ Zadaniem było zmierzenie czasu wykonywania operacji wypełnienia powyższych st
 \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{wykres2.eps}
-\caption{Test nr 2}
-\label{Test nr 2}
+\caption{Wykres do tabeli 2}
+\label{Wykres do tabeli 2}
 \end{figure} 
+
+Na podstawie wykresu złożoność obliczeniową algorytmu zapełnienia stosu bazującego na tablicy każdorazowo powiększającej swój rozmiar szacuje się na $ O(n^{2}) $.
 \item Stos bazujący na tablicy podwajającej swój rozmiar po zapełnieniu stosu:
 
 \begin{table}[th]
-    \caption{Test nr 3}
+\centering
+    \caption{Pomiar czasu zapełnenia stosu bazującego na tablicy; podwajanie pamięci}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -119,15 +125,18 @@ Zadaniem było zmierzenie czasu wykonywania operacji wypełnienia powyższych st
 \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{wykres3.eps}
-\caption{Test nr 3}
-\label{Test nr 3}
+\caption{Wykres do tabeli 3}
+\label{Wykres do tabeli 3}
 \end{figure} 
+
+Na podstawie wykresu złożoność obliczeniową algorytmu zapełnienia stosu bazującego na tablicy podwajającej swój rozmiar szacuje się na $ O(n) $.
 \item Kolejka bazująca na liście:
 
 \begin{table}[th]
-    \caption{Test nr 4}
+\centering
+    \caption{Pomiar zapełnienia koljeki bazującej na liście}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & odchylenie \\
     \hline
@@ -149,15 +158,17 @@ Zadaniem było zmierzenie czasu wykonywania operacji wypełnienia powyższych st
 \newpage
 \begin{figure}[th]
 \includegraphics[width=0.8\textwidth]{wykres4.eps}
-\caption{Test nr 4}
-\label{Test nr 4}
-\end{figure} 
+\caption{Wykres do tabeli 4}
+\label{Wykres do tabeli 4}
+\end{figure}
+Na podstawie wykresu złożoność obliczeniową algorytmu zapełnienia kolejki bazującej na liście szacuje się na $ O(n) $.
 \item Kolejka bazująca na tablicy każdorazowo powiększającej swój rozmiar:
 
 \begin{table}[th]
-    \caption{Test nr 5}
+\centering
+    \caption{Pomiar czasu zapełnienia kolejki bazującej na tablicy; każdorazowe powiększanie pamięci}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & Odchylenie\\
     \hline
@@ -179,16 +190,17 @@ Zadaniem było zmierzenie czasu wykonywania operacji wypełnienia powyższych st
 \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{wykres5.eps}
-\caption{Test nr 5}
-\label{Test nr 5}
+\caption{Wykres do tabeli 5}
+\label{Wykres do tabeli 5}
 \end{figure} 
-
+Na podstawie wykresu złożoność obliczeniową algorytmu zapełnienia kolejki bazującej na tablicy każdorazowo powiększającej swój rozmiar szacuje się na $ O(n^{2}) $.
 \item Kolejka bazująca na tablicy podwajającej swój rozmiar po zapełnieniu kolejki:
 
 \begin{table}[th]
-    \caption{Test nr 6}
+\centering
+    \caption{Pomiar czasu zapełnienia kolejki bazującej na tablicy; podwajanie pamięci}
 
-      \begin{tabular}{l|l|l}
+      \begin{tabular}{|l|l|l|}
 	\hline
 	N & czas & Odchylenie\\
     \hline
@@ -211,9 +223,10 @@ Zadaniem było zmierzenie czasu wykonywania operacji wypełnienia powyższych st
 \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{wykres6.eps}
-\caption{Test nr 6}
-\label{Test nr 6}
+\caption{Wykres do tabeli 6}
+\label{Wykres do tabeli 6}
 \end{figure} 
+Na podstawie wykresu złożoność obliczeniową algorytmu zapełnienia kolejki bazującej na tablicy podwajającej swój rozmiar szacuje się na $ O(n) $.
 \end{enumerate}
 
 \section{Wnioski}

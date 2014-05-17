@@ -302,8 +302,9 @@ for(int i = 0; i<tabn[5]; i++)
 simplex S;
 S.interfejs();
 S.wypisz_uklad();
-
-cout<<"zmienna niebazowa: "<<S.wez_zmienna_niebazowa()<<" , zmienna bazowa: "<<S.zmienna_bazowa_do_wymiany()<<endl;
+S.rozwiaz();
+S.wypisz_uklad();
+//cout<<"zmienna niebazowa: "<<S.wez_zmienna_niebazowa()<<" , zmienna bazowa: "<<S.zmienna_bazowa_do_wymiany()<<endl;
 
 //cout<<"zamien zwraca: "<<S.zamien(1,5)<<endl;
 

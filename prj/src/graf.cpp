@@ -38,7 +38,7 @@ void graf::dodaj_wierzcholek(int id){
 	w_y.push_back((id/100)*10);
 }
 
-void graf::dodaj_krawedz(int id1, int id2){ 
+void graf::dodaj_krawedz(unsigned int id1, unsigned int id2){ 
 	srand(time(NULL));
 	if((id1>lista_incydencji.size() && id2>lista_incydencji.size())|| lista_incydencji[id1].czy_blokada()||lista_incydencji[id2].czy_blokada()) cout<<"w grafie nie ma takich wierzchołków"<<endl;
 	else{
@@ -269,7 +269,7 @@ void graf::rysuj(){
 	ofstream dot("graf.dot");
 
 	dot<<"digraph G{"<<endl;
-	for(int i = 0; i<lista_incydencji.size(); i++){
+	for(unsigned int i = 0; i<lista_incydencji.size(); i++){
 		for(int j = 0; j<lista_incydencji[i].zlicz_elementy(); j++){
 			dot<<i<<" -> "<<lista_incydencji[i].wez_id(j)<<"[label = \""<<lista_incydencji[i].wez(j)<<"\"];"<<endl;
 		}

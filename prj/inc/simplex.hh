@@ -24,7 +24,7 @@ public:
 	warunki brzegowe*/
 	float zmienna_bazowa_do_wymiany();
 	/*! \brief zamienia zmienna bazowa i niebazowa zachowujac zbior rozwiazan dopuszczalnych*/
-	bool zamien(int zm1, int zm2);
+	bool zamien(unsigned int zm1, unsigned int zm2);
 	void wstaw(int id, vector<float> temp);
 	void wypisz_uklad();
 	/*! \brief wyznacza funkcje celu*/

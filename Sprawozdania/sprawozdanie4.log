@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.5.4)  11 MAY 2014 23:19
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=latex 2014.5.4)  17 MAY 2014 19:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -425,7 +425,7 @@ File: ../prj/wykres14.eps Graphic file (type eps)
  <../prj/wykres14.eps> [3]
 File: ../prj/wykres15.eps Graphic file (type eps)
  <../prj/wykres15.eps>
-Overfull \hbox (7.0079pt too wide) in paragraph at lines 138--144
+Overfull \hbox (7.0079pt too wide) in paragraph at lines 141--147
 \OT4/cmr/m/n/10.95 prze-ci-wie«-stwie do po-wy»-szych al-go-ryt-mów, nie po-daj
 e do-wol-nej ±cie»ki,
  []
@@ -439,12 +439,12 @@ File: ../prj/graf.dot.eps Graphic file (type eps)
  <../prj/graf.dot.eps>
 [7] (./sprawozdanie4.aux) ) 
 Here is how much of TeX's memory you used:
- 3193 strings out of 493309
- 46618 string characters out of 6140119
+ 3201 strings out of 493309
+ 46637 string characters out of 6140119
  109546 words of memory out of 5000000
- 6610 multiletter control sequences out of 15000+600000
+ 6618 multiletter control sequences out of 15000+600000
  10282 words of font info for 32 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 44i,8n,42p,307b,352s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 44i,8n,42p,307b,358s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on sprawozdanie4.dvi (7 pages, 12476 bytes).
+Output written on sprawozdanie4.dvi (7 pages, 12560 bytes).

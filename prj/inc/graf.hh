@@ -93,7 +93,7 @@ public:
 	\param [in] id1 - id pierwszego wezla
 	\param [in] id2 - id drugiego wezla
 	*/
-	void dodaj_krawedz(int id1, int id2);
+	void dodaj_krawedz(unsigned int id1, unsigned int id2);
 	/*! \brief Dodaje krawedz o wadze waga pomiedzy 2 wezly - odwolanie poprzez identyfikatory wierzcholkow
 	\param [in] id1 - id 1. wierzcholka
 	\param [in] id2 - id 2. wierzcholka
