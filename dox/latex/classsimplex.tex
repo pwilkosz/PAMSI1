@@ -1,0 +1,411 @@
+\hypertarget{classsimplex}{\section{Dokumentacja klasy simplex}
+\label{classsimplex}\index{simplex@{simplex}}
+}
+
+
+{\ttfamily \#include $<$simplex.\-hh$>$}
+
+\subsection*{Metody publiczne}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classsimplex_a8aaeb28157215071b929373ec0359653}{simplex} ()
+\begin{DoxyCompactList}\small\item\em konstruktor \end{DoxyCompactList}\item 
+\hyperlink{classsimplex_a5044f01be0ce221495ee6b5a8412f8ab}{$\sim$simplex} ()
+\item 
+void \hyperlink{classsimplex_ac7494f9db23d8427651e46e1486a9d0f}{interfejs} ()
+\begin{DoxyCompactList}\small\item\em metoda pelni role komunikacji z uzytkownikiem \end{DoxyCompactList}\item 
+int \hyperlink{classsimplex_a01704cb7296e0928cf49693c3d65e44c}{wez\-\_\-zmienna\-\_\-niebazowa} ()
+\begin{DoxyCompactList}\small\item\em metoda szuka wsrod zbioru zmiennych niebazowych tej, ktora mozna wykorzystac do obliczen, powinna ona miec nieujemny wspolczynnik funkcji celu \end{DoxyCompactList}\item 
+float \hyperlink{classsimplex_abc52480272f5f2232b0acbed66e2edfe}{zmienna\-\_\-bazowa\-\_\-do\-\_\-wymiany} ()
+\begin{DoxyCompactList}\small\item\em metoda wyznacza maksymalna wartosc zmiennej niebazowej, aby spelnic warunki brzegowe \end{DoxyCompactList}\item 
+bool \hyperlink{classsimplex_a617d3b460646d213e25c84c5775f43bb}{zamien} (unsigned int zm1, unsigned int zm2)
+\begin{DoxyCompactList}\small\item\em zamienia zmienna bazowa i niebazowa zachowujac zbior rozwiazan dopuszczalnych \end{DoxyCompactList}\item 
+void \hyperlink{classsimplex_a2db70133c6840b7fffc8e0217741de97}{wstaw} (int id, vector$<$ float $>$ temp)
+\begin{DoxyCompactList}\small\item\em uaktuania uklad dopelnieniowy \end{DoxyCompactList}\item 
+void \hyperlink{classsimplex_a46c4d51fcef4befe914d345f72aa3d08}{wypisz\-\_\-uklad} ()
+\item 
+float \hyperlink{classsimplex_a78b3d773b6403ea66e8686a96264539e}{Z} ()
+\begin{DoxyCompactList}\small\item\em wyznacza funkcje celu \end{DoxyCompactList}\item 
+void \hyperlink{classsimplex_ad0c133a2663414492c312b4d5379b91a}{rozwiaz} ()
+\begin{DoxyCompactList}\small\item\em rozwiazuje uklad dopelnienipowy \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Atrybuty prywatne}
+\begin{DoxyCompactItemize}
+\item 
+vector$<$ int $>$ \hyperlink{classsimplex_a870de9b2f70ddb41b656f5461c5a4a8f}{baza}
+\begin{DoxyCompactList}\small\item\em wektor zawierający elementy bazowe ukladu \end{DoxyCompactList}\item 
+vector$<$ int $>$ \hyperlink{classsimplex_a24839e2b65652a1441280682657ee062}{nie\-\_\-baza}
+\begin{DoxyCompactList}\small\item\em wektor zawierający elementy niebazowe ukladu \end{DoxyCompactList}\item 
+vector$<$ vector$<$ float $>$ $>$ \hyperlink{classsimplex_a7161bd824b374ca4db44066f8909d024}{uklad}
+\begin{DoxyCompactList}\small\item\em tablica reprezentująca uklad w postaci dopelnieniowej \end{DoxyCompactList}\item 
+vector$<$ float $>$ \hyperlink{classsimplex_a2c4cdad075abffe54b4a6decc6f0a55e}{koszt}
+\begin{DoxyCompactList}\small\item\em koszty dla kazdej zmiennej \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Opis szczegółowy}
+
+
+Definicja w linii 5 pliku simplex.\-hh.
+
+
+
+\subsection{Dokumentacja konstruktora i destruktora}
+\hypertarget{classsimplex_a8aaeb28157215071b929373ec0359653}{\index{simplex@{simplex}!simplex@{simplex}}
+\index{simplex@{simplex}!simplex@{simplex}}
+\subsubsection[{simplex}]{\setlength{\rightskip}{0pt plus 5cm}simplex\-::simplex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimplex_a8aaeb28157215071b929373ec0359653}
+
+
+konstruktor 
+
+
+
+Definicja w linii 17 pliku simplex.\-hh.
+
+\hypertarget{classsimplex_a5044f01be0ce221495ee6b5a8412f8ab}{\index{simplex@{simplex}!$\sim$simplex@{$\sim$simplex}}
+\index{$\sim$simplex@{$\sim$simplex}!simplex@{simplex}}
+\subsubsection[{$\sim$simplex}]{\setlength{\rightskip}{0pt plus 5cm}simplex\-::$\sim$simplex (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}}\label{classsimplex_a5044f01be0ce221495ee6b5a8412f8ab}
+
+
+Definicja w linii 18 pliku simplex.\-hh.
+
+
+
+\subsection{Dokumentacja funkcji składowych}
+\hypertarget{classsimplex_ac7494f9db23d8427651e46e1486a9d0f}{\index{simplex@{simplex}!interfejs@{interfejs}}
+\index{interfejs@{interfejs}!simplex@{simplex}}
+\subsubsection[{interfejs}]{\setlength{\rightskip}{0pt plus 5cm}void simplex\-::interfejs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_ac7494f9db23d8427651e46e1486a9d0f}
+
+
+metoda pelni role komunikacji z uzytkownikiem 
+
+
+
+Definicja w linii 5 pliku simplex.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=246pt]{classsimplex_ac7494f9db23d8427651e46e1486a9d0f_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classsimplex_ad0c133a2663414492c312b4d5379b91a}{\index{simplex@{simplex}!rozwiaz@{rozwiaz}}
+\index{rozwiaz@{rozwiaz}!simplex@{simplex}}
+\subsubsection[{rozwiaz}]{\setlength{\rightskip}{0pt plus 5cm}void simplex\-::rozwiaz (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_ad0c133a2663414492c312b4d5379b91a}
+
+
+rozwiazuje uklad dopelnienipowy 
+
+rozwiazuje uklad 
+
+Definicja w linii 210 pliku simplex.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsimplex_ad0c133a2663414492c312b4d5379b91a_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=244pt]{classsimplex_ad0c133a2663414492c312b4d5379b91a_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classsimplex_a01704cb7296e0928cf49693c3d65e44c}{\index{simplex@{simplex}!wez\-\_\-zmienna\-\_\-niebazowa@{wez\-\_\-zmienna\-\_\-niebazowa}}
+\index{wez\-\_\-zmienna\-\_\-niebazowa@{wez\-\_\-zmienna\-\_\-niebazowa}!simplex@{simplex}}
+\subsubsection[{wez\-\_\-zmienna\-\_\-niebazowa}]{\setlength{\rightskip}{0pt plus 5cm}int simplex\-::wez\-\_\-zmienna\-\_\-niebazowa (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a01704cb7296e0928cf49693c3d65e44c}
+
+
+metoda szuka wsrod zbioru zmiennych niebazowych tej, ktora mozna wykorzystac do obliczen, powinna ona miec nieujemny wspolczynnik funkcji celu 
+
+\begin{DoxyReturn}{Zwraca}
+zmienna niebazowa do wymiany ze zmienna bazowa 
+\end{DoxyReturn}
+
+
+Definicja w linii 165 pliku simplex.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsimplex_a01704cb7296e0928cf49693c3d65e44c_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classsimplex_a2db70133c6840b7fffc8e0217741de97}{\index{simplex@{simplex}!wstaw@{wstaw}}
+\index{wstaw@{wstaw}!simplex@{simplex}}
+\subsubsection[{wstaw}]{\setlength{\rightskip}{0pt plus 5cm}void simplex\-::wstaw (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{vector$<$ float $>$}]{temp}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a2db70133c6840b7fffc8e0217741de97}
+
+
+uaktuania uklad dopelnieniowy 
+
+metoda aktualizuje uklad dopelnieniowy
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em id} & -\/ indeks elementu, ktoremu przypisujemy \char`\"{}nowa\char`\"{} wartosc \\
+\hline
+\mbox{\tt in}  & {\em temp} & -\/ wektor zawierajacy wyrazenie opisujace wchodzaca zmienna niebazowa \\
+\hline
+\end{DoxyParams}
+
+
+Definicja w linii 123 pliku simplex.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsimplex_a2db70133c6840b7fffc8e0217741de97_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classsimplex_a46c4d51fcef4befe914d345f72aa3d08}{\index{simplex@{simplex}!wypisz\-\_\-uklad@{wypisz\-\_\-uklad}}
+\index{wypisz\-\_\-uklad@{wypisz\-\_\-uklad}!simplex@{simplex}}
+\subsubsection[{wypisz\-\_\-uklad}]{\setlength{\rightskip}{0pt plus 5cm}void simplex\-::wypisz\-\_\-uklad (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a46c4d51fcef4befe914d345f72aa3d08}
+
+
+Definicja w linii 67 pliku simplex.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=270pt]{classsimplex_a46c4d51fcef4befe914d345f72aa3d08_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classsimplex_a78b3d773b6403ea66e8686a96264539e}{\index{simplex@{simplex}!Z@{Z}}
+\index{Z@{Z}!simplex@{simplex}}
+\subsubsection[{Z}]{\setlength{\rightskip}{0pt plus 5cm}float simplex\-::\-Z (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a78b3d773b6403ea66e8686a96264539e}
+
+
+wyznacza funkcje celu 
+
+\begin{DoxyReturn}{Zwraca}
+wartosc funkcji celu 
+\end{DoxyReturn}
+
+
+Definicja w linii 206 pliku simplex.\-cpp.
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=342pt]{classsimplex_a78b3d773b6403ea66e8686a96264539e_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classsimplex_a617d3b460646d213e25c84c5775f43bb}{\index{simplex@{simplex}!zamien@{zamien}}
+\index{zamien@{zamien}!simplex@{simplex}}
+\subsubsection[{zamien}]{\setlength{\rightskip}{0pt plus 5cm}bool simplex\-::zamien (
+\begin{DoxyParamCaption}
+\item[{unsigned int}]{zm1, }
+\item[{unsigned int}]{zm2}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_a617d3b460646d213e25c84c5775f43bb}
+
+
+zamienia zmienna bazowa i niebazowa zachowujac zbior rozwiazan dopuszczalnych 
+
+
+\begin{DoxyParams}[1]{Parametry}
+\mbox{\tt in}  & {\em zm1} & -\/ numer zmiennej nie zawierajacej sie w bazie \\
+\hline
+\mbox{\tt in}  & {\em zm2} & -\/ numer zmiennej zawierajacej sie w bazie \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+true -\/ gyd pomyslnie dokonano zamiany zmiennych bazowych i niebazowych, false w przeciwnym wypadku 
+\end{DoxyReturn}
+
+
+Definicja w linii 88 pliku simplex.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=290pt]{classsimplex_a617d3b460646d213e25c84c5775f43bb_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsimplex_a617d3b460646d213e25c84c5775f43bb_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{classsimplex_abc52480272f5f2232b0acbed66e2edfe}{\index{simplex@{simplex}!zmienna\-\_\-bazowa\-\_\-do\-\_\-wymiany@{zmienna\-\_\-bazowa\-\_\-do\-\_\-wymiany}}
+\index{zmienna\-\_\-bazowa\-\_\-do\-\_\-wymiany@{zmienna\-\_\-bazowa\-\_\-do\-\_\-wymiany}!simplex@{simplex}}
+\subsubsection[{zmienna\-\_\-bazowa\-\_\-do\-\_\-wymiany}]{\setlength{\rightskip}{0pt plus 5cm}float simplex\-::zmienna\-\_\-bazowa\-\_\-do\-\_\-wymiany (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{classsimplex_abc52480272f5f2232b0acbed66e2edfe}
+
+
+metoda wyznacza maksymalna wartosc zmiennej niebazowej, aby spelnic warunki brzegowe 
+
+\begin{DoxyReturn}{Zwraca}
+zmienna bazowa, ktora zamieniamy ze zmienna niebazowa 
+\end{DoxyReturn}
+
+
+Definicja w linii 172 pliku simplex.\-cpp.
+
+
+
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsimplex_abc52480272f5f2232b0acbed66e2edfe_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classsimplex_abc52480272f5f2232b0acbed66e2edfe_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Dokumentacja atrybutów składowych}
+\hypertarget{classsimplex_a870de9b2f70ddb41b656f5461c5a4a8f}{\index{simplex@{simplex}!baza@{baza}}
+\index{baza@{baza}!simplex@{simplex}}
+\subsubsection[{baza}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ simplex\-::baza\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_a870de9b2f70ddb41b656f5461c5a4a8f}
+
+
+wektor zawierający elementy bazowe ukladu 
+
+
+
+Definicja w linii 7 pliku simplex.\-hh.
+
+\hypertarget{classsimplex_a2c4cdad075abffe54b4a6decc6f0a55e}{\index{simplex@{simplex}!koszt@{koszt}}
+\index{koszt@{koszt}!simplex@{simplex}}
+\subsubsection[{koszt}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$float$>$ simplex\-::koszt\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_a2c4cdad075abffe54b4a6decc6f0a55e}
+
+
+koszty dla kazdej zmiennej 
+
+
+
+Definicja w linii 14 pliku simplex.\-hh.
+
+\hypertarget{classsimplex_a24839e2b65652a1441280682657ee062}{\index{simplex@{simplex}!nie\-\_\-baza@{nie\-\_\-baza}}
+\index{nie\-\_\-baza@{nie\-\_\-baza}!simplex@{simplex}}
+\subsubsection[{nie\-\_\-baza}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$int$>$ simplex\-::nie\-\_\-baza\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_a24839e2b65652a1441280682657ee062}
+
+
+wektor zawierający elementy niebazowe ukladu 
+
+
+
+Definicja w linii 9 pliku simplex.\-hh.
+
+\hypertarget{classsimplex_a7161bd824b374ca4db44066f8909d024}{\index{simplex@{simplex}!uklad@{uklad}}
+\index{uklad@{uklad}!simplex@{simplex}}
+\subsubsection[{uklad}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$ vector $<$float$>$ $>$ simplex\-::uklad\hspace{0.3cm}{\ttfamily [private]}}}\label{classsimplex_a7161bd824b374ca4db44066f8909d024}
+
+
+tablica reprezentująca uklad w postaci dopelnieniowej 
+
+
+
+Definicja w linii 11 pliku simplex.\-hh.
+
+
+
+Dokumentacja dla tej klasy została wygenerowana z plików\-:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{simplex_8hh}{simplex.\-hh}\item 
+\hyperlink{simplex_8cpp}{simplex.\-cpp}\end{DoxyCompactItemize}

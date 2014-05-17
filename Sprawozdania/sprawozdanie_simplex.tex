@@ -1,0 +1,184 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[polish]{babel}
+\usepackage[OT4]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{epstopdf}
+
+
+
+
+\date{17/05/2014}
+
+
+%opening
+\title{PAMSI -- algorytm SIMPLEX}
+\author{Piotr Wilkosz}
+\captionsetup{belowskip=12pt,aboveskip=4pt}
+\begin{document}
+
+\maketitle
+
+\section{Wstęp}
+Celem ćwiczneia było zaprojektowanie algorytmu simplex. Algorytm ten ma za zadanie optymalizację tzw. \textit{funckji celu}, zależnej od zestawu 
+zmiennych zwanych \textit{zmiennymi decyzyjnymi}. Na podstawie zadanych ograniczeń algorytm wyznacza w tym przypadku największą wartość funkcji.
+
+\section{Zapis algorytmu}
+Dane wejściowe algorytmu można zestawić w tabeli. Dane te są odpowiednio przetwarzane, następnie program wypisuje optymalne wartości zmiennych decyzyjnych
+oraz wartość funkcji celu.
+
+\section{Działanie}
+Działanie algorytmu zostanie zaprezentowane na przykładzie problemu analizowanego podczas zajęć, jak również dla problemu nieco bardziej złożonego.
+\section{Problem 1: Produkcja okien i drzwi}
+W pewnej fabryce produkuje się drzwi i okna. Zysk z produkcji jednych drzwi wynosi 3000 zł, a z produkcji okna - 5000 zł. W pierwszym sektorze
+fabryki produkuje się części do produkcji drzwi, wyprodukowanie komponentów dla jednej sztuki drzwi zajmuje godzinę. W drugim sektorze produkuje się części do produkcji okien, czas produkcji
+komponentów dla jednego okna wynosi 2 godziny. W trzecim sektorze montowane są zarówno drzwi, jak i okna. Czas produkcji sztuki drzwi wynosi 3 godziny a produkcji okna - 2 godziny.
+Pierwszy sektor może pracować 4 godziny w tygodniu, drugi 12 a trzeci 18 godzin w tygodniu.\newpage
+Powyższe dane zapisać można w następujący sposób: \\
+\begin{table}[h]
+\centering
+\caption{Dane wejściowe dla algorytmu simplex}
+\begin{tabular}{|c|c|c|c|}
+ \hline
+  & czas prod. drzwi & czas prod. okna & dopuszczalny czas w tygodniu \\
+  \hline
+  sektor 1 & 1 & 0 & 4 \\
+  \hline
+  sektor 2 & 0 & 2 & 12\\
+  \hline
+  sektor 3 & 3 & 2 & 18\\
+  \hline 
+  zysk za sztuke & 3000 & 5000 & \\
+  \hline
+  \end{tabular}
+\label{tab1}
+\end{table}
+Dane z tabeli~\ref{tab1} wprowadzono na wejście programu:
+
+Rezultat działania programu:
+\tiny
+\begin{verbatim}
+Podaj ilosc zmiennych decyzyjnych: 2
+Podaj ilosc rownan: 3
+wprowadz koszt dla zmiennej nr 1: 3000
+wprowadz koszt dla zmiennej nr 2: 5000
+Podaj kolejne wspolczynniki: 
+pozycja: ( 1, 1 ): 1
+pozycja: ( 1, 2 ): 0
+pozycja: ( 2, 1 ): 0
+pozycja: ( 2, 2 ): 2
+pozycja: ( 3, 1 ): 3
+pozycja: ( 3, 2 ): 2
+Ograniczenie 1: 4
+Ograniczenie 2: 12
+Ograniczenie 3: 18
+ROZWIAZANIE OPTYMALNE -> MAKSYMALNY ZYSK: 36000
+WYPISANIE UKLADU: 
+Z = 36000 * x0 + 0 * x1 + 0 * x2 + 0 * x3 + -1500 * x4 + -1000 * x5 + 
+ X1 = 2 * X0 0 * X1 0 * X2 0 * X3 0.333333 * X4 -0.333333 * X5 
+ X2 = 6 * X0 0 * X1 0 * X2 0 * X3 -0.5 * X4 0 * X5 
+ X3 = 2 * X0 0 * X1 0 * X2 0 * X3 -0.333333 * X4 0.333333 * X5 
+ X4 = 0 * X0 0 * X1 0 * X2 0 * X3 0 * X4 0 * X5 
+ X5 = 0 * X0 0 * X1 0 * X2 0 * X3 0 * X4 0 * X5 
+pwilkosz@pwilkosz:~/pamsi/lab1/prj$ 
+
+\end{verbatim}
+\normalsize
+Z powyższego układu mozna odczytać $Z = 36000, x_{1} = 2, x_{2} = 6 $
+
+\section{Problem 2: Maksymalizacja przychodu ze sprzedaży wyprodukowanych rur w osłonie plastikowej}
+Pewna firma zajmuje się produkcją rur. Jednymi z produktów są rury sanitarne/grzewcze w osłonie wykonanej z tzw. rury korugowanej. Oba rodzaje rur
+posiadają średnicę 16 lub 20 mm i umieszczane są w rurze korugowanej o średnicy odpowiednio 25 i 28 mm. W tabeli potrzebnej do wykonania algorytmu simplex
+zostaną umieszczone dane, takie jak dobowa norma produkcji przedstawiona jako średni czas produkcji metra rury oraz cena za metr rury wraz z osłoną. Ponadto
+z racji oczekiwań klienta ustalono maksymalny czas, w którym można produkować dany typ rury.
+
+\begin{table}[h]
+\centering
+\caption{Dane wejściowe dla algorytmu simplex}
+\begin{tabular}{|c|c|c|c|c|c|}
+ \hline
+  & rura 1 & rura 2 & rura 3 & rura 4 & dopuszczalny czas w ciągu doby [s] \\
+  \hline
+  prod 1 & 8,5 & 0 & 0 & 0 & 36000\\
+  \hline
+  prod 2 & 0 & 14,5 & 0 & 0 & 86400\\
+  \hline
+  prod 3  & 0 & 0 & 7,5 & 0 & 43200 \\
+  \hline 
+  prod 4  & 0 & 0 & 0 & 13 & 64800\\
+  \hline 
+  łączny czas prod.  & 8,5 & 14,5 & 7,5 & 13 & 86400\\
+  \hline 
+  zysk za sztuke & 5,83 & 7,57 & 5,80 & 8,2 & \\
+  \hline
+  \end{tabular}
+\label{tab2}
+\end{table}
+\newpage
+Rezultat działania programu:
+\tiny
+\begin{verbatim}
+Podaj ilosc zmiennych decyzyjnych: 4
+Podaj ilosc rownan: 5
+wprowadz koszt dla zmiennej nr 1: 5.83
+wprowadz koszt dla zmiennej nr 2: 7.57
+wprowadz koszt dla zmiennej nr 3: 5.8
+wprowadz koszt dla zmiennej nr 4: 8.2
+Podaj kolejne wspolczynniki: 
+pozycja: ( 1, 1 ): 8.5
+pozycja: ( 1, 2 ): 0
+pozycja: ( 1, 3 ): 0
+pozycja: ( 1, 4 ): 0
+pozycja: ( 2, 1 ): 0
+pozycja: ( 2, 2 ): 14.5
+pozycja: ( 2, 3 ): 0
+pozycja: ( 2, 4 ): 0
+pozycja: ( 3, 1 ): 0
+pozycja: ( 3, 2 ): 0
+pozycja: ( 3, 3 ): 7.5
+pozycja: ( 3, 4 ): 0
+pozycja: ( 4, 1 ): 0
+pozycja: ( 4, 2 ): 0
+pozycja: ( 4, 3 ): 0
+pozycja: ( 4, 4 ): 13
+pozycja: ( 5, 1 ): 8.5
+pozycja: ( 5, 2 ): 14.5
+pozycja: ( 5, 3 ): 7.5
+pozycja: ( 5, 4 ): 13
+Ograniczenie 1: 36000
+Ograniczenie 2: 86400
+Ograniczenie 3: 43200
+Ograniczenie 4: 64800
+Ograniczenie 5: 86400
+ROZWIAZANIE OPTYMALNE -> MAKSYMALNY ZYSK: 62641.3
+WYPISANIE UKLADU: 
+Z = 62641.3 * x0 + 0 * x1 + -1.57615 * x2 + 0 * x3 + 0 * x4 + -0.0551131 * x5 + 0 * x6 + -0.142564 * x7 + 0 * x8 + -0.630769 * x9 + 
+ X1 = 4235.29 * X0 0 * X1 0 * X2 0 * X3 0 * X4 -0.117647 * X5 0 * X6 0 * X7 0 * X8 0 * X9 
+ X2 = 0 * X0 0 * X1 0 * X2 0 * X3 0 * X4 0 * X5 0 * X6 0 * X7 0 * X8 0 * X9 
+ X3 = 5760 * X0 0 * X1 0 * X2 0 * X3 0 * X4 0 * X5 0 * X6 -0.133333 * X7 0 * X8 0 * X9 
+ X4 = 553.846 * X0 0 * X1 -1.11538 * X2 0 * X3 0 * X4 0.0769231 * X5 0 * X6 0.0769231 * X7 0 * X8 -0.0769231 * X9 
+ X5 = 0 * X0 0 * X1 0 * X2 0 * X3 0 * X4 0 * X5 0 * X6 0 * X7 0 * X8 0 * X9 
+ X6 = 86400 * X0 0 * X1 -14.5 * X2 0 * X3 0 * X4 0 * X5 0 * X6 0 * X7 0 * X8 0 * X9 
+ X7 = 0 * X0 0 * X1 0 * X2 0 * X3 0 * X4 0 * X5 0 * X6 0 * X7 0 * X8 0 * X9 
+ X8 = 57600 * X0 0 * X1 14.5 * X2 0 * X3 0 * X4 -1 * X5 0 * X6 -1 * X7 0 * X8 1 * X9 
+ X9 = 0 * X0 0 * X1 0 * X2 0 * X3 0 * X4 0 * X5 0 * X6 0 * X7 0 * X8 0 * X9 
+pwilkosz@pwilkosz:~/pamsi/lab1/prj$ 
+
+
+\end{verbatim}
+\normalsize
+
+Według obliczeń programu, największy dobowy przychód wynosi 62641 zł. Aby osiągnąć ten wynik, należałoby wyprodukować kolejne modele rury w następujących proporcjach:
+$ x_{1} = 4235 m, x_{2} = 0 m, x_{3} = 5760 m, x_{4} = 554 m $
+
+\section{Wnioski}
+
+\begin{itemize}
+ \item Algorytm simplex znajduje szerokie zastosowanie w wielu dziedzinach, począwszy od planowania produkcji, przez działania militarne, na serwisach randkowych kończąc.
+ \item Algorytm pozwala na dokładne określenie poszczególnych zmiennych decyzyjnych (występują jedynie znikome błędy numeryczne).
+ 
+\end{itemize}
+
+
+\end{document}

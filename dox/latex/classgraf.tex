@@ -36,7 +36,7 @@ void \hyperlink{classgraf_a8b81ec6754b796abb926a750a4ed6025}{dodaj\-\_\-wierzcho
 \begin{DoxyCompactList}\small\item\em Dodaje wierzcholek do grafu, metoda dedykowana do algorytmu A$\ast$ -\/ algorytm ustawia wezly grafu na siatce, nadajac im jednoczesnie wspolrzedne kartezjanskie. \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_abe2f98850133e73015ab8232d90d7530}{dodaj\-\_\-wierzcholek} (\hyperlink{classwierzcholek}{wierzcholek} w)
 \begin{DoxyCompactList}\small\item\em Dodaje wierzcholek do wezla, wierzcholkom przypisuje sie identyfikatory bedace kolejnymi liczbami naturalnymi. Dodany wierzcholek nie posiada krawedzi incydentnych. \end{DoxyCompactList}\item 
-void \hyperlink{classgraf_a815e60a2e34a99d498f3345b15d678b7}{dodaj\-\_\-krawedz} (int id1, int id2)
+void \hyperlink{classgraf_a1f26f02561438e7c5210a9aa31cc1566}{dodaj\-\_\-krawedz} (unsigned int id1, unsigned int id2)
 \begin{DoxyCompactList}\small\item\em dodaje krawedz pomiedzy zadane wierzcholki. Waga krawedzi jest wyznaczana w sposob losowy. Najkrotsza odlegloscia miedzy wezlami, jest odleglosc wezlow w sensie metryki typu Manhattan \end{DoxyCompactList}\item 
 void \hyperlink{classgraf_af263156c2af2d8d2ec0d7ff0ee3dd9af}{dodaj\-\_\-krawedz} (unsigned int id1, unsigned int id2, unsigned int waga)
 \begin{DoxyCompactList}\small\item\em Dodaje krawedz o wadze waga pomiedzy 2 wezly -\/ odwolanie poprzez identyfikatory wierzcholkow. \end{DoxyCompactList}\item 
@@ -371,14 +371,14 @@ Oto graf wywoływań tej funkcji\-:\nopagebreak
 \end{figure}
 
 
-\hypertarget{classgraf_a815e60a2e34a99d498f3345b15d678b7}{\index{graf@{graf}!dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}}
+\hypertarget{classgraf_a1f26f02561438e7c5210a9aa31cc1566}{\index{graf@{graf}!dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}}
 \index{dodaj\-\_\-krawedz@{dodaj\-\_\-krawedz}!graf@{graf}}
 \subsubsection[{dodaj\-\_\-krawedz}]{\setlength{\rightskip}{0pt plus 5cm}void graf\-::dodaj\-\_\-krawedz (
 \begin{DoxyParamCaption}
-\item[{int}]{id1, }
-\item[{int}]{id2}
+\item[{unsigned int}]{id1, }
+\item[{unsigned int}]{id2}
 \end{DoxyParamCaption}
-)}}\label{classgraf_a815e60a2e34a99d498f3345b15d678b7}
+)}}\label{classgraf_a1f26f02561438e7c5210a9aa31cc1566}
 
 
 dodaje krawedz pomiedzy zadane wierzcholki. Waga krawedzi jest wyznaczana w sposob losowy. Najkrotsza odlegloscia miedzy wezlami, jest odleglosc wezlow w sensie metryki typu Manhattan 
@@ -396,11 +396,12 @@ Definicja w linii 41 pliku graf.\-cpp.
 
 
 
-Oto graf wywoływań tej funkcji\-:\nopagebreak
+Oto graf wywoływań tej funkcji\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode
-\includegraphics[width=336pt]{classgraf_a815e60a2e34a99d498f3345b15d678b7_icgraph}
+\includegraphics[width=336pt]{classgraf_a1f26f02561438e7c5210a9aa31cc1566_icgraph}
 \end{center}
 \end{figure}
 
@@ -459,7 +460,8 @@ Definicja w linii 55 pliku graf.\-cpp.
 
 
 
-Oto graf wywołań dla tej funkcji\-:\nopagebreak
+Oto graf wywołań dla tej funkcji\-:
+\nopagebreak
 \begin{figure}[H]
 \begin{center}
 \leavevmode

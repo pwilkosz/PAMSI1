@@ -56,15 +56,16 @@ Zadaniem było zmierzenie czasu wykonywania operacji wyszukania losowego element
 100000 & 54.0686 & 16.6036\\
 \hline
     \end{tabular}
+    \label{tab1}
     \end{table}
     \newpage
  \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres13.eps}
 \caption{Wykres do tabeli nr 1}
-\label{Wykres do tabeli nr 1}
+\label{Wykres1}
 \end{figure} 
-Na podstawie wykresu czas operacji przeszukiwania wgłąb szacuje się jako liniowy. Duże odchylenie od średniego czasu przeszukiwania świadczy o tym,
+Na podstawie wykresu\ref{Wykres1} i tabeli~\ref{tab1} czas operacji przeszukiwania wgłąb szacuje się jako liniowy. Duże odchylenie od średniego czasu przeszukiwania świadczy o tym,
  iż zarówno przypadek pesymistyczny, jak i optymistyczny przypada z jendakowym prawdopodbieństwem, co powoduje znaczące zróżnicowanie.
 \item BFS
   \begin{table}[th]
@@ -89,15 +90,16 @@ Na podstawie wykresu czas operacji przeszukiwania wgłąb szacuje się jako lini
 100000 & 54.1763 & 20.0539\\
 \hline
     \end{tabular}
+    \label{tab2}
     \end{table}
     \newpage
 \begin{figure}[th]
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres14.eps}
 \caption{Wykres do tabeli nr 2}
-\label{Wykres do tabeli nr 2}
+\label{Wykres2}
 \end{figure} 
-Na podstawie wykresu czas operacji przeszukiwania wszerz szacuje się jako liniowy. Podobnie jak w przypadku wcześniejszym, zaobserwować można 
+Na podstawie wykresu~\ref{Wykres2} i tabeli~\ref{tab2} czas operacji przeszukiwania wszerz szacuje się jako liniowy. Podobnie jak w przypadku wcześniejszym, zaobserwować można 
 spore odchylenie, jednak uśrednienie wyników daje czas proporcjonalny do sumy liczb wierzchołków i krawędzi w grafie.
 \item Best - First Search
 
@@ -122,6 +124,7 @@ spore odchylenie, jednak uśrednienie wyników daje czas proporcjonalny do sumy 
 100000 & 58.4636 & 24.0813\\
 \hline
     \end{tabular}
+    \label{tab3}
     \end{table}
     \newpage
 
@@ -129,9 +132,9 @@ spore odchylenie, jednak uśrednienie wyników daje czas proporcjonalny do sumy 
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres15.eps}
 \caption{Wykres do tabeli nr 3}
-\label{Wykres do tabeli nr 3}
+\label{Wykres3}
 \end{figure} 
-Z powyższych danych mozna wyciągnąć podobne wnioski jak w przypadku dwóch poprzednich algorytmów. Czas wykonania operacji jest liniowy.
+Z danych z wykresu~\ref{Wykres3} i tabeli\ref{tab3} wyciągnąć podobne wnioski jak w przypadku dwóch poprzednich algorytmów. Czas wykonania operacji jest liniowy.
 
 \item Algorytm A*
 
@@ -161,6 +164,7 @@ szacowanej odległości pomiędzy dwoma punktami, co zapobiega przeszacowaniu he
 50000 & 80.7123 & 88.6142\\
 \hline
     \end{tabular}
+    \label{tab4}
     \end{table}
     \newpage
 
@@ -168,9 +172,9 @@ szacowanej odległości pomiędzy dwoma punktami, co zapobiega przeszacowaniu he
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres16.eps}
 \caption{Wykres do tabeli nr 4}
-\label{Wykres do tabeli nr 4}
+\label{Wykres4}
 \end{figure} 
-Z powyższych danych mozna wyciągnąć podobne wnioski jak w przypadku dwóch poprzednich algorytmów. Czas wykonania operacji jest liniowy.
+Z danych z wykresu~\ref{Wykres4} i tabeli~\ref{tab4} mozna wyciągnąć podobne wnioski jak w przypadku dwóch poprzednich algorytmów. Czas wykonania operacji jest wprost proporcjonalny do sumy ilości węzłów oraz krawędzi.
 
 \subsection{Zależność szybkości algorytmu A* od dokładności heurystyki}
 
@@ -184,10 +188,10 @@ drogi oszacowanej i drogi rzeczywistej. Pomiarów dokonano na próbie 10 000 wę
 \centering
 \includegraphics[width=0.8\textwidth]{../prj/wykres_a.eps}
 \caption{Szybkość wykonania algorytmu A*}
-\label{a_star}
+\label{Wykres5}
 
-Liczby na osi poziomej to różnica pomiędzy rzeczywistą drogą a jej oszacowaniem zgodnie z zastosowaną metryką. Jak widać, im mniejsza jest ta różnica, 
-tym szybciej pracuje algorytm, gdy długość ścieżki estymujemy z nadmiarem, czas jest również krótszy, jednak możemy nie znaleźć najkrótszej ścieżki. 
+Liczby na osi poziomej wykresu~\ref{Wykres5} to różnica pomiędzy rzeczywistą drogą a jej oszacowaniem zgodnie z zastosowaną metryką. Jak widać, im mniejsza jest ta różnica,
+tym szybciej pracuje algorytm, gdy długość ścieżki estymujemy z nadmiarem, czas jest również krótszy, jednak możemy nie znaleźć najkrótszej ścieżki.
 Powyższy wykres jest spójny z teorią, tzn. gdy heurystyka jest o wiele mniejsze od rzeczywistej długości, działanie algorytmu coraz bardziej zbliza się do algorytmu Dijkstry, w 
 drugą stronę algorytm upodabnia się do tzw. best - first search.
 
@@ -204,6 +208,9 @@ drugą stronę algorytm upodabnia się do tzw. best - first search.
 
 \item Niestety badane algorytmy mogą okazać się mało efektywnym sposobem przeszukiwania grafów. Efekty ich działania są zbyt mocno zależne od struktury grafu. O efektywności 
 wykonania algorytmu w wielu sytuacjach decyduje losowe wybranie szukanego elementu, co często może prowadzić do sytuacji optymistycznej, ale także pesymistycznej.
+\item Algorytm A* okazał się bardzo wydajnym algorytmem wyszukiwania najkrótszej ścieżki w grafie. Gdy potrafimy wyznaczyć dokładną heurystykę, algorytm łączy szybkość oraz 
+możliwość optymalizacji (znalezienia najkrótszej ścieżki). Przyjęte oszacowanie ma wpływ na szybkość działania oraz na dokładność (dla przeszacowania algorytm może znalźć inną ścieżkę).
+
 \end{itemize}
 
 \begin{figure}[th]
