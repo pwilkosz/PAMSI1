@@ -8,6 +8,7 @@
 #include"hashtab.hh"
 #include"graf.hh"
 #include"simplex.hh"
+#include"transport.hh"
 #include<cstdlib>
 #include<string>
 
@@ -299,11 +300,7 @@ for(int i = 0; i<tabn[5]; i++)
 
 */
 
-simplex S;
-S.interfejs();
-
-S.rozwiaz();
-S.wypisz_uklad();
+zbierz_dane();
 //cout<<"zmienna niebazowa: "<<S.wez_zmienna_niebazowa()<<" , zmienna bazowa: "<<S.zmienna_bazowa_do_wymiany()<<endl;
 
 //cout<<"zamien zwraca: "<<S.zamien(1,5)<<endl;
